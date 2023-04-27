@@ -16,7 +16,7 @@ If anything in the text isn't a letter, ignore it and don't return it.
 
 <br/>
 
-**_Example_**
+**_Examples_**
 
 alphabetPosition("The sunset sets at twelve o' clock.")
 
@@ -30,8 +30,7 @@ Should return "20 8 5 14 1 18 23 8 1 12 2 1 3 15 14 19 1 20 13 9 4 14 9 7 8 20" 
 
 <br/>
 
-# Sum of two lowest positive integers
-
+# Challenge 002 Sum of two lowest positive integers
 
 My solution -> *[002SumOfTwoLowestPositiveIntegers](002SumOfTwoLowestPositiveIntegers.js)*
 
@@ -45,13 +44,39 @@ Create a function that returns the sum of the two lowest positive numbers given 
 
 <br/>
 
-**_Example_**
+**_Examples_**
 
 When an array is passed like:
 
 [19, 5, 42, 2, 77], the output should be 7, 
 
 [10, 343445353, 3453445, 3453545353453] should return 3453455.
+
+#
+
+<br/>
+
+# Challenge 003 Mumbling
+
+My solution -> *[003Mumbling](003Mumbling.js)*
+
+<br/>
+
+## **_Task condition:_**
+
+<br/>
+
+This time no story, no theory. The examples below show you how to write function accum.
+
+<br/>
+
+**_Examples_**
+
+accum("abcd") -> "A-Bb-Ccc-Dddd"
+accum("RqaEzty") -> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
+accum("cwAt") -> "C-Ww-Aaa-Tttt"
+
+The parameter of accum is a string which includes only letters from a..z and A..Z.
 
 #
 
