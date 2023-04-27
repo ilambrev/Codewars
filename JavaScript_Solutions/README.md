@@ -29,3 +29,30 @@ Should return "20 8 5 14 1 18 23 8 1 12 2 1 3 15 14 19 1 20 13 9 4 14 9 7 8 20" 
 #
 
 <br/>
+
+# Sum of two lowest positive integers
+
+
+My solution -> *[002SumOfTwoLowestPositiveIntegers](002SumOfTwoLowestPositiveIntegers.js)*
+
+<br/>
+
+## **_Task condition:_**
+
+<br/>
+
+Create a function that returns the sum of the two lowest positive numbers given an array of minimum 4 positive integers. No floats or non-positive integers will be passed.
+
+<br/>
+
+**_Example_**
+
+When an array is passed like:
+
+[19, 5, 42, 2, 77], the output should be 7, 
+
+[10, 343445353, 3453445, 3453545353453] should return 3453455.
+
+#
+
+<br/>
