@@ -111,3 +111,35 @@ Ignore letter case.
 #
 
 <br/>
+
+# Challenge 005 Two to One
+
+My solution -> *[005TwoToOne](005TwoToOne.js)*
+
+<br/>
+
+## **_Task condition:_**
+
+<br/>
+
+Take 2 strings s1 and s2 including only letters from a to z. Return a new sorted string, the longest possible, containing distinct letters - each taken only once - coming from s1 or s2.
+
+<br/>
+
+**_Examples_**
+
+s1 = "xyaabbbccccdefww"
+
+s2 = "xxxxyyyyabklmopq"
+
+longest(s1, s2) -> "abcdefklmopqwxy"
+
+<br>
+
+s1 = "abcdefghijklmnopqrstuvwxyz"
+
+longest(s1, s1) -> "abcdefghijklmnopqrstuvwxyz"
+
+#
+
+<br/>
