@@ -72,11 +72,41 @@ This time no story, no theory. The examples below show you how to write function
 
 **_Examples_**
 
-accum("abcd") -> "A-Bb-Ccc-Dddd"
-accum("RqaEzty") -> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
-accum("cwAt") -> "C-Ww-Aaa-Tttt"
+accum("abcd") --> "A-Bb-Ccc-Dddd"
+
+accum("RqaEzty") --> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
+
+accum("cwAt") --> "C-Ww-Aaa-Tttt"
 
 The parameter of accum is a string which includes only letters from a..z and A..Z.
+
+#
+
+<br/>
+
+# Challenge 004 Isograms
+
+My solution -> *[004Isograms](004Isograms.js)*
+
+<br/>
+
+## **_Task condition:_**
+
+<br/>
+
+An isogram is a word that has no repeating letters, consecutive or non-consecutive. Implement a function that determines whether a string that contains only letters is an isogram. Assume the empty string is an isogram. Ignore letter case.
+
+<br/>
+
+**_Examples_**
+
+isIsogram("Dermatoglyphics") --> true
+
+isIsogram("aba") --> false
+
+isIsogram("moOse") --> false
+
+Ignore letter case.
 
 #
 
