@@ -55,3 +55,43 @@ Assertion messages may be unclear about what they display in some languages. If 
 #
 
 <br/>
+
+# Challenge 003 Sum of Numbers
+
+My solution -> *[Sum](P003SumOfNumbers/Sum.java)*
+
+<br/>
+
+## **_Task condition:_**
+
+<br/>
+
+Given two integers a and b, which can be positive or negative, find the sum of all the integers between and including them and return it. If the two numbers are equal return a or b.
+
+<br/>
+
+**_Examples_**
+
+(a, b) --> output (explanation)
+
+(1, 0) --> 1 (1 + 0 = 1)
+
+(1, 2) --> 3 (1 + 2 = 3)
+
+(0, 1) --> 1 (0 + 1 = 1)
+
+(1, 1) --> 1 (1 since both are same)
+
+(-1, 0) --> -1 (-1 + 0 = -1)
+
+(-1, 2) --> 2 (-1 + 0 + 1 + 2 = 2)
+
+<br/>
+
+**_Notes_**
+
+a and b are not ordered!
+
+#
+
+<br/>
