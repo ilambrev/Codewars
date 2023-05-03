@@ -1,6 +1,6 @@
 # Challenge 001 Split Strings
 
-My solution -> *[StringSplit](P001StringSplit/StringSplit.java)*
+My solution -> *[StringSplit](P001SplitStrings/StringSplit.java)*
 
 <br/>
 
