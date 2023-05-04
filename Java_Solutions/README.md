@@ -1,6 +1,6 @@
 # Challenge 001 Split Strings
 
-My solution -> *[StringSplit](P001SplitStrings/StringSplit.java)*
+My solution -> *[P001SplitStrings](P001SplitStrings/StringSplit.java)*
 
 <br/>
 
@@ -24,7 +24,7 @@ Complete the solution so that it splits the string into pairs of two characters.
 
 # Challenge 002 Duplicate Encoder
 
-My solution -> *[DuplicateEncoder](P002DuplicateEncoder/DuplicateEncoder.java)*
+My solution -> *[P002DuplicateEncoder](P002DuplicateEncoder/DuplicateEncoder.java)*
 
 <br/>
 
@@ -58,7 +58,7 @@ Assertion messages may be unclear about what they display in some languages. If 
 
 # Challenge 003 Sum of Numbers
 
-My solution -> *[Sum](P003SumOfNumbers/Sum.java)*
+My solution -> *[P003SumOfNumbers](P003SumOfNumbers/Sum.java)*
 
 <br/>
 
@@ -98,7 +98,7 @@ a and b are not ordered!
 
 # Challenge 004 Sum of odd numbers
 
-My solution -> *[RowSumOddNumbers](P004SumOfOddNumbers/RowSumOddNumbers.java)*
+My solution -> *[P004SumOfOddNumbers](P004SumOfOddNumbers/RowSumOddNumbers.java)*
 
 <br/>
 
@@ -108,12 +108,12 @@ My solution -> *[RowSumOddNumbers](P004SumOfOddNumbers/RowSumOddNumbers.java)*
 
 Given the triangle of consecutive odd numbers:
 
-             1
-          3     5
-       7     9    11
-   13    15    17    19
-21    23    25    27    29
-...
+                 1
+              3     5
+           7     9    11
+       13    15    17    19
+    21    23    25    27    29
+    ...
 Calculate the sum of the numbers in the nth row of this triangle (starting at index 1) e.g.: (Input --> Output)
 
 <br/>
@@ -123,6 +123,32 @@ Calculate the sum of the numbers in the nth row of this triangle (starting at in
 1 -->  1
 
 2 --> 3 + 5 = 8
+
+#
+
+<br/>
+
+# Challenge 005 Break camelCase
+
+My solution -> *[P005BreakCamelCase](P005BreakCamelCase/Solution.java)*
+
+<br/>
+
+## **_Task condition:_**
+
+<br/>
+
+Complete the solution so that the function will break up camel casing, using a space between words.
+
+<br/>
+
+**_Examples_**
+
+"camelCasing"  =>  "camel Casing"
+
+"identifier"   =>  "identifier"
+
+""             =>  ""
 
 #
 
