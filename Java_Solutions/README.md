@@ -98,7 +98,7 @@ a and b are not ordered!
 
 # Challenge 004 Sum of odd numbers
 
-My solution -> *[RowSumOddNumbers](RowSumOddNumbers.java)*
+My solution -> *[RowSumOddNumbers](P004SumOfOddNumbers/RowSumOddNumbers.java)*
 
 <br/>
 
