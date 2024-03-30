@@ -18,8 +18,8 @@ function domainName(url) {
 
 }
 
-domainName("http://github.com/carbonfive/raygun");
-domainName("http://www.zombie-bites.com");
-domainName("https://www.cnet.com");
-domainName("84pvs.name/warez/");
-domainName("zdhst99g9i2o-5i.it/archive/");
+// domainName("http://github.com/carbonfive/raygun");
+// domainName("http://www.zombie-bites.com");
+// domainName("https://www.cnet.com");
+// domainName("84pvs.name/warez/");
+// domainName("zdhst99g9i2o-5i.it/archive/");
