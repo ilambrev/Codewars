@@ -228,7 +228,7 @@ expandedForm(70304); => Should return '70000 + 300 + 4'
 
 <br>
 
-**_NOTE:_**
+**_NOTES:_**
 
 All numbers will be whole numbers greater than 0.
 
@@ -294,7 +294,7 @@ decode("h3 th2r2") would return "hi there"
 
 <br>
 
-**_NOTE:_**
+**_NOTES:_**
 
 There is no need to worry about uppercase vowels. For the sake of simplicity, you can assume that any numbers passed into the function will correspond to vowels.
 
@@ -326,9 +326,45 @@ Write a function that takes in a string of one or more words, and returns the sa
 
 <br>
 
-**_NOTE:_**
+**_NOTES:_**
 
 Strings passed in will consist of only letters and spaces. Spaces will be included only when more than one word is present.
+
+#
+
+<br/>
+
+# Challenge 012 Highest And Lowest
+
+My solution -> *[012HighestAndLowest](012HighestAndLowest.js)*
+
+<br/>
+
+## **_Task condition:_**
+
+<br/>
+
+In this little assignment you are given a string of space separated numbers, and have to return the highest and lowest number.
+
+<br/>
+
+**_Examples_**
+
+highAndLow("1 2 3 4 5"); => return "5 1"
+
+highAndLow("1 2 -3 4 5"); => return "5 -3"
+
+highAndLow("1 9 3 4 -5"); => return "9 -5"
+
+<br>
+
+**_NOTES:_**
+
+All numbers are valid Int32, no need to validate them.
+
+There will always be at least one number in the input string.
+
+Output string must be two numbers separated by a single space, and highest number is first.
 
 #
 
