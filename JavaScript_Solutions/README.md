@@ -369,3 +369,33 @@ Output string must be two numbers separated by a single space, and highest numbe
 #
 
 <br/>
+
+# Challenge 013 Exes And Ohs
+
+My solution -> *[013ExesAndOhs](013ExesAndOhs.js)*
+
+<br/>
+
+## **_Task condition:_**
+
+<br/>
+
+Check to see if a string has the same amount of 'x's and 'o's. The method must return a boolean and be case insensitive. The string can contain any char.
+
+<br/>
+
+**_Examples_**
+
+XO("ooxx") => true
+
+XO("xooxx") => false
+
+XO("ooxXm") => true
+
+XO("zpzpzpp") => true // when no 'x' and 'o' is present should return true
+
+XO("zzoo") => false
+
+#
+
+<br/>
