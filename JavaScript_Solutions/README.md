@@ -228,7 +228,9 @@ expandedForm(70304); => Should return '70000 + 300 + 4'
 
 <br>
 
-**_NOTE:_** All numbers will be whole numbers greater than 0.
+**_NOTE:_**
+
+All numbers will be whole numbers greater than 0.
 
 #
 
@@ -292,7 +294,41 @@ decode("h3 th2r2") would return "hi there"
 
 <br>
 
-**_NOTE:_** There is no need to worry about uppercase vowels. For the sake of simplicity, you can assume that any numbers passed into the function will correspond to vowels.
+**_NOTE:_**
+
+There is no need to worry about uppercase vowels. For the sake of simplicity, you can assume that any numbers passed into the function will correspond to vowels.
+
+#
+
+<br/>
+
+# Challenge 011 Stop Spinning My Words
+
+My solution -> *[011StopSpinningMyWords](011StopSpinningMyWords.js)*
+
+<br/>
+
+## **_Task condition:_**
+
+<br/>
+
+Write a function that takes in a string of one or more words, and returns the same string, but with all words that have five or more letters reversed.
+
+<br/>
+
+**_Examples_**
+
+"Hey fellow warriors" => "Hey wollef sroirraw"
+
+"This is a test" => "This is a test"
+
+"This is another test" => "This is rehtona test"
+
+<br>
+
+**_NOTE:_**
+
+Strings passed in will consist of only letters and spaces. Spaces will be included only when more than one word is present.
 
 #
 
