@@ -177,3 +177,29 @@ high('what time are we climbing up the volcano') --> 'volcano'
 #
 
 <br/>
+
+# Challenge 007 Extract the domain name from a URL
+
+My solution -> *[007ExtractTheDomainNameFromAURL](007ExtractTheDomainNameFromAURL.js)*
+
+<br/>
+
+## **_Task condition:_**
+
+<br/>
+
+Write a function that when given a URL as a string, parses out just the domain name and returns it as a string. For example:
+
+<br/>
+
+**_Examples_**
+
+url = "http://github.com/carbonfive/raygun" -> domain name = "github"
+
+url = "http://www.zombie-bites.com" -> domain name = "zombie-bites"
+
+url = "https://www.cnet.com" -> domain name = cnet"
+
+#
+
+<br/>
