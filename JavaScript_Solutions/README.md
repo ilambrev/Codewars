@@ -261,3 +261,39 @@ arrayDiff([1,2,2,2,3],[2]) == [1,3]
 #
 
 <br/>
+
+# Challenge 010 The Vowel Code
+
+My solution -> *[010TheVowelCode](010TheVowelCode.js)*
+
+<br/>
+
+## **_Task condition:_**
+
+<br/>
+
+Create a function called encode() to replace all the lowercase vowels in a given string with numbers according to the following pattern:
+
+a -> 1  
+e -> 2  
+i -> 3  
+o -> 4  
+u -> 5  
+
+Then create a function called decode() to turn the numbers back into vowels according to the same pattern shown above.
+
+<br/>
+
+**_Examples_**
+
+encode("hello") would return "h2ll4"
+
+decode("h3 th2r2") would return "hi there"
+
+<br>
+
+**_NOTE:_** There is no need to worry about uppercase vowels. For the sake of simplicity, you can assume that any numbers passed into the function will correspond to vowels.
+
+#
+
+<br/>
