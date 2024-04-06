@@ -233,3 +233,31 @@ expandedForm(70304); => Should return '70000 + 300 + 4'
 #
 
 <br/>
+
+# Challenge 009 Array Diff
+
+My solution -> *[009ArrayDiff](009ArrayDiff.js)*
+
+<br/>
+
+## **_Task condition:_**
+
+<br/>
+
+Your goal is to implement a difference function, which subtracts one list from another and returns the result.
+
+It should remove all values from list a, which are present in list b keeping their order.
+
+If a value is present in b, all of its occurrences must be removed from the other.
+
+<br/>
+
+**_Examples_**
+
+arrayDiff([1,2],[1]) == [2]
+
+arrayDiff([1,2,2,2,3],[2]) == [1,3]
+
+#
+
+<br/>
