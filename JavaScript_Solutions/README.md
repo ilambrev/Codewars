@@ -399,3 +399,35 @@ XO("zzoo") => false
 #
 
 <br/>
+
+# Challenge 014 Friend or Foe
+
+My solution -> *[014FriendOrFoe](014FriendOrFoe.js)*
+
+<br/>
+
+## **_Task condition:_**
+
+<br/>
+
+Make a program that filters a list of strings and returns a list with only your friends name in it.
+
+If a name has exactly 4 letters in it, you can be sure that it has to be a friend of yours! Otherwise, you can be sure he's not...
+
+<br/>
+
+**_Examples_**
+
+Input = ["Ryan", "Kieran", "Jason", "Yous"], Output = ["Ryan", "Yous"]
+
+Input = ["Ryan", "Kieran", "Mark"], Output = ["Ryan", "Mark"]
+
+<br>
+
+**_NOTES:_**
+
+Keep the original order of the names in the output.
+
+#
+
+<br/>
