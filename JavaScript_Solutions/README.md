@@ -482,3 +482,27 @@ There are no fractions of people. At the end of each year, the population count 
 #
 
 <br/>
+
+# Challenge 016 String ends with
+
+My solution -> *[016StringEndsWith](016StringEndsWith.js)*
+
+<br/>
+
+## **_Task condition:_**
+
+<br/>
+
+Complete the solution so that it returns true if the first argument(string) passed in ends with the 2nd argument (also a string). 
+
+<br/>
+
+**_Examples_**
+
+solution('abc', 'bc') // returns true
+
+solution('abc', 'd') // returns false
+
+#
+
+<br/>
