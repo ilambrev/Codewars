@@ -506,3 +506,29 @@ solution('abc', 'd') // returns false
 #
 
 <br/>
+
+# Challenge 017 Descending Order
+
+My solution -> *[017DescendingOrder](017DescendingOrder.js)*
+
+<br/>
+
+## **_Task condition:_**
+
+<br/>
+
+Your task is to make a function that can take any non-negative integer as an argument and return it with its digits in descending order. Essentially, rearrange the digits to create the highest possible number.
+
+<br/>
+
+**_Examples_**
+
+Input: 42145 Output: 54421
+
+Input: 145263 Output: 654321
+
+Input: 123456789 Output: 987654321
+
+#
+
+<br/>
