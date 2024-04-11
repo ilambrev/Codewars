@@ -556,3 +556,47 @@ sumStrings('1','2')  => '3'
 #
 
 <br/>
+
+# Challenge 019 Next smaller number with the same digits
+
+My solution -> *[019NextSmallerNumberWithTheSameDigits](019NextSmallerNumberWithTheSameDigits.js)*
+
+<br/>
+
+## **_Task condition:_**
+
+<br/>
+
+Write a function that takes a positive integer and returns the next smaller positive integer containing the same digits.
+
+Return -1 when there is no smaller number that contains the same digits. Also return -1 when the next smaller number with the same digits would require the leading digit to be zero.
+
+<br/>
+
+**_Examples_**
+
+nextSmaller(21) == 12
+
+nextSmaller(531) == 513
+
+nextSmaller(2071) == 2017
+
+nextSmaller(9) == -1
+
+nextSmaller(111) == -1
+
+nextSmaller(135) == -1
+
+nextSmaller(1027) == -1 => 0721 is out since we don't write numbers with leading zeros
+
+<br>
+
+**_NOTES:_**
+
+Some tests will include very large numbers.
+
+Test data only employs positive integers.
+
+#
+
+<br/>
