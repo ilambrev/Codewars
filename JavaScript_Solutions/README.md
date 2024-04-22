@@ -646,3 +646,35 @@ humanReadable(359999) => 99:59:59
 #
 
 <br/>
+
+# Challenge 021 Multiples of 3 or 5
+
+My solution -> *[021MultiplesOf3Or5](021MultiplesOf3Or5.js)*
+
+<br/>
+
+## **_Task condition:_**
+
+<br/>
+
+If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
+
+Finish the solution so that it returns the sum of all the multiples of 3 or 5 below the number passed in.
+
+Additionally, if the number is negative, return 0.
+
+<br/>
+
+**_Examples_**
+
+solution(10) => 23
+
+<br>
+
+**_NOTES:_**
+
+If the number is a multiple of both 3 and 5, only count it once.
+
+#
+
+<br/>
