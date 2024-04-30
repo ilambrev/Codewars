@@ -734,3 +734,27 @@ Given n, take the sum of the digits of n. If that value has more than one digit,
 #
 
 <br/>
+
+# Challenge 024 Split Strings
+
+My solution -> *[024SplitStrings](024SplitStrings.js)*
+
+<br/>
+
+## **_Task condition:_**
+
+<br/>
+
+Complete the solution so that it splits the string into pairs of two characters. If the string contains an odd number of characters then it should replace the missing second character of the final pair with an underscore ('_').
+
+<br/>
+
+**_Examples_**
+
+'abc' =>  ['ab', 'c_']
+
+'abcdef' => ['ab', 'cd', 'ef']
+
+#
+
+<br/>
