@@ -758,3 +758,27 @@ Complete the solution so that it splits the string into pairs of two characters.
 #
 
 <br/>
+
+# Challenge 025 Reversed Strings
+
+My solution -> *[025ReversedStrings](025ReversedStrings.js)*
+
+<br/>
+
+## **_Task condition:_**
+
+<br/>
+
+Complete the solution so that it reverses the string passed into it.
+
+<br/>
+
+**_Examples_**
+
+'world' => 'dlrow'
+
+'word' => 'drow'
+
+#
+
+<br/>
