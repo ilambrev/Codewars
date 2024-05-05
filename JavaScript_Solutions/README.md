@@ -782,3 +782,29 @@ Complete the solution so that it reverses the string passed into it.
 #
 
 <br/>
+
+# Challenge 026 Sum of positive
+
+My solution -> *[026SumOfPositive](026SumOfPositive.js)*
+
+<br/>
+
+## **_Task condition:_**
+
+<br/>
+
+You get an array of numbers, return the sum of all of the positives ones.
+
+<br/>
+
+**_Examples_**
+
+[1, -4, 7, 12] => 1 + 7 + 12 = 20
+
+<br>
+
+**_NOTES:_**
+
+If there is nothing to sum, the sum is default to 0.
+
+#
