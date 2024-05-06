@@ -808,3 +808,29 @@ You get an array of numbers, return the sum of all of the positives ones.
 If there is nothing to sum, the sum is default to 0.
 
 #
+
+# Challenge 027 Sort the odd
+
+My solution -> *[027SortTheOdd](027SortTheOdd.js)*
+
+<br/>
+
+## **_Task condition:_**
+
+<br/>
+
+You will be given an array of numbers. You have to sort the odd numbers in ascending order while leaving the even numbers at their original positions.
+
+<br/>
+
+**_Examples_**
+
+[7, 1]  =>  [1, 7]
+
+[5, 8, 6, 3, 4]  =>  [3, 8, 6, 5, 4]
+
+[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]  =>  [1, 8, 3, 6, 5, 4, 7, 2, 9, 0]
+
+#
+
+<br/>
