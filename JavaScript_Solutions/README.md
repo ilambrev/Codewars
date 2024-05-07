@@ -834,3 +834,29 @@ You will be given an array of numbers. You have to sort the odd numbers in ascen
 #
 
 <br/>
+
+# Challenge 027 Remove String Spaces
+
+My solution -> *[028RemoveStringSpaces](028RemoveStringSpaces.js)*
+
+<br/>
+
+## **_Task condition:_**
+
+<br/>
+
+Write a function that removes the spaces from the string, then return the resultant string.
+
+<br/>
+
+**_Examples_**
+
+"8 j 8 &nbsp; &nbsp; &nbsp; mBliB8g &nbsp; &nbsp; imjB8B8 &nbsp; &nbsp; jl &nbsp; &nbsp; B" -> "8j8mBliB8gimjB8B8jlB"
+
+"8 8 Bi fk8h B 8 BB8B B B &nbsp; &nbsp; B888 c hl8 BhB fd" -> "88Bifk8hB8BB8BBBB888chl8BhBfd"
+
+"8aaaaa dddd r &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;" -> "8aaaaaddddr"
+
+#
+
+<br/>
