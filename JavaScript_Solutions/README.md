@@ -835,7 +835,7 @@ You will be given an array of numbers. You have to sort the odd numbers in ascen
 
 <br/>
 
-# Challenge 027 Remove String Spaces
+# Challenge 028 Remove String Spaces
 
 My solution -> *[028RemoveStringSpaces](028RemoveStringSpaces.js)*
 
