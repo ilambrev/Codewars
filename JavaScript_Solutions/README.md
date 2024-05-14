@@ -809,6 +809,8 @@ If there is nothing to sum, the sum is default to 0.
 
 #
 
+<br/>
+
 # Challenge 027 Sort the odd
 
 My solution -> *[027SortTheOdd](027SortTheOdd.js)*
@@ -880,6 +882,42 @@ Given a random non-negative number, you have to return the digits of this number
 35231 => [1,3,2,5,3]
 
 0 => [0]
+
+#
+
+<br/>
+
+# Challenge 030 Sum Arrays
+
+My solution -> *[030SumArrays](030SumArrays.js)*
+
+<br/>
+
+## **_Task condition:_**
+
+<br/>
+
+Write a function that takes an array of numbers and returns the sum of the numbers. The numbers can be negative or non-integer. If the array does not contain any numbers then you should return 0.
+
+<br/>
+
+**_Examples_**
+
+Input: [1, 5.2, 4, 0, -1] => Output: 9.2
+
+Input: [] => Output: 0
+
+Input: [-2.398] => Output: -2.398
+
+<br>
+
+**_ASSUMPTIONS:_**
+
+You can assume that you are only given numbers.
+
+You cannot assume the size of the array.
+
+You can assume that you do get an array and if the array is empty, return 0.
 
 #
 
