@@ -2,11 +2,11 @@
 
 My solution -> *[001ReplaceWithAlphabetPosition](001ReplaceWithAlphabetPosition.js)*
 
-<br/>
+<br />
 
 ## **_Task condition:_**
 
-<br/>
+<br />
 
 You are required to, given a string, replace every letter with its position in the alphabet.
 
@@ -14,7 +14,7 @@ If anything in the text isn't a letter, ignore it and don't return it.
 
 "a" = 1, "b" = 2, etc.
 
-<br/>
+<br />
 
 **_Examples_**
 
@@ -28,21 +28,21 @@ Should return "20 8 5 14 1 18 23 8 1 12 2 1 3 15 14 19 1 20 13 9 4 14 9 7 8 20" 
 
 #
 
-<br/>
+<br />
 
 # Challenge 002 Sum of two lowest positive integers
 
 My solution -> *[002SumOfTwoLowestPositiveIntegers](002SumOfTwoLowestPositiveIntegers.js)*
 
-<br/>
+<br />
 
 ## **_Task condition:_**
 
-<br/>
+<br />
 
 Create a function that returns the sum of the two lowest positive numbers given an array of minimum 4 positive integers. No floats or non-positive integers will be passed.
 
-<br/>
+<br />
 
 **_Examples_**
 
@@ -54,21 +54,21 @@ When an array is passed like:
 
 #
 
-<br/>
+<br />
 
 # Challenge 003 Mumbling
 
 My solution -> *[003Mumbling](003Mumbling.js)*
 
-<br/>
+<br />
 
 ## **_Task condition:_**
 
-<br/>
+<br />
 
 This time no story, no theory. The examples below show you how to write function accum.
 
-<br/>
+<br />
 
 **_Examples_**
 
@@ -82,21 +82,21 @@ The parameter of accum is a string which includes only letters from a..z and A..
 
 #
 
-<br/>
+<br />
 
 # Challenge 004 Isograms
 
 My solution -> *[004Isograms](004Isograms.js)*
 
-<br/>
+<br />
 
 ## **_Task condition:_**
 
-<br/>
+<br />
 
 An isogram is a word that has no repeating letters, consecutive or non-consecutive. Implement a function that determines whether a string that contains only letters is an isogram. Assume the empty string is an isogram. Ignore letter case.
 
-<br/>
+<br />
 
 **_Examples_**
 
@@ -110,21 +110,21 @@ Ignore letter case.
 
 #
 
-<br/>
+<br />
 
 # Challenge 005 Two to One
 
 My solution -> *[005TwoToOne](005TwoToOne.js)*
 
-<br/>
+<br />
 
 ## **_Task condition:_**
 
-<br/>
+<br />
 
 Take 2 strings s1 and s2 including only letters from a to z. Return a new sorted string, the longest possible, containing distinct letters - each taken only once - coming from s1 or s2.
 
-<br/>
+<br />
 
 **_Examples_**
 
@@ -134,7 +134,7 @@ s2 = "xxxxyyyyabklmopq"
 
 longest(s1, s2) -> "abcdefklmopqwxy"
 
-<br>
+<br />
 
 s1 = "abcdefghijklmnopqrstuvwxyz"
 
@@ -142,17 +142,17 @@ longest(s1, s1) -> "abcdefghijklmnopqrstuvwxyz"
 
 #
 
-<br/>
+<br />
 
 # Challenge 006 Highest Scoring Word
 
 My solution -> *[006HighestScoringWord](006HighestScoringWord.js)*
 
-<br/>
+<br />
 
 ## **_Task condition:_**
 
-<br/>
+<br />
 
 Given a string of words, you need to find the highest scoring word.
 
@@ -166,7 +166,7 @@ If two words score the same, return the word that appears earliest in the origin
 
 All letters will be lowercase and all inputs will be valid.
 
-<br/>
+<br />
 
 **_Examples_**
 
@@ -176,21 +176,21 @@ high('what time are we climbing up the volcano') --> 'volcano'
 
 #
 
-<br/>
+<br />
 
 # Challenge 007 Extract the domain name from a URL
 
 My solution -> *[007ExtractTheDomainNameFromAURL](007ExtractTheDomainNameFromAURL.js)*
 
-<br/>
+<br />
 
 ## **_Task condition:_**
 
-<br/>
+<br />
 
 Write a function that when given a URL as a string, parses out just the domain name and returns it as a string. For example:
 
-<br/>
+<br />
 
 **_Examples_**
 
@@ -202,21 +202,21 @@ url = "https://www.cnet.com" -> domain name = cnet"
 
 #
 
-<br/>
+<br />
 
 # Challenge 008 Write Number in Expanded Form
 
 My solution -> *[008WriteNumberInExpandedForm](008WriteNumberInExpandedForm.js)*
 
-<br/>
+<br />
 
 ## **_Task condition:_**
 
-<br/>
+<br />
 
 You will be given a number and you will need to return it as a string in Expanded Form. For example:
 
-<br/>
+<br />
 
 **_Examples_**
 
@@ -226,7 +226,7 @@ expandedForm(42); => Should return '40 + 2'
 
 expandedForm(70304); => Should return '70000 + 300 + 4'
 
-<br>
+<br />
 
 **_NOTES:_**
 
@@ -234,17 +234,17 @@ All numbers will be whole numbers greater than 0.
 
 #
 
-<br/>
+<br />
 
 # Challenge 009 Array Diff
 
 My solution -> *[009ArrayDiff](009ArrayDiff.js)*
 
-<br/>
+<br />
 
 ## **_Task condition:_**
 
-<br/>
+<br />
 
 Your goal is to implement a difference function, which subtracts one list from another and returns the result.
 
@@ -252,7 +252,7 @@ It should remove all values from list a, which are present in list b keeping the
 
 If a value is present in b, all of its occurrences must be removed from the other.
 
-<br/>
+<br />
 
 **_Examples_**
 
@@ -262,17 +262,17 @@ arrayDiff([1,2,2,2,3],[2]) == [1,3]
 
 #
 
-<br/>
+<br />
 
 # Challenge 010 The Vowel Code
 
 My solution -> *[010TheVowelCode](010TheVowelCode.js)*
 
-<br/>
+<br />
 
 ## **_Task condition:_**
 
-<br/>
+<br />
 
 Create a function called encode() to replace all the lowercase vowels in a given string with numbers according to the following pattern:
 
@@ -284,7 +284,7 @@ u -> 5
 
 Then create a function called decode() to turn the numbers back into vowels according to the same pattern shown above.
 
-<br/>
+<br />
 
 **_Examples_**
 
@@ -292,7 +292,7 @@ encode("hello") would return "h2ll4"
 
 decode("h3 th2r2") would return "hi there"
 
-<br>
+<br />
 
 **_NOTES:_**
 
@@ -300,21 +300,21 @@ There is no need to worry about uppercase vowels. For the sake of simplicity, yo
 
 #
 
-<br/>
+<br />
 
 # Challenge 011 Stop Spinning My Words
 
 My solution -> *[011StopSpinningMyWords](011StopSpinningMyWords.js)*
 
-<br/>
+<br />
 
 ## **_Task condition:_**
 
-<br/>
+<br />
 
 Write a function that takes in a string of one or more words, and returns the same string, but with all words that have five or more letters reversed.
 
-<br/>
+<br />
 
 **_Examples_**
 
@@ -324,7 +324,7 @@ Write a function that takes in a string of one or more words, and returns the sa
 
 "This is another test" => "This is rehtona test"
 
-<br>
+<br />
 
 **_NOTES:_**
 
@@ -332,21 +332,21 @@ Strings passed in will consist of only letters and spaces. Spaces will be includ
 
 #
 
-<br/>
+<br />
 
 # Challenge 012 Highest And Lowest
 
 My solution -> *[012HighestAndLowest](012HighestAndLowest.js)*
 
-<br/>
+<br />
 
 ## **_Task condition:_**
 
-<br/>
+<br />
 
 In this little assignment you are given a string of space separated numbers, and have to return the highest and lowest number.
 
-<br/>
+<br />
 
 **_Examples_**
 
@@ -356,7 +356,7 @@ highAndLow("1 2 -3 4 5"); => return "5 -3"
 
 highAndLow("1 9 3 4 -5"); => return "9 -5"
 
-<br>
+<br />
 
 **_NOTES:_**
 
@@ -368,21 +368,21 @@ Output string must be two numbers separated by a single space, and highest numbe
 
 #
 
-<br/>
+<br />
 
 # Challenge 013 Exes And Ohs
 
 My solution -> *[013ExesAndOhs](013ExesAndOhs.js)*
 
-<br/>
+<br />
 
 ## **_Task condition:_**
 
-<br/>
+<br />
 
 Check to see if a string has the same amount of 'x's and 'o's. The method must return a boolean and be case insensitive. The string can contain any char.
 
-<br/>
+<br />
 
 **_Examples_**
 
@@ -398,23 +398,23 @@ XO("zzoo") => false
 
 #
 
-<br/>
+<br />
 
 # Challenge 014 Friend or Foe
 
 My solution -> *[014FriendOrFoe](014FriendOrFoe.js)*
 
-<br/>
+<br />
 
 ## **_Task condition:_**
 
-<br/>
+<br />
 
 Make a program that filters a list of strings and returns a list with only your friends name in it.
 
 If a name has exactly 4 letters in it, you can be sure that it has to be a friend of yours! Otherwise, you can be sure he's not...
 
-<br/>
+<br />
 
 **_Examples_**
 
@@ -422,7 +422,7 @@ Input = ["Ryan", "Kieran", "Jason", "Yous"], Output = ["Ryan", "Yous"]
 
 Input = ["Ryan", "Kieran", "Mark"], Output = ["Ryan", "Mark"]
 
-<br>
+<br />
 
 **_NOTES:_**
 
@@ -430,17 +430,17 @@ Keep the original order of the names in the output.
 
 #
 
-<br/>
+<br />
 
 # Challenge 015 Growth of a Population
 
 My solution -> *[015GrowthOfAPopulation](015GrowthOfAPopulation.js)*
 
-<br/>
+<br />
 
 ## **_Task condition:_**
 
-<br/>
+<br />
 
 In a small town the population is p0 = 1000 at the beginning of a year. The population regularly increases by 2 percent per year and moreover 50 new inhabitants per year come to live in the town. How many years does the town need to see its population greater than or equal to p = 1200 inhabitants?
 
@@ -463,7 +463,7 @@ the function nbYear should return n number of entire years needed to get a popul
 
 aug is an integer, percent a positive or null floating number, p0 and p are positive integers (> 0)
 
-<br/>
+<br />
 
 **_Examples_**
 
@@ -471,7 +471,7 @@ nbYear(1500, 5, 100, 5000) -> 15
 
 nbYear(1500000, 2.5, 10000, 2000000) -> 10
 
-<br>
+<br />
 
 **_NOTES:_**
 
@@ -481,21 +481,21 @@ There are no fractions of people. At the end of each year, the population count 
 
 #
 
-<br/>
+<br />
 
 # Challenge 016 String ends with
 
 My solution -> *[016StringEndsWith](016StringEndsWith.js)*
 
-<br/>
+<br />
 
 ## **_Task condition:_**
 
-<br/>
+<br />
 
 Complete the solution so that it returns true if the first argument(string) passed in ends with the 2nd argument (also a string). 
 
-<br/>
+<br />
 
 **_Examples_**
 
@@ -505,21 +505,21 @@ solution('abc', 'd') // returns false
 
 #
 
-<br/>
+<br />
 
 # Challenge 017 Descending Order
 
 My solution -> *[017DescendingOrder](017DescendingOrder.js)*
 
-<br/>
+<br />
 
 ## **_Task condition:_**
 
-<br/>
+<br />
 
 Your task is to make a function that can take any non-negative integer as an argument and return it with its digits in descending order. Essentially, rearrange the digits to create the highest possible number.
 
-<br/>
+<br />
 
 **_Examples_**
 
@@ -531,23 +531,23 @@ Input: 123456789 Output: 987654321
 
 #
 
-<br/>
+<br />
 
 # Challenge 018 Sum Strings as Numbers
 
 My solution -> *[018SumStringsAsNumbers](018SumStringsAsNumbers.js)*
 
-<br/>
+<br />
 
 ## **_Task condition:_**
 
-<br/>
+<br />
 
 Given the string representations of two integers, return the string representation of the sum of those integers.
 
 A string representation of an integer will contain no characters besides the ten numerals "0" to "9".
 
-<br/>
+<br />
 
 **_Examples_**
 
@@ -555,23 +555,23 @@ sumStrings('1','2')  => '3'
 
 #
 
-<br/>
+<br />
 
 # Challenge 019 Next smaller number with the same digits
 
 My solution -> *[019NextSmallerNumberWithTheSameDigits](019NextSmallerNumberWithTheSameDigits.js)*
 
-<br/>
+<br />
 
 ## **_Task condition:_**
 
-<br/>
+<br />
 
 Write a function that takes a positive integer and returns the next smaller positive integer containing the same digits.
 
 Return -1 when there is no smaller number that contains the same digits. Also return -1 when the next smaller number with the same digits would require the leading digit to be zero.
 
-<br/>
+<br />
 
 **_Examples_**
 
@@ -589,7 +589,7 @@ nextSmaller(135) == -1
 
 nextSmaller(1027) == -1 => 0721 is out since we don't write numbers with leading zeros
 
-<br>
+<br />
 
 **_NOTES:_**
 
@@ -599,17 +599,17 @@ Test data only employs positive integers.
 
 #
 
-<br/>
+<br />
 
 # Challenge 020 Human Readable Time
 
 My solution -> *[020HumanReadableTime](020HumanReadableTime.js)*
 
-<br/>
+<br />
 
 ## **_Task condition:_**
 
-<br/>
+<br />
 
 Write a function, which takes a non-negative integer (seconds) as input and returns the time in a human-readable format (HH:MM:SS)
 
@@ -619,7 +619,7 @@ SS = seconds, padded to 2 digits, range: 00 - 59
 
 The maximum time never exceeds 359999 (99:59:59)
 
-<br/>
+<br />
 
 **_Examples_**
 
@@ -645,17 +645,17 @@ humanReadable(359999) => 99:59:59
 
 #
 
-<br/>
+<br />
 
 # Challenge 021 Multiples of 3 or 5
 
 My solution -> *[021MultiplesOf3Or5](021MultiplesOf3Or5.js)*
 
-<br/>
+<br />
 
 ## **_Task condition:_**
 
-<br/>
+<br />
 
 If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
 
@@ -663,13 +663,13 @@ Finish the solution so that it returns the sum of all the multiples of 3 or 5 be
 
 Additionally, if the number is negative, return 0.
 
-<br/>
+<br />
 
 **_Examples_**
 
 solution(10) => 23
 
-<br>
+<br />
 
 **_NOTES:_**
 
@@ -677,21 +677,21 @@ If the number is a multiple of both 3 and 5, only count it once.
 
 #
 
-<br/>
+<br />
 
 # Challenge 022 Convert string to camel case
 
 My solution -> *[022ConvertStringToCamelCase](022ConvertStringToCamelCase.js)*
 
-<br/>
+<br />
 
 ## **_Task condition:_**
 
-<br/>
+<br />
 
 Complete the method/function so that it converts dash/underscore delimited words into camel casing. The first word within the output should be capitalized only if the original word was capitalized (known as Upper Camel Case, also often referred to as Pascal case). The next words should be always capitalized.
 
-<br/>
+<br />
 
 **_Examples_**
 
@@ -703,23 +703,23 @@ Complete the method/function so that it converts dash/underscore delimited words
 
 #
 
-<br/>
+<br />
 
 # Challenge 023 Sum of Digits / Digital Root
 
 My solution -> *[023SumOfDigitsDigitalRoot](023SumOfDigitsDigitalRoot.js)*
 
-<br/>
+<br />
 
 ## **_Task condition:_**
 
-<br/>
+<br />
 
 Digital root is the recursive sum of all the digits in a number.
 
 Given n, take the sum of the digits of n. If that value has more than one digit, continue reducing in this way until a single-digit number is produced. The input will be a non-negative integer.
 
-<br/>
+<br />
 
 **_Examples_**
 
@@ -733,21 +733,21 @@ Given n, take the sum of the digits of n. If that value has more than one digit,
 
 #
 
-<br/>
+<br />
 
 # Challenge 024 Split Strings
 
 My solution -> *[024SplitStrings](024SplitStrings.js)*
 
-<br/>
+<br />
 
 ## **_Task condition:_**
 
-<br/>
+<br />
 
 Complete the solution so that it splits the string into pairs of two characters. If the string contains an odd number of characters then it should replace the missing second character of the final pair with an underscore ('_').
 
-<br/>
+<br />
 
 **_Examples_**
 
@@ -757,21 +757,21 @@ Complete the solution so that it splits the string into pairs of two characters.
 
 #
 
-<br/>
+<br />
 
 # Challenge 025 Reversed Strings
 
 My solution -> *[025ReversedStrings](025ReversedStrings.js)*
 
-<br/>
+<br />
 
 ## **_Task condition:_**
 
-<br/>
+<br />
 
 Complete the solution so that it reverses the string passed into it.
 
-<br/>
+<br />
 
 **_Examples_**
 
@@ -781,27 +781,27 @@ Complete the solution so that it reverses the string passed into it.
 
 #
 
-<br/>
+<br />
 
 # Challenge 026 Sum of positive
 
 My solution -> *[026SumOfPositive](026SumOfPositive.js)*
 
-<br/>
+<br />
 
 ## **_Task condition:_**
 
-<br/>
+<br />
 
 You get an array of numbers, return the sum of all of the positives ones.
 
-<br/>
+<br />
 
 **_Examples_**
 
 [1, -4, 7, 12] => 1 + 7 + 12 = 20
 
-<br>
+<br />
 
 **_NOTES:_**
 
@@ -809,21 +809,21 @@ If there is nothing to sum, the sum is default to 0.
 
 #
 
-<br/>
+<br />
 
 # Challenge 027 Sort the odd
 
 My solution -> *[027SortTheOdd](027SortTheOdd.js)*
 
-<br/>
+<br />
 
 ## **_Task condition:_**
 
-<br/>
+<br />
 
 You will be given an array of numbers. You have to sort the odd numbers in ascending order while leaving the even numbers at their original positions.
 
-<br/>
+<br />
 
 **_Examples_**
 
@@ -835,21 +835,21 @@ You will be given an array of numbers. You have to sort the odd numbers in ascen
 
 #
 
-<br/>
+<br />
 
 # Challenge 028 Remove String Spaces
 
 My solution -> *[028RemoveStringSpaces](028RemoveStringSpaces.js)*
 
-<br/>
+<br />
 
 ## **_Task condition:_**
 
-<br/>
+<br />
 
 Write a function that removes the spaces from the string, then return the resultant string.
 
-<br/>
+<br />
 
 **_Examples_**
 
@@ -861,21 +861,21 @@ Write a function that removes the spaces from the string, then return the result
 
 #
 
-<br/>
+<br />
 
 # Challenge 029 Convert number to reversed array of digits
 
 My solution -> *[029ConvertNumberToReversedArrayOfDigits](029ConvertNumberToReversedArrayOfDigits.js)*
 
-<br/>
+<br />
 
 ## **_Task condition:_**
 
-<br/>
+<br />
 
 Given a random non-negative number, you have to return the digits of this number within an array in reverse order.
 
-<br/>
+<br />
 
 **_Examples_**
 
@@ -885,21 +885,21 @@ Given a random non-negative number, you have to return the digits of this number
 
 #
 
-<br/>
+<br />
 
 # Challenge 030 Sum Arrays
 
 My solution -> *[030SumArrays](030SumArrays.js)*
 
-<br/>
+<br />
 
 ## **_Task condition:_**
 
-<br/>
+<br />
 
 Write a function that takes an array of numbers and returns the sum of the numbers. The numbers can be negative or non-integer. If the array does not contain any numbers then you should return 0.
 
-<br/>
+<br />
 
 **_Examples_**
 
@@ -909,7 +909,7 @@ Input: [] => Output: 0
 
 Input: [-2.398] => Output: -2.398
 
-<br>
+<br />
 
 **_ASSUMPTIONS:_**
 
@@ -921,23 +921,23 @@ You can assume that you do get an array and if the array is empty, return 0.
 
 #
 
-<br/>
+<br />
 
 # Challenge 031 Your order, please
 
 My solution -> *[031YourOrderPlease](031YourOrderPlease.js)*
 
-<br/>
+<br />
 
 ## **_Task condition:_**
 
-<br/>
+<br />
 
 Your task is to sort a given string. Each word in the string will contain a single number. This number is the position the word should have in the result.
 
 If the input string is empty, return an empty string. The words in the input String will only contain valid consecutive numbers.
 
-<br/>
+<br />
 
 **_Examples_**
 
@@ -947,7 +947,7 @@ If the input string is empty, return an empty string. The words in the input Str
 
 "" => ""
 
-<br>
+<br />
 
 **_NOTES:_**
 
@@ -955,4 +955,34 @@ Numbers can be from 1 to 9. So 1 will be the first word (not 0).
 
 #
 
-<br/>
+<br />
+
+# Challenge 032 Odd or Even?
+
+My solution -> *[032OddOrEven](032OddOrEven.js)*
+
+<br />
+
+## **_Task condition:_**
+
+<br />
+
+Given a list of integers, determine whether the sum of its elements is odd or even.
+
+Give your answer as a string matching "odd" or "even".
+
+If the input array is empty consider it as: [0] (array with a zero).
+
+<br />
+
+**_Examples_**
+
+Input: [0] => Output: "even"
+
+Input: [0, 1, 4] => Output: "odd"
+
+Input: [0, -1, -5] => Output: "even"
+
+#
+
+<br />
