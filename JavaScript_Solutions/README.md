@@ -986,3 +986,25 @@ Input: [0, -1, -5] => Output: "even"
 #
 
 <br />
+
+# Challenge 033 Reversed sequence
+
+My solution -> *[033ReversedSequence](033ReversedSequence.js)*
+
+<br />
+
+## **_Task condition:_**
+
+<br />
+
+Build a function that returns an array of integers from n to 1 where n>0.
+
+<br />
+
+**_Examples_**
+
+Input: n=5 => Output: [5,4,3,2,1]
+
+#
+
+<br />
