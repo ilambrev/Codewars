@@ -1081,3 +1081,25 @@ Not all paths can be made simpler. The path ["NORTH", "WEST", "SOUTH", "EAST"] i
 #
 
 <br />
+
+# Challenge 036 Square(n) Sum
+
+My solution -> *[036SquareNSum](036SquareNSum.js)*
+
+<br />
+
+## **_Task condition:_**
+
+<br />
+
+Complete the square sum function so that it squares each number passed into it and then sums the results together.
+
+<br />
+
+**_Examples_**
+
+Input: [1, 2, 2] => Output: 9
+
+#
+
+<br />
