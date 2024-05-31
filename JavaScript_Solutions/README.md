@@ -1103,3 +1103,27 @@ Input: [1, 2, 2] => Output: 9
 #
 
 <br />
+
+# Challenge 037 Delete occurrences of an element if it occurs more than n times
+
+My solution -> *[037DeleteOccurrencesOfAnElementIfItOccursMoreThanNtimes](037DeleteOccurrencesOfAnElementIfItOccursMoreThanNtimes.js)*
+
+<br />
+
+## **_Task condition:_**
+
+<br />
+
+Given a list and a number, create a new list that contains each number of list at most N times, without reordering.
+
+<br />
+
+**_Examples_**
+
+Input list is [1,2,3,1,2,1,2,3] and the input number is 2 => result is [1,2,3,1,2,3];
+
+Input list is [20,37,20,21] and the input number is 1 => result is [20,37,21];
+
+#
+
+<br />
