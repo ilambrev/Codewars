@@ -1237,3 +1237,27 @@ countBy(2,5) === [2,4,6,8,10]
 #
 
 <br />
+
+# Challenge 041 Reverse words
+
+My solution -> *[041ReverseWords](041ReverseWords.js)*
+
+<br />
+
+## **_Task condition:_**
+
+<br />
+
+Complete the function that accepts a string parameter, and reverses each word in the string. All spaces in the string should be retained.
+
+<br />
+
+**_Examples_**
+
+Input: "This is an example!" => Output: "sihT si na !elpmaxe"
+
+Input: "double &nbsp; &nbsp; spaces" => Output: "elbuod &nbsp; &nbsp; secaps"
+
+#
+
+<br />
