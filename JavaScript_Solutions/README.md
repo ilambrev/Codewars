@@ -1261,3 +1261,29 @@ Input: "double &nbsp; &nbsp; spaces" => Output: "elbuod &nbsp; &nbsp; secaps"
 #
 
 <br />
+
+# Challenge 042 Rock Paper Scissors
+
+My solution -> *[042RockPaperScissors](042RockPaperScissors.js)*
+
+<br />
+
+## **_Task condition:_**
+
+<br />
+
+Let's play! You have to return which player won! In case of a draw return Draw!.
+
+<br />
+
+**_Examples_**
+
+Input: "scissors", "paper" => Output: "Player 1 won!"
+
+Input: "scissors", "rock" => Output: "Player 2 won!"
+
+Input: "paper", "paper" => Output: "Draw!"
+
+#
+
+<br />
