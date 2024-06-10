@@ -1315,3 +1315,29 @@ Input: [2,2,1,2,1] => Output: [2,2,2,1]
 #
 
 <br />
+
+# Challenge 044 Count of positives / sum of negatives
+
+My solution -> *[044CountOfPositivesSumOfNegatives](044CountOfPositivesSumOfNegatives.js)*
+
+<br />
+
+## **_Task condition:_**
+
+<br />
+
+Given an array of integers.
+
+Return an array, where the first element is the count of positives numbers and the second element is sum of negative numbers. 0 is neither positive nor negative.
+
+If the input is an empty array or is null, return an empty array.
+
+<br />
+
+**_Examples_**
+
+Input: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15] => Output: [10, -65]
+
+#
+
+<br />
