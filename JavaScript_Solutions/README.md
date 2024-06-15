@@ -1403,3 +1403,29 @@ The function accepts an integer and returns an integer.
 #
 
 <br />
+
+# Challenge 047 Persistent Bugger
+
+My solution -> *[047PersistentBugger](047PersistentBugger.js)*
+
+<br />
+
+## **_Task condition:_**
+
+<br />
+
+Write a function **_persistence_** that takes in a positive parameter **_num_** and returns its multiplicative persistence, which is the number of times you must multiply the digits in **_num_** until you reach a single digit.
+
+<br />
+
+**_Examples_**
+
+Input: 39 => Output: 3
+
+Input: 999 => Output: 4
+
+Input: 4 => Output: 0
+
+#
+
+<br />
