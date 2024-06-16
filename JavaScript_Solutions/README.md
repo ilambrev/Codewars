@@ -1429,3 +1429,31 @@ Input: 4 => Output: 0
 #
 
 <br />
+
+# Challenge 048 Regex validate PIN code
+
+My solution -> *[048RegexValidatePINCode](048RegexValidatePINCode.js)*
+
+<br />
+
+## **_Task condition:_**
+
+<br />
+
+ATM machines allow 4 or 6 digit PIN codes and PIN codes cannot contain anything but exactly 4 digits or exactly 6 digits.
+
+If the function is passed a valid PIN string, return **_true_**, else return **_false_**.
+
+<br />
+
+**_Examples_**
+
+Input: '1234' => Output: true
+
+Input: '12345' => Output: false
+
+Input: 'a234' => Output: false
+
+#
+
+<br />
