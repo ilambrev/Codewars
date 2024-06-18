@@ -1457,3 +1457,63 @@ Input: 'a234' => Output: false
 #
 
 <br />
+
+# Challenge 049 Generate Chat Room Names
+
+My solution -> *[049GenerateChatRoomNames](049GenerateChatRoomNames.js)*
+
+<br />
+
+## **_Task condition:_**
+
+<br />
+
+You are writing a chat room app for your company.
+
+Users have provided feedback that seeing everyone's full names on the screen creates too much noise, and have asked for it to be reduced. However, we still want to be able to uniquely identify everyone.
+
+Rules:
+
+1.If only one person in the chat room has a specific first name, only their first name will be written out.
+
+John Smith -> John
+
+2.If two or more people have a specific first name, but don't share a second name initial, their first name and second name initial will be written out.
+
+John Smith -> John S
+
+John Adams -> John A
+
+3.Finally, if two or more people have a specific first name and last name initial, their full name will be written out.
+
+John Smith -> John Smith    
+
+John Simms -> John Simms
+
+To help tidy up the output, management have also asked that the chat room list should be alphabetised, by the users screen names and should all be in Title Case. 
+
+<br />
+
+**_Examples_**
+
+Input: ['Joe Bloggs', 'John Smith'] => Output: ['Joe', 'John']
+
+Input: ['Joe Bloggs', 'John Smith', 'Jane Doe'] => Output: ['Jane', 'Joe', 'John']
+
+Input: ['Joe Bloggs', 'John Smith', 'Jane Doe', 'Jane Bloggs'] => Output: ['Jane B', 'Jane D', 'Joe', 'John']
+
+Input: ['Joe Bloggs', 'John Smith', 'Jane Doe', 'Jane Bloggs', 'John Scott'] => Output: ['Jane B', 'Jane D', 'Joe', 'John Scott', 'John Smith']
+
+<br />
+
+**_NOTES:_**
+
+It can be assumed that names are in the format of a first name and a last name consisting solely of letters from the English alphabet, both uppercase (A-Z) and lowercase (a-z), separated by a single space and if no names are provided, we should return an empty array.
+
+Casing is not important, meaning JOHn SmiTh is equal to john smith, after we've tidied up the casings, these should be interpreted as the same name.
+
+You don't have to worry about multiple instances of the same full name.
+
+#
+
+<br />
