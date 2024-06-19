@@ -1517,3 +1517,29 @@ You don't have to worry about multiple instances of the same full name.
 #
 
 <br />
+
+<br />
+
+# Challenge 050 Which are in?
+
+My solution -> *[050WhichAreIn](050WhichAreIn.js)*
+
+<br />
+
+## **_Task condition:_**
+
+<br />
+
+Given two arrays of strings **_a1_** and **_a2_** return a sorted array **_r_** in lexicographical order of the strings of **_a1_** which are substrings of strings of **_a2_**.
+
+<br />
+
+**_Examples_**
+
+Input: a1 = ['arp', 'live', 'strong'], a2 = ['lively', 'alive', 'harp', 'sharp', 'armstrong'] => Output: ['arp', 'live', 'strong']
+
+Input: a1 = ['tarp', 'mice', 'bull'], a2 = ['lively', 'alive', 'harp', 'sharp', 'armstrong'] => Output: []
+
+#
+
+<br />
