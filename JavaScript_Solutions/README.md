@@ -1543,3 +1543,31 @@ Input: a1 = ['tarp', 'mice', 'bull'], a2 = ['lively', 'alive', 'harp', 'sharp', 
 #
 
 <br />
+
+# Challenge 051 First non-repeating character
+
+My solution -> *[051FirstNonRepeatingCharacter](051FirstNonRepeatingCharacter.js)*
+
+<br />
+
+## **_Task condition:_**
+
+<br />
+
+Write a function that takes a string input, and returns the first character that is not repeated anywhere in the string.
+
+As an added challenge, upper- and lowercase letters are considered the same character, but the function should return the correct case for the initial letter.
+
+If a string contains all repeating characters, it should return an empty string ("");
+
+<br />
+
+**_Examples_**
+
+Input: 'stress' => Output: t
+
+Input: 'sTreSS' => Output: T
+
+#
+
+<br />
