@@ -1518,8 +1518,6 @@ You don't have to worry about multiple instances of the same full name.
 
 <br />
 
-<br />
-
 # Challenge 050 Which are in?
 
 My solution -> *[050WhichAreIn](050WhichAreIn.js)*
@@ -1567,6 +1565,38 @@ If a string contains all repeating characters, it should return an empty string 
 Input: 'stress' => Output: t
 
 Input: 'sTreSS' => Output: T
+
+#
+
+<br />
+
+# Challenge 052 Find the unique string
+
+My solution -> *[052FindTheUniqueString](052FindTheUniqueString.js)*
+
+<br />
+
+## **_Task condition:_**
+
+<br />
+
+There is an array of strings. All strings contains similar letters except one. Try to find it!
+
+<br />
+
+**_Examples_**
+
+Input: ['Aa', 'aaa', 'aaaaa', 'BbBb', 'Aaaa', 'AaAaAa', 'a'] => Output: 'BbBb'
+
+Input: ['abc', 'acb', 'bac', 'foo', 'bca', 'cab', 'cba'] => Output: 'foo'
+
+<br />
+
+**_NOTES:_**
+
+Strings may contain spaces. Spaces are not significant, only non-spaces symbols matters. E.g. string that contains only spaces is like empty string.
+
+It’s guaranteed that array contains more than 2 strings.
 
 #
 
