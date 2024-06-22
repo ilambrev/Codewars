@@ -1601,3 +1601,38 @@ It’s guaranteed that array contains more than 2 strings.
 #
 
 <br />
+
+# Challenge 053 The Hashtag Generator
+
+My solution -> *[053TheHashtagGenerator](053TheHashtagGenerator.js)*
+
+<br />
+
+## **_Task condition:_**
+
+<br />
+
+Write a function that generates hashtag from given string.
+
+- It must start with a hashtag (#).
+
+- All words must have their first letter capitalized.
+
+- If the final result is longer than 140 chars it must return false.
+
+- If the input or the result is an empty string it must return false.
+
+
+<br />
+
+**_Examples_**
+
+Input: '&nbsp;Hello there thanks for trying my Kata' => Output: '#HelloThereThanksForTryingMyKata'
+
+Input: '&nbsp;&nbsp;&nbsp;&nbsp;Hello&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;World&nbsp;&nbsp;&nbsp;' => Output: '#HelloWorld'
+
+Input: '' => Output: false
+
+#
+
+<br />
