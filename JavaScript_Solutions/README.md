@@ -1659,3 +1659,52 @@ Input: [false,1,0,1,2,0,1,3,"a"] => Output: [false,1,1,2,1,3,"a",0,0]
 #
 
 <br />
+
+# Challenge 055 Tic-Tac-Toe Checker
+
+My solution -> *[055TicTacToeChecker](055TicTacToeChecker.js)*
+
+<br />
+
+## **_Task condition:_**
+
+<br />
+
+Create a function that will check Tic-Tac-Toe game current state.
+
+Assume that the board comes in the form of a 3x3 array, where the value is **_0_** if a spot is empty, **_1_** if it is an **_"X"_**, or **_2_** if it is an **_"O"_**.
+
+We want our function to return:
+
+- **_-1_** if the board is not yet finished AND no one has won yet (there are empty spots),
+
+- **_1_** if **_"X"_** won,
+
+- **_2_** if **_"O"_** won,
+
+- **_0_** if it's a cat's game (i.e. a draw).
+
+<br />
+
+**_Examples_**
+
+Input:
+```
+[
+    [0, 0, 1],
+    [0, 1, 2],
+    [2, 1, 0]
+]
+```
+
+Output: -1
+
+<br />
+
+**_NOTES:_**
+
+You may assume that the board passed in is valid in the context of a game of Tic-Tac-Toe.
+
+#
+
+<br />
