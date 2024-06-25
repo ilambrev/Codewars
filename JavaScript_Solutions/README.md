@@ -1708,3 +1708,33 @@ You may assume that the board passed in is valid in the context of a game of Tic
 #
 
 <br />
+
+# Challenge 056 Vowel Count
+
+My solution -> *[056VowelCount](056VowelCount.js)*
+
+<br />
+
+## **_Task condition:_**
+
+<br />
+
+Return the number (count) of vowels in the given string.
+
+We will consider **_a_**, **_e_**, **_i_**, **_o_**, **_u_** as vowels for this Kata (but not **_y_**).
+
+<br />
+
+**_Examples_**
+
+Input: 'abracadabra' => Output: 5
+
+<br />
+
+**_NOTES:_**
+
+The input string will only consist of lower case letters and/or spaces.
+
+#
+
+<br />
