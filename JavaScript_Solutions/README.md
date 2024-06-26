@@ -1738,3 +1738,43 @@ The input string will only consist of lower case letters and/or spaces.
 #
 
 <br />
+
+# Challenge 057 String incrementer
+
+My solution -> *[057StringIncrementer](057StringIncrementer.js)*
+
+<br />
+
+## **_Task condition:_**
+
+<br />
+
+Write a function which increments a string, to create a new string.
+
+- If the string already ends with a number, the number should be incremented by 1.
+- If the string does not end with a number. the number 1 should be appended to the new string.
+
+
+<br />
+
+**_Examples_**
+
+Input: 'foo' => Output: 'foo1'
+
+Input: 'foobar23' => Output: 'foobar24'
+
+Input: 'foo0042' => Output: 'foo0043'
+
+Input: 'foo9' => Output: 'foo10'
+
+Input: 'foo099' => Output: 'foo100'
+
+<br />
+
+**_NOTES:_**
+
+If the number has leading zeros the amount of digits should be considered.
+
+#
+
+<br />
