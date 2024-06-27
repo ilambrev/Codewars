@@ -1778,3 +1778,35 @@ If the number has leading zeros the amount of digits should be considered.
 #
 
 <br />
+
+# Challenge 058 Play with two Strings
+
+My solution -> *[058PlayWithTwoStrings](058PlayWithTwoStrings.js)*
+
+<br />
+
+## **_Task condition:_**
+
+<br />
+
+Your task is to Combine two Strings - Input Strings **_a_** and **_b_**: For every character in string **_a_** swap the casing of every occurrence of the same character in string **_b_**. Then do the same casing swap with the inputs reversed. Return a single string consisting of the changed version of **_a_** followed by the changed version of **_b_**. A char of **_a_** is in **_b_** regardless if it's in upper or lower case - see the testcases too.
+
+<br />
+
+**_Examples_**
+
+Input: 'abc' and 'cde' => Output: 'abCCde'
+
+Input: 'ab' and 'aba' => Output: 'aBABA'
+
+Input: 'abab' and 'bababa' => Output: 'ABABbababa'
+
+<br />
+
+**_NOTES:_**
+
+You don't have to check errors or incorrect input values, everything is ok without bad tricks, only two input strings and as result one output string;
+
+#
+
+<br />
