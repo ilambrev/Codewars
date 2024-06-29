@@ -1810,3 +1810,40 @@ You don't have to check errors or incorrect input values, everything is ok witho
 #
 
 <br />
+
+# Challenge 059 Luck check
+
+My solution -> *[059LuckCheck](059LuckCheck.js)*
+
+<br />
+
+## **_Task condition:_**
+
+<br />
+
+Ticket was believed to posess luck if sum of digits on the left half of its number was equal to the sum of digits on the right half.
+
+Your task is to write a funtion, which returns **_true_** if argument is string decimal representation of a lucky ticket number, or **_false_** for all other numbers. It should throw errors for empty strings or strings which don't represent a decimal number.
+
+<br />
+
+**_Examples_**
+
+Input: '003111' => Output: true
+
+Input: '813372' => Output: true
+
+Input: '17935' => Output: true
+
+Input: '56328116' => Output: true
+
+
+<br />
+
+**_NOTES:_**
+
+If the length of string is odd, you should ignore the middle number when adding the halves.
+
+#
+
+<br />
