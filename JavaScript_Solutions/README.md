@@ -1847,3 +1847,60 @@ If the length of string is odd, you should ignore the middle number when adding 
 #
 
 <br />
+
+# Challenge 060 Bowling Pins
+
+My solution -> *[060BowlingPins](060BowlingPins.js)*
+
+<br />
+
+## **_Task condition:_**
+
+<br />
+
+You have to throw a bowl into 10 Pins arranged like this:
+
+```
+I I I I
+ I I I 
+  I I  
+   I    
+```
+
+Each Pin has a Number:
+
+```
+7 8 9 10
+ 4 5 6
+  2 3
+   1
+```
+
+You will get an array of integers between 1 and 10.
+
+<br />
+
+**_Examples_**
+
+Input: [3, 5, 9]
+
+Output: Return a string with the current field.
+
+```
+I I   I
+ I   I
+  I   
+   I  
+```
+
+<br />
+
+**_NOTES:_**
+
+- The pins rows are separated by a newline (\n)
+- Each Line must be 7 chars long
+- Fill the missing pins with a space character ( )
+
+#
+
+<br />
