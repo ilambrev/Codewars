@@ -183,3 +183,31 @@ Don't forget the space after the closing parentheses!
 #
 
 <br />
+
+# Challenge 007 Count characters in your string
+
+My solution -> *[P007CountCharactersInYourString](P007CountCharactersInYourString/Kata.java)*
+
+<br />
+
+## **_Task condition:_**
+
+<br />
+
+The main idea is to count all the occurring characters in a string.
+
+<br />
+
+**_Examples_**
+
+Input: "aba" => Output: {'a': 2, 'b': 1}
+
+<br />
+
+**_NOTES:_**
+
+If the string is empty the result should be empty object literal, {}
+
+#
+
+<br />
