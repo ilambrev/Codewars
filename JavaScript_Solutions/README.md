@@ -1936,3 +1936,39 @@ Do not modify the input array.
 #
 
 <br />
+
+# Challenge 062 Sorting by bits
+
+My solution -> *[062SortingByBits](062SortingByBits.js)*
+
+<br />
+
+## **_Task condition:_**
+
+<br />
+
+You're expected to sort an array of 32-bit integers in ascending order of the number of on bits they have.
+
+In cases where two numbers have the same number of bits, compare their real values instead.
+
+E.g between 10 (...1010) and 12 (...1100), they both have the same number of on bits '2' but the integer 10 is less than 12 so it comes first in sorted order.
+
+Your task is to write a function that takes an array of integers and sort them as described above.
+
+<br />
+
+**_Examples_**
+
+Input: [7, 6, 15, 8] => Output: [8, 6, 7, 15]
+
+Input: [3, 8, 3, 6, 5, 7, 9, 1] => Output: [1, 8, 3, 3, 5, 6, 9, 7]
+
+<br />
+
+**_NOTES:_**
+
+Your solution has to sort the array in place.
+
+#
+
+<br />
