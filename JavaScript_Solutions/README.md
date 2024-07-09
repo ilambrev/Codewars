@@ -2004,3 +2004,52 @@ The input will always be valid (numbers will be an array of length 2 or greater,
 #
 
 <br />
+
+# Challenge 064 Simple card game
+
+My solution -> *[064SimpleCardGame](064SimpleCardGame.js)*
+
+<br />
+
+## **_Task condition:_**
+
+<br />
+
+Write a function called winner, representing simple card game. Steve and Josh are the two players. Figure out who is going to win.
+
+Players are dealt the same number of cards. They both flip the card on the top of their deck. Whoever has a card with higher value wins the round and gets one point (if the cards are of the same value, neither of them gets a point). After this, the two cards are discarded and they flip another card from the top of their deck. They do this until they have no cards left.
+
+**_deckSteve_** and **_deckJosh_** are arrays representing their decks. They are filled with cards, represented by a single character. The card rank is as follows (from lowest to highest):
+
+```
+'2','3','4','5','6','7','8','9','T','J','Q','K','A'
+```
+
+Figure out who is going to win and return who wins and with what score:
+
+```
+    "Steve wins x to y" if Steve wins; where x is Steve's score, y is Josh's score;
+
+    "Josh wins x to y" if Josh wins; where x is Josh's score, y is Steve's score;
+
+    "Tie" if the score is tied at the end of the game.
+```
+
+
+<br />
+
+**_Examples_**
+
+```
+Input: deckSteve = ['A','7','8'], deckJosh = ['K','5','9'] => Output: "Steve wins 2 to 1"
+```
+
+<br />
+
+**_NOTES:_**
+
+Every card may appear in the deck more than once.
+
+#
+
+<br />
