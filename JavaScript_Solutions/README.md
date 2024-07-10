@@ -2053,3 +2053,33 @@ Every card may appear in the deck more than once.
 #
 
 <br />
+
+# Challenge 065 How much hex is the fish
+
+My solution -> *[065HowMuchHexIsTheFish](065HowMuchHexIsTheFish.js)*
+
+<br />
+
+## **_Task condition:_**
+
+<br />
+
+The ocean is full of colorful fishes. We as programmers want to know the hexadecimal value of these fishes.
+
+Take all hexadecimal valid characters (a,b,c,d,e,f) of the given name and XOR them. Return the result as an integer.
+
+<br />
+
+**_Examples_**
+
+Input: 'redlionfish' => 12
+
+<br />
+
+**_NOTES:_**
+
+The input is always a string, which can contain spaces, upper and lower case letters but no digits. 
+
+#
+
+<br />
