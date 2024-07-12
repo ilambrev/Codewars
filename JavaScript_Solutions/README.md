@@ -2176,3 +2176,45 @@ Input: 'pizzachickenfriesburgercokemilkshakefriessandwich' => Output: 'Burger Fr
 #
 
 <br />
+
+# Challenge 068 Merged String Checker
+
+My solution -> *[0068MergedStringChecker.js](068MergedStringChecker.js)*
+
+<br />
+
+## **_Task condition:_**
+
+<br />
+
+Write an algorithm to check if a given string, **_s_**, can be formed from two other strings, **_part1_** and **_part2_**.
+
+The restriction is that the characters in **_part1_** and **_part2_** should be in the same order as in **_s_**.
+
+<br />
+
+**_Examples_**
+
+Input: 'codewars', 'cdw', 'oears' => Output: true
+
+Input: 'xcyc', 'xc', 'yc' => Output: true
+
+Input: 'xcyc', 'yc', 'xc' => Output: true
+
+Input: 'xcyc', 'xc', 'cy' => Output: true
+
+Input: 'xcyc', 'cy', 'xc' => Output: true
+
+Input: 'codewars', 'code', 'wars' => Output: true
+
+Input: 'codewars', 'cdwr', 'oeas' => Output: true
+
+Input: 'Making progress', 'Mak pross', 'inggre' => Output: true
+
+Input: 'codewars', 'code', 'code' => Output: false
+
+Input: 'More progress', 'More ess', 'pro' => Output: false
+
+#
+
+<br />
