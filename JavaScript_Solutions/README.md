@@ -2218,3 +2218,33 @@ Input: 'More progress', 'More ess', 'pro' => Output: false
 #
 
 <br />
+
+# Challenge 069 Convert PascalCase string into snake_case
+
+My solution -> *[069ConvertPascalCaseStringIntoSnakeCase](069ConvertPascalCaseStringIntoSnakeCase.js)*
+
+<br />
+
+## **_Task condition:_**
+
+<br />
+
+Complete the function so that it takes a **_PascalCase_** string and returns the string in **_snake_case_** notation. Lowercase characters can be numbers. If the function gets a number as input, it should return a string.
+
+<br />
+
+**_Examples_**
+
+```
+Input: 'TestController' => Output: 'test_controller'
+
+Input: 'MoviesAndBooks' => Output: 'movies_and_books'
+
+Input: 'App7Test'       => Output: 'app7_test'
+
+Input: 1                => Output: '1'
+```
+
+#
+
+<br />
