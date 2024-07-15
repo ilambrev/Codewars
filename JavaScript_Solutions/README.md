@@ -2303,3 +2303,35 @@ There is no need for prechecks. You will always get a correct string with more t
 #
 
 <br />
+
+# Challenge 071 Backspaces in string
+
+My solution -> *[071BackspacesInString](071BackspacesInString.js)*
+
+<br />
+
+## **_Task condition:_**
+
+<br />
+
+Assume **_"#"_** is like a backspace in string. This means that string **_"a#bc#d"_** actually is **_"bd"_**.
+
+Your task is to process a string with **_"#"_** symbols.
+
+<br />
+
+**_Examples_**
+
+```
+Input: "abc#d##c"     => Output: "ac"
+
+Input: "abc##d######" => Output: ""
+
+Input: "#######"      => Output: ""
+
+Input: ""             => Output: ""
+```
+
+#
+
+<br />
