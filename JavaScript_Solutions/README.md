@@ -2335,3 +2335,33 @@ Input: ""             => Output: ""
 #
 
 <br />
+
+# Challenge 072 Find Added
+
+My solution -> *[072FindAdded](072FindAdded.js)*
+
+<br />
+
+## **_Task condition:_**
+
+<br />
+
+You are given two strings (**_st1_**, **_st2_**) as inputs. Your task is to return a string containing the numbers in **_st2_** which are not in **_str1_**. Make sure the numbers are returned in ascending order. All inputs will be a string of numbers.
+
+<br />
+
+**_Examples_**
+
+```
+Input: '4455446', '447555446666' => Output: '56667'
+
+Input: '44554466', '447554466'   => Output: '7'
+
+Input: '9876521', '9876543211'   => Output: '134'
+
+Input: '678', '876'              => Output: ''
+
+Input: '678', '6'                => Output: ''
+```
+
+#
