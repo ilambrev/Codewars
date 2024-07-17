@@ -2365,3 +2365,45 @@ Input: '678', '6'                => Output: ''
 ```
 
 #
+
+<br />
+
+# Challenge 073 Who likes it?
+
+My solution -> *[073WhoLikesIt](073WhoLikesIt.js)*
+
+<br />
+
+## **_Task condition:_**
+
+<br />
+
+Through "like" system from Facebook and other pages пeople can "like" blog posts, pictures or other items. The goal is to create the text that should be displayed next to such an item.
+
+Implement the function which takes an array containing the names of people that like an item. It must return the display text as shown in the examples:
+
+<br />
+
+**_Examples_**
+
+```
+Input: []                                => Output: "no one likes this"
+
+Input: ["Peter"]                         => Output: "Peter likes this"
+
+Input: ["Jacob", "Alex"]                 => Output: "Jacob and Alex like this"
+
+Input: ["Max", "John", "Mark"]           => Output: "Max, John and Mark like this"
+
+Input: ["Alex", "Jacob", "Mark", "Max"]  => Output: "Alex, Jacob and 2 others like this"
+```
+
+<br />
+
+**_NOTES:_**
+
+For 4 or more names, the number in **_"and 2 others"_** simply increases.
+
+#
+
+<br />
