@@ -2407,3 +2407,29 @@ For 4 or more names, the number in **_"and 2 others"_** simply increases.
 #
 
 <br />
+
+# Challenge 074 CamelCase Method
+
+My solution -> *[074CamelCaseMethod](074CamelCaseMethod.js)*
+
+<br />
+
+## **_Task condition:_**
+
+<br />
+
+Write a function that converts a string to camelCase, that is, all words must have their first letter capitalized and spaces must be removed.
+
+<br />
+
+**_Examples_**
+
+```
+Input: 'hello case'      => Output: "HelloCase"
+
+Input: "camel case word" => Output: "CamelCaseWord"
+```
+
+#
+
+<br />
