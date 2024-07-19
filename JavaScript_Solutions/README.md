@@ -2433,3 +2433,50 @@ Input: "camel case word" => Output: "CamelCaseWord"
 #
 
 <br />
+
+# Challenge 075 Reverse or rotate?
+
+My solution -> *[075ReverseOrRotate](075ReverseOrRotate.js)*
+
+<br />
+
+## **_Task condition:_**
+
+<br />
+
+The input is a string **_str_** of digits. Cut the string into chunks (a chunk here is a substring of the initial string) of size **_sz_** (ignore the last chunk if its size is less than **_sz_**).
+
+If the sum of a chunk's digits is divisible by 2, reverse that chunk; otherwise rotate it to the left by one position. Put together these modified chunks and return the result as a string.
+
+If **_sz_** is <= 0 or if **_str_** == '' return ''
+
+If **_sz_** is greater (>) than the length of **_str_** it is impossible to take a chunk of size **_sz_** hence return ''.
+
+
+<br />
+
+**_Examples_**
+
+```
+Input: '123456987654', 6       => Output: '234561876549'
+
+Input: '123456987653', 6       => Output: '234561356789'
+
+Input: '66443875', 4           => Output: '44668753'
+
+Input: '66443875', 8           => Output: '64438756'
+
+Input: '664438769', 8          => Output: '67834466'
+
+Input: '123456779', 8          => Output: '23456771'
+
+Input: '', 8                   => Output: ''
+
+Input: '123456779', 0          => Output: '' 
+
+Input: '563000655734469485', 4 => Output: '0365065073456944'
+```
+
+#
+
+<br />
