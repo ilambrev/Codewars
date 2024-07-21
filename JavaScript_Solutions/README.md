@@ -2480,3 +2480,56 @@ Input: '563000655734469485', 4 => Output: '0365065073456944'
 #
 
 <br />
+
+# Challenge 076 Prize Draw
+
+My solution -> *[076PrizeDraw](076PrizeDraw.js)*
+
+<br />
+
+## **_Task condition:_**
+
+<br />
+
+To participate in a prize draw each one gives his/her firstname.
+
+Each letter of a firstname has a value which is its rank in the English alphabet. **_A_** and **_a_** have rank **_1_**, **_B_** and **_b_** rank **_2_** and so on.
+
+The length of the firstname is added to the sum of these ranks hence a number **_som_**.
+
+An array of random weights is linked to the firstnames and each **_som_** is multiplied by its corresponding weight to get what they call a **_winning number_**.
+
+Now one can sort the firstnames in decreasing order of the **_winning numbers_**. When two people have the same **_winning number_** sort them alphabetically by their firstnames.
+
+Function parameters:
+- **_st_** a string of firstnames,
+- **_we_** an array of weights,
+- **_n_** a rank
+
+Return: the firstname of the participant whose rank is **_n_** (ranks are numbered from 1)
+
+<br />
+
+**_Examples_**
+
+```
+names: 'COLIN,AMANDBA,AMANDAB,CAROL,PauL,JOSEPH'
+weights: [1, 4, 4, 5, 2, 1]
+n: 4
+
+The function should return: 'PauL'
+```
+
+<br />
+
+**_NOTES:_**
+
+- The weight array is at least as long as the number of names, it may be longer.
+
+- If **_st_** is empty return "No participants".
+
+- If **_n_** is greater than the number of participants then return "Not enough participants".
+
+#
+
+<br />
