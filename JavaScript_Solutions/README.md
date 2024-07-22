@@ -2452,7 +2452,6 @@ If **_sz_** is <= 0 or if **_str_** == '' return ''
 
 If **_sz_** is greater (>) than the length of **_str_** it is impossible to take a chunk of size **_sz_** hence return ''.
 
-
 <br />
 
 **_Examples_**
@@ -2529,6 +2528,44 @@ The function should return: 'PauL'
 - If **_st_** is empty return "No participants".
 
 - If **_n_** is greater than the number of participants then return "Not enough participants".
+
+#
+
+<br />
+
+# Challenge 077 Srot the inner ctonnet in dsnnieedcg oredr
+
+My solution -> *[077SortTheInnerContentInDescendingOrder](077SortTheInnerContentInDescendingOrder.js)*
+
+<br />
+
+## **_Task condition:_**
+
+<br />
+
+You have to sort the inner content of every word of a string in descending order.
+
+The inner content is the content of a word without first and the last char.
+
+<br />
+
+**_Examples_**
+
+```
+Input: 'sort the inner content in descending order' => Output: 'srot the inner ctonnet in dsnnieedcg oredr'
+
+Input: 'wait for me'                                => Output: 'wiat for me'
+
+Input: 'this kata is easy'                          => Output: 'tihs ktaa is esay'
+```
+
+<br />
+
+**_NOTES:_**
+
+- Words are made up of lowercase letters.
+
+- The string will never be null and will never be empty.
 
 #
 
