@@ -2570,3 +2570,43 @@ Input: 'this kata is easy'                          => Output: 'tihs ktaa is esa
 #
 
 <br />
+
+# Challenge 078 Lottery Ticket
+
+My solution -> *[078LotteryTicket](078LotteryTicket.js)*
+
+<br />
+
+## **_Task condition:_**
+
+<br />
+
+Given a lottery ticket, represented by an array of 2-value arrays, you must find out if you've won the jackpot.
+
+To do this, you must first count the 'mini-wins' on your ticket. Each subarray has both a string and a number within it. If the character code of any of the characters in the string matches the number, you get a mini win. Note you can only have one mini win per sub array.
+
+Once you have counted all of your mini wins, compare that number to the other input provided (win). If your total is more than or equal to (win), return 'Winner!'. Else return 'Loser!'.
+
+<br />
+
+**_Examples_**
+
+```
+Input: [['ABC', 65], ['HGR', 74], ['BYHT', 74]], 2 => Output: 'Loser!'
+
+Input: [['ABC', 65], ['HGR', 74], ['BYHT', 74]], 1 => Output: 'Winner!'
+
+Input: [['HGTYRE', 74], ['BE', 66], ['JKTY', 74]], 3 => Output: 'Loser!'
+```
+
+<br />
+
+**_NOTES:_**
+
+- All inputs will be in the correct format.
+
+- Strings on tickets are not always the same length.
+
+#
+
+<br />
