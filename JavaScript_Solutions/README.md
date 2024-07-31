@@ -2610,3 +2610,37 @@ Input: [['HGTYRE', 74], ['BE', 66], ['JKTY', 74]], 3 => Output: 'Loser!'
 #
 
 <br />
+
+# Challenge 079 What century is it?
+
+My solution -> *[079WhatCenturyIsIt](079WhatCenturyIsIt.js)*
+
+<br />
+
+## **_Task condition:_**
+
+<br />
+
+Return the century of the input year. The input will always be a 4 digit string, so there is no need for validation.
+
+<br />
+
+**_Examples_**
+
+```
+Input: '1999' => Output: '20th'
+
+Input: '2011' => Output: '21st'
+
+Input: '2154' => Output: '22nd'
+
+Input: '2259' => Output: '23rd'
+
+Input: '1124' => Output: '12th'
+
+Input: '2000' => Output: '20th'
+```
+
+#
+
+<br />
