@@ -2645,7 +2645,7 @@ Input: '2000' => Output: '20th'
 
 <br />
 
-# Challenge 080 What century is it?
+# Challenge 080 Inside Out Strings
 
 My solution -> *[080InsideOutStrings](080InsideOutStrings.js)*
 
