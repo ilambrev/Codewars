@@ -2644,3 +2644,33 @@ Input: '2000' => Output: '20th'
 #
 
 <br />
+
+# Challenge 080 What century is it?
+
+My solution -> *[080InsideOutStrings](080InsideOutStrings.js)*
+
+<br />
+
+## **_Task condition:_**
+
+<br />
+
+You are given a string of words (x), for each word within the string you need to turn the word 'inside out' - the internal letters will move out, and the external letters move toward the centre.
+
+If the word is even length, all letters will move. If the length is odd, you are expected to leave the 'middle' letter of the word where it is. 
+
+<br />
+
+**_Examples_**
+
+```
+Input: 'taxi' => Output: 'atix'
+
+Input: 'taxis' => Output: 'atxsi'
+
+Input: 'man i need a taxi up to ubud' => Output: 'man i ende a atix up to budu'
+```
+
+#
+
+<br />
