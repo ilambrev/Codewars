@@ -2674,3 +2674,29 @@ Input: 'man i need a taxi up to ubud' => Output: 'man i ende a atix up to budu'
 #
 
 <br />
+
+# Challenge 081 String average
+
+My solution -> *[081StringAverage](081StringAverage.js)*
+
+<br />
+
+## **_Task condition:_**
+
+<br />
+
+You are given a string of numbers between 0-9. Find the average of these numbers and return it as a floored whole number (ie: no decimal places) written out as a string.
+
+If the string is empty or includes a number greater than 9, return **_"n/a"_**.
+
+<br />
+
+**_Examples_**
+
+```
+Input: 'zero nine five two' => Output: 'four'
+```
+
+#
+
+<br />
