@@ -2700,3 +2700,47 @@ Input: 'zero nine five two' => Output: 'four'
 #
 
 <br />
+
+# Challenge 082 Binary to Text (ASCII) Conversion
+
+My solution -> *[082BinaryToTextASCIIConversion](082BinaryToTextASCIIConversion.js)*
+
+<br />
+
+## **_Task condition:_**
+
+<br />
+
+Write a function that takes in a binary string and returns the equivalent decoded text (the text is ASCII encoded).
+
+Each 8 bits on the binary string represent 1 character on the ASCII table.
+
+The input string will always be a valid binary string.
+
+Characters can be in the range from "00000000" to "11111111" (inclusive).
+
+<br />
+
+**_Examples_**
+
+```
+Input: '01100001' => Output: 'a'
+
+Input: '01001011010101000100100001011000010000100101100101000101' => Output: 'KTHXBYE'
+
+Input: '00110001001100000011000100110001' => Output: '1011'
+
+Input: '001111000011101000101001' => Output: '<:)'
+
+Input: '' => Output: ''
+```
+
+<br />
+
+**_NOTES:_**
+
+- In the case of an empty binary string function should return an empty string.
+
+#
+
+<br />
