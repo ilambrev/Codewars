@@ -2744,3 +2744,33 @@ Input: '' => Output: ''
 #
 
 <br />
+
+# Challenge 083 
+
+My solution -> *[083RunLengthEncoding](083RunLengthEncoding.js)*
+
+<br />
+
+## **_Task condition:_**
+
+<br />
+
+**_RLE_** is a very simple form of data compression. It's only suitable for runs of data.
+
+It's very effective if the same data value occurs in many consecutive data elements.
+
+Your task is to write a run-length encoding **_(RLE)_**. For a given string, return a list (or array) of pairs (or arrays) **_[ (i1, s1), (i2, s2), …, (in, sn) ]_**, such that one can reconstruct the original string by replicating the character **_sx ix_** times and concatening all those strings. Your run-length encoding should be minimal, ie. for all **_i_** the values **_si_** and **_si+1_** should differ.
+
+<br />
+
+**_Examples_**
+
+```
+Input: 'hello world!' => Output: [[1,'h'], [1,'e'], [2,'l'], [1,'o'], [1,' '], [1,'w'], [1,'o'], [1,'r'], [1,'l'], [1,'d'], [1,'!']]
+
+Input: 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbb' => Output: [[34,'a'], [3,'b']]
+```
+
+#
+
+<br />
