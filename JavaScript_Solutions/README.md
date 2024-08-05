@@ -2745,7 +2745,7 @@ Input: '' => Output: ''
 
 <br />
 
-# Challenge 083 
+# Challenge 083 Run-length encoding
 
 My solution -> *[083RunLengthEncoding](083RunLengthEncoding.js)*
 
@@ -2770,6 +2770,41 @@ Input: 'hello world!' => Output: [[1,'h'], [1,'e'], [2,'l'], [1,'o'], [1,' '], [
 
 Input: 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbb' => Output: [[34,'a'], [3,'b']]
 ```
+
+#
+
+<br />
+
+# Challenge 084 Convert A Hex String To RGB
+
+My solution -> *[084ConvertAHexStringToRGB](084ConvertAHexStringToRGB.js)*
+
+<br />
+
+## **_Task condition:_**
+
+<br />
+
+When working with color values it can sometimes be useful to extract the individual red, green, and blue (RGB) component values for a color. Implement a function that meets these requirements:
+
+- Accepts a case-insensitive hexadecimal color string as its parameter (ex. **_"#FF9933"_** or **_"#ff9933"_**).
+
+- Returns a Map<String, int> with the structure **_{r: 255, g: 153, b: 51}_** where r, g, and b range from 0 through 255.
+
+
+<br />
+
+**_Examples_**
+
+```
+Input: '#FF9933' => Output: {r: 255, g: 153, b: 51}
+```
+
+<br />
+
+**_NOTES:_**
+
+- Your implementation does not need to support the shorthand form of hexadecimal notation (ie **_"#FFF"_**).
 
 #
 
