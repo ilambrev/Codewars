@@ -2885,3 +2885,40 @@ Input: [0, 51, 30, 22, 2] => Output: ['Ac', '3c', 'Td', '5h', 'Ks']
 #
 
 <br />
+
+# Challenge 086 String insert values
+
+My solution -> *[086StringInsertValues](086StringInsertValues.js)*
+
+<br />
+
+## **_Task condition:_**
+
+<br />
+
+Given a string and an object/array you need to return a formatted string. Replace all occurrences in the string where the name of a key in the object is surrounded by curly brackets.
+
+Inherited object properties should not be applied
+
+<br />
+
+**_Examples_**
+
+```
+Examples using object
+
+Input: 'Hello {foo} - make me a {bar}', { foo: 'Jack', bar: 'sandwich' }
+Output: 'Hello Jack - make me a sandwich'
+
+Input: 'Hello {foo} - {foobar} make me a {bar}... {foo}!!?', { bar: 'sandwich {foo}', foo: 'Jack' }
+Output: 'Hello Jack - {foobar} make me a sandwich {foo}... Jack!!?'
+
+Example using array
+
+Input: 'Hello {0} - {foobar} make me {2} {1} - I\'m full..', ['Jack', 'sandwiches', 0]
+Output: 'Hello Jack - {foobar} make me 0 sandwiches - I'm full..'
+```
+
+#
+
+<br />
