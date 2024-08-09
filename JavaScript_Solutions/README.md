@@ -2890,19 +2890,13 @@ Input: [0, 51, 30, 22, 2] => Output: ['Ac', '3c', 'Td', '5h', 'Ks']
 
 My solution -> *[086StringInsertValues](086StringInsertValues.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 Given a string and an object/array you need to return a formatted string. Replace all occurrences in the string where the name of a key in the object is surrounded by curly brackets.
 
 Inherited object properties should not be applied
 
-<br />
-
-**_Examples_**
+### **_Examples_**
 
 ```
 Examples using object
@@ -2917,6 +2911,41 @@ Example using array
 
 Input: 'Hello {0} - {foobar} make me {2} {1} - I\'m full..', ['Jack', 'sandwiches', 0]
 Output: 'Hello Jack - {foobar} make me 0 sandwiches - I'm full..'
+```
+
+#
+
+<br />
+
+# Challenge 087 Closest friends
+
+My solution -> *[087ClosestFriends](087ClosestFriends.js)*
+
+## **_Task condition:_**
+
+Timmy spends a lot of time talking on the phone and he would like to see which friends he talks to the most.
+
+Complete the function ```closestFriends``` that takes an array ```history``` as input. Each element of history is a string in the following format ```"(000) 000-0000 00:00:00"``` (where the first part ```"(000) 000-0000"``` represents the phone number Timmy talked to and the second ```"00:00:00"``` is the call duration ```(hours : minutes : seconds)```. Your job is to find the three contacts Timmy talked to the most and return their names in an array sorted by total call durations.
+
+A global variable ```phonebook``` is preloaded and contains all the contacts and their phone numbers.
+
+```
+let phonebook = {
+    'John': '(555) 010-3535',
+    'Melissa': '(442) 130-5165',
+    'Jack': '(333) 010-5135',
+    //and so on...
+};
+```
+
+The input ```history``` array will always have at least three different phone numbers.
+
+### **_Examples_**
+
+```
+Input: ['(555) 010-3535 00:13:24', '(442) 130-5165 01:36:26', '(333) 010-5135 01:38:24']
+
+Output: ['Jack','Melissa','John']
 ```
 
 #
