@@ -2951,3 +2951,23 @@ Output: ['Jack','Melissa','John']
 #
 
 <br />
+
+# Challenge 088 Strip Comments
+
+My solution -> *[088StripComments](088StripComments.js)*
+
+## **_Task condition:_**
+
+Complete the solution so that it strips all text that follows any of a set of comment markers passed in. Any whitespace at the end of the line should also be stripped out.
+
+### **_Examples_**
+
+```
+Input: 'aa / bb\ncc ^ dd\nee $ ff', ['/', '^', '$']
+
+Output: 'aa\ncc\nee'
+```
+
+#
+
+<br />
