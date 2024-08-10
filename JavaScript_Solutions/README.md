@@ -2886,7 +2886,7 @@ Input: [0, 51, 30, 22, 2] => Output: ['Ac', '3c', 'Td', '5h', 'Ks']
 
 <br />
 
-# Challenge 086 String insert values
+# Challenge 086 String Insert Values
 
 My solution -> *[086StringInsertValues](086StringInsertValues.js)*
 
@@ -2917,7 +2917,7 @@ Output: 'Hello Jack - {foobar} make me 0 sandwiches - I'm full..'
 
 <br />
 
-# Challenge 087 Closest friends
+# Challenge 087 Closest Friends
 
 My solution -> *[087ClosestFriends](087ClosestFriends.js)*
 
@@ -2925,7 +2925,7 @@ My solution -> *[087ClosestFriends](087ClosestFriends.js)*
 
 Timmy spends a lot of time talking on the phone and he would like to see which friends he talks to the most.
 
-Complete the function ```closestFriends``` that takes an array ```history``` as input. Each element of history is a string in the following format ```"(000) 000-0000 00:00:00"``` (where the first part ```"(000) 000-0000"``` represents the phone number Timmy talked to and the second ```"00:00:00"``` is the call duration ```(hours : minutes : seconds)```. Your job is to find the three contacts Timmy talked to the most and return their names in an array sorted by total call durations.
+Complete the function ```closestFriends``` that takes an array ```history``` as input. Each element of history is a string in the following format ```"(000) 000-0000 00:00:00"``` (where the first part ```"(000) 000-0000"```) represents the phone number Timmy talked to and the second ```"00:00:00"``` is the call duration ```(hours : minutes : seconds)```. Your job is to find the three contacts Timmy talked to the most and return their names in an array sorted by total call durations.
 
 A global variable ```phonebook``` is preloaded and contains all the contacts and their phone numbers.
 
@@ -2966,6 +2966,60 @@ Complete the solution so that it strips all text that follows any of a set of co
 Input: 'aa / bb\ncc ^ dd\nee $ ff', ['/', '^', '$']
 
 Output: 'aa\ncc\nee'
+```
+
+#
+
+<br />
+
+# Challenge 089 Human Readable Duration Format
+
+My solution -> *[089HumanReadableDurationFormat](089HumanReadableDurationFormat.js)*
+
+## **_Task condition:_**
+
+Your task is to write a function which formats a duration, given as a number of seconds, in a human-friendly way.
+
+The function must accept a non-negative integer. If it is zero, it just returns ```"now"```. Otherwise, the duration is expressed as a combination of ```years```, ```days```, ```hours```, ```minutes``` and ```seconds```.
+
+```
+* For seconds = 62, your function should return 
+    "1 minute and 2 seconds"
+* For seconds = 3662, your function should return
+    "1 hour, 1 minute and 2 seconds"
+```
+
+For the purpose of this task, a year is 365 days and a day is 24 hours.
+
+Note that spaces are important.
+
+### **_Detailed rules_**
+
+The resulting expression is made of components like ```4 seconds```, ```1 year```, etc. In general, a positive integer and one of the valid units of time, separated by a space. The unit of time is used in plural if the integer is greater than 1.
+
+The components are separated by a comma and a space ```(", ")```. Except the last component, which is separated by ```" and "```, just like it would be written in English.
+
+A more significant units of time will occur before than a least significant one. Therefore, ```1 second and 1 year``` is not correct, but ```1 year and 1 second``` is.
+
+Different components have different unit of times. So there is not repeated units like in ```5 seconds and 1 second```.
+
+A component will not appear at all if its value happens to be zero. Hence, ```1 minute and 0 seconds``` is not valid, but it should be just ```1 minute```.
+
+A unit of time must be used "as much as possible". It means that the function should not return ```61 seconds```, but ```1 minute and 1 second``` instead. Formally, the duration specified by of a component must not be greater than any valid more significant unit of time.
+
+
+### **_Examples_**
+
+```
+Input: 1 => Output: '1 second'
+
+Input: 62 => Output: '1 minute and 2 seconds'
+
+Input: 120 => Output: '2 minutes'
+
+Input: 3600 => Output: '1 hour'
+
+Input: 3662 => Output: '1 hour, 1 minute and 2 seconds'
 ```
 
 #
