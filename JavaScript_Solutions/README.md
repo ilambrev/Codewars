@@ -3007,7 +3007,6 @@ A component will not appear at all if its value happens to be zero. Hence, ```1 
 
 A unit of time must be used "as much as possible". It means that the function should not return ```61 seconds```, but ```1 minute and 1 second``` instead. Formally, the duration specified by of a component must not be greater than any valid more significant unit of time.
 
-
 ### **_Examples_**
 
 ```
@@ -3020,6 +3019,48 @@ Input: 120 => Output: '2 minutes'
 Input: 3600 => Output: '1 hour'
 
 Input: 3662 => Output: '1 hour, 1 minute and 2 seconds'
+```
+
+#
+
+<br />
+
+# Challenge 090 Salesman's Travel
+
+My solution -> *[090SalesmansTravel](090SalesmansTravel.js)*
+
+## **_Task condition:_**
+
+A traveling salesman has to visit clients. He got each client's address e.g. ```"432 Main Long Road St. Louisville OH 43071"``` as a list.
+
+The basic zipcode format usually consists of two capital letters followed by a white space and five digits. The list of clients to visit was given as a string of all addresses, each separated from the others by a comma, e.g. :
+
+```"123 Main Street St. Louisville OH 43071,432 Main Long Road St. Louisville OH 43071,786 High Street Pollocksville NY 56432".```
+
+To ease his travel he wants to group the list by zipcode.
+
+The function ```travel``` will take two parameters ```r``` (addresses' list of all clients' as a string) and ```zipcode``` and returns a string in the following format:
+
+```zipcode:street and town,street and town,.../house number,house number,...```
+
+The street numbers must be in the same order as the streets where they belong.
+
+If a given zipcode doesn't exist in the list of clients' addresses return ```"zipcode:/"```.
+
+### **_Examples_**
+
+```
+Input: "123 Main Street St. Louisville OH 43071,432 Main Long Road St. Louisville OH 43071,786 High Street Pollocksville NY 56432", "OH 43071"
+
+Output: "OH 43071:Main Street St. Louisville,Main Long Road St. Louisville/123,432"
+
+Input: "123 Main Street St. Louisville OH 43071,432 Main Long Road St. Louisville OH 43071,786 High Street Pollocksville NY 56432", "NY 56432"
+
+Output: "NY 56432:High Street Pollocksville/786"
+
+Input: "123 Main Street St. Louisville OH 43071,432 Main Long Road St. Louisville OH 43071,786 High Street Pollocksville NY 56432", "NY 5643"
+
+Output: "NY 5643:/"
 ```
 
 #
