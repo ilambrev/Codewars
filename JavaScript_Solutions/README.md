@@ -3066,3 +3066,25 @@ Output: "NY 5643:/"
 #
 
 <br />
+
+# Challenge 091 Rotated String
+
+My solution -> *[091RotatedString](091RotatedString.js)*
+
+## **_Task condition:_**
+
+Write to function that takes as argument two strings and returns positive ```True/true/1``` if one string is a rotation of the other or else it returns ```False/false/0```.
+
+### **_Examples_**
+
+```
+Input: 'hello', 'ohell' => Output: true
+
+Input: 'hello', 'elloh' => Output: true
+
+Input: 'hello', 'lloeh' => Output: fslse
+```
+
+#
+
+<br />
