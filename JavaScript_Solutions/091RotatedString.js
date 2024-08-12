@@ -21,4 +21,5 @@ function isRotation(s1, s2) {
 }
 
 // console.log(isRotation('hello', 'ohell'));
+// console.log(isRotation('hello', 'elloh'));
 // console.log(isRotation('hello', 'lloeh'));
