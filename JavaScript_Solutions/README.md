@@ -3088,3 +3088,33 @@ Input: 'hello', 'lloeh' => Output: fslse
 #
 
 <br />
+
+# Challenge 092 RGB To Hex Conversion
+
+My solution -> *[092RGBToHexConversion](092RGBToHexConversion.js)*
+
+## **_Task condition:_**
+
+The rgb function is incomplete. Complete it so that passing in RGB decimal values will result in a hexadecimal representation being returned. Valid decimal values for RGB are 0 - 255. Any values that fall out of that range must be rounded to the closest valid value.
+
+Note: Your answer should always be 6 characters long, the shorthand with 3 will not work here.
+
+### **_Examples_**
+
+```
+Input: 55, 255, 255  => Output: 'FFFFFF'
+
+Input: 255, 255, 300 => Output: 'FFFFFF'
+
+Input: 0, 0, 0       => Output: '000000'
+
+Input: 148, 0, 211   => Output: '9400D3'
+```
+
+**_NOTES:_**
+
+- Your answer should always be 6 characters long, the shorthand with 3 will not work here.
+
+#
+
+<br />
