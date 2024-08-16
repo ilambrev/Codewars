@@ -3118,3 +3118,27 @@ Input: 148, 0, 211   => Output: '9400D3'
 #
 
 <br />
+
+# Challenge 093 Count Repeats
+
+My solution -> *[093CountRepeats](093CountRepeats.js)*
+
+## **_Task condition:_**
+
+Write a function that returns the count of characters that have to be removed in order to get a string with no consecutive repeats.
+
+This includes any characters
+
+### **_Examples_**
+
+```
+Input: 'abbbbc' => Output: 'abc'
+
+Input: 'abbcca' => Output: 'abca'
+
+Input: 'ab cca' => Output: 'ab ca'
+```
+
+#
+
+<br />
