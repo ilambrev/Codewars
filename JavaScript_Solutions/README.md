@@ -3142,3 +3142,21 @@ Input: 'ab cca' => Output: 'ab ca'
 #
 
 <br />
+
+# Challenge 094 Only Duplicates
+
+My solution -> *[094OnlyDuplicates](094OnlyDuplicates.js)*
+
+## **_Task condition:_**
+
+Given a string, remove any characters that are unique from the string.
+
+### **_Examples_**
+
+```
+Input: 'abccdefee' => Output: 'cceee'
+```
+
+#
+
+<br />
