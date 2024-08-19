@@ -2,55 +2,45 @@
 
 My solution -> *[001ReplaceWithAlphabetPosition](001ReplaceWithAlphabetPosition.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 You are required to, given a string, replace every letter with its position in the alphabet.
 
 If anything in the text isn't a letter, ignore it and don't return it.
 
-"a" = 1, "b" = 2, etc.
-
-<br />
+```"a" = 1```, ```"b" = 2```, etc.
 
 **_Examples_**
 
-alphabetPosition("The sunset sets at twelve o' clock.")
+```
+Input: "The sunset sets at twelve o' clock."
 
-Should return "20 8 5 19 21 14 19 5 20 19 5 20 19 1 20 20 23 5 12 22 5 15 3 12 15 3 11" ( as a string )
+Output: "20 8 5 19 21 14 19 5 20 19 5 20 19 1 20 20 23 5 12 22 5 15 3 12 15 3 11" (as a string)
 
-alphabetPosition("The narwhal bacons at midnight.")
+Input: "The narwhal bacons at midnight."
 
-Should return "20 8 5 14 1 18 23 8 1 12 2 1 3 15 14 19 1 20 13 9 4 14 9 7 8 20" ( as a string )
+Output: "20 8 5 14 1 18 23 8 1 12 2 1 3 15 14 19 1 20 13 9 4 14 9 7 8 20" (as a string)
+```
 
 #
 
 <br />
 
-# Challenge 002 Sum of two lowest positive integers
+# Challenge 002 Sum Of Two Lowest Positive Integers
 
 My solution -> *[002SumOfTwoLowestPositiveIntegers](002SumOfTwoLowestPositiveIntegers.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 Create a function that returns the sum of the two lowest positive numbers given an array of minimum 4 positive integers. No floats or non-positive integers will be passed.
 
-<br />
-
 **_Examples_**
 
-When an array is passed like:
+```
+Input: [19, 5, 42, 2, 77] => Output: 7 
 
-[19, 5, 42, 2, 77], the output should be 7, 
-
-[10, 343445353, 3453445, 3453545353453] should return 3453455.
+Input: [10, 343445353, 3453445, 3453545353453] => Output: 3453455.
+```
 
 #
 
@@ -60,25 +50,23 @@ When an array is passed like:
 
 My solution -> *[003Mumbling](003Mumbling.js)*
 
-<br />
-
 ## **_Task condition:_**
 
-<br />
-
-This time no story, no theory. The examples below show you how to write function accum.
-
-<br />
+This time no story, no theory. The examples below show you how to write function ```accum```.
 
 **_Examples_**
 
-accum("abcd") --> "A-Bb-Ccc-Dddd"
+```
+Input: accum("abcd") => Output: "A-Bb-Ccc-Dddd"
 
-accum("RqaEzty") --> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
+Input: accum("RqaEzty") => Output: "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
 
-accum("cwAt") --> "C-Ww-Aaa-Tttt"
+Input: accum("cwAt") => Output: "C-Ww-Aaa-Tttt"
+```
 
-The parameter of accum is a string which includes only letters from a..z and A..Z.
+**_NOTES:_**
+
+- The parameter of accum is a string which includes only letters from ```a..z``` and ```A..Z```.
 
 #
 
@@ -88,11 +76,7 @@ The parameter of accum is a string which includes only letters from a..z and A..
 
 My solution -> *[004Isograms](004Isograms.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 An isogram is a word that has no repeating letters, consecutive or non-consecutive. Implement a function that determines whether a string that contains only letters is an isogram. Assume the empty string is an isogram. Ignore letter case.
 
@@ -100,45 +84,37 @@ An isogram is a word that has no repeating letters, consecutive or non-consecuti
 
 **_Examples_**
 
-isIsogram("Dermatoglyphics") --> true
+```
+Input: "Dermatoglyphics" => Output: true
 
-isIsogram("aba") --> false
+Input: "aba" => Output: false
 
-isIsogram("moOse") --> false
-
-Ignore letter case.
+Input: "moOse" => Output: false
+```
 
 #
 
 <br />
 
-# Challenge 005 Two to One
+# Challenge 005 Two To One
 
 My solution -> *[005TwoToOne](005TwoToOne.js)*
 
-<br />
-
 ## **_Task condition:_**
 
-<br />
-
-Take 2 strings s1 and s2 including only letters from a to z. Return a new sorted string, the longest possible, containing distinct letters - each taken only once - coming from s1 or s2.
-
-<br />
+Take 2 strings ```s1``` and ```s2``` including only letters from ```a``` to ```z```. Return a new sorted string, the longest possible, containing distinct letters - each taken only once - coming from ```s1``` or ```s2```.
 
 **_Examples_**
 
-s1 = "xyaabbbccccdefww"
+```
+Input: s1 = "xyaabbbccccdefww" s2 = "xxxxyyyyabklmopq"
 
-s2 = "xxxxyyyyabklmopq"
+Output: longest(s1, s2) => "abcdefklmopqwxy"
 
-longest(s1, s2) -> "abcdefklmopqwxy"
+Input: s1 = "abcdefghijklmnopqrstuvwxyz" s2 = "abcdefghijklmnopqrstuvwxyz"
 
-<br />
-
-s1 = "abcdefghijklmnopqrstuvwxyz"
-
-longest(s1, s1) -> "abcdefghijklmnopqrstuvwxyz"
+Output: longest(s1, s2) => "abcdefghijklmnopqrstuvwxyz"
+```
 
 #
 
