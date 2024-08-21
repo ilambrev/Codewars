@@ -3136,3 +3136,25 @@ Input: 'abccdefee' => Output: 'cceee'
 #
 
 <br />
+
+# Challenge 095 Detect Pangram
+
+My solution -> *[095DetectPangram](095DetectPangram.js)*
+
+## **_Task condition:_**
+
+A pangram is a sentence that contains every single letter of the alphabet at least once. For example, the sentence "The quick brown fox jumps over the lazy dog" is a pangram, because it uses the letters ```A-Z``` at least once (case is irrelevant).
+
+Given a string, detect whether or not it is a pangram. Return ```true``` if it is, ```false``` if not. Ignore numbers and punctuation.
+
+### **_Examples_**
+
+```
+Input: "The quick brown fox jumps over the lazy dog." => Output: true
+
+Input: "This is not a pangram." => Output: false
+```
+
+#
+
+<br />
