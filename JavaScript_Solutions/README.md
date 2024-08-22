@@ -80,8 +80,6 @@ My solution -> *[004Isograms](004Isograms.js)*
 
 An isogram is a word that has no repeating letters, consecutive or non-consecutive. Implement a function that determines whether a string that contains only letters is an isogram. Assume the empty string is an isogram. Ignore letter case.
 
-<br />
-
 **_Examples_**
 
 ```
@@ -124,17 +122,13 @@ Output: longest(s1, s2) => "abcdefghijklmnopqrstuvwxyz"
 
 My solution -> *[006HighestScoringWord](006HighestScoringWord.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 Given a string of words, you need to find the highest scoring word.
 
-Each letter of a word scores points according to its position in the alphabet: a = 1, b = 2, c = 3 etc.
+Each letter of a word scores points according to its position in the alphabet: ```a = 1, b = 2, c = 3``` etc.
 
-For example, the score of abad is 8 (1 + 2 + 1 + 4).
+For example, the score of ```abad``` is ```8``` ```(1 + 2 + 1 + 4)```.
 
 You need to return the highest scoring word as a string.
 
@@ -142,71 +136,61 @@ If two words score the same, return the word that appears earliest in the origin
 
 All letters will be lowercase and all inputs will be valid.
 
-<br />
-
 **_Examples_**
 
-high('man i need a taxi up to ubud') --> 'taxi'
+```
+Input: 'man i need a taxi up to ubud' => Output: 'taxi'
 
-high('what time are we climbing up the volcano') --> 'volcano'
+Input: 'what time are we climbing up the volcano' => Output: 'volcano'
+```
 
 #
 
 <br />
 
-# Challenge 007 Extract the domain name from a URL
+# Challenge 007 Extract The Domain Name From A URL
 
 My solution -> *[007ExtractTheDomainNameFromAURL](007ExtractTheDomainNameFromAURL.js)*
 
-<br />
-
 ## **_Task condition:_**
 
-<br />
-
-Write a function that when given a URL as a string, parses out just the domain name and returns it as a string. For example:
-
-<br />
+Write a function that when given a URL as a string, parses out just the domain name and returns it as a string.
 
 **_Examples_**
 
-url = "http://github.com/carbonfive/raygun" -> domain name = "github"
+```
+url = "http://github.com/carbonfive/raygun" => domain name = "github"
 
-url = "http://www.zombie-bites.com" -> domain name = "zombie-bites"
+url = "http://www.zombie-bites.com" => domain name = "zombie-bites"
 
-url = "https://www.cnet.com" -> domain name = cnet"
+url = "https://www.cnet.com" => domain name = "cnet"
+```
 
 #
 
 <br />
 
-# Challenge 008 Write Number in Expanded Form
+# Challenge 008 Write Number In Expanded Form
 
 My solution -> *[008WriteNumberInExpandedForm](008WriteNumberInExpandedForm.js)*
 
-<br />
-
 ## **_Task condition:_**
 
-<br />
-
-You will be given a number and you will need to return it as a string in Expanded Form. For example:
-
-<br />
+You will be given a number and you will need to return it as a string in Expanded Form.
 
 **_Examples_**
 
-expandedForm(12); => Should return '10 + 2'
+```
+Input: 12    => Output: '10 + 2'
 
-expandedForm(42); => Should return '40 + 2'
+Input: 42    => Output: '40 + 2'
 
-expandedForm(70304); => Should return '70000 + 300 + 4'
-
-<br />
+Input: 70304 => Output: '70000 + 300 + 4'
+```
 
 **_NOTES:_**
 
-All numbers will be whole numbers greater than 0.
+- All numbers will be whole numbers greater than 0.
 
 #
 
@@ -216,25 +200,21 @@ All numbers will be whole numbers greater than 0.
 
 My solution -> *[009ArrayDiff](009ArrayDiff.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 Your goal is to implement a difference function, which subtracts one list from another and returns the result.
 
-It should remove all values from list a, which are present in list b keeping their order.
+It should remove all values from list ```a```, which are present in list ```b``` keeping their order.
 
-If a value is present in b, all of its occurrences must be removed from the other.
-
-<br />
+If a value is present in ```b```, all of its occurrences must be removed from the other.
 
 **_Examples_**
 
-arrayDiff([1,2],[1]) == [2]
+```
+Input: [1,2], [1] => Output: [2]
 
-arrayDiff([1,2,2,2,3],[2]) == [1,3]
+Input: [1,2,2,2,3], [2] => Output: [1,3]
+```
 
 #
 
@@ -244,35 +224,32 @@ arrayDiff([1,2,2,2,3],[2]) == [1,3]
 
 My solution -> *[010TheVowelCode](010TheVowelCode.js)*
 
-<br />
-
 ## **_Task condition:_**
 
-<br />
+Create a function called ```encode()``` to replace all the lowercase vowels in a given string with numbers according to the following pattern:
 
-Create a function called encode() to replace all the lowercase vowels in a given string with numbers according to the following pattern:
+```
+a -> 1
+e -> 2
+i -> 3
+o -> 4
+u -> 5
+```
 
-a -> 1  
-e -> 2  
-i -> 3  
-o -> 4  
-u -> 5  
-
-Then create a function called decode() to turn the numbers back into vowels according to the same pattern shown above.
-
-<br />
+Then create a function called ```decode()``` to turn the numbers back into vowels according to the same pattern shown above.
 
 **_Examples_**
 
+```
 encode("hello") would return "h2ll4"
 
 decode("h3 th2r2") would return "hi there"
-
-<br />
+```
 
 **_NOTES:_**
 
-There is no need to worry about uppercase vowels. For the sake of simplicity, you can assume that any numbers passed into the function will correspond to vowels.
+- There is no need to worry about uppercase vowels.
+- For the sake of simplicity, you can assume that any numbers passed into the function will correspond to vowels.
 
 #
 
