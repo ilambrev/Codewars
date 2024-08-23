@@ -259,11 +259,7 @@ decode("h3 th2r2") would return "hi there"
 
 My solution -> *[011StopSpinningMyWords](011StopSpinningMyWords.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 Write a function that takes in a string of one or more words, and returns the same string, but with all words that have five or more letters reversed.
 
@@ -271,17 +267,17 @@ Write a function that takes in a string of one or more words, and returns the sa
 
 **_Examples_**
 
-"Hey fellow warriors" => "Hey wollef sroirraw"
+```
+Input: "Hey fellow warriors" => Output: "Hey wollef sroirraw"
 
-"This is a test" => "This is a test"
+Input: "This is a test" => Output: "This is a test"
 
-"This is another test" => "This is rehtona test"
-
-<br />
+Input: "This is another test" => Output: "This is rehtona test"
+```
 
 **_NOTES:_**
 
-Strings passed in will consist of only letters and spaces. Spaces will be included only when more than one word is present.
+- Strings passed in will consist of only letters and spaces. Spaces will be included only when more than one word is present.
 
 #
 
