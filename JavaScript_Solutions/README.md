@@ -3131,3 +3131,38 @@ Input: "This is not a pangram." => Output: false
 #
 
 <br />
+
+# Challenge 096 Write Number In Expanded Form - Part 2
+
+My solution -> *[096WriteNumberInExpandedFormPart2](096WriteNumberInExpandedFormPart2.js)*
+
+## **_Task condition:_**
+
+You will be given a number and you will need to return it as a string in expanded form.
+
+```
+Number: 7286.45
+
+        Hundred   Ten                                       One   One       One
+Milions Thousands Thousands Thousands Hundreds Tens Units . tenth hundredth thousandth
+   |        |         |         |        |      |     |       |       |          |
+   -        -         -         7        2      8     6       4       5          -
+
+Expanded Form: 7000 + 200 + 80 + 6 + 4/10 + 5/100
+```
+
+### **_Examples_**
+
+```
+Input: 807.304 => Output: '800 + 7 + 3/10 + 4/1000'
+
+Input: 1.24    => Output: '1 + 2/10 + 4/100'
+
+Input: 7.304   => Output: '7 + 3/10 + 4/1000'
+
+Input: 0.04    => Output: '4/100'
+```
+
+#
+
+<br />
