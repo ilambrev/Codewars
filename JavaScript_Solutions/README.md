@@ -3218,3 +3218,38 @@ Input: '^_`'            => Output: ''
 #
 
 <br />
+
+# Challenge 099 Build Tower
+
+My solution -> *[099BuildTower](099BuildTower.js)*
+
+## **_Task condition:_**
+
+Build a pyramid-shaped tower, as an array/list of strings, given a positive integer ```number of floors```. A tower block is represented with ```"*"``` character.
+
+### **_Examples_**
+
+```
+Input: 3
+
+[
+  "  *  ",
+  " *** ", 
+  "*****"
+]
+
+Input: 6
+
+[
+  "     *     ", 
+  "    ***    ", 
+  "   *****   ", 
+  "  *******  ", 
+  " ********* ", 
+  "***********"
+]
+```
+
+#
+
+<br />
