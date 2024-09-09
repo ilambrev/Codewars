@@ -3256,7 +3256,7 @@ Input: 6
 
 # Challenge 100 Simple Encryption #1 - Alternating Split
 
-My solution -> *[100SimpleEncryption#1AlternatingSplit](100SimpleEncryption#1AlternatingSplit.js)*
+My solution -> *[100SimpleEncryptionN1AlternatingSplit](100SimpleEncryptionN1AlternatingSplit.js)*
 
 ## **_Task condition:_**
 
