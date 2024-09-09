@@ -3253,3 +3253,38 @@ Input: 6
 #
 
 <br />
+
+# Challenge 100 Simple Encryption #1 - Alternating Split
+
+My solution -> *[100SimpleEncryption#1AlternatingSplit](100SimpleEncryption#1AlternatingSplit.js)*
+
+## **_Task condition:_**
+
+Implement a pseudo-encryption algorithm which given a string ```S``` and an integer ```N``` concatenates all the odd-indexed characters of ```S``` with all the even-indexed characters of ```S```, this process should be repeated ```N``` times.
+
+Together with the encryption function, you should also implement a decryption function which reverses the process.
+
+If the string ```S``` is an empty value or the integer ```N``` is not positive, return the first argument without changes.
+
+### **_Examples_**
+
+```
+encrypt:
+
+Input: '01234', 1 => Output: '13024'
+Input: '012345', 1 => Output: '135024'
+Input: '012345', 2 => Output: '135024' -> '304152'
+Input: '012345', 3 => Output: '135024' -> '304152' -> '012345'
+Input: '', 1 => Output: ''
+Input: '012345', -1 => Output: '012345'
+Input: '012345', 0 => Output: '012345'
+
+decrypt:
+
+Input: '13024', 1 => Output: '01234'
+Input: '135024', 1 => Output: '012345'
+```
+
+#
+
+<br />
