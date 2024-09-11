@@ -3288,3 +3288,29 @@ Input: '135024', 1 => Output: '012345'
 #
 
 <br />
+
+# Challenge 101 Consonant Value
+
+My solution -> *[101ConsonantValue](101ConsonantValue.js)*
+
+## **_Task condition:_**
+
+Given a lowercase string that has alphabetic characters only and no spaces, return the highest value of consonant substrings. Consonants are any letters of the alphabet except ```"aeiou"```.
+
+We shall assign the following values: ```a = 1, b = 2, c = 3, .... z = 26```.
+
+For example, for the word "zodiacs", let's cross out the vowels. We get: **"z~~o~~d~~ia~~cs"**.
+
+### **_Examples_**
+
+```
+Input: 'zodiacs' => Output: 26
+
+Input: 'strength' => Output: 57
+
+Input: 'az' => Output: 26
+```
+
+#
+
+<br />
