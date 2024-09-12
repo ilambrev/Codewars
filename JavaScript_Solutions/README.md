@@ -287,33 +287,27 @@ Input: "This is another test" => Output: "This is rehtona test"
 
 My solution -> *[012HighestAndLowest](012HighestAndLowest.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 In this little assignment you are given a string of space separated numbers, and have to return the highest and lowest number.
 
-<br />
-
 **_Examples_**
 
-highAndLow("1 2 3 4 5"); => return "5 1"
+```
+Input: '1 2 3 4 5' => Output: '5 1'
 
-highAndLow("1 2 -3 4 5"); => return "5 -3"
+Input: '1 2 -3 4 5' => Output: '5 -3'
 
-highAndLow("1 9 3 4 -5"); => return "9 -5"
-
-<br />
+Input: '1 9 3 4 -5' => Output: '9 -5'
+```
 
 **_NOTES:_**
 
-All numbers are valid Int32, no need to validate them.
+- All numbers are valid ```Int32```, no need to validate them.
 
-There will always be at least one number in the input string.
+- There will always be at least one number in the input string.
 
-Output string must be two numbers separated by a single space, and highest number is first.
+- Output string must be two numbers separated by a single space, and highest number is first.
 
 #
 
