@@ -317,27 +317,23 @@ Input: '1 9 3 4 -5' => Output: '9 -5'
 
 My solution -> *[013ExesAndOhs](013ExesAndOhs.js)*
 
-<br />
-
 ## **_Task condition:_**
 
-<br />
-
-Check to see if a string has the same amount of 'x's and 'o's. The method must return a boolean and be case insensitive. The string can contain any char.
-
-<br />
+Check to see if a string has the same amount of ```'x'```s and ```'o'```s. The method must return a boolean and be case insensitive. The string can contain any char.
 
 **_Examples_**
 
-XO("ooxx") => true
+```
+Input: 'ooxx' => Output: true
 
-XO("xooxx") => false
+Input: 'xooxx' => Output: false
 
-XO("ooxXm") => true
+Input: 'ooxXm' => Output: true
 
-XO("zpzpzpp") => true // when no 'x' and 'o' is present should return true
+Input: 'zpzpzpp' => Output: true // when no 'x' and 'o' is present should return true
 
-XO("zzoo") => false
+Input: 'zzoo' => Output: false
+```
 
 #
 
