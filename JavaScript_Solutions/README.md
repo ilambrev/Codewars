@@ -416,25 +416,21 @@ Input: 1500000, 2.5, 10000, 2000000 => Output: 10
 
 <br />
 
-# Challenge 016 String ends with
+# Challenge 016 String Ends With
 
 My solution -> *[016StringEndsWith](016StringEndsWith.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 Complete the solution so that it returns true if the first argument(string) passed in ends with the 2nd argument (also a string). 
 
-<br />
-
 **_Examples_**
 
-solution('abc', 'bc') // returns true
+```
+Input: 'abc', 'bc' => Output: true
 
-solution('abc', 'd') // returns false
+Input: 'abc', 'd' => Output: false
+```
 
 #
 
@@ -444,23 +440,19 @@ solution('abc', 'd') // returns false
 
 My solution -> *[017DescendingOrder](017DescendingOrder.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 Your task is to make a function that can take any non-negative integer as an argument and return it with its digits in descending order. Essentially, rearrange the digits to create the highest possible number.
 
-<br />
-
 **_Examples_**
 
-Input: 42145 Output: 54421
+```
+Input: 42145 => Output: 54421
 
-Input: 145263 Output: 654321
+Input: 145263 => Output: 654321
 
-Input: 123456789 Output: 987654321
+Input: 123456789 => Output: 987654321
+```
 
 #
 
