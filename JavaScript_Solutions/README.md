@@ -458,69 +458,61 @@ Input: 123456789 => Output: 987654321
 
 <br />
 
-# Challenge 018 Sum Strings as Numbers
+# Challenge 018 Sum Strings As Numbers
 
 My solution -> *[018SumStringsAsNumbers](018SumStringsAsNumbers.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 Given the string representations of two integers, return the string representation of the sum of those integers.
 
 A string representation of an integer will contain no characters besides the ten numerals "0" to "9".
 
-<br />
-
 **_Examples_**
 
-sumStrings('1','2')  => '3'
+```
+Input: '1', '2' => Output: '3'
+
+Input: '123', '456' => Output: '579'
+```
 
 #
 
 <br />
 
-# Challenge 019 Next smaller number with the same digits
+# Challenge 019 Next Smaller Number With The Same Digits
 
 My solution -> *[019NextSmallerNumberWithTheSameDigits](019NextSmallerNumberWithTheSameDigits.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 Write a function that takes a positive integer and returns the next smaller positive integer containing the same digits.
 
-Return -1 when there is no smaller number that contains the same digits. Also return -1 when the next smaller number with the same digits would require the leading digit to be zero.
-
-<br />
+Return ```-1``` when there is no smaller number that contains the same digits. Also return ```-1``` when the next smaller number with the same digits would require the leading digit to be zero.
 
 **_Examples_**
 
-nextSmaller(21) == 12
+```
+Input: 21 => Output: 12
 
-nextSmaller(531) == 513
+Input: 531 => Output: 513
 
-nextSmaller(2071) == 2017
+Input: 2071 => Output: 2017
 
-nextSmaller(9) == -1
+Input: 9 => Output: -1
 
-nextSmaller(111) == -1
+Input: 111 => Output: -1
 
-nextSmaller(135) == -1
+Input: 135 => Output: -1
 
-nextSmaller(1027) == -1 => 0721 is out since we don't write numbers with leading zeros
-
-<br />
+Input: 1027 => Output: -1 (0721 is out since we don't write numbers with leading zeros)
+```
 
 **_NOTES:_**
 
-Some tests will include very large numbers.
+- Some tests will include very large numbers.
 
-Test data only employs positive integers.
+- Test data only employs positive integers.
 
 #
 
