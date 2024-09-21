@@ -522,75 +522,65 @@ Input: 1027 => Output: -1 (0721 is out since we don't write numbers with leading
 
 My solution -> *[020HumanReadableTime](020HumanReadableTime.js)*
 
-<br />
-
 ## **_Task condition:_**
 
-<br />
+Write a function, which takes a non-negative integer (seconds) as input and returns the time in a human-readable format (```HH:MM:SS```)
 
-Write a function, which takes a non-negative integer (seconds) as input and returns the time in a human-readable format (HH:MM:SS)
+- ```HH``` = hours, padded to 2 digits, range: 00 - 99
+- ```MM``` = minutes, padded to 2 digits, range: 00 - 59
+- ```SS``` = seconds, padded to 2 digits, range: 00 - 59
 
-HH = hours, padded to 2 digits, range: 00 - 99
-MM = minutes, padded to 2 digits, range: 00 - 59
-SS = seconds, padded to 2 digits, range: 00 - 59
-
-The maximum time never exceeds 359999 (99:59:59)
-
-<br />
+The maximum time never exceeds 359999 (```99:59:59```)
 
 **_Examples_**
 
-humanReadable(0) => 00:00:00
+```
+Input: 0      => Output: 00:00:00
 
-humanReadable(59) => 00:00:59
+Input: 59     => Output: 00:00:59
 
-humanReadable(60) => 00:01:00
+Input: 60     => Output: 00:01:00
 
-humanReadable(90) => 00:01:30
+Input: 90     => Output: 00:01:30
 
-humanReadable(3599) => 00:59:59
+Input: 3599   => Output: 00:59:59
 
-humanReadable(3600) => 01:00:00
+Input: 3600   => Output: 01:00:00
 
-humanReadable(45296) => 12:34:56
+Input: 45296  => Output: 12:34:56
 
-humanReadable(86399) => 23:59:59
+Input: 86399  => Output: 23:59:59
 
-humanReadable(86400) => 24:00:00
+Input: 86400  => Output: 24:00:00
 
-humanReadable(359999) => 99:59:59
+Input: 359999 => Output: 99:59:59
+```
 
 #
 
 <br />
 
-# Challenge 021 Multiples of 3 or 5
+# Challenge 021 Multiples Of 3 Or 5
 
 My solution -> *[021MultiplesOf3Or5](021MultiplesOf3Or5.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
 
-Finish the solution so that it returns the sum of all the multiples of 3 or 5 below the number passed in.
+Finish the solution so that it returns the sum of all the multiples of 3 or 5 **below** the number passed in.
 
 Additionally, if the number is negative, return 0.
 
-<br />
-
 **_Examples_**
 
-solution(10) => 23
-
-<br />
+```
+Input: 10 => Output: 23
+```
 
 **_NOTES:_**
 
-If the number is a multiple of both 3 and 5, only count it once.
+- If the number is a multiple of both 3 and 5, only count it once.
 
 #
 
