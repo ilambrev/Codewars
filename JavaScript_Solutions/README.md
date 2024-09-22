@@ -586,57 +586,49 @@ Input: 10 => Output: 23
 
 <br />
 
-# Challenge 022 Convert string to camel case
+# Challenge 022 Convert String To Camel Case
 
 My solution -> *[022ConvertStringToCamelCase](022ConvertStringToCamelCase.js)*
 
-<br />
-
 ## **_Task condition:_**
 
-<br />
-
-Complete the method/function so that it converts dash/underscore delimited words into camel casing. The first word within the output should be capitalized only if the original word was capitalized (known as Upper Camel Case, also often referred to as Pascal case). The next words should be always capitalized.
-
-<br />
+Complete the function so that it converts dash/underscore delimited words into camel casing. The first word within the output should be capitalized only if the original word was capitalized (known as Upper Camel Case, also often referred to as Pascal case). The next words should be always capitalized.
 
 **_Examples_**
 
-"the-stealth-warrior" gets converted to "theStealthWarrior"
+```
+Input: 'the-stealth-warrior' => Output: 'theStealthWarrior'
 
-"The_Stealth_Warrior" gets converted to "TheStealthWarrior"
+Input: 'The_Stealth_Warrior' => 'TheStealthWarrior'
 
-"The_Stealth-Warrior" gets converted to "TheStealthWarrior"
+Input: 'The_Stealth-Warrior' => 'TheStealthWarrior'
+```
 
 #
 
 <br />
 
-# Challenge 023 Sum of Digits / Digital Root
+# Challenge 023 Sum Of Digits / Digital Root
 
 My solution -> *[023SumOfDigitsDigitalRoot](023SumOfDigitsDigitalRoot.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 Digital root is the recursive sum of all the digits in a number.
 
-Given n, take the sum of the digits of n. If that value has more than one digit, continue reducing in this way until a single-digit number is produced. The input will be a non-negative integer.
-
-<br />
+Given ```n```, take the sum of the digits of ```n```. If that value has more than one digit, continue reducing in this way until a single-digit number is produced. The input will be a non-negative integer.
 
 **_Examples_**
 
-16 --> 1 + 6 = 7
+```
+Input: 16 --> 1 + 6 = 7 => Output: 7
 
-942 --> 9 + 4 + 2 = 15  -->  1 + 5 = 6
+Input: 942 --> 9 + 4 + 2 = 15  -->  1 + 5 = 6 => Output: 6
 
-132189 --> 1 + 3 + 2 + 1 + 8 + 9 = 24 --> 2 + 4 = 6
+Input: 132189 --> 1 + 3 + 2 + 1 + 8 + 9 = 24 --> 2 + 4 = 6 => Output: 6
 
-493193 --> 4 + 9 + 3 + 1 + 9 + 3 = 29 --> 2 + 9 = 11 --> 1 + 1 = 2
+Input: 493193 --> 4 + 9 + 3 + 1 + 9 + 3 = 29 --> 2 + 9 = 11 --> 1 + 1 = 2 => Output: 2
+```
 
 #
 
