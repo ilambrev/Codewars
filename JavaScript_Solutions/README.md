@@ -3444,3 +3444,46 @@ csv,                                indices       =>  expected
 #
 
 <br />
+
+# Challenge 106 Don't Drink the Water
+
+My solution -> *[106DoNotDrinkTheWater](106DoNotDrinkTheWater.js)*
+
+## **_Task condition:_**
+
+Given a two-dimensional array representation of a glass of mixed liquids, sort the array such that the liquids appear in the glass based on their density. (Lower density floats to the top) The width of the glass will not change from top to bottom.
+
+```
+=======================
+|   Density Chart     |
+=======================
+| Honey   | H | 1.36  |
+| Water   | W | 1.00  |
+| Alcohol | A | 0.87  |
+| Oil     | O | 0.80  |
+-----------------------
+```
+
+### **_Examples_**
+
+```
+Input:
+
+[
+  ['H', 'H', 'W', 'O'],
+  ['W', 'W', 'O', 'W'],
+  ['H', 'H', 'O', 'O']
+]
+
+Output:
+
+[
+  ['O', 'O', 'O', 'O'],
+  ['W', 'W', 'W', 'W'],
+  ['H', 'H', 'H', 'H']
+]
+```
+
+#
+
+<br />
