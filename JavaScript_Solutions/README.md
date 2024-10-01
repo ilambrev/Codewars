@@ -3487,3 +3487,41 @@ Output:
 #
 
 <br />
+
+# Challenge 107 Remove The Parentheses
+
+My solution -> *[107RemoveTheParentheses](107RemoveTheParentheses.js)*
+
+## **_Task condition:_**
+
+You are given a string that may contains parenthesis - ```'('``` and ```')'```.
+
+Your task is to remove everything inside the parentheses as well as the parentheses themselves.
+
+The example above would return:
+
+### **_Examples_**
+
+```
+Input: 'example(unwanted thing)example' => Output: 'exampleexample'
+
+Input: 'example (unwanted thing) example' => Output: 'example  example'
+
+Input: 'a (bc d)e' => Output: 'a e'
+
+Input: 'a(b(c))' => Output: 'a'
+
+Input: 'hello example (words(more words) here) something' => Output: 'hello example  something'
+
+Input: '(first group) (second group) (third group)' => Output: '  '
+```
+
+**_NOTES:_**
+
+- Other than parentheses only letters and spaces can occur in the string. Don't worry about other brackets like ```"[]"``` and ```"{}"``` as these will never appear.
+- There can be multiple parentheses.
+- The parentheses can be nested.
+
+#
+
+<br />
