@@ -638,21 +638,17 @@ Input: 493193 --> 4 + 9 + 3 + 1 + 9 + 3 = 29 --> 2 + 9 = 11 --> 1 + 1 = 2 => Out
 
 My solution -> *[024SplitStrings](024SplitStrings.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 Complete the solution so that it splits the string into pairs of two characters. If the string contains an odd number of characters then it should replace the missing second character of the final pair with an underscore ('_').
 
-<br />
-
 **_Examples_**
 
-'abc' =>  ['ab', 'c_']
+```
+Input: 'abc' => Output: ['ab', 'c_']
 
-'abcdef' => ['ab', 'cd', 'ef']
+Input: 'abcdef' => Output: ['ab', 'cd', 'ef']
+```
 
 #
 
@@ -662,21 +658,17 @@ Complete the solution so that it splits the string into pairs of two characters.
 
 My solution -> *[025ReversedStrings](025ReversedStrings.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 Complete the solution so that it reverses the string passed into it.
 
-<br />
-
 **_Examples_**
 
-'world' => 'dlrow'
+```
+Input: 'world' => Output: 'dlrow'
 
-'word' => 'drow'
+Input: 'word' => Output: 'drow'
+```
 
 #
 
