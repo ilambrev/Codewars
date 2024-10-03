@@ -674,25 +674,19 @@ Input: 'word' => Output: 'drow'
 
 <br />
 
-# Challenge 026 Sum of positive
+# Challenge 026 Sum Of Positive
 
 My solution -> *[026SumOfPositive](026SumOfPositive.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 You get an array of numbers, return the sum of all of the positives ones.
 
-<br />
-
 **_Examples_**
 
-[1, -4, 7, 12] => 1 + 7 + 12 = 20
-
-<br />
+```
+Input: [1, -4, 7, 12] => Output: 20 // 1 + 7 + 12 = 20
+```
 
 **_NOTES:_**
 
@@ -702,27 +696,23 @@ If there is nothing to sum, the sum is default to 0.
 
 <br />
 
-# Challenge 027 Sort the odd
+# Challenge 027 Sort The Odd
 
 My solution -> *[027SortTheOdd](027SortTheOdd.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 You will be given an array of numbers. You have to sort the odd numbers in ascending order while leaving the even numbers at their original positions.
 
-<br />
-
 **_Examples_**
 
-[7, 1]  =>  [1, 7]
+```
+Input: [7, 1] => Output: [1, 7]
 
-[5, 8, 6, 3, 4]  =>  [3, 8, 6, 5, 4]
+Input: [5, 8, 6, 3, 4] => Output: [3, 8, 6, 5, 4]
 
-[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]  =>  [1, 8, 3, 6, 5, 4, 7, 2, 9, 0]
+Input: [9, 8, 7, 6, 5, 4, 3, 2, 1, 0] => Output: [1, 8, 3, 6, 5, 4, 7, 2, 9, 0]
+```
 
 #
 
@@ -732,23 +722,19 @@ You will be given an array of numbers. You have to sort the odd numbers in ascen
 
 My solution -> *[028RemoveStringSpaces](028RemoveStringSpaces.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 Write a function that removes the spaces from the string, then return the resultant string.
 
-<br />
-
 **_Examples_**
 
-"8 j 8 &nbsp; &nbsp; &nbsp; mBliB8g &nbsp; &nbsp; imjB8B8 &nbsp; &nbsp; jl &nbsp; &nbsp; B" -> "8j8mBliB8gimjB8B8jlB"
+```
+Input: "8 j 8   mBliB8g  imjB8B8  jl  B" => Output: "8j8mBliB8gimjB8B8jlB"
 
-"8 8 Bi fk8h B 8 BB8B B B &nbsp; &nbsp; B888 c hl8 BhB fd" -> "88Bifk8hB8BB8BBBB888chl8BhBfd"
+Input: "8 8 Bi fk8h B 8 BB8B B B  B888 c hl8 BhB fd" => Output: "88Bifk8hB8BB8BBBB888chl8BhBfd"
 
-"8aaaaa dddd r &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;" -> "8aaaaaddddr"
+Input: "8aaaaa dddd r     " => Input: "8aaaaaddddr"
+```
 
 #
 
