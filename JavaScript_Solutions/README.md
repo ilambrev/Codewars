@@ -790,87 +790,73 @@ Input: [-2.398] => Output: -2.398
 
 <br />
 
-# Challenge 031 Your order, please
+# Challenge 031 Your Order, Please
 
 My solution -> *[031YourOrderPlease](031YourOrderPlease.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 Your task is to sort a given string. Each word in the string will contain a single number. This number is the position the word should have in the result.
 
 If the input string is empty, return an empty string. The words in the input String will only contain valid consecutive numbers.
 
-<br />
-
 **_Examples_**
 
-"is2 Thi1s T4est 3a" => "Thi1s is2 3a T4est"
+```
+Input: "is2 Thi1s T4est 3a" => Output: "Thi1s is2 3a T4est"
 
-"4of Fo1r pe6ople g3ood th5e the2" => "Fo1r the2 g3ood 4of th5e pe6ople"
+Input: "4of Fo1r pe6ople g3ood th5e the2" => Output: "Fo1r the2 g3ood 4of th5e pe6ople"
 
-"" => ""
-
-<br />
+Input: "" => Output: ""
+```
 
 **_NOTES:_**
 
-Numbers can be from 1 to 9. So 1 will be the first word (not 0).
+- Numbers can be from 1 to 9. So 1 will be the first word (not 0).
 
 #
 
 <br />
 
-# Challenge 032 Odd or Even?
+# Challenge 032 Odd Or Even?
 
 My solution -> *[032OddOrEven](032OddOrEven.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 Given a list of integers, determine whether the sum of its elements is odd or even.
 
-Give your answer as a string matching "odd" or "even".
+Give your answer as a string matching ```"odd"``` or ```"even"```.
 
-If the input array is empty consider it as: [0] (array with a zero).
-
-<br />
+If the input array is empty consider it as: ```[0]``` (array with a zero).
 
 **_Examples_**
 
+```
 Input: [0] => Output: "even"
 
 Input: [0, 1, 4] => Output: "odd"
 
 Input: [0, -1, -5] => Output: "even"
+```
 
 #
 
 <br />
 
-# Challenge 033 Reversed sequence
+# Challenge 033 Reversed Sequence
 
 My solution -> *[033ReversedSequence](033ReversedSequence.js)*
 
-<br />
-
 ## **_Task condition:_**
 
-<br />
-
-Build a function that returns an array of integers from n to 1 where n>0.
-
-<br />
+Build a function that returns an array of integers from ```n``` to ```1``` where ```n > 0```.
 
 **_Examples_**
 
-Input: n=5 => Output: [5,4,3,2,1]
+```
+Input: n = 5 => Output: [5, 4, 3, 2, 1]
+```
 
 #
 
@@ -880,29 +866,25 @@ Input: n=5 => Output: [5,4,3,2,1]
 
 My solution -> *[034CenturyFromYear](034CenturyFromYear.js)*
 
-<br />
-
 ## **_Task condition:_**
 
-<br />
-
-The first century spans from the year 1 up to and including the year 100, the second century - from the year 101 up to and including the year 200, etc.
+The first century spans from the ```year 1``` up to and including the ```year 100```, the second century - from the ```year 101``` up to and including the ```year 200```, etc.
 
 Given a year, return the century it is in.
 
-<br />
-
 **_Examples_**
 
-1705 --> 18
+```
+Input: 1705 => Output: 18
 
-1900 --> 19
+Input: 1900 => Output: 19
 
-1601 --> 17
+Input: 1601 => Output: 17
 
-2000 --> 20
+Input: 2000 => Output: 20
 
-2742 --> 28
+Input: 2742 => Output: 28
+```
 
 #
 
@@ -912,11 +894,7 @@ Given a year, return the century it is in.
 
 My solution -> *[035DirectionsReduction](035DirectionsReduction.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 Once upon a time, on a way through the old wild mountainous west,…
 
@@ -926,24 +904,21 @@ Going to one direction and coming back the opposite direction right away is a ne
 
 How I crossed a mountainous desert the smart way.
 
-
 Write a function which will take an array of strings and returns an array of strings with the needless directions removed (W<->E or S<->N side by side).
-
-<br />
 
 **_Examples_**
 
+```
 Input: => ["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST"], Output: => ["WEST"]
 
 Input: => ["NORTH", "SOUTH", "EAST", "WEST"], Output: => []
 
 Input: => ["NORTH", "EAST", "WEST", "SOUTH", "WEST", "WEST"], Output: => ["WEST", "WEST"]
-
-<br />
+```
 
 **_NOTES:_**
 
-Not all paths can be made simpler. The path ["NORTH", "WEST", "SOUTH", "EAST"] is not reducible. "NORTH" and "WEST", "WEST" and "SOUTH", "SOUTH" and "EAST" are not directly opposite of each other and can't become such. Hence the result path is itself : ["NORTH", "WEST", "SOUTH", "EAST"].
+- Not all paths can be made simpler. The path ["NORTH", "WEST", "SOUTH", "EAST"] is not reducible. "NORTH" and "WEST", "WEST" and "SOUTH", "SOUTH" and "EAST" are not directly opposite of each other and can't become such. Hence the result path is itself : ["NORTH", "WEST", "SOUTH", "EAST"].
 
 #
 
