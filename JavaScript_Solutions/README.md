@@ -928,43 +928,35 @@ Input: => ["NORTH", "EAST", "WEST", "SOUTH", "WEST", "WEST"], Output: => ["WEST"
 
 My solution -> *[036SquareNSum](036SquareNSum.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 Complete the square sum function so that it squares each number passed into it and then sums the results together.
 
-<br />
-
 **_Examples_**
 
+```
 Input: [1, 2, 2] => Output: 9
+```
 
 #
 
 <br />
 
-# Challenge 037 Delete occurrences of an element if it occurs more than n times
+# Challenge 037 Delete Occurrences Of An Element If It Occurs More Than N Times
 
 My solution -> *[037DeleteOccurrencesOfAnElementIfItOccursMoreThanNtimes](037DeleteOccurrencesOfAnElementIfItOccursMoreThanNtimes.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 Given a list and a number, create a new list that contains each number of list at most N times, without reordering.
 
-<br />
-
 **_Examples_**
 
-Input list is [1,2,3,1,2,1,2,3] and the input number is 2 => result is [1,2,3,1,2,3];
+```
+Input: [1,2,3,1,2,1,2,3], 2 => Output: [1,2,3,1,2,3]
 
-Input list is [20,37,20,21] and the input number is 1 => result is [20,37,21];
+Input: [20,37,20,21], 1 => Output: [20,37,21]
+```
 
 #
 
