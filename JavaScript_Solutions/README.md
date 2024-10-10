@@ -962,34 +962,31 @@ Input: [20,37,20,21], 1 => Output: [20,37,21]
 
 <br />
 
-# Challenge 038 Playing with digits
+# Challenge 038 Playing With Digits
 
 My solution -> *[038PlayingWithDigits](038PlayingWithDigits.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 Some numbers have funny properties. For example:
 
-    89 --> 8¹ + 9² = 89 * 1
-    695 --> 6² + 9³ + 5⁴= 1390 = 695 * 2
-    46288 --> 4³ + 6⁴+ 2⁵ + 8⁶ + 8⁷ = 2360688 = 46288 * 51
+```
+89 --> 8¹ + 9² = 89 * 1
+695 --> 6² + 9³ + 5⁴= 1390 = 695 * 2
+46288 --> 4³ + 6⁴+ 2⁵ + 8⁶ + 8⁷ = 2360688 = 46288 * 51
+```
 
-Given two positive integers n and p, we want to find a positive integer k, if it exists, such that the sum of the digits of n raised to consecutive powers starting from p is equal to k * n.
+Given two positive integers ```n``` and ```p```, we want to find a positive integer ```k```, if it exists, such that the sum of the digits of ```n``` raised to consecutive powers starting from ```p``` is equal to ```k * n```.
 
-In other words, writing the consecutive digits of n as a, b, c, d ..., is there an integer k such that:
+In other words, writing the consecutive digits of ```n``` as ```a, b, c, d ...```, is there an integer ```k``` such that:
 
 <em>(a<sup>p</sup> + b<sup>p+1</sup> + c<sup>p+2</sup> + d<sup>p+3</sup> + ...) = n ∗ k</em>
 
 If it is the case we will return k, if not return -1.
 
-<br />
-
 **_Examples_**
 
+```
 Input: n = 89; p = 1 => Output: 1
 
 Input: n = 92; p = 1 => Output: -1
@@ -997,12 +994,11 @@ Input: n = 92; p = 1 => Output: -1
 Input: n = 695; p = 2 => Output: 2
 
 Input: n = 46288; p = 3 => Output: 51
-
-<br />
+```
 
 **_NOTES:_**
 
-n and p will always be strictly positive integers.
+- ```n``` and ```p``` will always be strictly positive integers.
 
 #
 
@@ -1012,20 +1008,15 @@ n and p will always be strictly positive integers.
 
 My solution -> *[039CountingDuplicates](039CountingDuplicates.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 Count the number of Duplicates
 
 Write a function that will return the count of distinct case-insensitive alphabetic characters and numeric digits that occur more than once in the input string. The input string can be assumed to contain only alphabets (both uppercase and lowercase) and numeric digits.
 
-<br />
-
 **_Examples_**
 
+```
 Input: "abcde" => Output: 0
 
 Input: "aabbcde" => Output: 2
@@ -1039,6 +1030,7 @@ Input: "Indivisibilities" => Output: 2
 Input: "aA11" => Output: 2
 
 Input: "ABBA" => Output: 2
+```
 
 #
 
