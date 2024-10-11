@@ -1036,53 +1036,47 @@ Input: "ABBA" => Output: 2
 
 <br />
 
-# Challenge 040 Count by X
+# Challenge 040 Count By X
 
 My solution -> *[040CountByX](040CountByX.js)*
-
-<br />
 
 ## **_Task condition:_**
 
 <br />
 
-Create a function with two arguments that will return an array of the first n multiples of x.
+Create a function with two arguments that will return an array of the first ```n``` multiples of ```x```.
 
 Assume both the given number and the number of times to count will be positive numbers greater than 0.
 
 Return the results as an array.
 
-<br />
-
 **_Examples_**
 
-countBy(1,10) === [1,2,3,4,5,6,7,8,9,10]
+```
+Input: 1, 10 => Output: [1,2,3,4,5,6,7,8,9,10]
 
-countBy(2,5) === [2,4,6,8,10]
+Input: 2, 5 => Output: [2,4,6,8,10]
+```
 
 #
 
 <br />
 
-# Challenge 041 Reverse words
+# Challenge 041 Reverse Words
 
 My solution -> *[041ReverseWords](041ReverseWords.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 Complete the function that accepts a string parameter, and reverses each word in the string. All spaces in the string should be retained.
 
-<br />
-
 **_Examples_**
 
+```
 Input: "This is an example!" => Output: "sihT si na !elpmaxe"
 
-Input: "double &nbsp; &nbsp; spaces" => Output: "elbuod &nbsp; &nbsp; secaps"
+Input: "double  spaces" => Output: "elbuod  secaps"
+```
 
 #
 
