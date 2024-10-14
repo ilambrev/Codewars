@@ -1098,7 +1098,7 @@ Input: "scissors", "paper" => Output: "Player 1 won!"
 Input: "scissors", "rock" => Output: "Player 2 won!"
 
 Input: "paper", "paper" => Output: "Draw!"
-````
+```
 
 #
 
@@ -1154,20 +1154,15 @@ Input: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15] => Output: [10, 
 
 My solution -> *[045SumOfIntervals](045SumOfIntervals.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 Write a function called sumIntervals that accepts an array of intervals, and returns the sum of all the interval lengths. Overlapping intervals should only be counted once.
 
 Intervals are represented by a pair of integers in the form of an array. The first value of the interval will always be less than the second value. Interval example: [1, 5] is an interval from 1 to 5. The length of this interval is 4.
 
-<br />
-
 **_Examples_**
 
+```
 Input: [[1, 4], [7, 10], [3, 5]] => Output: 7
 
 Input: [[1, 2], [6, 10], [11, 15]] => Output: 9
@@ -1177,36 +1172,31 @@ Input: [[1, 4], [7, 10], [3, 5]] => Output: 7
 Input: [[1, 5], [10, 20], [1, 6], [16, 19], [5, 11]] => Output: 19
 
 Input: [[0, 20], [-100000000, 10], [30, 40]] => Output: 100000030
+```
 
 #
 
 <br />
 
-# Challenge 046 Sum of Intervals
+# Challenge 046 Sum Of Intervals
 
 My solution -> *[046SquareEveryDigit](046SquareEveryDigit.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 Square every digit of a number and concatenate them.
 
-<br />
-
 **_Examples_**
 
+```
 Input: 9119 => Output: 811181
 
 Input: 765 => Output: 493625
-
-<br />
+```
 
 **_NOTES:_**
 
-The function accepts an integer and returns an integer.
+- The function accepts an integer and returns an integer.
 
 #
 
@@ -1216,51 +1206,43 @@ The function accepts an integer and returns an integer.
 
 My solution -> *[047PersistentBugger](047PersistentBugger.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 Write a function **_persistence_** that takes in a positive parameter **_num_** and returns its multiplicative persistence, which is the number of times you must multiply the digits in **_num_** until you reach a single digit.
 
-<br />
-
 **_Examples_**
 
+```
 Input: 39 => Output: 3
 
 Input: 999 => Output: 4
 
 Input: 4 => Output: 0
+```
 
 #
 
 <br />
 
-# Challenge 048 Regex validate PIN code
+# Challenge 048 Regex Validate PIN Code
 
 My solution -> *[048RegexValidatePINCode](048RegexValidatePINCode.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 ATM machines allow 4 or 6 digit PIN codes and PIN codes cannot contain anything but exactly 4 digits or exactly 6 digits.
 
 If the function is passed a valid PIN string, return **_true_**, else return **_false_**.
 
-<br />
-
 **_Examples_**
 
+```
 Input: '1234' => Output: true
 
 Input: '12345' => Output: false
 
 Input: 'a234' => Output: false
+```
 
 #
 
@@ -1270,11 +1252,7 @@ Input: 'a234' => Output: false
 
 My solution -> *[049GenerateChatRoomNames](049GenerateChatRoomNames.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 You are writing a chat room app for your company.
 
@@ -1300,10 +1278,9 @@ John Simms -> John Simms
 
 To help tidy up the output, management have also asked that the chat room list should be alphabetised, by the users screen names and should all be in Title Case. 
 
-<br />
-
 **_Examples_**
 
+```
 Input: ['Joe Bloggs', 'John Smith'] => Output: ['Joe', 'John']
 
 Input: ['Joe Bloggs', 'John Smith', 'Jane Doe'] => Output: ['Jane', 'Joe', 'John']
@@ -1311,16 +1288,17 @@ Input: ['Joe Bloggs', 'John Smith', 'Jane Doe'] => Output: ['Jane', 'Joe', 'John
 Input: ['Joe Bloggs', 'John Smith', 'Jane Doe', 'Jane Bloggs'] => Output: ['Jane B', 'Jane D', 'Joe', 'John']
 
 Input: ['Joe Bloggs', 'John Smith', 'Jane Doe', 'Jane Bloggs', 'John Scott'] => Output: ['Jane B', 'Jane D', 'Joe', 'John Scott', 'John Smith']
+```
 
 <br />
 
 **_NOTES:_**
 
-It can be assumed that names are in the format of a first name and a last name consisting solely of letters from the English alphabet, both uppercase (A-Z) and lowercase (a-z), separated by a single space and if no names are provided, we should return an empty array.
+- It can be assumed that names are in the format of a first name and a last name consisting solely of letters from the English alphabet, both uppercase (A-Z) and lowercase (a-z), separated by a single space and if no names are provided, we should return an empty array.
 
-Casing is not important, meaning JOHn SmiTh is equal to john smith, after we've tidied up the casings, these should be interpreted as the same name.
+- Casing is not important, meaning JOHn SmiTh is equal to john smith, after we've tidied up the casings, these should be interpreted as the same name.
 
-You don't have to worry about multiple instances of the same full name.
+- You don't have to worry about multiple instances of the same full name.
 
 #
 
