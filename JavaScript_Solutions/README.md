@@ -1308,21 +1308,17 @@ Input: ['Joe Bloggs', 'John Smith', 'Jane Doe', 'Jane Bloggs', 'John Scott'] => 
 
 My solution -> *[050WhichAreIn](050WhichAreIn.js)*
 
-<br />
-
 ## **_Task condition:_**
 
-<br />
-
-Given two arrays of strings **_a1_** and **_a2_** return a sorted array **_r_** in lexicographical order of the strings of **_a1_** which are substrings of strings of **_a2_**.
-
-<br />
+Given two arrays of strings ```a1``` and ```a2``` return a sorted array ```r``` in lexicographical order of the strings of ```a1``` which are substrings of strings of ```a2```.
 
 **_Examples_**
 
+```
 Input: a1 = ['arp', 'live', 'strong'], a2 = ['lively', 'alive', 'harp', 'sharp', 'armstrong'] => Output: ['arp', 'live', 'strong']
 
 Input: a1 = ['tarp', 'mice', 'bull'], a2 = ['lively', 'alive', 'harp', 'sharp', 'armstrong'] => Output: []
+```
 
 #
 
@@ -1332,11 +1328,7 @@ Input: a1 = ['tarp', 'mice', 'bull'], a2 = ['lively', 'alive', 'harp', 'sharp', 
 
 My solution -> *[051FirstNonRepeatingCharacter](051FirstNonRepeatingCharacter.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 Write a function that takes a string input, and returns the first character that is not repeated anywhere in the string.
 
@@ -1344,13 +1336,13 @@ As an added challenge, upper- and lowercase letters are considered the same char
 
 If a string contains all repeating characters, it should return an empty string ("");
 
-<br />
-
 **_Examples_**
 
+```
 Input: 'stress' => Output: t
 
 Input: 'sTreSS' => Output: T
+```
 
 #
 
