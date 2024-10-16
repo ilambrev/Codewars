@@ -1304,7 +1304,7 @@ Input: ['Joe Bloggs', 'John Smith', 'Jane Doe', 'Jane Bloggs', 'John Scott'] => 
 
 <br />
 
-# Challenge 050 Which are in?
+# Challenge 050 Which Are In?
 
 My solution -> *[050WhichAreIn](050WhichAreIn.js)*
 
@@ -1324,7 +1324,7 @@ Input: a1 = ['tarp', 'mice', 'bull'], a2 = ['lively', 'alive', 'harp', 'sharp', 
 
 <br />
 
-# Challenge 051 First non-repeating character
+# Challenge 051 First Non-Repeating Character
 
 My solution -> *[051FirstNonRepeatingCharacter](051FirstNonRepeatingCharacter.js)*
 
@@ -1348,7 +1348,7 @@ Input: 'sTreSS' => Output: T
 
 <br />
 
-# Challenge 052 Find the unique string
+# Challenge 052 Find The Unique String
 
 My solution -> *[052FindTheUniqueString](052FindTheUniqueString.js)*
 
