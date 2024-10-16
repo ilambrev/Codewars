@@ -1352,29 +1352,23 @@ Input: 'sTreSS' => Output: T
 
 My solution -> *[052FindTheUniqueString](052FindTheUniqueString.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 There is an array of strings. All strings contains similar letters except one. Try to find it!
 
-<br />
-
 **_Examples_**
 
+```
 Input: ['Aa', 'aaa', 'aaaaa', 'BbBb', 'Aaaa', 'AaAaAa', 'a'] => Output: 'BbBb'
 
 Input: ['abc', 'acb', 'bac', 'foo', 'bca', 'cab', 'cba'] => Output: 'foo'
-
-<br />
+```
 
 **_NOTES:_**
 
-Strings may contain spaces. Spaces are not significant, only non-spaces symbols matters. E.g. string that contains only spaces is like empty string.
+- Strings may contain spaces. Spaces are not significant, only non-spaces symbols matters. E.g. string that contains only spaces is like empty string.
 
-It’s guaranteed that array contains more than 2 strings.
+- It’s guaranteed that array contains more than 2 strings.
 
 #
 
@@ -1384,11 +1378,7 @@ It’s guaranteed that array contains more than 2 strings.
 
 My solution -> *[053TheHashtagGenerator](053TheHashtagGenerator.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 Write a function that generates hashtag from given string.
 
@@ -1400,16 +1390,15 @@ Write a function that generates hashtag from given string.
 
 - If the input or the result is an empty string it must return false.
 
-
-<br />
-
 **_Examples_**
 
-Input: '&nbsp;Hello there thanks for trying my Kata' => Output: '#HelloThereThanksForTryingMyKata'
+```
+Input: ' Hello there thanks for trying my Kata' => Output: '#HelloThereThanksForTryingMyKata'
 
-Input: '&nbsp;&nbsp;&nbsp;&nbsp;Hello&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;World&nbsp;&nbsp;&nbsp;' => Output: '#HelloWorld'
+Input: '    Hello     World   ' => Output: '#HelloWorld'
 
 Input: '' => Output: false
+```
 
 #
 
@@ -1419,20 +1408,15 @@ Input: '' => Output: false
 
 My solution -> *[054MovingZerosToTheEnd](054MovingZerosToTheEnd.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 Write an algorithm that takes an array and moves all of the zeros to the end, preserving the order of the other elements.
 
-
-<br />
-
 **_Examples_**
 
-Input: [false,1,0,1,2,0,1,3,"a"] => Output: [false,1,1,2,1,3,"a",0,0]
+```
+Input: [false, 1, 0, 1, 2, 0, 1, 3, "a"] => Output: [false, 1, 1, 2, 1, 3, "a", 0, 0]
+```
 
 #
 
