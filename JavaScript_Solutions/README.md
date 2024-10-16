@@ -1150,7 +1150,7 @@ Input: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15] => Output: [10, 
 
 <br />
 
-# Challenge 045 Sum of Intervals
+# Challenge 045 Sum Of Intervals
 
 My solution -> *[045SumOfIntervals](045SumOfIntervals.js)*
 
@@ -1178,7 +1178,7 @@ Input: [[0, 20], [-100000000, 10], [30, 40]] => Output: 100000030
 
 <br />
 
-# Challenge 046 Sum Of Intervals
+# Challenge 046 Square Every Digit
 
 My solution -> *[046SquareEveryDigit](046SquareEveryDigit.js)*
 
