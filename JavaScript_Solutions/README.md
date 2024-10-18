@@ -1426,27 +1426,21 @@ Input: [false, 1, 0, 1, 2, 0, 1, 3, "a"] => Output: [false, 1, 1, 2, 1, 3, "a", 
 
 My solution -> *[055TicTacToeChecker](055TicTacToeChecker.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 Create a function that will check Tic-Tac-Toe game current state.
 
-Assume that the board comes in the form of a 3x3 array, where the value is **_0_** if a spot is empty, **_1_** if it is an **_"X"_**, or **_2_** if it is an **_"O"_**.
+Assume that the board comes in the form of a 3x3 array, where the value is ```0``` if a spot is empty, ```1``` if it is an ```"X"```, or ```2``` if it is an ```"O"```.
 
 We want our function to return:
 
-- **_-1_** if the board is not yet finished AND no one has won yet (there are empty spots),
+- ```-1``` if the board is not yet finished AND no one has won yet (there are empty spots),
 
-- **_1_** if **_"X"_** won,
+- ```1``` if **_"X"_** won,
 
-- **_2_** if **_"O"_** won,
+- ```2``` if **_"O"_** won,
 
-- **_0_** if it's a cat's game (i.e. a draw).
-
-<br />
+- ```0``` if it's a cat's game (i.e. a draw).
 
 **_Examples_**
 
@@ -1457,15 +1451,13 @@ Input:
     [0, 1, 2],
     [2, 1, 0]
 ]
-```
 
 Output: -1
-
-<br />
+```
 
 **_NOTES:_**
 
-You may assume that the board passed in is valid in the context of a game of Tic-Tac-Toe.
+- You may assume that the board passed in is valid in the context of a game of Tic-Tac-Toe.
 
 #
 
@@ -1475,52 +1467,40 @@ You may assume that the board passed in is valid in the context of a game of Tic
 
 My solution -> *[056VowelCount](056VowelCount.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 Return the number (count) of vowels in the given string.
 
 We will consider **_a_**, **_e_**, **_i_**, **_o_**, **_u_** as vowels for this Kata (but not **_y_**).
 
-<br />
-
 **_Examples_**
 
+```
 Input: 'abracadabra' => Output: 5
-
-<br />
+```
 
 **_NOTES:_**
 
-The input string will only consist of lower case letters and/or spaces.
+- The input string will only consist of lower case letters and/or spaces.
 
 #
 
 <br />
 
-# Challenge 057 String incrementer
+# Challenge 057 String Incrementer
 
 My solution -> *[057StringIncrementer](057StringIncrementer.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 Write a function which increments a string, to create a new string.
 
 - If the string already ends with a number, the number should be incremented by 1.
 - If the string does not end with a number. the number 1 should be appended to the new string.
 
-
-<br />
-
 **_Examples_**
 
+```
 Input: 'foo' => Output: 'foo1'
 
 Input: 'foobar23' => Output: 'foobar24'
@@ -1530,12 +1510,11 @@ Input: 'foo0042' => Output: 'foo0043'
 Input: 'foo9' => Output: 'foo10'
 
 Input: 'foo099' => Output: 'foo100'
-
-<br />
+```
 
 **_NOTES:_**
 
-If the number has leading zeros the amount of digits should be considered.
+- If the number has leading zeros the amount of digits should be considered.
 
 #
 
