@@ -1520,56 +1520,45 @@ Input: 'foo099' => Output: 'foo100'
 
 <br />
 
-# Challenge 058 Play with two Strings
+# Challenge 058 Play With Two Strings
 
 My solution -> *[058PlayWithTwoStrings](058PlayWithTwoStrings.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 Your task is to Combine two Strings - Input Strings **_a_** and **_b_**: For every character in string **_a_** swap the casing of every occurrence of the same character in string **_b_**. Then do the same casing swap with the inputs reversed. Return a single string consisting of the changed version of **_a_** followed by the changed version of **_b_**. A char of **_a_** is in **_b_** regardless if it's in upper or lower case - see the testcases too.
 
-<br />
-
 **_Examples_**
 
+```
 Input: 'abc' and 'cde' => Output: 'abCCde'
 
 Input: 'ab' and 'aba' => Output: 'aBABA'
 
 Input: 'abab' and 'bababa' => Output: 'ABABbababa'
-
-<br />
+```
 
 **_NOTES:_**
 
-You don't have to check errors or incorrect input values, everything is ok without bad tricks, only two input strings and as result one output string;
+- You don't have to check errors or incorrect input values, everything is ok without bad tricks, only two input strings and as result one output string;
 
 #
 
 <br />
 
-# Challenge 059 Luck check
+# Challenge 059 Luck Check
 
 My solution -> *[059LuckCheck](059LuckCheck.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 Ticket was believed to posess luck if sum of digits on the left half of its number was equal to the sum of digits on the right half.
 
 Your task is to write a funtion, which returns **_true_** if argument is string decimal representation of a lucky ticket number, or **_false_** for all other numbers. It should throw errors for empty strings or strings which don't represent a decimal number.
 
-<br />
-
 **_Examples_**
 
+```
 Input: '003111' => Output: true
 
 Input: '813372' => Output: true
@@ -1577,12 +1566,11 @@ Input: '813372' => Output: true
 Input: '17935' => Output: true
 
 Input: '56328116' => Output: true
-
-<br />
+```
 
 **_NOTES:_**
 
-If the length of string is odd, you should ignore the middle number when adding the halves.
+- If the length of string is odd, you should ignore the middle number when adding the halves.
 
 #
 
@@ -1592,11 +1580,7 @@ If the length of string is odd, you should ignore the middle number when adding 
 
 My solution -> *[060BowlingPins](060BowlingPins.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 You have to throw a bowl into 10 Pins arranged like this:
 
@@ -1618,28 +1602,24 @@ Each Pin has a Number:
 
 You will get an array of integers between 1 and 10.
 
-<br />
-
 **_Examples_**
 
+```
 Input: [3, 5, 9]
 
 Output: Return a string with the current field.
 
-```
 I I   I
  I   I
   I   
    I  
 ```
 
-<br />
-
 **_NOTES:_**
 
-- The pins rows are separated by a newline (\n)
+- The pins rows are separated by a newline ```(\n)```
 - Each Line must be 7 chars long
-- Fill the missing pins with a space character ( )
+- Fill the missing pins with a space character ```( )```
 
 #
 
