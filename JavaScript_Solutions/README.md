@@ -1651,15 +1651,11 @@ Input: [1,2,3,4,5], 3 => Output: [5,7,3]
 
 <br />
 
-# Challenge 062 Sorting by bits
+# Challenge 062 Sorting By Bits
 
 My solution -> *[062SortingByBits](062SortingByBits.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 You're expected to sort an array of 32-bit integers in ascending order of the number of on bits they have.
 
@@ -1669,19 +1665,17 @@ E.g between 10 (...1010) and 12 (...1100), they both have the same number of on 
 
 Your task is to write a function that takes an array of integers and sort them as described above.
 
-<br />
-
 **_Examples_**
 
+```
 Input: [7, 6, 15, 8] => Output: [8, 6, 7, 15]
 
 Input: [3, 8, 3, 6, 5, 7, 9, 1] => Output: [1, 8, 3, 3, 5, 6, 9, 7]
-
-<br />
+```
 
 **_NOTES:_**
 
-Your solution has to sort the array in place.
+- Your solution has to sort the array in place.
 
 #
 
@@ -1691,29 +1685,23 @@ Your solution has to sort the array in place.
 
 My solution -> *[063TwoSum](063TwoSum.js)*
 
-<br />
-
 ## **_Task condition:_**
 
-<br />
-
-Write a function that takes an array of numbers (integers for the tests) and a target number. It should find two different items in the array that, when added together, give the target value. The indices of these items should then be returned in a tuple like so: [index1, index2].
+Write a function that takes an array of numbers (integers for the tests) and a target number. It should find two different items in the array that, when added together, give the target value. The indices of these items should then be returned in a tuple like so: ```[index1, index2]```.
 
 For the purposes of this kata, some tests may have multiple answers; any valid solutions will be accepted.
 
-<br />
-
 **_Examples_**
 
+```
 Input: [1, 2, 3], 4 => Output: [0, 2] or [2, 0]
 
 Input: [3, 2, 4], 6 => Output: [1, 2] or [2, 1]
-
-<br />
+```
 
 **_NOTES:_**
 
-The input will always be valid (numbers will be an array of length 2 or greater, and all of the items will be numbers; target will always be the sum of two different items from that array).
+- The input will always be valid (numbers will be an array of length 2 or greater, and all of the items will be numbers; target will always be the sum of two different items from that array).
 
 #
 
