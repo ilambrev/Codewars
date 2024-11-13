@@ -3677,3 +3677,33 @@ console.log(answer);
 #
 
 <br />
+
+# Challenge 111 Not Very Secure
+
+My solution -> *[111NotVerySecure](111NotVerySecure.js)*
+
+## **_Task condition:_**
+
+In this task you have to validate if a user input string is alphanumeric. The given string is not ```null```, so you don't have to check that.
+
+The string has the following conditions to be alphanumeric:
+
+- At least one character (```""``` is not valid)
+- Allowed characters are uppercase / lowercase latin letters and digits from ```0``` to ```9```
+- No whitespaces / underscore
+
+### **_Examples_**
+
+```
+Input: 'Mazinkaiser' => Output: true
+
+Input: 'hello world_' => Output: false
+
+Input: 'PassW0rd' => Output: true
+
+Input: '     ' => Output: false
+```
+
+#
+
+<br />
