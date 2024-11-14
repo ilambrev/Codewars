@@ -1707,15 +1707,11 @@ Input: [3, 2, 4], 6 => Output: [1, 2] or [2, 1]
 
 <br />
 
-# Challenge 064 Simple card game
+# Challenge 064 Simple Card Game
 
 My solution -> *[064SimpleCardGame](064SimpleCardGame.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 Write a function called winner, representing simple card game. Steve and Josh are the two players. Figure out who is going to win.
 
@@ -1737,49 +1733,39 @@ Figure out who is going to win and return who wins and with what score:
     "Tie" if the score is tied at the end of the game.
 ```
 
-<br />
-
 **_Examples_**
 
 ```
 Input: deckSteve = ['A','7','8'], deckJosh = ['K','5','9'] => Output: "Steve wins 2 to 1"
 ```
 
-<br />
-
 **_NOTES:_**
 
-Every card may appear in the deck more than once.
+- Every card may appear in the deck more than once.
 
 #
 
 <br />
 
-# Challenge 065 How much hex is the fish
+# Challenge 065 How Much Hex Is The Fish
 
 My solution -> *[065HowMuchHexIsTheFish](065HowMuchHexIsTheFish.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 The ocean is full of colorful fishes. We as programmers want to know the hexadecimal value of these fishes.
 
-Take all hexadecimal valid characters (a,b,c,d,e,f) of the given name and XOR them. Return the result as an integer.
-
-<br />
+Take all hexadecimal valid characters (```a,b,c,d,e,f```) of the given name and ```XOR``` them. Return the result as an integer.
 
 **_Examples_**
 
+```
 Input: 'redlionfish' => Output: 12
-
-<br />
+```
 
 **_NOTES:_**
 
-The input is always a string, which can contain spaces, upper and lower case letters but no digits. 
+- The input is always a string, which can contain spaces, upper and lower case letters but no digits. 
 
 #
 
