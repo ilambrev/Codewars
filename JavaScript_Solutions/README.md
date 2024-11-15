@@ -1771,41 +1771,34 @@ Input: 'redlionfish' => Output: 12
 
 <br />
 
-# Challenge 066 Cat and Mouse - Harder Version
+# Challenge 066 Cat Аnd Mouse - Harder Version
 
 My solution -> *[066CatAndMouseHarderVersion.js](066CatAndMouseHarderVersion.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 You will be given a string **_(x)_** featuring a cat **_'C'_**, a dog **_'D'_** and a mouse **_'m'_**. The rest of the string will be made up of **_'.'_**.
 
 You need to find out if the cat can catch the mouse from its current position. The cat can jump at most **_(j)_** characters, and cannot jump over the dog.
 
 - If there are not more than **_j_** characters between the cat and the mouse, so cat can jump far enough and jump is not over dog, return **_'Caught!'_**
-
 - If there are more than **_j_** characters between the two, the cat cannot jump far enough, return **_'Escaped!'_**
-
 - If cat can jump far enough, but dog is in the way, protecting the mouse, return **_'Protected!'_**
-
 - If not all three animals are present, return **_'boring without all three'_**
-
-<br />
 
 **_Examples_**
 
-Input: '..C.....m...D', 5 => Output: 'Caught!'
+```
+Input: '..C.....m...D', 5               => Output: 'Caught!'
 
-Input: '.....C............m......D', 5 => Output: 'Escaped!'
+Input: '.....C............m......D', 5  => Output: 'Escaped!'
 
-Input: '...m.........C...D', 10 => Output: 'Caught!'
+Input: '...m.........C...D', 10         => Output: 'Caught!'
 
-Input: '...m....D....C.......', 10 => Output: 'Protected!'
+Input: '...m....D....C.......', 10      => Output: 'Protected!'
 
-Input: '...m.........C....', 10 => 'boring without all three'
+Input: '...m.........C....', 10         => 'boring without all three'
+```
 
 #
 
