@@ -1804,15 +1804,11 @@ Input: '...m.........C....', 10         => 'boring without all three'
 
 <br />
 
-# Challenge 067 New Cashier Does Not Know About Space or Shift
+# Challenge 067 New Cashier Does Not Know About Space Or Shift
 
 My solution -> *[067NewCashierDoesNotKnowAboutSpaceOrShift](067NewCashierDoesNotKnowAboutSpaceOrShift.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 Some new cashiers started to work at your restaurant.
 
@@ -1847,13 +1843,15 @@ The menu items are fairly simple, there is no overlap in the names of the items:
 8. Coke
 ```
 
-<br />
-
 **_Examples_**
 
-Input: 'milkshakepizzachickenfriescokeburgerpizzasandwichmilkshakepizza' => Output: 'Burger Fries Chicken Pizza Pizza Pizza Sandwich Milkshake Milkshake Coke'
+```
+Input: 'milkshakepizzachickenfriescokeburgerpizzasandwichmilkshakepizza'
+Output: 'Burger Fries Chicken Pizza Pizza Pizza Sandwich Milkshake Milkshake Coke'
 
-Input: 'pizzachickenfriesburgercokemilkshakefriessandwich' => Output: 'Burger Fries Fries Chicken Pizza Sandwich Milkshake Coke'
+Input: 'pizzachickenfriesburgercokemilkshakefriessandwich'
+Output: 'Burger Fries Fries Chicken Pizza Sandwich Milkshake Coke'
+```
 
 #
 
@@ -1863,57 +1861,47 @@ Input: 'pizzachickenfriesburgercokemilkshakefriessandwich' => Output: 'Burger Fr
 
 My solution -> *[0068MergedStringChecker.js](068MergedStringChecker.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 Write an algorithm to check if a given string, **_s_**, can be formed from two other strings, **_part1_** and **_part2_**.
 
 The restriction is that the characters in **_part1_** and **_part2_** should be in the same order as in **_s_**.
 
-<br />
-
 **_Examples_**
 
-Input: 'codewars', 'cdw', 'oears' => Output: true
+```
+Input: 'codewars', 'cdw', 'oears'               => Output: true
 
-Input: 'xcyc', 'xc', 'yc' => Output: true
+Input: 'xcyc', 'xc', 'yc'                       => Output: true
 
-Input: 'xcyc', 'yc', 'xc' => Output: true
+Input: 'xcyc', 'yc', 'xc'                       => Output: true
 
-Input: 'xcyc', 'xc', 'cy' => Output: true
+Input: 'xcyc', 'xc', 'cy'                       => Output: true
 
-Input: 'xcyc', 'cy', 'xc' => Output: true
+Input: 'xcyc', 'cy', 'xc'                       => Output: true
 
-Input: 'codewars', 'code', 'wars' => Output: true
+Input: 'codewars', 'code', 'wars'               => Output: true
 
-Input: 'codewars', 'cdwr', 'oeas' => Output: true
+Input: 'codewars', 'cdwr', 'oeas'               => Output: true
 
 Input: 'Making progress', 'Mak pross', 'inggre' => Output: true
 
-Input: 'codewars', 'code', 'code' => Output: false
+Input: 'codewars', 'code', 'code'               => Output: false
 
-Input: 'More progress', 'More ess', 'pro' => Output: false
+Input: 'More progress', 'More ess', 'pro'       => Output: false
+```
 
 #
 
 <br />
 
-# Challenge 069 Convert PascalCase string into snake_case
+# Challenge 069 Convert PascalCase String Into snake_case
 
 My solution -> *[069ConvertPascalCaseStringIntoSnakeCase](069ConvertPascalCaseStringIntoSnakeCase.js)*
 
-<br />
-
 ## **_Task condition:_**
 
-<br />
-
 Complete the function so that it takes a **_PascalCase_** string and returns the string in **_snake_case_** notation. Lowercase characters can be numbers. If the function gets a number as input, it should return a string.
-
-<br />
 
 **_Examples_**
 
