@@ -1919,23 +1919,17 @@ Input: 1                => Output: '1'
 
 <br />
 
-# Challenge 070 Sort the columns of a csv-file
+# Challenge 070 Sort The Columns Of A csv-file
 
 My solution -> *[070SortTheColumnsOfaCSVFile](070SortTheColumnsOfaCSVFile.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 You get a string with the content of a csv-file. The columns are separated by semicolons.
 
 The first line contains the names of the columns.
 
 Write a method that sorts the columns by the names of the columns alphabetically and incasesensitive. 
-
-<br />
 
 **_Examples_**
 
@@ -1964,31 +1958,24 @@ Dentzil;myjinxin2015;raulbc777;smile67;SteffenVogel_79\n
 3907;17945;10091;10088;10132\n
 48;2;12;13;11
 ```
-<br />
 
 **_NOTES:_**
 
-There is no need for prechecks. You will always get a correct string with more than 1 line und more than 1 row. All columns will have different names.
+- There is no need for prechecks. You will always get a correct string with more than 1 line und more than 1 row. All columns will have different names.
 
 #
 
 <br />
 
-# Challenge 071 Backspaces in string
+# Challenge 071 Backspaces In String
 
 My solution -> *[071BackspacesInString](071BackspacesInString.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 Assume **_"#"_** is like a backspace in string. This means that string **_"a#bc#d"_** actually is **_"bd"_**.
 
 Your task is to process a string with **_"#"_** symbols.
-
-<br />
 
 **_Examples_**
 
@@ -2010,15 +1997,9 @@ Input: ""             => Output: ""
 
 My solution -> *[072FindAdded](072FindAdded.js)*
 
-<br />
-
 ## **_Task condition:_**
 
-<br />
-
 You are given two strings (**_st1_**, **_st2_**) as inputs. Your task is to return a string containing the numbers in **_st2_** which are not in **_str1_**. Make sure the numbers are returned in ascending order. All inputs will be a string of numbers.
-
-<br />
 
 **_Examples_**
 
@@ -2038,21 +2019,15 @@ Input: '678', '6'                => Output: ''
 
 <br />
 
-# Challenge 073 Who likes it?
+# Challenge 073 Who Likes It?
 
 My solution -> *[073WhoLikesIt](073WhoLikesIt.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 Through "like" system from Facebook and other pages пeople can "like" blog posts, pictures or other items. The goal is to create the text that should be displayed next to such an item.
 
 Implement the function which takes an array containing the names of people that like an item. It must return the display text as shown in the examples:
-
-<br />
 
 **_Examples_**
 
@@ -2072,7 +2047,7 @@ Input: ["Alex", "Jacob", "Mark", "Max"]  => Output: "Alex, Jacob and 2 others li
 
 **_NOTES:_**
 
-For 4 or more names, the number in **_"and 2 others"_** simply increases.
+- For 4 or more names, the number in **_"and 2 others"_** simply increases.
 
 #
 
@@ -2082,15 +2057,9 @@ For 4 or more names, the number in **_"and 2 others"_** simply increases.
 
 My solution -> *[074CamelCaseMethod](074CamelCaseMethod.js)*
 
-<br />
-
 ## **_Task condition:_**
 
-<br />
-
 Write a function that converts a string to camelCase, that is, all words must have their first letter capitalized and spaces must be removed.
-
-<br />
 
 **_Examples_**
 
@@ -2104,15 +2073,11 @@ Input: "camel case word" => Output: "CamelCaseWord"
 
 <br />
 
-# Challenge 075 Reverse or rotate?
+# Challenge 075 Reverse Or Rotate?
 
 My solution -> *[075ReverseOrRotate](075ReverseOrRotate.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 The input is a string **_str_** of digits. Cut the string into chunks (a chunk here is a substring of the initial string) of size **_sz_** (ignore the last chunk if its size is less than **_sz_**).
 
@@ -2121,8 +2086,6 @@ If the sum of a chunk's digits is divisible by 2, reverse that chunk; otherwise 
 If **_sz_** is <= 0 or if **_str_** == '' return ''
 
 If **_sz_** is greater (>) than the length of **_str_** it is impossible to take a chunk of size **_sz_** hence return ''.
-
-<br />
 
 **_Examples_**
 
