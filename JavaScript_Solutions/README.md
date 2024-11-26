@@ -3637,3 +3637,39 @@ Input: '     ' => Output: false
 #
 
 <br />
+
+# Challenge 112 Value Of X
+
+My solution -> *[112ValueOfX](112ValueOfX.js)*
+
+## **_Task condition:_**
+
+Jack's teacher gave him a ton of equations for homework. The thing is they are all kind of same so they are boring.
+
+So help him by making a equation solving function that will return the value of ```x```.
+
+- All test cases are valid.
+- Every ```+```, ```-``` and numbers will be separated by space.
+- There will be only one ```x``` either on the left or right.
+- ```x``` can have a ```-``` mark before it.
+- Returned object will be a integer.
+
+### **_Examples_**
+
+```
+Input: 'x + 1 = 9 - 2'    => Output: 6
+
+Input: 'x - 2 + 3 = 2'    => Output: 1
+
+Input: 'x = + 2 - 5 + 9'  => Output: 6
+
+Input: '- 10 = x'         => Output: -10
+
+Input: '- x = - 1'        => Output: 1
+
+Input: 'x - 0 + 0 = 0'    => Output: 0
+```
+
+#
+
+<br />
