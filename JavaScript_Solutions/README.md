@@ -2043,8 +2043,6 @@ Input: ["Max", "John", "Mark"]           => Output: "Max, John and Mark like thi
 Input: ["Alex", "Jacob", "Mark", "Max"]  => Output: "Alex, Jacob and 2 others like this"
 ```
 
-<br />
-
 **_NOTES:_**
 
 - For 4 or more names, the number in **_"and 2 others"_** simply increases.
@@ -2117,11 +2115,7 @@ Input: '563000655734469485', 4 => Output: '0365065073456944'
 
 My solution -> *[076PrizeDraw](076PrizeDraw.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 To participate in a prize draw each one gives his/her firstname.
 
@@ -2140,8 +2134,6 @@ Function parameters:
 
 Return: the firstname of the participant whose rank is **_n_** (ranks are numbered from 1)
 
-<br />
-
 **_Examples_**
 
 ```
@@ -2151,8 +2143,6 @@ n: 4
 
 The function should return: 'PauL'
 ```
-
-<br />
 
 **_NOTES:_**
 
@@ -2166,21 +2156,15 @@ The function should return: 'PauL'
 
 <br />
 
-# Challenge 077 Srot the inner ctonnet in dsnnieedcg oredr
+# Challenge 077 Sort The Inner Content In Descending Order
 
 My solution -> *[077SortTheInnerContentInDescendingOrder](077SortTheInnerContentInDescendingOrder.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 You have to sort the inner content of every word of a string in descending order.
 
 The inner content is the content of a word without first and the last char.
-
-<br />
 
 **_Examples_**
 
@@ -2191,8 +2175,6 @@ Input: 'wait for me'                                => Output: 'wiat for me'
 
 Input: 'this kata is easy'                          => Output: 'tihs ktaa is esay'
 ```
-
-<br />
 
 **_NOTES:_**
 
@@ -2208,19 +2190,13 @@ Input: 'this kata is easy'                          => Output: 'tihs ktaa is esa
 
 My solution -> *[078LotteryTicket](078LotteryTicket.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 Given a lottery ticket, represented by an array of 2-value arrays, you must find out if you've won the jackpot.
 
 To do this, you must first count the 'mini-wins' on your ticket. Each subarray has both a string and a number within it. If the character code of any of the characters in the string matches the number, you get a mini win. Note you can only have one mini win per sub array.
 
 Once you have counted all of your mini wins, compare that number to the other input provided (win). If your total is more than or equal to (win), return 'Winner!'. Else return 'Loser!'.
-
-<br />
 
 **_Examples_**
 
@@ -2231,8 +2207,6 @@ Input: [['ABC', 65], ['HGR', 74], ['BYHT', 74]], 1 => Output: 'Winner!'
 
 Input: [['HGTYRE', 74], ['BE', 66], ['JKTY', 74]], 3 => Output: 'Loser!'
 ```
-
-<br />
 
 **_NOTES:_**
 
