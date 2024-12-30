@@ -20,11 +20,7 @@ function powerSumDigTerm(n) {
     return nums[n - 1];
 }
 
-console.log(powerSumDigTerm(1));
-console.log(powerSumDigTerm(2));
-console.log(powerSumDigTerm(3));
-console.log(powerSumDigTerm(4));
-console.log(powerSumDigTerm(5));
-console.log(powerSumDigTerm(6));
-console.log(powerSumDigTerm(7));
-console.log(powerSumDigTerm(8));
+// console.log(powerSumDigTerm(1));
+// console.log(powerSumDigTerm(2));
+// console.log(powerSumDigTerm(3));
+// console.log(powerSumDigTerm(4));
