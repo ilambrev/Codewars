@@ -3661,7 +3661,6 @@ Complete the function that
 - squares the absolute value difference between those two values
 - and returns the average of those squared absolute value difference between each member pair.
 
-
 ### **_Examples_**
 
 ```
@@ -3670,6 +3669,36 @@ Input: [1, 2, 3], [4, 5, 6]             => Output: 9    because (9 + 9 + 9) / 3
 Input: [10, 20, 10, 2], [10, 25, 5, -2] => Output: 16.5 because (0 + 25 + 25 + 16) / 4
 
 Input: [-1, 0], [0, -1]                 => Output: 1    because (1 + 1) / 2
+```
+
+#
+
+<br />
+
+# Challenge 114 Numbers That Are A Power Of Their Sum Of Digits
+
+My solution -> *[114NumbersThatAreAPowerOfTheirSumOfDigits](114NumbersThatAreAPowerOfTheirSumOfDigits.js)*
+
+## **_Task condition:_**
+
+The number 81 has a special property, a certain power of the sum of its digits is equal to 81 (nine squared). Eighty one (81), is the first number in having this property (not considering numbers of one digit). The next one, is 512. Let's see both cases with the details:
+
+*8 + 1 = 9 and 9<sup>2</sup> = 81*
+
+*512 = 5 + 1 + 2 = 8 and 8<sup>3</sup> = 512*
+
+We need to make a function that receives a number as argument n and returns the *```n-th term```* of this sequence of numbers.
+
+### **_Examples_**
+
+```
+Input: 1 => Output: 81
+
+Input: 2 => Output: 512
+
+Input: 3 => Output: 2401
+
+Input: 4 => Output: 4913
 ```
 
 #
