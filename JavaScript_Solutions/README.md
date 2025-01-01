@@ -3704,3 +3704,31 @@ Input: 4 => Output: 4913
 #
 
 <br />
+
+# Challenge 115 Sorting Poker
+
+My solution -> *[115SortingPoker](115SortingPoker.js)*
+
+## **_Task condition:_**
+
+John learns to play poker with his uncle. His uncle told him: Poker to be in accordance with the order of ```"2 3 4 5 6 7 8 9 10 J Q K A"```. The same suit should be put together. But his uncle did not tell him the order of the four suits.
+
+Give you John's cards and Uncle's cards(two string ```john``` and ```uncle```). Please reference to the order of Uncle's cards, sorting John's cards. 
+
+### **_Examples_**
+
+```
+Input:  john = '♦6♥2♠3♦5♠J♣Q♠K♣7♦2♣5♥5♥10♠A'
+        uncle = '♠2♠3♠5♥J♥Q♥K♣8♣9♣10♦4♦5♦6♦7'
+
+Output: '♠3♠J♠K♠A♥2♥5♥10♣5♣7♣Q♦2♦5♦6'
+
+Input:  john = '♦6♥2♠3♦5♠J♣Q♠K♣7♦2♣5♥5♥10♠A'
+        uncle = '♣8♣9♣10♦4♦5♦6♦7♠2♠3♠5♥J♥Q♥K'
+
+Output: '♣5♣7♣Q♦2♦5♦6♠3♠J♠K♠A♥2♥5♥10'
+```
+
+#
+
+<br />
