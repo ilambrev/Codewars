@@ -3758,3 +3758,35 @@ Output: 0
 #
 
 <br />
+
+# Challenge 117 Can Santa Save Christmas?
+
+My solution -> *[117CanSantaSaveChristmas](117CanSantaSaveChristmas.js)*
+
+## **_Task condition:_**
+
+Oh no! Santa's little elves are sick this year. He has to distribute the presents on his own.
+
+But he has only 24 hours left. Can he do it?
+
+You will get an array as input with time durations as string in the following format: ```HH:MM:SS```. Each duration represents the time taken by Santa to deliver a present. Determine whether he can do it in ```24``` hours or not. In case the time required to deliver all of the presents is exactly ```24``` hours, Santa can complete the delivery.
+
+### **_Examples_**
+
+```
+Input: ['00:30:00', '02:30:00', '00:15:00'] => Output: true
+
+Input: [] => Output: true
+
+Input: ['04:30:00', '02:00:00', '01:30:00', '16:00:00'] => Output: true
+
+Input: ['12:00:00', '12:00:00'] => Output: true
+
+Input: ['12:00:00', '12:00:01'] => Output: false
+
+Input: ['06:00:00', '12:00:00', '06:30:00'] => Output: false
+```
+
+#
+
+<br />
