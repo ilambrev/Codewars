@@ -3790,3 +3790,49 @@ Input: ['06:00:00', '12:00:00', '06:30:00'] => Output: false
 #
 
 <br />
+
+# Challenge 118 Sort Santa's Reindeer
+
+My solution -> *[118SortSantasReindeer](118SortSantasReindeer.js)*
+
+## **_Task condition:_**
+
+Now, Dasher! Now, Dancer! Now, Prancer, and Vixen! On, Comet! On, Cupid! On, Donder and Blitzen! That's the order Santa wanted his reindeer...right? What do you mean he wants them in order by their last names!?
+
+Write a function that accepts a sequence of Reindeer names, and returns a sequence with the Reindeer names sorted by their last names.
+
+### **_Examples_**
+
+```
+Input:
+[
+  'Dasher Tonoyan', 
+  'Dancer Moore', 
+  'Prancer Chua', 
+  'Vixen Hall', 
+  'Comet Karavani',        
+  'Cupid Foroutan', 
+  'Donder Jonker', 
+  'Blitzen Claus'
+]
+
+Output:
+[
+  'Prancer Chua',
+  'Blitzen Claus',
+  'Cupid Foroutan', 
+  'Vixen Hall', 
+  'Donder Jonker', 
+  'Comet Karavani',
+  'Dancer Moore', 
+  'Dasher Tonoyan',
+]
+```
+**_NOTES:_**
+
+- It's guaranteed that each string is composed of two words, separated by a single space.
+- In case of two identical last names, keep the original order.
+
+#
+
+<br />
