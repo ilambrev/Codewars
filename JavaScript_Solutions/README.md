@@ -4004,3 +4004,31 @@ timeForMilkAndCookies(new Date(3000, 11, 24)) // true
 #
 
 <br />
+
+# Challenge 123 A Gift Well Spent
+
+My solution -> *[123AGiftWellSpent](123AGiftWellSpent.js)*
+
+## **_Task condition:_**
+
+You got a gift card for your local store. It has some credit you can use to buy things, but it may be used only for up to two items, and any credit you don't use is lost. You want something for a friend and yourself. Therefore, you want to buy two items which add up the entire gift card value.
+
+You will get the value of the gift card ```c``` and a finite list of item values. You should return a pair of indices that correspond to values that add up to ```c```.
+
+The indices start at 0. The first index should always be smaller than the second index. If there are multiple solutions, return the minimum (lexicographically).
+
+### **_Examples_**
+
+```
+Input: buy(2,[1,1]) => Output: [0,1]
+
+Input: buy(3,[1,1]) => Output: null
+
+Input: buy(5,[5,2,3,4,5]) => Output: [1,2]
+
+Input: buy(5,[1,2,3,4,5]) => Output: [0,3] - the values at [1,2] also adds up to five, but [0,3] < [1,2]
+```
+
+#
+
+<br />
