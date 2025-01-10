@@ -2222,15 +2222,9 @@ Input: [['HGTYRE', 74], ['BE', 66], ['JKTY', 74]], 3 => Output: 'Loser!'
 
 My solution -> *[079WhatCenturyIsIt](079WhatCenturyIsIt.js)*
 
-<br />
-
 ## **_Task condition:_**
 
-<br />
-
 Return the century of the input year. The input will always be a 4 digit string, so there is no need for validation.
-
-<br />
 
 **_Examples_**
 
@@ -2256,17 +2250,11 @@ Input: '2000' => Output: '20th'
 
 My solution -> *[080InsideOutStrings](080InsideOutStrings.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 You are given a string of words (x), for each word within the string you need to turn the word 'inside out' - the internal letters will move out, and the external letters move toward the centre.
 
-If the word is even length, all letters will move. If the length is odd, you are expected to leave the 'middle' letter of the word where it is. 
-
-<br />
+If the word is even length, all letters will move. If the length is odd, you are expected to leave the 'middle' letter of the word where it is.
 
 **_Examples_**
 
@@ -2286,17 +2274,11 @@ Input: 'man i need a taxi up to ubud' => Output: 'man i ende a atix up to budu'
 
 My solution -> *[081StringAverage](081StringAverage.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 You are given a string of numbers between 0-9. Find the average of these numbers and return it as a floored whole number (ie: no decimal places) written out as a string.
 
 If the string is empty or includes a number greater than 9, return **_"n/a"_**.
-
-<br />
 
 **_Examples_**
 
@@ -2312,11 +2294,7 @@ Input: 'zero nine five two' => Output: 'four'
 
 My solution -> *[082BinaryToTextASCIIConversion](082BinaryToTextASCIIConversion.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 Write a function that takes in a binary string and returns the equivalent decoded text (the text is ASCII encoded).
 
@@ -2325,8 +2303,6 @@ Each 8 bits on the binary string represent 1 character on the ASCII table.
 The input string will always be a valid binary string.
 
 Characters can be in the range from "00000000" to "11111111" (inclusive).
-
-<br />
 
 **_Examples_**
 
@@ -2342,8 +2318,6 @@ Input: '001111000011101000101001' => Output: '<:)'
 Input: '' => Output: ''
 ```
 
-<br />
-
 **_NOTES:_**
 
 - In the case of an empty binary string function should return an empty string.
@@ -2356,19 +2330,13 @@ Input: '' => Output: ''
 
 My solution -> *[083RunLengthEncoding](083RunLengthEncoding.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 **_RLE_** is a very simple form of data compression. It's only suitable for runs of data.
 
 It's very effective if the same data value occurs in many consecutive data elements.
 
 Your task is to write a run-length encoding **_(RLE)_**. For a given string, return a list (or array) of pairs (or arrays) **_[ (i1, s1), (i2, s2), …, (in, sn) ]_**, such that one can reconstruct the original string by replicating the character **_sx ix_** times and concatening all those strings. Your run-length encoding should be minimal, ie. for all **_i_** the values **_si_** and **_si+1_** should differ.
-
-<br />
 
 **_Examples_**
 
@@ -2386,11 +2354,7 @@ Input: 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbb' => Output: [[34,'a'], [3,'b']]
 
 My solution -> *[084ConvertAHexStringToRGB](084ConvertAHexStringToRGB.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 When working with color values it can sometimes be useful to extract the individual red, green, and blue (RGB) component values for a color. Implement a function that meets these requirements:
 
@@ -2398,15 +2362,11 @@ When working with color values it can sometimes be useful to extract the individ
 
 - Returns a Map<String, int> with the structure **_{r: 255, g: 153, b: 51}_** where r, g, and b range from 0 through 255.
 
-<br />
-
 **_Examples_**
 
 ```
 Input: '#FF9933' => Output: {r: 255, g: 153, b: 51}
 ```
-
-<br />
 
 **_NOTES:_**
 
@@ -2420,11 +2380,7 @@ Input: '#FF9933' => Output: {r: 255, g: 153, b: 51}
 
 My solution -> *[085PokerCardsEncoderDecoder](085PokerCardsEncoderDecoder.js)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 Consider a deck of 52 cards, which are represented by a string containing their suit and face value.
 
@@ -2474,8 +2430,6 @@ spade         s            3
 11: Q      24: Q      37: Q      50: Q
 12: K      25: K      38: K      51: K
 ```
-
-<br />
 
 **_Examples_**
 
