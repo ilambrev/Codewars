@@ -4039,3 +4039,31 @@ Input: 160  => Output: ['Football', 'Teddy']
 #
 
 <br />
+
+# Challenge 125 Santa's Naughty List
+
+My solution -> *[125SantasNaughtyList](125SantasNaughtyList.js)*
+
+## **_Task condition:_**
+
+Christmas is coming, and Santa has a long list to go through, to find who deserves presents for the big day. Go through a list of children, and return a list containing every child who appeared on Santa's list. Do not add any child more than once. Output should be sorted.
+
+Comparison should be case sensitive and the returned list should contain only one copy of each name: ```"Sam"``` and ```"sam"``` are different, but ```"sAm"``` and ```"sAm"``` are not.
+
+
+### **_Examples_**
+
+```
+Input:  ['Jason', 'Jackson', 'Jordan', 'Johnny'], ['Jason', 'Jordan', 'Jennifer']
+Output: ['Jason', 'Jordan']
+
+Input:  ['jASon', 'JAsoN', 'JaSON', 'jasON'], ['JasoN', 'jASOn', 'JAsoN', 'jASon', 'JASON']
+Output: ['JAsoN', 'jASon']
+
+Input:  ['Jason', 'James', 'Johnson'], ['Jason', 'James', 'JJ']
+Output: ['James', 'Jason']
+```
+
+#
+
+<br />
