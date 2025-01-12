@@ -31,7 +31,7 @@ function distribute(gifts, socks) {
     return result.sort((g1, g2) => g1[0] - g2[0]).map(g => g[1]);
 }
 
-// console.log(distribute([1, 2, 3], [1, 2, 3])); // [3, 2, 1]
-// console.log(distribute([1, 2], [1, 2, 3])); // [2, 0, 1]
-// console.log(distribute([1, 2, 3, 4], [1, 2, 3])); // [4, 3, 1]
-// console.log(distribute([4, 5, 2, 3, 1], [5, 6, 4, 3, 1, 2])); // [2, 1, 0, 3, 5, 4]
+// console.log(distribute([1, 2, 3], [1, 2, 3]));
+// console.log(distribute([1, 2], [1, 2, 3]));
+// console.log(distribute([1, 2, 3, 4], [1, 2, 3]));
+// console.log(distribute([4, 5, 2, 3, 1], [5, 6, 4, 3, 1, 2]));
