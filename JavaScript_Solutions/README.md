@@ -4050,7 +4050,6 @@ Christmas is coming, and Santa has a long list to go through, to find who deserv
 
 Comparison should be case sensitive and the returned list should contain only one copy of each name: ```"Sam"``` and ```"sam"``` are different, but ```"sAm"``` and ```"sAm"``` are not.
 
-
 ### **_Examples_**
 
 ```
@@ -4062,6 +4061,44 @@ Output: ['JAsoN', 'jASon']
 
 Input:  ['Jason', 'James', 'Johnson'], ['Jason', 'James', 'JJ']
 Output: ['James', 'Jason']
+```
+
+#
+
+<br />
+
+# Challenge 126 Christmas Mission: Distribute Gifts #7
+
+My solution -> *[126ChristmasMissionDistributeGifts#7](126ChristmasMissionDistributeGifts#7.js)*
+
+## **_Task condition:_**
+
+Christmas is coming soon. Santa Claus is ready for the gift, he will give the gifts to the children.
+
+Santa Claus is naughty, and he always distributes gifts according to the size of the children's sock.
+
+First he chose the smallest sock and put in the largest gift. Then he chose the largest sock and put in the smallest gift. And so on.. Until no gifts, or every child got a gift.
+
+Can you calculate the final distribution?
+
+#### **Inputs**
+
+- ```gifts```: An integer array that represents the volume of each gift.
+
+- ```socks```: An integer array that represents the volume of each child's sock. It is guaranteed that there is no duplicate number.
+
+#### **Output**
+
+- An integer array that represents each child's gift. According to the order of ```socks```.
+
+### **_Examples_**
+
+```
+Input: gifts = [1,2,3]    socks = [1,2,3] => Output: [3,2,1]
+
+Input: gifts = [1,2]      socks = [1,2,3] => Output: [2,0,1]
+
+Input: gifts = [1,2,3,4]  socks = [1,2,3] => Output: [4,3,1]
 ```
 
 #
