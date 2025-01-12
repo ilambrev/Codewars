@@ -4069,7 +4069,7 @@ Output: ['James', 'Jason']
 
 # Challenge 126 Christmas Mission: Distribute Gifts #7
 
-My solution -> *[126ChristmasMissionDistributeGifts#7](126ChristmasMissionDistributeGifts#7.js)*
+My solution -> *[126ChristmasMissionDistributeGiftsN7](126ChristmasMissionDistributeGiftsN7.js)*
 
 ## **_Task condition:_**
 
