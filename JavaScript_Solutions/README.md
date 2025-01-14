@@ -4148,6 +4148,7 @@ Input:
 	'John buys 1 banana.',
 	'Alice buys 5 oranges.'
 ]
+
 Output: 
 [
   [ 'Alice', '$6', '2 apples, 5 oranges' ],
@@ -4184,6 +4185,27 @@ Output:
 - Inputs guarantee that the same customer will not perform multiple purchases for the same product.
 - Just use ```-s``` as plural suffix.
 
+#
+
+<br />
+
+# Challenge 128 List Filtering
+
+My solution -> *[128ListFiltering](128ListFiltering.js)*
+
+## **_Task condition:_**
+
+You have to create a function that takes a list of non-negative integers and strings and returns a new list with the strings filtered out.
+
+### **_Examples_**
+
+```
+Input: [1, 2, 'a', 'b'] => Output: [1, 2]
+
+Input: [1, 'a', 'b', 0, 15] => Output: [1, 0, 15]
+
+Input: [1, 2, 'aasf', '1', '123', 123] => [1, 2, 123]
+```
 
 #
 
