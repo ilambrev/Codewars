@@ -4204,8 +4204,49 @@ Input: [1, 2, 'a', 'b'] => Output: [1, 2]
 
 Input: [1, 'a', 'b', 0, 15] => Output: [1, 0, 15]
 
-Input: [1, 2, 'aasf', '1', '123', 123] => [1, 2, 123]
+Input: [1, 2, 'aasf', '1', '123', 123] => Output: [1, 2, 123]
 ```
+
+#
+
+<br />
+
+# Challenge 129 Equal Sides Of An Array
+
+My solution -> *[129EqualSidesOfAnArray](129EqualSidesOfAnArray.js)*
+
+## **_Task condition:_**
+
+You are going to be given an array of integers. Your job is to take that array and find an index ```N``` where the sum of the integers to the left of ```N``` is equal to the sum of the integers to the right of ```N```.
+
+If there is no index that would make this happen, return ```-1```.
+
+
+
+### **_Examples_**
+
+```
+Input: [1, 2, 3, 4, 3, 2, 1] => Output: 3
+
+Еxplanation: at the 3rd position of the array, the sum of left side of the index ([1, 2, 3]) and the sum of the right side of the index ([3, 2, 1]) both equal 6.
+
+Input: [1, 100, 50, -51, 1, 1] => Output: 1
+
+Еxplanation: at the 1st position of the array, the sum of left side of the index ([1]) and the sum of the right side of the index ([50, -51, 1, 1]) both equal 1.
+
+Input: [20, 10, -80, 10, 10, 15, 35] => Output: 0
+
+Еxplanation: at index 0 the left side is ([]), the right side is ([10, -80, 10, 10, 15, 35]), they both are equal to 0 when added.
+
+(Empty arrays are equal to 0 in this problem)
+```
+
+**_NOTES:_**
+
+- Input: An integer array of length ```0 < arr < 1000```. The numbers in the array can be any integer positive or negative.
+- Output: The lowest index N where the side to the left of ```N``` is equal to the side to the right of ```N```. If you do not find an index that fits these rules, then you will return ```-1```.
+- If you are given an array with multiple answers, return the lowest correct index. 
+- The index of an array starts at ```0```.
 
 #
 
