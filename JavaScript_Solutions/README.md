@@ -4221,8 +4221,6 @@ You are going to be given an array of integers. Your job is to take that array a
 
 If there is no index that would make this happen, return ```-1```.
 
-
-
 ### **_Examples_**
 
 ```
@@ -4247,6 +4245,45 @@ Input: [20, 10, -80, 10, 10, 15, 35] => Output: 0
 - Output: The lowest index N where the side to the left of ```N``` is equal to the side to the right of ```N```. If you do not find an index that fits these rules, then you will return ```-1```.
 - If you are given an array with multiple answers, return the lowest correct index. 
 - The index of an array starts at ```0```.
+
+#
+
+<br />
+
+# Challenge 130 Christmas Mission: Programmer's Christmas #3
+
+My solution -> *[130ChristmasMissionProgrammersChristmasN3](130ChristmasMissionProgrammersChristmasN3.js)*
+
+## **_Task condition:_**
+
+Christmas is coming soon. As a programmer, you need to complete a series of tasks to welcome the arrival of Christmas. This time your task is:
+
+Given a string ```s```. You need to count how many pairs of two words "Merry" and "Christmas" appear in ```s```, return the maximum possible numbers of pair(not the numbers of single word).
+
+### **_Examples_**
+
+```
+Input: 'MerryChristmas' => Output: 1
+
+Input: 'ChristmasMerry' => Output: 1
+
+Input: 'yrreMsamtsirhC' => Output: 1
+
+Input: 'MerryMerry' => Output: 0
+
+Input: 'ChristmasChristmas' => Output: 0
+
+Input: 'MMeerrrryyCChhrriissttmmaass' => Output: 2
+
+Input: 'MMmmeerrrrrryyCChhiissssttaa' => Output: 2
+
+Input: 'MMmmeerrrryyCChhiissssssttaa' => Output: 1
+```
+
+**_NOTES:_**
+
+- Letters should be case sensitive. "M" and "m" are different.
+- You don't need to consider the order, the characters are disorganized.
 
 #
 
