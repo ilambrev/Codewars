@@ -4339,3 +4339,52 @@ Output: 5
 #
 
 <br />
+
+# Challenge 132 Chocolate Celebration
+
+My solution -> *[132ChocolateCelebration](132ChocolateCelebration.js)*
+
+## **_Task condition:_**
+
+Tell me, is there enough chocolate?
+
+You will be given two variables: people, and bars.
+
+There are ```16``` pieces in each chocolate bar.
+
+The people are divided into the following groups:
+
+- ```group A```: 20% of the people in the group will not want any chocolate
+- ```group B```: 10% of the people may want to have a piece, but only after everyone who wanted at least one piece had it.
+- ```group C```: 5% of the group will take one piece to start with, but happily take up to 20 pieces of chocolate in total if there are any left over after everyone else has had one piece
+- ```group D```: everyone else will only want a single piece of chocolate
+
+If the group size is defined with a %, round group sizes to the nearest integer (default solution relies on use of ```Math.round```). If there aren't enough chocolate pieces for everyone, chocolate gets distributed on the first come, first served basis.
+
+#### OUTPUT
+
+- Return an array with [0] number of people who had at least one piece, ```[1]``` number of pieces left after everyone has had all they want.
+- If there wasn't enough chocolate to satisfy basic requirements (ie groups ```C``` and ```D```), add to the array ```[2]``` "You should buy more chocolate next time", and ```[3]``` suggested total number of bars to satisfy basic requirements of this group. Round to the nearest integer. Add one bar for a good measure.
+- If there were more than ```16``` pieces left at the end, add to the array ```[2]``` "That was too much chocolate!", and ```[3]``` suggested total number of bars to satisfy groups ```B```, ```C```, and ```D```. Round to the nearest integer. Add one bar for a good measure.
+- If either people or bars are not a numbers, return "Error. We need numbers.".
+- If there is noone in the group, return "Nobody here. Skedaddle.".
+
+### **_Examples_**
+
+```
+Input: 100, 10 => Output: [80, 0]
+
+Input: 1000, 10 => Output: [160, 0, 'You should buy more chocolate next time', 45]
+
+Input: 8, 10 => Output: [6, 154, 'That was too much chocolate!', 1]
+
+Input: 0, 10 => Output: 'Nobody here. Skedaddle.'
+
+Input: 'blue', 10 => Output: 'Error. We need numbers.'
+
+Input: 8, [8, 7] => Output: 'Error. We need numbers.'
+```
+
+#
+
+<br />
