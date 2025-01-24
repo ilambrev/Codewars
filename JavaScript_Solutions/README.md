@@ -4489,3 +4489,29 @@ Input: [';]', ':[', ';*', ':$', ';-D'] => Output: 1
 #
 
 <br />
+
+# Challenge 136 ROT13
+
+My solution -> *[136ROT13](136ROT13.js)*
+
+## **_Task condition:_**
+
+```ROT13``` is a simple letter substitution cipher that replaces a letter with the 13th letter after it in the Latin alphabet.
+
+Applying ROT13 to a piece of text requires examining its alphabetic characters and replacing each one by the letter 13 places further along in the alphabet, wrapping back to the beginning if necessary.
+
+To encode message: ```A``` becomes ```N```, ```B``` becomes ```O```, and so on up to ```M```, which becomes ```Z```, then the sequence continues at the beginning of the alphabet: ```N``` becomes ```A```, ```O``` becomes ```B```, and so on to ```Z```, which becomes ```M```. To decode a message, You apply the same substitution rules, but this time on the ROT13 encrypted text. (Any other character, for example numbers, symbols, punctuation or whitespace, are left unchanged.) 
+
+For this task you're only supposed to substitute characters. Not spaces, punctuation, numbers, etc.
+
+### **_Examples_**
+
+```
+Input: 'EBG13 rknzcyr.' => Output: 'ROT13 example.'
+
+Input: 'This is my first ROT13 excercise!' => Output: 'Guvf vf zl svefg EBG13 rkprepvfr!'
+```
+
+#
+
+<br />
