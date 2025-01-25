@@ -4515,3 +4515,25 @@ Input: 'This is my first ROT13 excercise!' => Output: 'Guvf vf zl svefg EBG13 rk
 #
 
 <br />
+
+# Challenge 137 Unique In Order
+
+My solution -> *[137UniqueInOrder](137UniqueInOrder.js)*
+
+## **_Task condition:_**
+
+Implement the function ```uniqueInOrder(iterable)``` which takes as argument a sequence and returns a list of items without any elements with the same value next to each other and preserving the original order of elements.
+
+### **_Examples_**
+
+```
+Input: 'AAAABBBCCDAABBB' => Output: ['A', 'B', 'C', 'D', 'A', 'B']
+
+Input: 'ABBCcAD' => Output: ['A', 'B', 'C', 'c', 'A', 'D']
+
+Input: [1,2,2,3,3] => Output: [1,2,3]
+```
+
+#
+
+<br />
