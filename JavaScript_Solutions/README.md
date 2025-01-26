@@ -4537,3 +4537,31 @@ Input: [1,2,2,3,3] => Output: [1,2,3]
 #
 
 <br />
+
+# Challenge 138 Find The Odd Int
+
+My solution -> *[138FindTheOddInt](138FindTheOddInt.js)*
+
+## **_Task condition:_**
+
+Given an array of integers, find the one that appears an odd number of times.
+
+There will always be only one integer that appears an odd number of times.
+
+### **_Examples_**
+
+```
+Input: [7] => Output: 7 - because it occurs 1 time (which is odd)
+
+Input: [0] => Output: 0 - because it occurs 1 time (which is odd)
+
+Input: [1,1,2] => Output: 2 - because it occurs 1 time (which is odd)
+
+Input: [0,1,0,1,0] => Output: 0 - because it occurs 3 times (which is odd)
+
+Input: [1,2,2,3,3,3,4,3,3,3,2,2,1] => Output: 4 - because it appears 1 time (which is odd)
+```
+
+#
+
+<br />
