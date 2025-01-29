@@ -4674,3 +4674,27 @@ Input: ([2, 3, 10, 2], 2) => Output: 12
 #
 
 <br />
+
+# Challenge 141 Find The Unique Number
+
+My solution -> *[141FindTheUniqueNumber](141FindTheUniqueNumber.js)*
+
+## **_Task condition:_**
+
+There is an array with some numbers. All numbers are equal except for one. Try to find it!
+
+It’s guaranteed that array contains at least 3 numbers.
+
+The tests contain some very huge arrays, so think about performance.
+
+### **_Examples_**
+
+```
+Input: [1, 1, 1, 2, 1, 1] => Output: 2
+
+Input: [0, 0, 0.55, 0, 0] => Output: 0.55
+```
+
+#
+
+<br />
