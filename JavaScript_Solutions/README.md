@@ -4698,3 +4698,41 @@ Input: [0, 0, 0.55, 0, 0] => Output: 0.55
 #
 
 <br />
+
+# Challenge 142 Bouncing Balls
+
+My solution -> *[142BouncingBalls](142BouncingBalls.js)*
+
+## **_Task condition:_**
+
+A child is playing with a ball on the n-th floor of a tall building. The height of this floor above ground level, ```h```, is known.
+
+He drops the ball out of the window. The ball bounces (for example), to two-thirds of its height (a bounce of ```0.66```).
+
+His mother looks out of a window ```1.5``` meters from the ground.
+
+**How many times will the mother see the ball pass in front of her window (including when it's falling and bouncing)?**
+
+Three conditions must be met for a valid experiment:
+
+1. Float parameter "h" in meters must be greater than 0.
+2. Float parameter "bounce" must be greater than 0 and less than 1.
+3. Float parameter "window" must be less than h.
+
+If all three conditions above are fulfilled, return a positive integer, otherwise return ```-1```.
+
+### **_Examples_**
+
+```
+Input: h = 3, bounce = 0.66, window = 1.5 => Output: 3
+
+Input: h = 3, bounce = 1, window = 1.5 => Output: -1 // (Condition 2) not fulfilled
+```
+
+**_NOTES:_**
+
+- The ball can only be seen if the height of the rebounding ball is strictly greater than the window parameter.
+
+#
+
+<br />
