@@ -2,21 +2,17 @@
 
 My solution -> *[P001SplitStrings](P001SplitStrings/StringSplit.java)*
 
-<br/>
-
 ## **_Task condition:_**
 
-<br/>
-
-Complete the solution so that it splits the string into pairs of two characters. If the string contains an odd number of characters then it should replace the missing second character of the final pair with an underscore ('_').
-
-<br/>
+Complete the solution so that it splits the string into pairs of two characters. If the string contains an odd number of characters then it should replace the missing second character of the final pair with an underscore ```('_')```.
 
 **_Examples_**
 
-'abc' =>  ['ab', 'c_']
+```
+Input: "abc" Output => ["ab", "c_"]
 
-'abcdef' => ['ab', 'cd', 'ef']
+Input: "abcdef" => ["ab", "cd", "ef"]
+```
 
 #
 
@@ -26,31 +22,25 @@ Complete the solution so that it splits the string into pairs of two characters.
 
 My solution -> *[P002DuplicateEncoder](P002DuplicateEncoder/DuplicateEncoder.java)*
 
-<br/>
-
 ## **_Task condition:_**
-
-<br/>
 
 The goal of this exercise is to convert a string to a new string where each character in the new string is "(" if that character appears only once in the original string, or ")" if that character appears more than once in the original string. Ignore capitalization when determining if a character is a duplicate.
 
-<br/>
-
 **_Examples_**
 
-"din"      =>  "((("
+```
+"din"       => "((("
 
-"recede"   =>  "()()()"
+"recede"    => "()()()"
 
-"Success"  =>  ")())())"
+"Success"   => ")())())"
 
-"(( @"     =>  "))((" 
-
-<br/>
+"(( @"      => "))((" 
+```
 
 **_Notes_**
 
-Assertion messages may be unclear about what they display in some languages. If you read "...It Should encode XXX", the "XXX" is the expected result, not the input!
+- Assertion messages may be unclear about what they display in some languages. If you read "...It Should encode XXX", the "XXX" is the expected result, not the input!
 
 #
 
@@ -60,37 +50,32 @@ Assertion messages may be unclear about what they display in some languages. If 
 
 My solution -> *[P003SumOfNumbers](P003SumOfNumbers/Sum.java)*
 
-<br/>
-
 ## **_Task condition:_**
 
-<br/>
-
-Given two integers a and b, which can be positive or negative, find the sum of all the integers between and including them and return it. If the two numbers are equal return a or b.
-
-<br/>
+Given two integers ```a``` and ```b```, which can be positive or negative, find the sum of all the integers between and including them and return it. If the two numbers are equal return ```a``` or ```b```.
 
 **_Examples_**
 
-(a, b) --> output (explanation)
+```
+Input: (a, b) => Output: (explanation)
+--------------------------------------
 
-(1, 0) --> 1 (1 + 0 = 1)
+Input: (1, 0)  => Output: 1 (1 + 0 = 1)
 
-(1, 2) --> 3 (1 + 2 = 3)
+Input: (1, 2)  => Output: 3 (1 + 2 = 3)
 
-(0, 1) --> 1 (0 + 1 = 1)
+Input: (0, 1)  => Output: 1 (0 + 1 = 1)
 
-(1, 1) --> 1 (1 since both are same)
+Input: (1, 1)  => Output: 1 (1 since both are same)
 
-(-1, 0) --> -1 (-1 + 0 = -1)
+Input: (-1, 0) => Output: -1 (-1 + 0 = -1)
 
-(-1, 2) --> 2 (-1 + 0 + 1 + 2 = 2)
-
-<br/>
+Input: (-1, 2) => Output: 2 (-1 + 0 + 1 + 2 = 2)
+```
 
 **_Notes_**
 
-a and b are not ordered!
+- ```a``` and ```b``` are not ordered!
 
 #
 
@@ -100,29 +85,28 @@ a and b are not ordered!
 
 My solution -> *[P004SumOfOddNumbers](P004SumOfOddNumbers/RowSumOddNumbers.java)*
 
-<br/>
-
 ## **_Task condition:_**
-
-<br/>
 
 Given the triangle of consecutive odd numbers:
 
+```
                  1
               3     5
            7     9    11
        13    15    17    19
     21    23    25    27    29
     ...
-Calculate the sum of the numbers in the nth row of this triangle (starting at index 1) e.g.: (Input --> Output)
+```
 
-<br/>
+Calculate the sum of the numbers in the ```n-th``` row of this triangle (starting at index ```1```) e.g.: (Input --> Output)
 
 **_Examples_**
 
-1 -->  1
+```
+Input: 1 => Output: 1
 
-2 --> 3 + 5 = 8
+Input: 2 => Output: 3 + 5 = 8
+```
 
 #
 
@@ -132,23 +116,19 @@ Calculate the sum of the numbers in the nth row of this triangle (starting at in
 
 My solution -> *[P005BreakCamelCase](P005BreakCamelCase/Solution.java)*
 
-<br/>
-
 ## **_Task condition:_**
-
-<br/>
 
 Complete the solution so that the function will break up camel casing, using a space between words.
 
-<br/>
-
 **_Examples_**
 
-"camelCasing"  =>  "camel Casing"
+```
+Input: "camelCasing" => Output: "camel Casing"
 
-"identifier"   =>  "identifier"
+Input: "identifier"  => Output: "identifier"
 
-""             =>  ""
+Input: ""            => Output: ""
+```
 
 #
 
@@ -158,27 +138,23 @@ Complete the solution so that the function will break up camel casing, using a s
 
 My solution -> *[P006CreatePhoneNumber](P006CreatePhoneNumber/Kata.java)*
 
-<br />
-
 ## **_Task condition:_**
 
-<br />
-
-Write a function that accepts an array of 10 integers (between 0 and 9), that returns a string of those numbers in the form of a phone number.
+Write a function that accepts an ```array of 10 integers``` (between 0 and 9), that returns a string of those numbers in the form of a phone number.
 
 The returned format must be correct in order to complete this challenge.
 
-<br />
-
 **_Examples_**
 
-Input: Kata.createPhoneNumber(new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 0}) => Output: '(123) 456-7890'
+```
+Input: Kata.createPhoneNumber(new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 0}) => Output: "(123) 456-7890"
+```
 
 <br />
 
 **_NOTES:_**
 
-Don't forget the space after the closing parentheses!
+- Don't forget the space after the closing parentheses!
 
 #
 
@@ -188,25 +164,51 @@ Don't forget the space after the closing parentheses!
 
 My solution -> *[P007CountCharactersInYourString](P007CountCharactersInYourString/Kata.java)*
 
-<br />
-
 ## **_Task condition:_**
-
-<br />
 
 The main idea is to count all the occurring characters in a string.
 
-<br />
-
 **_Examples_**
 
+```
 Input: "aba" => Output: {'a': 2, 'b': 1}
+```
 
 <br />
 
 **_NOTES:_**
 
-If the string is empty the result should be empty object literal, {}
+- If the string is empty the result should be empty object literal, {}
+
+#
+
+<br />
+
+# Challenge 008 Highest Scoring Word
+
+My solution -> *[P008HighestScoringWord](P008HighestScoringWord/Kata.java)*
+
+## **_Task condition:_**
+
+Given a string of words, you need to find the highest scoring word.
+
+Each letter of a word scores points according to its position in the alphabet: ```a = 1, b = 2, c = 3``` etc.
+
+For example, the score of ```abad``` is ```8``` ```(1 + 2 + 1 + 4)```.
+
+You need to return the highest scoring word as a string.
+
+If two words score the same, return the word that appears earliest in the original string.
+
+All letters will be lowercase and all inputs will be valid.
+
+**_Examples_**
+
+```
+Input: 'man i need a taxi up to ubud' => Output: 'taxi'
+
+Input: 'what time are we climbing up the volcano' => Output: 'volcano'
+```
 
 #
 
