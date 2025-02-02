@@ -216,7 +216,7 @@ Input: 'what time are we climbing up the volcano' => Output: 'volcano'
 
 # Challenge 009 Statistics For An Athletic Association
 
-My solution -> *[P009StatisticsForAnAthleticAssociation](P009StatisticsForAnAthleticAssociationd/Stat.java)*
+My solution -> *[P009StatisticsForAnAthleticAssociation](P009StatisticsForAnAthleticAssociation/Stat.java)*
 
 ## **_Task condition:_**
 
