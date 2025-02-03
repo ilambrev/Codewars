@@ -262,3 +262,48 @@ Output: "Range: 00|31|17 Average: 02|26|18 Median: 02|22|00"
 #
 
 <br />
+
+# Challenge 010 Highest Scoring Word
+
+My solution -> *[P010PlusOneArray](P010PlusOneArray/PlusOneArray.java)*
+
+## **_Task condition:_**
+
+Given an array of integers of any length, return an array that has ```1``` added to the value represented by the array.
+
+If the array is invalid (empty, or contains negative integers or integers with more than 1 digit), return ```null```.
+
+**Valid arrays**
+
+```
+[4, 3, 2, 5] would return [4, 3, 2, 6] (4325 + 1 = 4326)
+[1, 2, 3, 9] would return [1, 2, 4, 0] (1239 + 1 = 1240)
+[9, 9, 9, 9] would return [1, 0, 0, 0, 0] (9999 + 1 = 10000)
+[0, 1, 3, 7] would return [0, 1, 3, 8] (0137 + 1 = 0138)
+```
+
+**Invalid arrays**
+
+```
+[] is invalid because it is empty
+[1, -9] is invalid because -9 is not a non-negative integer
+[1, 2, 33] is invalid because 33 is not a single-digit integer
+```
+
+**_Examples_**
+
+```
+Input: [2, 3, 9, 9] => Output: [2,4,0,0]
+
+Input: [9,9] => Output: [1,0,0]
+
+Input: [0,7] => Output: [0,8]
+
+Input: [1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8,9,0] => Output: [1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8,9,1]
+
+Input: [1,10] => Output: null
+```
+
+#
+
+<br />
