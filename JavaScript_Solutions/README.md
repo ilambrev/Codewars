@@ -4829,3 +4829,29 @@ This cell has a 0 > 0 3 4|6 7 8|9 1 2
 #
 
 <br />
+
+# Challenge 145 Find The Missing Letter
+
+My solution -> *[145FindTheMissingLetter](145FindTheMissingLetter.js)*
+
+## **_Task condition:_**
+
+Write a method that takes an array of consecutive (increasing) letters as input and that returns the missing letter in the array.
+
+You will always get an valid array. And it will be always exactly one letter be missing. The length of the array will always be at least 2. The array will always contain letters in only one case.
+
+### **_Examples_**
+
+```
+Input: ['a', 'b', 'c', 'd', 'f'] => Output: 'e'
+
+Input: ['O', 'Q', 'R', 'S'] => Output: 'P'
+```
+
+**_NOTES:_**
+
+- Use the English alphabet with 26 letters!
+
+#
+
+<br />
