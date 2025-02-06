@@ -4855,3 +4855,31 @@ Input: ['O', 'Q', 'R', 'S'] => Output: 'P'
 #
 
 <br />
+
+# Challenge 146 Bit Counting
+
+My solution -> *[146BitCounting](146BitCounting.js)*
+
+## **_Task condition:_**
+
+Write a function that takes an integer as input, and returns the number of bits that are equal to one in the binary representation of that number. You can guarantee that input is non-negative.
+
+### **_Examples_**
+
+```
+Input: 1234 => Output: 5 // The binary representation of 1234 is 10011010010, so the function should return 5 in this case
+
+Input: 0 => Output: 0
+
+Input: 4 => Output: 1
+
+Input: 7 => Output: 3
+
+Input: 9 => Output: 2
+
+Input: 10 => Output: 2
+```
+
+#
+
+<br />
