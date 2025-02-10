@@ -4984,3 +4984,29 @@ Output: '-6,-3-1,3-5,7-11,14,15,17-20'
 #
 
 <br />
+
+# Challenge 150 Array plus array
+
+My solution -> *[150ArrayPlusArray](150ArrayPlusArray.js)*
+
+## **_Task condition:_**
+
+Write a function that calculates sum of two arrays. Actually the sum of all their elements.
+
+Each array includes only integer numbers. Output is a number too.
+
+### **_Examples_**
+
+```
+Input: [1, 2, 3], [4, 5, 6] => Output: 21
+
+Input: [-1, -2, -3], [-4, -5, -6] => Output: -21
+
+Input: [0, 0, 0], [4, 5, 6] => Output: 15
+
+Input: [100, 200, 300], [400, 500, 600] => Output: 2100
+```
+
+#
+
+<br />
