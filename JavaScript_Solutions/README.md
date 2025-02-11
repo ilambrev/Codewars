@@ -4985,7 +4985,7 @@ Output: '-6,-3-1,3-5,7-11,14,15,17-20'
 
 <br />
 
-# Challenge 150 Array plus array
+# Challenge 150 Array Plus Array
 
 My solution -> *[150ArrayPlusArray](150ArrayPlusArray.js)*
 
@@ -5005,6 +5005,26 @@ Input: [-1, -2, -3], [-4, -5, -6] => Output: -21
 Input: [0, 0, 0], [4, 5, 6] => Output: 15
 
 Input: [100, 200, 300], [400, 500, 600] => Output: 2100
+```
+
+#
+
+<br />
+
+# Challenge 151 Find The Parity Outlier
+
+My solution -> *[151FindTheParityOutlier](151FindTheParityOutlier.js)*
+
+## **_Task condition:_**
+
+You are given an array (which will have a length of at least 3, but could be very large) containing integers. The array is either entirely comprised of odd integers or entirely comprised of even integers except for a single integer `N`. Write a method that takes the array as an argument and returns this "outlier" `N`.
+
+### **_Examples_**
+
+```
+Input: [2, 4, 0, 100, 4, 11, 2602, 36] => Output: 11 (the only odd number)
+
+Input: [160, 3, 1719, 19, 11, 13, -21] => Output: 160 (the only even number)
 ```
 
 #
