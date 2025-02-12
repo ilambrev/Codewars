@@ -5030,3 +5030,39 @@ Input: [160, 3, 1719, 19, 11, 13, -21] => Output: 160 (the only even number)
 #
 
 <br />
+
+# Challenge 152 Is Integer Array?
+
+My solution -> *[152IsIntegerArray](152IsIntegerArray.js)*
+
+## **_Task condition:_**
+
+Write a function that:
+
+- returns `true  / True` if every element in an array is an integer or a float with no decimals.
+- returns `true  / True` if array is empty.
+- returns `false / False` for every other input.
+
+
+
+### **_Examples_**
+
+```
+Input: [] => Output: true
+
+Input: [1, 2, 3, 4] => true
+
+Input: [-11, -12, -13, -14] => Output: true
+
+Input: [1.0, 2.0, 3.0] => Output: true
+
+Input: [1.0, 2.0, 3.0001] => Output: false
+
+Input: [1, 2, NaN] => Output: false
+
+Input: '' => Output: false
+```
+
+#
+
+<br />
