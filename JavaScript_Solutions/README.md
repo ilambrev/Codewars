@@ -5122,8 +5122,6 @@ In addition to letters, digits and some punctuation, there are some special serv
 
 Your task is to implement a function that would take the morse code as input and return a decoded human-readable string.
 
-
-
 ### **_Examples_**
 
 ```
@@ -5139,5 +5137,42 @@ Input: '   .... . -.--   ' => 'HEY'
 - Extra spaces before or after the code have no meaning and should be ignored.
 - For coding purposes you have to use `ASCII` characters `.` and `-`, not `Unicode` characters.
 - The Morse code table is preloaded for you as a dictionary, feel free to use it - `MORSE_CODE['.--']`.
+
+<br />
+
+# Challenge 155 Message Validator
+
+My solution -> *[155MessageValidator](155MessageValidator.js)*
+
+## **_Task condition:_**
+
+You have an input string and you should check whether it is a valid message. To decide that, you need to split the string by the numbers, and then compare the numbers with the number of characters in the following substring.
+
+
+
+### **_Examples_**
+
+For example `"3hey5hello2hi"` should be split into `3`, `hey`, `5`, `hello`, `2`, `hi` and the function should return `true`, because `"hey"` is `3` characters, `"hello"` is `5`, and `"hi"` is `2`, as the numbers and the character counts match, the result is `true`.
+
+```
+Input: '4code13hellocodewars' => Output: true
+
+Input: '3hey5hello2hi5'       => Output: false
+
+Input: 'code4hello5'          => Output: false
+
+Input: '1a2bb3ccc4dddd5eeeee' => Output: true
+
+Input: ''                     => Output: true
+```
+
+#
+
+**_NOTES:_**
+
+- Messages are composed of only letters and digits.
+- Numbers may have multiple digits: e.g. `"4code13hellocodewars"` is a valid message.
+- Every number must match the number of character in the following substring, otherwise the message is invalid: e.g. `"hello5"` and `"2hi2"` are invalid.
+- If the message is an empty string, you should return `true`.
 
 <br />
