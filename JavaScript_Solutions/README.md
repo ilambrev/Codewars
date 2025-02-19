@@ -5148,8 +5148,6 @@ My solution -> *[155MessageValidator](155MessageValidator.js)*
 
 You have an input string and you should check whether it is a valid message. To decide that, you need to split the string by the numbers, and then compare the numbers with the number of characters in the following substring.
 
-
-
 ### **_Examples_**
 
 For example `"3hey5hello2hi"` should be split into `3`, `hey`, `5`, `hello`, `2`, `hi` and the function should return `true`, because `"hey"` is `3` characters, `"hello"` is `5`, and `"hi"` is `2`, as the numbers and the character counts match, the result is `true`.
@@ -5174,5 +5172,51 @@ Input: ''                     => Output: true
 - Numbers may have multiple digits: e.g. `"4code13hellocodewars"` is a valid message.
 - Every number must match the number of character in the following substring, otherwise the message is invalid: e.g. `"hello5"` and `"2hi2"` are invalid.
 - If the message is an empty string, you should return `true`.
+
+<br />
+
+# Challenge 156 Reversing A Process
+
+My solution -> *[156ReversingAProcess](156ReversingAProcess.js)*
+
+## **_Task condition:_**
+
+Suppose we know the process by which a string `s` was encoded to a string `r`. Our goal is to decode this string `r` to get back the original string `s`.
+
+### **_Explanation of the encoding process:_**
+
+- **input:** a string `s` composed of lowercase letters from `"a" to "z"`, and a positive integer `num`
+- we know there is a correspondence between `abcde...uvwxyzand 0, 1, 2 ..., 23, 24, 25 : 0 <-> a, 1 <-> b ...`
+- if `c` is a character of `s` whose corresponding number is `x`, apply to `x` the function `f: x-> f(x) = num * x % 26`, then find `ch` the corresponding character of `f(x)`
+- Accumulate all these `ch` in a string `r`
+- concatenate `num` and `r` and return the result
+
+**For example:**
+
+```
+encode("mer", 6015)  -->  "6015ekx"
+
+m --> 12,   12 * 6015 % 26 = 4,     4 --> e
+e --> 4,     4 * 6015 % 26 = 10,   10 --> k
+r --> 17,   17 * 6015 % 26 = 23,   23 --> x
+
+So we get "ekx", hence the output is "6015ekx"
+```
+
+**Task**
+
+A string `s` was encoded to string `r` by the above process. complete the function to get back `s` whenever it is possible.
+
+Indeed it can happen that the decoding is impossible for strings composed of whatever letters from "a" to "z" when positive integer num has not been correctly chosen. In that case return `"Impossible to decode"`.
+
+### **_Examples_**
+
+```
+Input: decode('6015ekx') => Output: 'mer'
+
+Input: decode('5057aan') => Output: 'Impossible to decode'
+```
+
+#
 
 <br />
