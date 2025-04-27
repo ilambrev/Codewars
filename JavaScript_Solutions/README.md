@@ -5410,7 +5410,6 @@ Per Wikipedia, a prime number ( or a prime ) is a natural number greater than `1
 - You can not assume that the integer will be only positive. You may be given negative numbers as well (or `0`).
 - NOTE on performance: There are no fancy optimizations required, but still the most trivial solutions might time out. Numbers go up to `2^31` ( or similar, depending on language ). Looping all the way up to `n`, or `n/2`, will be too slow.
 
-
 ### **_Examples_**
 
 ```
@@ -5419,6 +5418,39 @@ Input: is_prime(1)  => Output: false
 Input: is_prime(2)  => Output: true
 
 Input: is_prime(-1) => Output: false
+```
+
+#
+
+<br />
+
+# Challenge 163 Name To Matrix
+
+My solution -> *[163NameToMatrix](163NameToMatrix.js)*
+
+## **_Task condition:_**
+
+Given a name, turn that name into a perfect square matrix (nested array with the amount of arrays equivalent to the length of each array).
+
+You will need to add periods `(.)` to the end of the name if necessary, to turn it into a matrix.
+
+If the name has a length of 0, return `'name must be at least one letter'`.
+
+### **_Examples_**
+
+```
+'Bill' =>
+  [
+    ['B', 'i'],
+    ['l', 'l']
+  ]
+
+'Frank' =>
+  [ 
+    ['F', 'r', 'a'],
+    ['n', 'k', '.'],
+    ['.', '.', '.']
+  ]
 ```
 
 #
