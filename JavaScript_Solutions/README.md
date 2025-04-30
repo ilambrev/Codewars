@@ -5456,3 +5456,39 @@ If the name has a length of 0, return `'name must be at least one letter'`.
 #
 
 <br />
+
+# Challenge 164 What The Biggest Search Keys?
+
+My solution -> *[164WhatTheBiggestSearchKeys](164WhatTheBiggestSearchKeys.js)*
+
+## **_Task condition:_**
+
+You're a programmer in a SEO company. The SEO specialist of your company gets the list of all project keywords everyday, then he looks for the longest keys to analyze them.
+
+You will get the list with keywords and must write a simple function that returns the biggest search keywords and sorts them in lexicographical order.
+
+### **_Examples_**
+
+```
+Input: theBiggestSearchKeys('key1', 'key2', 'key3', 'key n', 'bigkey2', 'bigkey1')
+Output: 'bigkey1', 'bigkey2'
+
+Input: theBiggestSearchKeys('key1', 'key22', 'key333')
+Output: 'key333'
+
+Input: theBiggestSearchKeys('coding', 'sorting', 'tryruby')
+Output: 'sorting', 'tryruby'
+
+Input: theBiggestSearchKeys('small keyword', 'how to coding?', 'very nice kata', 'a lot of keys', 'I like Ruby!!!')
+Output: 'I like Ruby!!!', 'how to coding?', 'very nice kata'
+
+Input: theBiggestSearchKeys('pippi')
+Output: 'pippi'
+
+Input: theBiggestSearchKeys()
+Output: ''
+```
+
+#
+
+<br />
