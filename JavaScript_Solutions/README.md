@@ -5492,3 +5492,29 @@ Output: ''
 #
 
 <br />
+
+# Challenge 165 A String Of Sorts
+
+My solution -> *[165AStringOfSorts](165AStringOfSorts.js)*
+
+## **_Task condition:_**
+
+Define a method that accepts 2 strings as parameters. The method returns the first string sorted by the second.
+
+To elaborate, the second string defines the ordering. It is possible that in the second string characters repeat, so you should remove repeating characters, leaving only the first occurrence.
+
+Any character in the first string that does not appear in the second string should be sorted to the end of the result in original order.
+
+### **_Examples_**
+
+```
+Input: 'foos', 'of' => Output: 'oofs'
+
+Input: 'string', 'gnirts' => Output: 'gnirts'
+
+Input: 'banana', 'abn' => Output: 'aaabnn'
+```
+
+#
+
+<br />
