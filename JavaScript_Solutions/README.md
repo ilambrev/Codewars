@@ -5521,7 +5521,7 @@ Input: 'banana', 'abn' => Output: 'aaabnn'
 
 # Challenge 166 Int32 To IPv4
 
-My solution -> *[166Int32ToIPv4](166Int32ToIPv4,js)*
+My solution -> *[166Int32ToIPv4](166Int32ToIPv4.js)*
 
 ## **_Task condition:_**
 
