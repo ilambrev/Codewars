@@ -5602,3 +5602,48 @@ Assume: `0 <= n <= 2147483647`
 #
 
 <br />
+
+# Challenge 169 ISBN-10 Validation
+
+My solution -> *[169ISBN10Validation](169ISBN10Validation.js)*
+
+## **_Task condition:_**
+
+ISBN-10 identifiers are ten digits long. The first nine characters are digits `0-9`. The last digit can be `0-9` or `X`, to indicate a value of `10`.
+
+An ISBN-10 number is valid if the sum of the digits multiplied by their position modulo 11 equals zero.
+
+For example:
+
+```
+ISBN     : 1 1 1 2 2 2 3 3 3  9
+position : 1 2 3 4 5 6 7 8 9 10
+```
+
+This is a valid ISBN, because:
+
+```
+(1*1 + 1*2 + 1*3 + 2*4 + 2*5 + 2*6 + 3*7 + 3*8 + 3*9 + 9*10) % 11 = 0
+```
+
+### **_Examples_**
+
+```
+Input: 1112223339   => Output: true
+
+Input: 111222333    => Output: false
+
+Input: 1112223339X  => Output: false
+
+Input: 1234554321   => Output: true
+
+Input: 1234512345   => Output: false
+
+Input: 048665088X   => Output: true
+
+Input: X123456788   => Output: false
+```
+
+#
+
+<br />
