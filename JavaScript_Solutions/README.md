@@ -5647,3 +5647,33 @@ Input: X123456788   => Output: false
 #
 
 <br />
+
+# Challenge 170 Two Sets Of Equal Sum
+
+My solution -> *[170TwoSetsOfEqualSum](170TwoSetsOfEqualSum.js)*
+
+## **_Task condition:_**
+
+If possible, divide the integers `1,2,…,n` into two sets of equal sum.
+
+**Input**
+
+A positive integer `n <= 1,000,000`.
+
+**Output**
+
+If it's not possible, return `[]`;
+
+If it's possible, return two disjoint sets. Each integer from `1` to `n` must be in one of them. The integers in the first set must sum up to the same value as the integers in the second set. The sets must be returned in tuple.
+
+### **_Examples_**
+
+```
+Input: n = 8 => Output: [[1, 3, 6, 8], [2, 4, 5, 7]] or [[8, 1, 3, 2, 4], [5, 7, 6]] or [[7, 8, 3], [6, 1, 5, 4, 2]] or others
+
+Input: n = 9 => Output: [] -> it is not possible
+```
+
+#
+
+<br />
