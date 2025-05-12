@@ -5677,3 +5677,29 @@ Input: n = 9 => Output: [] -> it is not possible
 #
 
 <br />
+
+# Challenge 171 Are We Alternate?
+
+My solution -> *[171AreWeAlternate](171AreWeAlternate.js)*
+
+## **_Task condition:_**
+
+Create a function that accepts a string as an argument and validates whether the vowels `(a, e, i, o, u)` and consonants are in alternate order.
+
+### **_Examples_**
+
+```
+Input: "amazon" => Output: true
+
+Input: "apple" => Output: false
+
+Input: "banana" => Output: true
+```
+
+**_NOTES:_**
+
+- Arguments consist of only lowercase letters.
+
+#
+
+<br />
