@@ -5704,7 +5704,7 @@ Input: "banana" => Output: true
 
 <br />
 
-# Challenge 172 Greed Иs Good
+# Challenge 172 Greed Is Good
 
 My solution -> *[172GreedIsGood](172GreedIsGood.js)*
 
@@ -5785,3 +5785,23 @@ Input: invertedRanges([[0, 25], [51, 75]]) => Output: [[26, 50], [76, 100]]
 #
 
 <br />
+
+# Challenge 174 Binary Coded Decimal
+
+My solution -> *[174BinaryCodedDecimal](174BinaryCodedDecimal.js)*
+
+## **_Task condition:_**
+
+Convert a number to a binary coded decimal `(BCD)`.
+
+You can assume input will always be an integer. If it is a negative number then simply place a minus sign in front of the output string. Output will be a string with each digit of the input represented as `4` bits (`0` padded) with a space between each set of `4` bits.
+
+### **_Examples_**
+
+```
+Input: 10 => Output: '0001 0000'
+
+Input: -10 => Output: '-0001 0000'
+```
+
+#
