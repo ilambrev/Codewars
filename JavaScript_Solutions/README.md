@@ -5877,3 +5877,33 @@ Input: '(098) 123 4567' => Output: false
 #
 
 <br />
+
+# Challenge 177 Make The Deadfish Swim
+
+My solution -> *[177MakeTheDeadFishSwim](177MakeTheDeadFishSwim.js)*
+
+## **_Task condition:_**
+
+Create a parser to interpret and execute the Deadfish language.
+
+Deadfish operates on a single value in memory, which is initially set to `0`.
+
+It uses four single-character commands:
+- `i`: Increment the value
+- `d`: Decrement the value
+- `s`: Square the value
+- `o`: Output the value to a result array
+
+All other instructions are no-ops and have no effect.
+
+### **_Examples_**
+
+```
+Input: 'iiisdoso' => Output: [8, 64]
+
+Input: 'iiisdosodddddiso' => Output: [8, 64, 3600]
+```
+
+#
+
+<br />
