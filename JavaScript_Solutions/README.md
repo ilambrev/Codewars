@@ -5955,3 +5955,23 @@ Input: 'Bn14Bn14Bn8P9'              => Output: 'invalid data'
 #
 
 <br />
+
+# Challenge 179 Name Array Capping
+
+My solution -> *[179NameArrayCapping](179NameArrayCapping.js)*
+
+## **_Task condition:_**
+
+Create a function that accepts an array of names, and returns an array of each name with its first letter capitalized and the remainder in lowercase.
+
+### **_Examples_**
+
+```
+Input: ['jo', 'nelson', 'jurie'] => Output: ['Jo', 'Nelson', 'Jurie']
+
+Input: ['KARLY', 'DANIEL', 'KELSEY'] => Output: ['Karly', 'Daniel', 'Kelsey']
+```
+
+#
+
+<br />
