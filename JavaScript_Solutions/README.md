@@ -5975,3 +5975,27 @@ Input: ['KARLY', 'DANIEL', 'KELSEY'] => Output: ['Karly', 'Daniel', 'Kelsey']
 #
 
 <br />
+
+# Challenge 180 Build A Pile Of Cubes
+
+My solution -> *[180BuildAPileOfCubes](180BuildAPileOfCubes.js)*
+
+## **_Task condition:_**
+
+Your task is to construct a building which will be a pile of **_n_** cubes. The cube at the bottom will have a volume of **_n<sup>3</sup>_**, the cube above will have volume of **_(n−1)<sup>3</sup>_** and so on until the top which will have a volume of **_1<sup>3</sup>_**.
+
+You are given the total volume m of the building. Being given m can you find the number n of cubes you will have to build?
+
+The parameter of the function findNb will be an integer **_m_** and you have to return the integer **_n_** such as **_n<sup>3</sup> + (n−1)<sup>3</sup> + (n−2)<sup>3</sup> + ... + 1<sup>3</sup> = m_** if such a **_n_** exists or **_-1_** if there is no such **_n_**.
+
+### **_Examples_**
+
+```
+Input: 1071225 => Output: 45
+
+Input: 91716553919377 => Output: -1
+```
+
+#
+
+<br />
