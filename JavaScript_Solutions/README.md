@@ -5999,3 +5999,36 @@ Input: 91716553919377 => Output: -1
 #
 
 <br />
+
+# Challenge 181 IP Validation
+
+My solution -> *[181IPValidation](181IPValidation.js)*
+
+## **_Task condition:_**
+
+Write an algorithm that will identify valid IPv4 addresses in dot-decimal format. IPs should be considered valid if they consist of four octets, with values between `0` and `255`, inclusive.
+
+### **_Examples_**
+
+```
+Input: 1.2.3.4 => Output: true
+
+Input: 123.45.67.89 => Output: true
+
+Input: 1.2.3 => Output: false
+
+Input: 1.2.3.4.5 => Output: false
+
+Input: 123.456.78.90 => Output: false
+
+Input: 123.045.067.089 => Output: false
+```
+
+**_NOTES:_**
+
+- Leading zeros (e.g. `01.02.03.04`) are considered invalid
+- Inputs are guaranteed to be a single string
+
+#
+
+<br />
