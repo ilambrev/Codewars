@@ -6032,3 +6032,33 @@ Input: 123.045.067.089 => Output: false
 #
 
 <br />
+
+# Challenge 182 Simple Sentences
+
+My solution -> *[182SimpleSentences](182SimpleSentences.js)*
+
+## **_Task condition:_**
+
+Implement a function, so it will produce a sentence out of the given parts.
+
+Array of parts could contain:
+
+- words;
+- commas in the middle;
+- multiple periods at the end.
+
+Sentence making rules:
+
+- there must always be a space between words;
+- there must not be a space between a comma and word on the left;
+- there must always be one and only one period at the end of a sentence.
+
+### **_Examples_**
+
+```
+Input: ['hello', ',', 'my', 'dear'] => Output: 'hello, my dear.'
+```
+
+#
+
+<br />
