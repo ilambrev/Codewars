@@ -6062,3 +6062,40 @@ Input: ['hello', ',', 'my', 'dear'] => Output: 'hello, my dear.'
 #
 
 <br />
+
+# Challenge 183 Sentence Calculator
+
+My solution -> *[183SentenceCalculator](183SentenceCalculator.js)*
+
+## **_Task condition:_**
+
+Calculate the total score (sum of the individual character scores) of a sentence given the following score rules for each allowed group of characters:
+
+- Lower case [a-z]: 'a'=1, 'b'=2, 'c'=3, ..., 'z'=26
+- Upper case [A-Z]: 'A'=2, 'B'=4, 'C'=6, ..., 'Z'=52
+- Digits [0-9] their numeric value: '0'=0, '1'=1, '2'=2, ..., '9'=9
+- Other characters: 0 value
+
+### **_Examples_**
+
+```
+Input: 'I Love You' => Output: 170
+
+Input: 'ILoveYou' => Output: 170
+
+Input: 'ARE YOU HUNGRY?' => Output: 365
+
+Input: 'oops, i did it again!' => Output: 152
+
+Input: 'Give me 5!' => Output: 73
+
+Input: 'Give me five!' => Output: 110
+```
+
+**_NOTES:_**
+
+- Input will always be a string.
+
+#
+
+<br />
