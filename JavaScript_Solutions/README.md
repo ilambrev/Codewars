@@ -6260,3 +6260,29 @@ Output: 'party time!!'
 #
 
 <br />
+
+# Challenge 186 The Office III - Broken Photocopier
+
+My solution -> *[186TheOffice-III-BrokenPhotocopier](186TheOffice-III-BrokenPhotocopier.js)*
+
+## **_Task condition:_**
+
+The bloody photocopier is broken... Just as you were sneaking around the office to print off your favourite binary code!
+
+Instead of copying the original, it reverses it: `'1'` becomes `'0'` and vice versa.
+
+Given a string of binary, return the version the photocopier gives you as a string.
+
+### **_Examples_**
+
+```
+Input: '1' => Output: '0'
+
+Input: '10000000101101111110011001000' => Output: '01111111010010000001100110111'
+
+Input: '100010' => Output: '011101'
+```
+
+#
+
+<br />
