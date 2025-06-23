@@ -6286,3 +6286,33 @@ Input: '100010' => Output: '011101'
 #
 
 <br />
+
+# Challenge 187 The Office IV - Find a Meeting Room
+My solution -> *[187TheOffice-IV-FindAMeetingRoom](187TheOffice-IV-FindAMeetingRoom.js)*
+
+## **_Task condition:_**
+
+Your job at E-Corp is both boring and difficult. It isn't made any easier by the fact that everyone constantly wants to have a meeting with you, and that the meeting rooms are always taken!
+
+In this kata, you will be given an array. Each value represents a meeting room. Your job? Find the first empty one and return its index (N.B. There may be more than one empty room in some test cases).
+
+```
+'X' --> busy
+'O' --> empty
+```
+
+If all rooms are busy, return `"None available!"`.
+
+### **_Examples_**
+
+```
+Input: ['X', 'O', 'X'] => Output: 1
+
+Input: ['O', 'X', 'X', 'X', 'X'] => Output: 0
+
+Input: ['X', 'X', 'X', 'X', 'X'] => Output: 'None available!'
+```
+
+#
+
+<br />
