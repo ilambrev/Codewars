@@ -6318,7 +6318,7 @@ Input: ['X', 'X', 'X', 'X', 'X'] => Output: 'None available!'
 
 <br />
 
-# Challenge 188 The Office V - Find A Chair 
+# Challenge 188 The Office V - Find A Chair
 
 My solution -> *[188TheOffice-V-FindAChair](188TheOffice-V-FindAChair.js)*
 
@@ -6346,6 +6346,26 @@ Input: meeting([['XXX', 3], ['XXXXX', 6], ['XXXXXX', 9]], 4) => Output: [0, 1, 3
 Input: meeting([['XXX', 1], ['XXXXXX', 6], ['X', 2], ['XXXXXX', 8], ['X', 3], ['XXX', 1]], 5) => Output: [0, 0, 1, 2, 2]
 
 Input: meeting([['XX', 2], ['XXXX', 6], ['XXXXX', 4]], 0) => Output: 'Game On'
+```
+
+#
+
+<br />
+
+# Challenge 189 Array Exchange
+
+My solution -> *[189ArrayExchange](189ArrayExchange.js)*
+
+## **_Task condition:_**
+
+It's time for some array exchange! The objective is simple: exchange the elements of two arrays in-place in a way that their new content is also reversed. The arrays may be of unequal lengths, in which case you will have to expand the shorter one in-place.
+
+### **_Examples_**
+
+```
+Input: exchangeWith(['a', 'b', 'c'], [1, 2, 3]) => After exchange: [3, 2, 1], ['c', 'b', 'a']
+
+Input: exchangeWith(['1', '2', '3', '4', '5', '6', '7'], ['a', 'b', 'c']) => After exchange: ['c', 'b', 'a'], ['7', '6', '5', '4', '3', '2', '1']
 ```
 
 #
