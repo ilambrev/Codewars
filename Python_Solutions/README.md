@@ -21,3 +21,27 @@ Input: boolean_to_string(False) => Output: "False"
 #
 
 <br />
+
+# Challenge 002 Hello, Name Or World!
+
+My solution -> *[002HelloNameOrWorld](002HelloNameOrWorld.py)*
+
+## **_Task condition:_**
+
+Define a method `hello` that `returns "Hello, Name!"` to a given `name`, or says `Hello, World!` if `name` is not given (or passed as an empty String).
+
+Assuming that `name` is a `String` and it checks for user typos to return a name with a first capital letter (Xxxx).
+
+### **_Examples_**
+
+```
+Input: "John" => Output: "Hello, John!"
+
+Input: "aLIce" => Output: "Hello, Alice!"
+
+Input: "" => Output: "Hello, World!"
+```
+
+#
+
+<br />
