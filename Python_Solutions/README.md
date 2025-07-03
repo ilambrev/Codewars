@@ -45,3 +45,25 @@ Input: "" => Output: "Hello, World!"
 #
 
 <br />
+
+# Challenge 003 Parse Float
+
+My solution -> *[003ParseFloat](003ParseFloat.py)*
+
+## **_Task condition:_**
+
+Write function `parse_float` which takes a string/list and returns a `number` or `None` if conversion is not possible.
+
+### **_Examples_**
+
+```
+Input: "1.0" => Output: 1.0
+
+Input: "a" => Output: None
+
+Input: "234.0234" => Output: 234.0234
+```
+
+#
+
+<br />
