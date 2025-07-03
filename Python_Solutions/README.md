@@ -67,3 +67,29 @@ Input: "234.0234" => Output: 234.0234
 #
 
 <br />
+
+# Challenge 004 Remove Exclamation Marks
+
+My solution -> *[004RemoveExclamationMarks](004RemoveExclamationMarks.py)*
+
+## **_Task condition:_**
+
+Write function `remove_exclamation_marks(s)` which removes all exclamation marks from a given string.
+
+### **_Examples_**
+
+```
+Input: "Hello World!" => Output: "Hello World"
+
+Input: "Hello World!!!" => Output: "Hello World"
+
+Input: "Hi! Hello!" => Output: "Hi Hello"
+
+Input: "" => Output: ""
+
+Input: "Oh, no!!!" => Output: "Oh, no"
+```
+
+#
+
+<br />
