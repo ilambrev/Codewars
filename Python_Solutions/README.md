@@ -93,3 +93,35 @@ Input: "Oh, no!!!" => Output: "Oh, no"
 #
 
 <br />
+
+# Challenge 005 Is It A Palindrome?
+
+My solution -> *[005IsItAPalindrome](005IsItAPalindrome.py)*
+
+## **_Task condition:_**
+
+Write a function that checks if a given string (case insensitive) is a `palindrome`.
+
+A palindrome is a word, number, phrase, or other sequence of symbols that reads the same backwards as forwards, such as `madam` or `racecar`.
+
+### **_Examples_**
+
+```
+Input: "a" => Output: True
+
+Input: "aba" => Output: True
+
+Input: "Abba" => Output: True
+
+Input: "malam" => Output: True
+
+Input: "walter" => Output: False
+
+Input: "kodok" => Output: True
+
+Input: "Kasue" => Output: False
+```
+
+#
+
+<br />
