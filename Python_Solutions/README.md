@@ -125,3 +125,33 @@ Input: "Kasue" => Output: False
 #
 
 <br />
+
+# Challenge 006 Third Angle Of A Triangle
+
+My solution -> *[006ThirdAngleOfATriangle](006ThirdAngleOfATriangle.py)*
+
+## **_Task condition:_**
+
+You are given two interior angles (in degrees) of a triangle.
+
+Write a function `other_angl(first_angle, second_angle)` to return the 3rd.
+
+### **_Examples_**
+
+```
+Input: other_angle(30, 60) => Output: 90
+
+Input: other_angle(60, 60) => Output: 60
+
+Input: other_angle(43, 78) => Output: 59
+
+Input: other_angle(10, 20) => Output: 150
+```
+
+**_NOTES:_**
+
+- Only positive integers will be tested.
+
+#
+
+<br />
