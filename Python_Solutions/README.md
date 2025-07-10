@@ -182,3 +182,31 @@ Input: [] => Output: []
 #
 
 <br />
+
+# Challenge 008 Find Numbers Which Are Divisible By Given Number
+
+My solution -> *[008FindNumbersWhichAreDivisibleByGivenNumber](008FindNumbersWhichAreDivisibleByGivenNumber.py)*
+
+## **_Task condition:_**
+
+Complete the function which takes two arguments and returns all numbers which are divisible by the given divisor. First argument is an array of `numbers` and the second is the `divisor`.
+
+### **_Examples_**
+
+```
+Input: divisible_by([1,2,3,4,5,6], 2) => Output: [2,4,6]
+
+Input: divisible_by([1,2,3,4,5,6], 3) => Output: [3,6]
+
+Input: divisible_by([0,1,2,3,4,5,6], 4) => Output: [0,4]
+
+Input: divisible_by([0], 4) => Output: [0]
+
+Input: divisible_by([1,3,5], 2) => Output: []
+
+Input: divisible_by([0,1,2,3,4,5,6,7,8,9,10], 1) => Output: [0,1,2,3,4,5,6,7,8,9,10]
+```
+
+#
+
+<br />
