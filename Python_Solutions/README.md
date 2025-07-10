@@ -155,3 +155,30 @@ Input: other_angle(10, 20) => Output: 150
 #
 
 <br />
+
+# Challenge 007 Invert Values
+
+My solution -> *[007InvertValues](007InvertValues.py)*
+
+## **_Task condition:_**
+
+Given a set of numbers, return the additive inverse of each. Each positive becomes negatives, and the negatives become positives.
+
+### **_Examples_**
+
+```
+Input: [1, 2, 3, 4, 5] => Output: [-1, -2, -3, -4, -5]
+
+Input: [1, -2, 3, -4, 5] => Output: [-1, 2, -3, 4, -5]
+
+Input: [] => Output: []
+```
+
+**_NOTES:_**
+
+- You can assume that all values are integers.
+- Do not mutate the input array.
+
+#
+
+<br />
