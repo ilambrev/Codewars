@@ -210,3 +210,23 @@ Input: divisible_by([0,1,2,3,4,5,6,7,8,9,10], 1) => Output: [0,1,2,3,4,5,6,7,8,9
 #
 
 <br />
+
+# Challenge 009 What Is Between?
+
+My solution -> *[009WhatIsBetween](009WhatIsBetween.py)*
+
+## **_Task condition:_**
+
+Complete the function that takes two integers (`a, b`, where `a < b`) and return an array of all integers between the input parameters, including them.
+
+### **_Examples_**
+
+```
+Input: between(1, 4) => Output: [1, 2, 3, 4]
+
+Input: between(-2, 2) => Output: [-2, -1, 0, 1, 2]
+```
+
+#
+
+<br />
