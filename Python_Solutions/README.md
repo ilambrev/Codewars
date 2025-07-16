@@ -294,3 +294,29 @@ Input: monkey_count(20) => Output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 1
 #
 
 <br />
+
+# Challenge 012 Digits Explosion
+
+My solution -> *[012DigitsExplosion](012DigitsExplosion.py)*
+
+## **_Task condition:_**
+
+Given a string made of digits `[0-9]`, return a string where each digit is repeated a number of times equals to its value. 
+
+### **_Examples_**
+
+```
+Input: explode("312") => Output: "333122"
+
+Input: explode("102269") => Output: "12222666666999999999"
+
+Input: explode("0") => Output: ""
+
+Input: explode("000") => Output: ""
+
+Input: explode("123") => Output: "122333"
+```
+
+#
+
+<br />
