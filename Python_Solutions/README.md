@@ -374,3 +374,40 @@ Input: esrever("tacocat!") => Output: "tacocat!"
 #
 
 <br />
+
+# Challenge 015 Find The Nth Occurrence Of A Word In A String!
+
+My solution -> *[015FindTheNthOccurrenceOfAWordInAString](015FindTheNthOccurrenceOfAWordInAString.py)*
+
+## **_Task condition:_**
+
+You are required to implement a function that returns the index of the `nth` occurrence of a `substring` within a `string` (considering that those substring could overlap each other). If there are less than `n` occurrences of the substring, return `-1`.
+
+### **_Examples_**
+
+```
+substring = "example"
+string = "This is an example. Return the nth occurrence of example in this example string."
+
+Input: find_nth_occurrence(substring, string, 1) => Output: 11
+Input: find_nth_occurrence(substring, string, 2) => Output: 49
+Input: find_nth_occurrence(substring, string, 3) => Output: 65
+Input: find_nth_occurrence(substring, string, 4) => Output: -1
+
+---------------------------
+substring = "TestTest"
+string = "TestTestTestTest"
+
+Input: find_nth_occurrence(substring, string, 1) => Output: 0
+Input: find_nth_occurrence(substring, string, 2) => Output: 4
+Input: find_nth_occurrence(substring, string, 3) => Output: 8
+Input: find_nth_occurrence(substring, string, 4) => Output: -1
+```
+
+**_NOTES:_**
+
+- Multiple occurrences of a substring are allowed to overlap.
+
+#
+
+<br />
