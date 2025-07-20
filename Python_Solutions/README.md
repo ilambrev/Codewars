@@ -411,3 +411,31 @@ Input: find_nth_occurrence(substring, string, 4) => Output: -1
 #
 
 <br />
+
+# Challenge 016 Exclamation Marks Series #5: Remove All Exclamation Marks From The End Of Words
+
+My solution -> *[016RemoveAllExclamationMarksFromTheEndOfWords](016RemoveAllExclamationMarksFromTheEndOfWords.py)*
+
+## **_Task condition:_**
+
+Remove all exclamation marks from the end of words. Words are separated by a single space. There are no exclamation marks within a word.
+
+### **_Examples_**
+
+```
+Input: remove('Hi!') => Output: 'Hi'
+
+Input: remove('Hi!!!') => Output: 'Hi'
+
+Input: remove('!Hi') => Output: '!Hi'
+
+Input: remove('!Hi!') => Output: '!Hi'
+
+Input: remove('Hi! Hi!') => Output: 'Hi Hi'
+
+Input: remove('!!!Hi !!hi!!! !hi') => Output: '!!!Hi !!hi !hi'
+```
+
+#
+
+<br />
