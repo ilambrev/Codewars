@@ -185,7 +185,7 @@ Input: [] => Output: []
 
 # Challenge 008 Find Numbers Which Are Divisible By Given Number
 
-My solution -> *[008FindNumbersWhichAreDivisibleByGivenNumber](008FindNumbersWhichAreDivisibleByGivenNumber.py)*
+My solution -> *[008_find_numbers_which_are_divisible_by_given_number](008_find_numbers_which_are_divisible_by_given_number.py)*
 
 ## **_Task condition:_**
 
