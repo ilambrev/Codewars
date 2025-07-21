@@ -96,7 +96,7 @@ Input: "Oh, no!!!" => Output: "Oh, no"
 
 # Challenge 005 Is It A Palindrome?
 
-My solution -> *[005IsItAPalindrome](005IsItAPalindrome.py)*
+My solution -> *[005_is_it_a_palindrome](005_is_it_a_palindrome.py)*
 
 ## **_Task condition:_**
 
