@@ -158,7 +158,7 @@ Input: other_angle(10, 20) => Output: 150
 
 # Challenge 007 Invert Values
 
-My solution -> *[007InvertValues](007InvertValues.py)*
+My solution -> *[007_invert_values](007_invert_values.py)*
 
 ## **_Task condition:_**
 
