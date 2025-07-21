@@ -24,7 +24,7 @@ Input: boolean_to_string(False) => Output: "False"
 
 # Challenge 002 Hello, Name Or World!
 
-My solution -> *[002HelloNameOrWorld](002HelloNameOrWorld.py)*
+My solution -> *[002_hello_name_or_world](002_hello_name_or_world.py)*
 
 ## **_Task condition:_**
 
