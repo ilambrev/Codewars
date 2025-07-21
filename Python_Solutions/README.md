@@ -128,7 +128,7 @@ Input: "Kasue" => Output: False
 
 # Challenge 006 Third Angle Of A Triangle
 
-My solution -> *[006ThirdAngleOfATriangle](006ThirdAngleOfATriangle.py)*
+My solution -> *[006_third_angle_of_a_triangle](006_third_angle_of_a_triangle.py)*
 
 ## **_Task condition:_**
 
