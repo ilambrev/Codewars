@@ -269,7 +269,7 @@ Input: correct("PAR15") => Output: "PARIS"
 
 # Challenge 011 Count The Monkeys!
 
-My solution -> *[011CountTheMonkeys](011CountTheMonkeys.py)*
+My solution -> *[011_count_the_monkeys](011_count_the_monkeys.py)*
 
 ## **_Task condition:_**
 
