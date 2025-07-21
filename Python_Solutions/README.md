@@ -233,7 +233,7 @@ Input: between(-2, 2) => Output: [-2, -1, 0, 1, 2]
 
 # Challenge 010 Correct The Mistakes Of The Character Recognition Software
 
-My solution -> *[010CorrectTheMistakesOfTheCharacterRecognitionSoftware](010CorrectTheMistakesOfTheCharacterRecognitionSoftware.py)*
+My solution -> *[010_correct_the_mistakes_of_the_character_recognition_software](010_correct_the_mistakes_of_the_character_recognition_software.py)*
 
 ## **_Task condition:_**
 
