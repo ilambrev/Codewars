@@ -377,7 +377,7 @@ Input: esrever("tacocat!") => Output: "tacocat!"
 
 # Challenge 015 Find The Nth Occurrence Of A Word In A String!
 
-My solution -> *[015FindTheNthOccurrenceOfAWordInAString](015FindTheNthOccurrenceOfAWordInAString.py)*
+My solution -> *[015_find_the_nth_occurrence_of_a_wordIn_a_string](015_find_the_nth_occurrence_of_a_wordIn_a_string.py)*
 
 ## **_Task condition:_**
 
