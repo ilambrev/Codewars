@@ -70,7 +70,7 @@ Input: "234.0234" => Output: 234.0234
 
 # Challenge 004 Remove Exclamation Marks
 
-My solution -> *[004RemoveExclamationMarks](004RemoveExclamationMarks.py)*
+My solution -> *[004_remove_exclamation_marks](004_remove_exclamation_marks.py)*
 
 ## **_Task condition:_**
 
