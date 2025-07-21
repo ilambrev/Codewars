@@ -48,7 +48,7 @@ Input: "" => Output: "Hello, World!"
 
 # Challenge 003 Parse Float
 
-My solution -> *[003ParseFloat](003ParseFloat.py)*
+My solution -> *[003_parse_float](003_parse_float.py)*
 
 ## **_Task condition:_**
 
