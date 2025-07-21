@@ -1,6 +1,6 @@
 # Challenge 001 Convert A Boolean To A String
 
-My solution -> *[001ConvertABooleanToAString](001ConvertABooleanToAString.py)*
+My solution -> *[001_convert_a_boolean_to_a_string](001_convert_a_boolean_to_a_string.py)*
 
 ## **_Task condition:_**
 
