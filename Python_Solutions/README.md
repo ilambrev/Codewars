@@ -297,7 +297,7 @@ Input: monkey_count(20) => Output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 1
 
 # Challenge 012 Digits Explosion
 
-My solution -> *[012DigitsExplosion](012DigitsExplosion.py)*
+My solution -> *[012_digits_explosion](012_digits_explosion.py)*
 
 ## **_Task condition:_**
 
