@@ -473,3 +473,47 @@ Input: '2113' => Output: 5
 #
 
 <br />
+
+# Challenge 018 Selective Fear Of Numbers
+
+My solution -> *[018_selective_fear_of_numbers](018_selective_fear_of_numbers.py)*
+
+## **_Task condition:_**
+
+I've got a crazy mental illness. I dislike numbers a lot. But it's a little complicated: The number I'm afraid of depends on which day of the week it is... This is a concrete description of my mental illness:
+
+```
+Monday      => 12
+
+Tuesday     => numbers greater than 95
+
+Wednesday   => 34
+
+Thursday    => 0
+
+Friday      => numbers divisible by 2
+
+Saturday    => 56
+
+Sunday      => 666 or -666
+```
+
+Write a function which takes a string (day of the week) and an integer (number to be tested) so it tells the doctor if I'm afraid or not. (return a boolean)
+
+### **_Examples_**
+
+```
+Input: am_i_afraid('Monday', 13) => Output: False
+
+Input: am_i_afraid('Sunday', -666) => Output: True
+
+Input: am_i_afraid('Tuesday', 2) => Output: False
+
+Input: am_i_afraid('Tuesday', 965) => Output: True
+
+Input: am_i_afraid('Friday', 2) => Output: True
+```
+
+#
+
+<br />
