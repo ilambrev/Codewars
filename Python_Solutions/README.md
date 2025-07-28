@@ -517,3 +517,45 @@ Input: am_i_afraid('Friday', 2) => Output: True
 #
 
 <br />
+
+# Challenge 019 Area Of An Arrow
+
+My solution -> *[019_area_of_an_arrow](019_area_of_an_arrow.py)*
+
+## **_Task condition:_**
+
+An arrow is formed in a rectangle with sides a and b by joining the bottom corners to the midpoint of the top edge and the centre of the rectangle.
+
+```
+ ____________
+|            | 
+|            | 
+|            | 
+|            |
+|            |
+|     /\     |
+|    /  \    | b
+|   /    \   |
+|  /      \  |
+| /  arrow \ |
+|/__________\|
+     a
+```
+
+`a` and `b` are integers and > `0`.
+
+Write a function which returns the area of the arrow.
+
+### **_Examples_**
+
+```
+Input: arrow_area(4,2) => Output: 2
+
+Input: arrow_area(7,6) => Output: 10.5
+
+Input: arrow_area(25,25) => Output: 156.25
+```
+
+#
+
+<br />
