@@ -588,3 +588,43 @@ Input: missing([12, 4, 6], 'Good Morning') => Output: "No mission today"
 #
 
 <br />
+
+# Challenge 021 String Scramble
+
+My solution -> *[021_string_scramble](021_string_scramble.py)*
+
+## **_Task condition:_**
+
+Given a string and an array of indices, rearrange the characters of the string so that each character is placed at the position specified by the corresponding index in the array.
+
+### **_Explanation_**
+
+```
+input: "abcd", [0, 3, 1, 2]
+output: "acdb"
+
+- The character 'a' is placed at index 0.
+- The character 'b' is placed at index 3.
+- The character 'c' is placed at index 1.
+- The character 'd' is placed at index 2.
+```
+
+### **_Examples_**
+
+```
+Input: scramble('abcd', [0, 3, 1, 2]) => Output: 'acdb'
+
+Input: scramble('sc301s', [4,0,3,1,5,2]) => Output: 'c0s3s1'
+
+Input: scramble('bskl5', [2,1,4,3,0]) => Output: '5sblk'
+```
+
+**_NOTES:_**
+
+- The string and the array will be of equal length.
+- The string will contain valid characters `(A-Z, a-z, or 0-9)`.
+- The array will contain valid indices.
+
+#
+
+<br />
