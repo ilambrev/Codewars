@@ -628,3 +628,21 @@ Input: scramble('bskl5', [2,1,4,3,0]) => Output: '5sblk'
 #
 
 <br />
+
+# Challenge 022 Return The First M Multiples Of N
+
+My solution -> *[022_return_the_first_m_multiples_of_n](022_return_the_first_m_multiples_of_n.py)*
+
+## **_Task condition:_**
+
+Implement a function that takes two numbers `m` and `n` and returns an array of the first `m` multiples of the real number `n`. Assume that `m` is a positive integer.
+
+### **_Examples_**
+
+```
+Input: multiples(3, 5) => Output: [5, 10, 15]
+```
+
+#
+
+<br />
