@@ -646,3 +646,50 @@ Input: multiples(3, 5) => Output: [5, 10, 15]
 #
 
 <br />
+
+# Challenge 023 EAN Validation
+
+My solution -> *[023_ean_validation](023_ean_validation.py)*
+
+## **_Task condition:_**
+
+A lot of goods have an International Article Number (formerly known as "European Article Number") abbreviated "EAN". EAN is a 13-digit barcode consisting of 12 digits followed by a single-digit checksum.
+
+The single-digit checksum is calculated as follows (based upon the first 12 digits):
+- The digits at the first, third, fifth, etc. positions (i.e. at the odd positions) are multiplied by `1`.
+- The digits at the second, fourth, sixth, etc. positions (i.e. at the even positions) are multiplied by `3`.
+- Sum these results.
+
+If this sum is divisible by `10`, the checksum is `0`. Otherwise the checksum has the following formula:
+
+_`checksum = 10 - (sum mod 10)`_
+
+For example, calculate the checksum for `400330101839` (12 digits):
+
+_`4 * 1 + 0 * 3 + 0 * 1 + 3 * 3 + 3 * 1 + 0 * 3 + 1 * 1 + 0 * 3 + 1 * 1 + 8 * 3 + 3 * 1 + 9 * 3 = 4 + 0 + 0 + 9 + 3 + 0 + 1 + 0 + 1 + 24 + 3 + 27 = 72`_
+
+_`10 - (72 mod 10) = 8 => Checksum: 8`_
+
+Thus, the `EAN-Code` is `4003301018398` (12 digits followed by single-digit checksum).
+
+Validate a given `EAN-Code`. Return `True` if the given `EAN-Code` is valid, otherwise `False`.
+
+### **_Examples_**
+
+```
+Input: validate_ean('4003301018398') => Output: True
+
+Input: validate_ean('9783815820865') => Output: True
+
+Input: validate_ean('9783815820864') => Output: False
+
+Input: validate_ean('9783827317100') => Output: True
+```
+
+**_NOTES:_**
+
+- You can assume the given code is syntactically valid, i.e. it only consists of numbers and it exactly has a length of `13` characters.
+
+#
+
+<br />
