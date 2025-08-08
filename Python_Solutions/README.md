@@ -693,3 +693,27 @@ Input: validate_ean('9783827317100') => Output: True
 #
 
 <br />
+
+# Challenge 024 Pairs Of Integers From 0 To N
+
+My solution -> *[024_pairs_of_integers_from_0_to_n](024_pairs_of_integers_from_0_to_n.py)*
+
+## **_Task condition:_**
+
+Write a function that accepts an integer argument `n` and generates an array containing the pairs of integers `[a, b]` that satisfy the condition
+
+_`0 <= a <= b <= n`_
+
+The pairs should be sorted by increasing values of `a`, then by increasing values of `b`.
+
+### **_Examples_**
+
+```
+Input: generate_pairs(2) => Output: [[0, 0], [0, 1], [0, 2], [1, 1], [1, 2], [2, 2]]
+
+Input: generate_pairs(0) => Output: [[0, 0]]
+```
+
+#
+
+<br />
