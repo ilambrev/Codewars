@@ -717,3 +717,32 @@ Input: generate_pairs(0) => Output: [[0, 0]]
 #
 
 <br />
+
+# Challenge 025 Simple Letter Removal
+
+My solution -> *[025_simple_letter_removal](025_simple_letter_removal.py)*
+
+## **_Task condition:_**
+
+You will be given a lower case string and your task will be to remove `k` characters from that string using the following rule:
+
+- first remove all letter 'a', followed by letter 'b', then 'c', etc...
+- remove the leftmost character first.
+
+### **_Examples_**
+
+```
+Input: solve('abracadabra', 1) => Output: 'bracadabra'
+
+Input: solve('abracadabra', 2) => Output: 'brcadabra'
+
+Input: solve('abracadabra', 6) => Output: 'rcdbr'
+
+Input: solve('abracadabra', 8) => Output: 'rdr'
+
+Input: solve('abracadabra',50) => Output: ''
+```
+
+#
+
+<br />
