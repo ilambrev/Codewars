@@ -787,3 +787,34 @@ Input: sentencify(["i'm", "afraid", "I", "can't", "let", "you", "do", "that"]) =
 #
 
 <br />
+
+# Challenge 027 Likes Vs Dislikes
+
+My solution -> *[027_likes_vs_dislikes](027_likes_vs_dislikes.py)*
+
+## **_Task condition:_**
+
+YouTube had a like and a dislike button, which allowed users to express their opinions about particular content. It was set up in such a way that you cannot like and dislike a video at the same time. There are two other interesting rules to be noted about the interface: Pressing a button, which is already active, will undo your press. If you press the like button after pressing the dislike button, the like button overwrites the previous "Dislike" state. The same is true for the other way round.
+
+Create a function that takes in a list of button inputs and returns the final state.
+
+### **_Examples_**
+
+```
+Input: like_or_dislike([Dislike]) => Output: Dislike
+
+Input: like_or_dislike([Like, Like]) => Output: Nothing
+
+Input: like_or_dislike([Dislike, Like]) => Output: Like
+
+Input: like_or_dislike([Like, Dislike, Dislike]) => Output: Nothing
+```
+
+**_NOTES:_**
+
+- If no button is currently active, return `Nothing`.
+- If the list is empty, return `Nothing`.
+
+#
+
+<br />
