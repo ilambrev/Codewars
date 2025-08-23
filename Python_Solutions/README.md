@@ -818,3 +818,29 @@ Input: like_or_dislike([Like, Dislike, Dislike]) => Output: Nothing
 #
 
 <br />
+
+# Challenge 028 Initialize My Name
+
+My solution -> *[028_Initialize_my_name](028_Initialize_my_name.py)*
+
+## **_Task condition:_**
+
+Some people just have a first name; some people have first and last names and some people have first, middle and last names.
+
+You task is to initialize the middle names (if there is any).
+
+### **_Examples_**
+
+```
+Input: initialize_names('Jack Ryan') => Output: 'Jack Ryan'
+
+Input: initialize_names('Lois Mary Lane') => Output: 'Lois M. Lane'
+
+Input: initialize_names('Dimitri') => Output: 'Dimitri'
+
+Input: initialize_names('Alice Betty Catherine Davis') => Output: 'Alice B. C. Davis'
+```
+
+#
+
+<br />
