@@ -844,3 +844,25 @@ Input: initialize_names('Alice Betty Catherine Davis') => Output: 'Alice B. C. D
 #
 
 <br />
+
+# Challenge 029 Find The Divisors! 
+
+My solution -> *[029_find_the_divisors](029_find_the_divisors.py)*
+
+## **_Task condition:_**
+
+Create a function named `divisors` that takes an integer `n > 1` and returns an array with all of the integer's divisors(except for 1 and the number itself), from smallest to largest. If the number is prime return the string `'(integer) is prime'`.
+
+### **_Examples_**
+
+```
+Input: divisors(12) => Output: [2, 3, 4, 6]
+
+Input: divisors(25) => Output: [5]
+
+Input: divisors(13) => Output: '13 is prime'
+```
+
+#
+
+<br />
