@@ -845,7 +845,7 @@ Input: initialize_names('Alice Betty Catherine Davis') => Output: 'Alice B. C. D
 
 <br />
 
-# Challenge 029 Find The Divisors! 
+# Challenge 029 Find The Divisors!
 
 My solution -> *[029_find_the_divisors](029_find_the_divisors.py)*
 
@@ -861,6 +861,36 @@ Input: divisors(12) => Output: [2, 3, 4, 6]
 Input: divisors(25) => Output: [5]
 
 Input: divisors(13) => Output: '13 is prime'
+```
+
+#
+
+<br />
+
+# Challenge 030 Add Commas To A Number
+
+My solution -> *[030_add_commas_to_a_number](030_add_commas_to_a_number.py)*
+
+## **_Task condition:_**
+
+Your task is to convert a given number into a string with commas added for easier readability. The number should be rounded to 3 decimal places and the commas should be added at intervals of three digits before the decimal point. There does not need to be a comma at the end of the number.
+
+You will receive both positive and negative numbers.
+
+### **_Examples_**
+
+```
+Input: commas(1) => Output: "1"
+
+Input: commas(1000) => Output: "1,000"
+
+Input: commas(100.2346) => Output: "100.235"
+
+Input: commas(1000000000.23) => Output: ""1,000,000,000.23"
+
+Input: commas(-1) => Output: "-1"
+
+Input: commas(-1000000.123) => Output: "-1,000,000.123"
 ```
 
 #
