@@ -1,4 +1,4 @@
 # Codewars
 My solutions of Codewars platform challenges
 
-[![Codewars Profile Badge](https://www.codewars.com/users/johnniebt/badges/large)](https://www.codewars.com/users/johnniebt/?param1=value1?target=_blank)
+[![Codewars Profile Badge](https://www.codewars.com/users/johnniebt/badges/large)](https://www.codewars.com/users/johnniebt/){:target="_blank"}
