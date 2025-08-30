@@ -6371,3 +6371,27 @@ Input: exchangeWith(['1', '2', '3', '4', '5', '6', '7'], ['a', 'b', 'c']) => Aft
 #
 
 <br />
+
+# Challenge 190 Shortest Word
+
+My solution -> *[190ShortestWord](190ShortestWord.js)*
+
+## **_Task condition:_**
+
+Simple, given a string of words, return the length of the shortest word(s).
+
+String will never be empty and you do not need to account for different data types.
+
+### **_Examples_**
+
+```
+Input: findShort("bitcoin take over the world maybe who knows perhaps") => Output: 3
+
+Input: findShort("turns out random test cases are easier than writing out basic ones") => Output: 3
+
+Input: findShort("Let's travel abroad shall we") => Output: 2
+```
+
+#
+
+<br />
