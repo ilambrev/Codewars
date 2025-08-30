@@ -886,11 +886,39 @@ Input: commas(1000) => Output: "1,000"
 
 Input: commas(100.2346) => Output: "100.235"
 
-Input: commas(1000000000.23) => Output: ""1,000,000,000.23"
+Input: commas(1000000000.23) => Output: "1,000,000,000.23"
 
 Input: commas(-1) => Output: "-1"
 
 Input: commas(-1000000.123) => Output: "-1,000,000.123"
+```
+
+#
+
+<br />
+
+# Challenge 031 Even Odd Pattern #1
+
+My solution -> *[031_even_odd_pattern_1](031_even_odd_pattern_1.py)*
+
+## **_Task condition:_**
+
+Write a function that takes an `list` of numbers and returns a number.
+
+See the examples and try to guess the pattern.
+
+### **_Examples_**
+
+```
+Input: even_odd([1, 2, 6, 1, 6, 3, 1, 9, 6]) => Output: 393
+
+Input: even_odd([1, 2, 3]) => Output: 5
+
+Input: even_odd([0, 2, 3]) => Output: 3
+
+Input: even_odd([1, 0, 3]) => Output: 3
+
+Input: even_odd([3, 2]) => Output: 6
 ```
 
 #
