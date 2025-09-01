@@ -952,3 +952,35 @@ Input: bits_war([7, -3, -2, 6]) => Output: "tie" // 111 - 11  vs -1 + 110, 3 - 2
 #
 
 <br />
+
+# Challenge 033 Check If Two Words Are Isomorphic To Each Other
+
+My solution -> *[033_check_if_two_words_are_isomorphic_to_each_other](033_check_if_two_words_are_isomorphic_to_each_other.py)*
+
+## **_Task condition:_**
+
+Two strings `a` and `b` are called isomorphic if there is a one to one mapping possible for every character of `a` to every character of `b`. And all occurrences of every character in `a` map to same character in `b`.
+
+You will create a function that return `True` if two given strings are isomorphic to each other, and `False` otherwise. Remember that order is important.
+
+Your solution must be able to handle words with more than 10 characters.
+
+### **_Examples_**
+
+```
+Input: isomorph("CBAABC", "DEFFED") => Output: True
+
+Input: isomorph("XXX", "YYY") => Output: True
+
+Input: isomorph("RAMBUNCTIOUSLY", "THERMODYNAMICS") => Output: True
+
+Input: isomorph("AB", "CC") => Output: False
+
+Input: isomorph("XXY", "XYY") => Output: False
+
+Input: isomorph("ABAB", "CD") => Output: False
+```
+
+#
+
+<br />
