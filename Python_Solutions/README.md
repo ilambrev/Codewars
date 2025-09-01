@@ -924,3 +924,31 @@ Input: even_odd([3, 2]) => Output: 6
 #
 
 <br />
+
+# Challenge 032 World Bits War
+
+My solution -> *[032_world_bits_war](032_world_bits_war.py)*
+
+## **_Task condition:_**
+
+The war has expanded and become dirtier and meaner; both even and odd numbers will fight with their pointy `1s`. And negative integers are coming into play as well, with, `"ça va sans dire"`, a negative contribution (think of them as spies or saboteurs).
+
+A number's strength is determined by the number of set bits (`1s`) in its binary representation. Negative integers work against their own side so their strength is negative. For example `-5 = -101` has strength `-2` and `+5 = +101` has strength `+2`.
+
+The side with the largest cumulated strength wins.
+
+Again, three possible outcomes: `odds win`, `evens win` and `tie`.
+
+### **_Examples_**
+
+```
+Input: bits_war([1, 5, 12]) => Output: "odds win" // 1 + 101 vs 1100, 3 vs 2
+
+Input: bits_war([7, -3, 20]) => Output: "evens win" // 111 - 11  vs 10100, 3 - 2 vs 2
+
+Input: bits_war([7, -3, -2, 6]) => Output: "tie" // 111 - 11  vs -1 + 110, 3 - 2 vs -1 + 2
+```
+
+#
+
+<br />
