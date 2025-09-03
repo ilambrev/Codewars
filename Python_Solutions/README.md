@@ -984,3 +984,59 @@ Input: isomorph("ABAB", "CD") => Output: False
 #
 
 <br />
+
+# Challenge 034 Separating Strings
+
+My solution -> *[034_separating_strings](034_separating_strings.py)*
+
+## **_Task condition:_**
+
+Create a function that takes a string and separates it into a sequence of letters.
+
+The array will be formatted as so:
+
+```
+[['J','L','L','M'],
+ ['u','i','i','a'],
+ ['s','v','f','n'],
+ ['t','e','e','']]
+```
+
+The function should separate each word into individual letters, with the first word in the sentence having its letters in the 0th index of each 2nd dimension array, and so on.
+
+Shorter words will have an empty string in the place once the word has already been mapped out. (See the last element in the last part of the array.)
+
+### **_Examples_**
+
+```
+Input: sep_str("Just Live Life Man")
+
+Output:
+
+    [['J','L','L','M'],
+     ['u','i','i','a'],
+     ['s','v','f','n'],
+     ['t','e','e','']]
+
+-----------------------------
+
+Input: sep_str("The Mitochondria is the powerhouse of the cell")
+
+Output:
+
+```
+    [[ 'T', 'M', 'i', 't', 'p', 'o', 't', 'c' ],
+     [ 'h', 'i', 's', 'h', 'o', 'f', 'h', 'e' ],
+     [ 'e', 't', '', 'e', 'w', '', 'e', 'l' ],
+     [ '', 'o', '', '', 'e', '', '', 'l' ],
+     [ '', 'c', '', '', 'r', '', '', '' ],
+     [ '', 'h', '', '', 'h', '', '', '' ],
+     [ '', 'o', '', '', 'o', '', '', '' ],
+     [ '', 'n', '', '', 'u', '', '', '' ],
+     [ '', 'd', '', '', 's', '', '', '' ],
+     [ '', 'r', '', '', 'e', '', '', '' ],
+     [ '', 'i', '', '', '', '', '', '' ],
+     [ '', 'a', '', '', '', '', '', '' ]]
+#
+
+<br />
