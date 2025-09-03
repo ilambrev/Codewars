@@ -417,3 +417,51 @@ Output: "e6t-r3s are r4y fun!"
 #
 
 <br />
+
+# Challenge 014 N High Scores
+
+My solution -> *[P014NHighScores](P014NHighScores/Solution.java)*
+
+## **_Task condition:_**
+
+You've been given the task of retrieving the top N high scores from players of a video game.
+
+You need to write the method `topScores(List<PlayerRecord> records, int nTop)`, where `records` is a list of players records in the form of:
+
+```
+List<PlayerRecord> records = Arrays.asList(
+    new PlayerRecord("Bob", 100),
+    new PlayerRecord("Jane", 120),
+    new PlayerRecord("Alice", 10),
+    new PlayerRecord("Bob", 110),
+    new PlayerRecord("Bob", 10)
+);
+```
+
+and `nTop` is an integer.
+
+The method should return the top `n` records, where each user name can appear at most a single time. Records should be in from highest to lowest. Users with the same score should be in alphabetical order.
+
+if `nTop` is negative or `0`, the returned value should be an `empty list`.
+
+if `nTop` is greater than the total number of records, you should include as many valid records as possible.
+
+**_Examples_**
+
+```
+List<PlayerRecord> records = Arrays.asList(
+    new PlayerRecord("Bob", 100),
+    new PlayerRecord("Jane", 120),
+    new PlayerRecord("Alice", 10),
+    new PlayerRecord("Bob", 110),
+    new PlayerRecord("Bob", 10)
+);
+
+Input: topScores(records, 3)
+
+Output: [[Jane, 120], [Bob, 110], [Alice, 10]]
+```
+
+#
+
+<br />
