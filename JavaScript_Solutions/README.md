@@ -6446,3 +6446,50 @@ Input: mix(s1, s2) => Output: "=:aaaaaa/2:eeeee/=:fffff/1:tt/2:rr/=:hh"
 #
 
 <br />
+
+# Challenge 192 Prime Numbers
+
+My solution -> *[192PrimeNumbers](192PrimeNumbers.js)*
+
+## **_Task condition:_**
+
+A prime number (or a prime) is a natural number greater than 1 that has no positive divisors other than 1 and itself.
+
+You will need to create logic for the following two functions: `isPrime(number)` and `getPrimes(start, finish)`
+
+**_isPrime(number)_** should return boolean `true` if prime, otherwise `false`.
+
+**_getPrimes(start, finish)_** should return a unique, sorted array of all primes in the range `[start, finish]` (i.e. both numbers inclusive). Note that this range can go both ways - e.g. `getPrimes(10, 1)` should return all primes from `1` to `10` both inclusive.
+
+### **_Examples_**
+
+```
+isPrime(number)
+
+Input: isPrime(0) => Output: false
+
+Input: isPrime(1) => Output: false
+
+Input: isPrime(2) => Output: true
+
+Input: isPrime(3) => Output: true
+
+Input: isPrime(4) => Output: false
+
+Input: isPrime(5) => Output: true
+
+---------------------------------
+
+getPrimes(start, finish)
+
+Input: getPrimes(0, 0) => Output: []
+
+Input: getPrimes(0, 30) => Output: [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]
+
+Input: getPrimes(30, 0) => Output: [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]
+
+```
+
+#
+
+<br />
