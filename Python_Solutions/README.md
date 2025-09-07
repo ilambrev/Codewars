@@ -1093,3 +1093,39 @@ x = available move
 #
 
 <br />
+
+# Challenge 036 Ping-Pong Service Problem
+
+My solution -> *[036_ping_pong_service_problem](036_ping_pong_service_problem.py)*
+
+## **_Task condition:_**
+
+Playing ping-pong can be really fun!
+
+Unfortunately, after a long and exciting play, you can forget whose service turn it is. Let's do something about that!
+
+Write a function that takes as its parameter the current score as a string separated by `:`, and returns `"first"` or `"second"` depending on whose service turn it is.
+
+We're playing old-school, so the rule is that players take turns after every five services. That is until the score is `20:20` - from that moment each player serves twice, in turn.
+
+There's no need to check if the passed parameter is valid - the score will be always provided in correct syntax and you don't need to check if one of the players has already won - that won't be the case.
+
+The game ends when one of the players reaches `21` points with a minimum `2` point lead.
+
+After a score of `20:20`, the winner will be the first player to reach a `2` point lead.
+
+### **_Examples_**
+
+```
+Input: print(service('0:0')) => Output: 'first'
+
+Input: print(service('3:2')) => Output: 'second'
+
+Input: print(service('21:20')) => Output: 'first'
+
+Input: print(service('21:22')) => Output: 'second'
+```
+
+#
+
+<br />
