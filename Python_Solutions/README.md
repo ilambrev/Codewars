@@ -1129,3 +1129,38 @@ Input: print(service('21:22')) => Output: 'second'
 #
 
 <br />
+
+# Challenge 037 X Marks The Spot!
+
+My solution -> *[037_x_marks_the_spot](037_x_marks_the_spot.py)*
+
+## **_Task condition:_**
+
+Write a function that takes in a positive integer `n` and returns an `n x n` matrix with an `X` in the middle. The `X` will be represented by `1's` and the rest will be `0's`.
+
+### **_Examples_**
+
+```
+Input: 5
+
+[[1, 0, 0, 0, 1],
+ [0, 1, 0, 1, 0],
+ [0, 0, 1, 0, 0],
+ [0, 1, 0, 1, 0],
+ [1, 0, 0, 0, 1]]
+
+--------------------
+
+Input: 6
+
+[[1, 0, 0, 0, 0, 1],
+ [0, 1, 0, 0, 1, 0],
+ [0, 0, 1, 1, 0, 0],
+ [0, 0, 1, 1, 0, 0],
+ [0, 1, 0, 0, 1, 0],
+ [1, 0, 0, 0, 0, 1]]
+```
+
+#
+
+<br />
