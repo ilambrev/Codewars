@@ -465,3 +465,41 @@ Output: [[Jane, 120], [Bob, 110], [Alice, 10]]
 #
 
 <br />
+
+# Challenge 015 Follow That Spy
+
+My solution -> *[P015FollowThatSpy](P015FollowThatSpy/Routes.java)*
+
+## **_Task condition:_**
+
+We are diligently pursuing our elusive operative, Matthew Knight, who also goes by the alias Roy Miller. He employs a nomadic lifestyle to evade detection, constantly moving from one location to another, with each of his journeys following a perplexing and non-standard sequence of itineraries. Our mission is to decipher the routes he will undertake during each of his voyages.
+
+You've been provided with an array of itinerary `routes`, decipher the precise destinations he will visit in the correct sequence according to his meticulously planned itineraries.
+
+Based on the provided routes:
+
+`[ ["USA", "BRA"], ["JPN", "PHL"], ["BRA", "UAE"], ["UAE", "JPN"] ]`
+
+The correct sequence of destinations is:
+
+`"USA, BRA, UAE, JPN, PHL"`
+
+**_Examples_**
+
+```
+Input: [ ["MNL", "TAG"], ["CEB", "TAC"], ["TAG", "CEB"], ["TAC", "BOR"] ]
+Output: "MNL, TAG, CEB, TAC, BOR"
+
+Input: [ ["Chicago", "Winnipeg"], ["Halifax", "Montreal"], ["Montreal", "Toronto"], ["Toronto", "Chicago"], ["Winnipeg", "Seattle"] ]
+Output: "Halifax, Montreal, Toronto, Chicago, Winnipeg, Seattle"
+```
+
+**_NOTES:_**
+
+- You can safely assume that there will be no duplicate locations with distinct `routes`.
+- All `routes` provided will have non-empty itineraries.
+- There will always be at least one (1) route connecting one waypoint to another.
+
+#
+
+<br />
