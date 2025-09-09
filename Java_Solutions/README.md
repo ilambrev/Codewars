@@ -503,3 +503,29 @@ Output: "Halifax, Montreal, Toronto, Chicago, Winnipeg, Seattle"
 #
 
 <br />
+
+# Challenge 016 Simple Prime Streaming
+
+My solution -> *[P016SimplePrimeStreaming](P016SimplePrimeStreaming/SimplePrimeStreaming.java)*
+
+## **_Task condition:_**
+
+Consider a sequence made up of the consecutive prime numbers. This infinite sequence would start with: 
+
+```
+"2357111317192329313741434753596167717379..."
+```
+
+You will be given two numbers: `a` and `b`, and your task will be to return `b` elements starting from index `a` in this sequence.
+
+Tests go up to about index `20000`.
+
+**_Examples_**
+
+```
+Input: solve(10, 5) => Output: "19232" // Because these are 5 elements from index 10 in the sequence.
+```
+
+#
+
+<br />
