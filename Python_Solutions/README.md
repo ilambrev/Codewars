@@ -1195,8 +1195,6 @@ values = {
 
 This is a rough estimation and the real piece value depends on other factors in game as well, such as the game being a closed or open one, which can favor either knights or bishops. But for our purposes we will use the mentioned values.
 
-
-
 ### **_Examples_**
 
 ```
@@ -1236,6 +1234,38 @@ Input: pieces_value(board, 'black') => Output: 11 (queen, 2 pawns)
 **_NOTES:_**
 
 - The value of a king cannot be estimated because without it the game would be over, so DO NOT take into consideration the value of the king. You will not be tested for invalid input.
+
+#
+
+<br />
+
+# Challenge 039 Mr. Safety's Treasures
+
+My solution -> *[039_mr_safetys_treasures](039_mr_safetys_treasures.py)*
+
+## **_Task condition:_**
+
+Mr. Safety loves numeric locks and his Nokia 3310. He locked almost everything in his house. He is so smart and he doesn't need to remember the combinations. He has an algorithm to generate new passcodes on his Nokia cell phone.
+
+Can you crack his numeric locks? Mr. Safety's treasures wait for you. Write an algorithm to open his numeric locks. Can you do it without his Nokia 3310?
+
+**_Input_**
+
+The `message` input string consists of lowercase and upercase characters. It's a real object that you want to unlock.
+
+**_Output_**
+
+Return a string that only consists of digits. 
+
+### **_Examples_**
+
+```
+Input: unlock("Nokia") => Output: "66542"
+
+Input: unlock("Valut") => Output: "82588"
+
+Input: unlock("toilet") => Output: "864538"
+```
 
 #
 
