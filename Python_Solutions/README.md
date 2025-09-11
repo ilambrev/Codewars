@@ -1270,3 +1270,48 @@ Input: unlock("toilet") => Output: "864538"
 #
 
 <br />
+
+# Challenge 040 Card Game
+
+My solution -> *[040_card_game](040_card_game.py)*
+
+## **_Task condition:_**
+
+Lеt's create function to play cards. You receive 3 arguments: `card1` and `card2` are cards from a single deck; `trump` is the main suit, which beats all others.
+
+You have a preloaded `deck` (in case you need it):
+
+```
+deck = ["joker","2♣","3♣","4♣","5♣","6♣","7♣","8♣","9♣","10♣","J♣","Q♣","K♣","A♣",
+                "2♦","3♦","4♦","5♦","6♦","7♦","8♦","9♦","10♦","J♦","Q♦","K♦","A♦",
+                "2♥","3♥","4♥","5♥","6♥","7♥","8♥","9♥","10♥","J♥","Q♥","K♥","A♥",
+                "2♠","3♠","4♠","5♠","6♠","7♠","8♠","9♠","10♠","J♠","Q♠","K♠","A♠"]
+```
+
+**_Game rules_**
+
+- If both cards have the same suit, the higher one wins
+- If both cards have trump, the higher one wins
+- If the cards have different suits and no one has trump, return `"Let us play again."`
+- If one card has trump, but not the other, the one with the trump wins
+- If there is a winner, return `"The first/second card won."`
+- If the two cards are the same, return `"Someone cheats."`
+- The joker always wins
+
+### **_Examples_**
+
+```
+Input: card_game("3♣", "Q♣", "♦") => Output: "The second card won."
+
+Input: card_game("5♥", "A♣", "♦") => Output: "Let us play again."
+
+Input: card_game("8♠", "8♠", "♣") => Output: "Someone cheats."
+
+Input: card_game("2♦", "A♠", "♦") => Output: "The first card won."
+
+Input: card_game("joker", "joker", "♦") => Output: "Someone cheats."
+```
+
+#
+
+<br />
