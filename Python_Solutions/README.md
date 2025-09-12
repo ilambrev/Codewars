@@ -1315,3 +1315,30 @@ Input: card_game("joker", "joker", "♦") => Output: "Someone cheats."
 #
 
 <br />
+
+# Challenge 041 Consecutive Count
+
+My solution -> *[041_consecutive_count](041_consecutive_count.py)*
+
+## **_Task condition:_**
+
+I want to know the size of the longest consecutive elements of `X` in `Y`. You will receive two arguments: `items` and `key`. Return the length of the longest segment of consecutive `keys` in the given `items`.
+
+### **_Examples_**
+
+```
+Input: get_consective_items(90000, 0) => Output: 4
+
+Input: get_consective_items("abcdaaadse", "a") => Output: 3
+
+Input: get_consective_items("abcdaaadse", "z") => Output: 0
+```
+
+**_NOTES:_**
+
+- The items and the key will be either an integer or a string (consisting of letters only)
+- If the key does not appear in the items, return `0`
+
+#
+
+<br />
