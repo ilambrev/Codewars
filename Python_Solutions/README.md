@@ -1342,3 +1342,35 @@ Input: get_consective_items("abcdaaadse", "z") => Output: 0
 #
 
 <br />
+
+# Challenge 042 Simple String Indices
+
+My solution -> *[042_simple_string_indices](042_simple_string_indices.py)*
+
+## **_Task condition:_**
+
+You will be given a `string with brackets` and an `index of an opening bracket` and your task will be to `return the index of the matching closing bracket`. Both the input and returned index are 0-based. An opening brace will always have a closing brace. Return `-1` if there is no answer.
+
+### **_Examples_**
+
+```
+Input: solve("((1)23(45))(aB)", 0) => Output: 10 -- the opening brace at index 0 matches the closing brace at index 10
+
+Input: solve("((1)23(45))(aB)", 1) => Output: 3
+
+Input: solve("((1)23(45))(aB)", 2) => Output: -1 -- there is no opening bracket at index 2, so return -1
+
+Input: solve("((1)23(45))(aB)", 6) => Output: 9
+
+Input: solve("((1)23(45))(aB)", 11) => Output: 14
+
+Input: solve("((>)|?(*'))(yZ)", 11) => Output: 14
+```
+
+**_NOTES:_**
+
+- Input will consist of letters, numbers and special characters, but no spaces. The only brackets will be `(` and `)`. 
+
+#
+
+<br />
