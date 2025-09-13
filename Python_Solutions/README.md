@@ -1374,3 +1374,35 @@ Input: solve("((>)|?(*'))(yZ)", 11) => Output: 14
 #
 
 <br />
+
+# Challenge 043 Prime Reduction
+
+My solution -> *[043_prime_reduction](043_prime_reduction.py)*
+
+## **_Task condition:_**
+
+Consider the prime number `23`. If we sum the square of its digits we get: `2^2 + 3^2 = 13`, then for `13: 1^2 + 3^2 = 10`, and finally for `10: 1^2 + 0^2 = 1`.
+
+Similarly, if we start with prime number `7`, the sequence is: `7 -> 49 -> 97 -> 130 -> 10 -> 1`.
+
+Given a range, how many primes within that range will eventually end up being `1`?
+
+The upperbound for the range is `50,000`. A range of `(2,25)` means that: `2 <= n < 25`.
+
+### **_Examples_**
+
+```
+Input: solve(1, 25) => Output: 4
+
+Input: solve(100, 1000) => Output: 28
+
+Input: solve(100, 2000) => Output: 47
+
+Input: solve(100, 3000) => Output: 65
+
+Input: solve(100, 4000) => Output: 95
+```
+
+#
+
+<br />
