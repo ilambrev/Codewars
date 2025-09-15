@@ -1454,3 +1454,27 @@ Input: find_hack(arr) => Output: ["name1", "name3"]
 #
 
 <br />
+
+# Challenge 045 Countdown - Longest Word
+
+My solution -> *[045_countdown_longest_word](045_countdown_longest_word.py)*
+
+## **_Task condition:_**
+
+Countdown is a British game show with number and word puzzles. The letters round consists of the contestant picking 9 shuffled letters - either picking from the vowel pile or the consonant pile. The contestants are given 30 seconds to try to come up with the longest English word they can think of with the available letters - letters can not be used more than once unless there is another of the same character.
+
+Given an uppercase `9 letter` string, `letters`, find the longest word that can be made with some or all of the letters. The preloaded array `words` contains a bunch of uppercase words that you will have to loop through. Only return the longest word; if there is more than one, return the words of the same lengths in alphabetical order. If there are no words that can be made from the letters given, return `None`.
+
+### **_Examples_**
+
+```
+Input: longest_word("ZZZZZZZZZ") => Output: None
+
+Input: longest_word("POVMERKIA") => Output: ["VAMPIRE"]
+
+Input: longest_word("DVAVPALEM") => Output: ["PALMED", "VALVED", "VAMPED"]
+```
+
+#
+
+<br />
