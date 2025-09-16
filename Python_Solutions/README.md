@@ -1478,3 +1478,52 @@ Input: longest_word("DVAVPALEM") => Output: ["PALMED", "VALVED", "VAMPED"]
 #
 
 <br />
+
+# Challenge 046 Custom FizzBuzz Array
+
+My solution -> *[046_custom_fizz_buzz_array](046_custom_fizz_buzz_array.py)*
+
+## **_Task condition:_**
+
+Write a function that returns a (custom) FizzBuzz sequence of the numbers `1 to 100`.
+
+The function should be able to take up to 4 arguments:
+
+- The 1st and 2nd arguments are strings, `"Fizz"` and `"Buzz"` by default;
+- The 3rd and 4th arguments are integers, `3` and `5` by default.
+
+Thus, when the function is called without arguments, it will return the classic FizzBuzz sequence up to 100:
+
+```
+fizz_buzz_custom() --> [ 1, 2, "Fizz", 4, "Buzz", "Fizz", 7, ... 14, "FizzBuzz", 16, 17, ... 98, "Fizz", "Buzz" ]
+```
+
+When the function is called with (up to 4) arguments, it should return a custom FizzBuzz sequence, for example:
+
+```
+fizz_buzz_custom('Hey', 'There')      -->  [ 1, 2, "Hey", 4, "There", "Hey", ... ]
+
+fizz_buzz_custom('Foo', 'Bar', 2, 3)  -->  [ 1, "Foo", "Bar", "Foo", 5, "FooBar", 7, ... ]
+```
+
+### **_Examples_**
+
+```
+Input: fizz_buzz_custom()[15] => Output: 16
+
+Input: fizz_buzz_custom()[44] => Output: "FizzBuzz" (45 is divisible by 3 and 5)
+
+Input: fizz_buzz_custom('Hey', 'There')[25] => Output: 26
+
+Input: fizz_buzz_custom('Hey', 'There')[11] => Output: "Hey" (12 is divisible by 3)
+
+Input: fizz_buzz_custom("What's ", "up?", 3, 7)[80] => Output: "What's " (81 is divisible by 3)
+```
+
+**_NOTES:_**
+
+- The function must return the sequence as a `list`. 
+
+#
+
+<br />
