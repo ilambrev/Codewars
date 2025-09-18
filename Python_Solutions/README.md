@@ -1600,3 +1600,38 @@ Input: reverse_fizz_buzz(["Fizz", "Fizz", "Fizz", "Fizz", "Fizz", "FizzBuzz"]) =
 #
 
 <br />
+
+# Challenge 049 Surrounding Primes For A Value
+
+My solution -> *[049_surrounding_primes_for_a_value](049_surrounding_primes_for_a_value.py)*
+
+## **_Task condition:_**
+
+We need a `function prime_bef_aft()` that gives the `largest prime` below a certain given value `n`, `bef_prime` and the smallest prime larger than this value, `aft_prime`.
+
+The result should be output in a list like the following:
+
+```
+prime_bef_aft(n) => [befPrime, aftPrime]
+```
+
+If `n` is a prime number it will give two primes, n will not be included in the result.
+
+### **_Examples_**
+
+```
+Input: prime_bef_aft(100) => Output: [97, 101]
+
+Input: prime_bef_aft(97) => Output: [89, 101]
+
+Input: prime_bef_aft(101) => Output: [97, 103]
+```
+
+**_NOTES:_**
+
+- Range for the random tests: `1000 <= n <= 200000`.
+- The extreme and special case `n = 2` will not be considered for the tests.
+
+#
+
+<br />
