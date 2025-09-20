@@ -1708,3 +1708,31 @@ Input: closest("54 239382 162 254765 182 485944 468751 49780 108") => Output: [[
 #
 
 <br />
+
+# Challenge 051 Rot13
+
+My solution -> *[051_rot13](051_rot13.py)*
+
+## **_Task condition:_**
+
+ROT13 is a simple letter substitution cipher that replaces a letter with the letter 13 letters after it in the alphabet. ROT13 is an example of the Caesar cipher.
+
+Create a function that takes a string and returns the string ciphered with Rot13. If there are numbers or special characters included in the string, they should be returned as they are. Only letters from the latin/english alphabet should be shifted, like in the original Rot13 "implementation".
+
+### **_Examples_**
+
+```
+Input: rot13('test') => Output: 'grfg'
+
+Input: rot13('Test') => Output: 'Grfg'
+
+Input: rot13('aA bB zZ 1234 *!?%') => Output: 'nN oO mM 1234 *!?%'
+```
+
+**_NOTES:_**
+
+- Please note that using `encode` is considered cheating.
+
+#
+
+<br />
