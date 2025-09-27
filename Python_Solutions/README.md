@@ -1788,3 +1788,37 @@ Input: road_kill("==gggg=iiiiirrrr===aaaaaff==fffeee") => Output: "giraffe"
 #
 
 <br />
+
+# Challenge 053 Count IP Addresses
+
+My solution -> *[053_count_ip_addresses](053_count_ip_addresses.py)*
+
+## **_Task condition:_**
+
+Implement a function that receives two `IPv4` addresses, and returns the number of addresses between them (including the first one, excluding the last one).
+
+All inputs will be valid `IPv4` addresses in the form of strings. The last address will always be greater than the first one.
+
+### **_Examples_**
+
+```
+Input: ips_between("150.0.0.0", "150.0.0.1") => Output: 1
+
+Input: ips_between("10.0.0.0", "10.0.0.50") => Output: 50
+
+Input: ips_between("20.0.0.10", "20.0.1.0") => Output: 246
+
+Input: ips_between("10.11.12.13", "10.11.13.0") => Output: 243
+
+Input: ips_between("160.0.0.0", "160.0.1.0") => Output: 256
+
+Input: ips_between("10.0.0.0", "10.0.1.0") => Output: 256
+
+Input: ips_between("94.95.217.20", "240.137.22.216") => Output: 2452176324
+
+Input: ips_between("236.4.19.226", "236.9.54.139") => Output: 336553
+```
+
+#
+
+<br />
