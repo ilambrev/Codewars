@@ -1822,3 +1822,35 @@ Input: ips_between("236.4.19.226", "236.9.54.139") => Output: 336553
 #
 
 <br />
+
+# Challenge 054 Integers: Recreation One
+
+My solution -> *[054_integers_recreation_one](054_integers_recreation_one.py)*
+
+## **_Task condition:_**
+
+Find all integers between `m` and `n` (`m` and `n` are integers with `1 <= m <= n`) such that the `sum` of their squared divisors is itself a square.
+
+We will return an array of subarrays.
+
+The subarrays will have two elements: first the number the squared divisors of which is a square and then the sum of the squared divisors.
+
+`1, 246, 2, 123, 3, 82, 6, 41` are the divisors of number `246`.
+
+Squaring these divisors we get: `1, 60516, 4, 15129, 9, 6724, 36, 1681`.
+
+The `sum` of these squares is `84100` which is `290 * 290`.
+
+### **_Examples_**
+
+```
+Input: list_squared(1, 250) => Output: [[1, 1], [42, 2500], [246, 84100]]
+
+Input: list_squared(42, 250) => Output: [[42, 2500], [246, 84100]]
+
+Input: list_squared(250, 500) => Output: [[287, 84100]]
+```
+
+#
+
+<br />
