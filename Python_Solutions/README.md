@@ -1854,3 +1854,41 @@ Input: list_squared(250, 500) => Output: [[287, 84100]]
 #
 
 <br />
+
+# Challenge 055 Mystery Function #1
+
+My solution -> *[055_mystery_function_1](055_mystery_function_1.py)*
+
+## **_Task condition:_**
+
+There's a mystery function which is already available to use. It's a simple function called `mystery`. It accepts a string as a parameter and outputs a string. The exercise depends on guessing what this function actually does.
+
+You can call the mystery function like this:
+
+```
+my_output = mystery("my_input")
+```
+
+Using your own test cases, try to call the mystery function with different input strings and try to analyze its output in order to guess what is does. You are free to call the mystery function in your own test cases however you want.
+
+When you think you've understood how my mystery function works, prove it by reimplementing its logic in a function that you should call `'solved(x)'`. To validate your code, your function `'solved'` should return the same output as my function `'mystery'` given the same inputs.
+
+### **_Examples_**
+
+```
+Input: solved("Hello World") => Output: "HWdellloor"
+
+Input: solved("foobar") => Output: "abfoor"
+
+Input: solved("I see what you did there!") => Output: "     !Iaddeeeehhirsttuwy"
+
+Input: solved("") => Output: ""
+
+Input: solved("abcd") => Output: "abcd"
+
+Input: solved("abcde") => Output: "abde"
+```
+
+#
+
+<br />
