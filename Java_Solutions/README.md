@@ -532,7 +532,7 @@ Input: solve(10, 5) => Output: "19232" // Because these are 5 elements from inde
 
 # Challenge 017 Brute Force Detector
 
-My solution -> *[P017BruteForceDetector](P017BruteForceDetector/BruteForceDetector)*
+My solution -> *[P017BruteForceDetector](P017BruteForceDetector/BruteForceDetector.java)*
 
 ## **_Task condition:_**
 
