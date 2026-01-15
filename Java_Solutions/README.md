@@ -529,3 +529,101 @@ Input: solve(10, 5) => Output: "19232" // Because these are 5 elements from inde
 #
 
 <br />
+
+# Challenge 017 Brute Force Detector
+
+My solution -> *[P017BruteForceDetector](P017BruteForceDetector/BruteForceDetector)*
+
+## **_Task condition:_**
+
+You're analyzing authentication logs. Each log entry is a string like:
+
+```
+192.168.1.1 LOGIN_FAIL user=admin
+192.168.1.1 LOGIN_SUCCESS user=admin
+10.0.0.5 LOGIN_FAIL user=root
+```
+
+An IP is suspicious if it has 3 or more consecutive failures without a success in between. Return a list of suspicious IPs, sorted alphabetically.
+
+```
+String[] logs = {
+    "192.168.1.1 LOGIN_FAIL user=admin",
+    "192.168.1.1 LOGIN_FAIL user=admin",
+    "192.168.1.1 LOGIN_FAIL user=root",
+    "10.0.0.5 LOGIN_FAIL user=test",
+    "10.0.0.5 LOGIN_SUCCESS user=test"
+};
+detectBruteForce(logs); // [192.168.1.1]
+```
+
+The `10.0.0.5` IP had a failure then a success, so its streak reset. The `192.168.1.1` IP hit 3 failures in a row - busted. Only respond with a list of the suspicious IPs.
+
+A success resets that IP's failure count to zero. Empty list returns empty list.
+
+**_Examples_**
+
+```
+String[] logs1 = {
+        "192.168.1.1 LOGIN_FAIL user=admin",
+        "192.168.1.1 LOGIN_FAIL user=admin",
+        "192.168.1.1 LOGIN_FAIL user=admin"
+};
+
+Input: detectBruteForce(logs1) => Output: [192.168.1.1]
+
+String[] logs2 = {
+        "10.0.0.5 LOGIN_FAIL user=x",
+        "10.0.0.5 LOGIN_FAIL user=x",
+        "10.0.0.5 LOGIN_SUCCESS user=x",
+        "10.0.0.5 LOGIN_FAIL user=x"
+};
+
+Input: detectBruteForce(logs2) => Output: []
+
+String[] logs3 = {
+        "1.1.1.1 LOGIN_FAIL user=a",
+        "2.2.2.2 LOGIN_FAIL user=b",
+        "1.1.1.1 LOGIN_FAIL user=a",
+        "2.2.2.2 LOGIN_SUCCESS user=b",
+        "1.1.1.1 LOGIN_FAIL user=a",
+        "2.2.2.2 LOGIN_FAIL user=b"
+};
+
+Input: detectBruteForce(logs3) => Output: [1.1.1.1]
+
+String[] logs4 = {
+        "5.5.5.5 LOGIN_FAIL user=x",
+        "5.5.5.5 LOGIN_FAIL user=x",
+        "5.5.5.5 LOGIN_FAIL user=x",
+        "5.5.5.5 LOGIN_SUCCESS user=x",
+        "5.5.5.5 LOGIN_FAIL user=x",
+        "5.5.5.5 LOGIN_FAIL user=x",
+        "5.5.5.5 LOGIN_FAIL user=x"
+};
+
+Input: detectBruteForce(logs4) => Output: [5.5.5.5]
+
+String[] logs5 = {};
+
+Input: detectBruteForce(logs5) => Output: []
+
+String[] logs6 = {
+        "9.9.9.9 LOGIN_FAIL user=a",
+        "1.1.1.1 LOGIN_FAIL user=b",
+        "9.9.9.9 LOGIN_FAIL user=a",
+        "1.1.1.1 LOGIN_FAIL user=b",
+        "9.9.9.9 LOGIN_FAIL user=a",
+        "1.1.1.1 LOGIN_FAIL user=b"
+};
+
+Input: detectBruteForce(logs6) => Output: [1.1.1.1, 9.9.9.9]
+```
+
+**_NOTES:_**
+
+- You do not need to validate the IP addresses.
+
+#
+
+<br />
