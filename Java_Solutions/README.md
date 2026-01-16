@@ -627,3 +627,47 @@ Input: detectBruteForce(logs6) => Output: [1.1.1.1, 9.9.9.9]
 #
 
 <br />
+
+# Challenge 018 Pure Odd Digits Primes
+
+My solution -> *[P018PureOddDigitsPrimes](P018PureOddDigitsPrimes/OddDigPrime.java)*
+
+## **_Task condition:_**
+
+Primes that have only odd digits are pure odd digits primes, obvious but necessary definition. Examples of pure odd digit primes are: `11, 13, 17, 19, 31...` If a prime has only one even digit does not belong to pure odd digits prime, no matter the amount of odd digits that may have.
+
+Create a method, `onlyOddDigPrimes(long n)`, that receive a positive integer `n >= 3`, and output an array with three values:
+
+```
+[number pure odd digit primes less than or equal to n, largest pure odd digit prime smaller than or equal to n, smallest pure odd digit prime larger than n]
+```
+
+Let's see some cases:
+
+```
+onlyOddDigPrimes(20) ----> [7, 19, 31]
+// 7, beacause we have seven pure odd digit primes below 20 and are 3, 5, 7, 11, 13, 17, 19
+// 19, because is the nearest prime of this type to 20
+// 31, is the first pure odd digit that we encounter after 20
+
+onlyOddDigPrimes(40) ----> [9, 37, 53]
+onlyOddDigPrimes(13) ----> [5, 13, 17]
+```
+
+**_Examples_**
+
+```
+Input: onlyOddDigPrimes(20) => Output: [7, 19, 31]
+
+Input: onlyOddDigPrimes(40) => Output: [9, 37, 53]
+
+Input: onlyOddDigPrimes(55) => Output: [10, 53, 59]
+
+Input: onlyOddDigPrimes(60) => Output: [11, 59, 71]
+
+Input: onlyOddDigPrimes(100) => Output: [15, 97, 113]
+```
+
+#
+
+<br />
