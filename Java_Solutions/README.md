@@ -711,3 +711,71 @@ Input: findMine(field5) => Output: [2, 2]
 #
 
 <br />
+
+# Challenge 020 Rotate Array
+
+My solution -> *[P020RotateArray](P020RotateArray/Rotator.java)*
+
+## **_Task condition:_**
+
+Create a method named `"rotate"` that returns a given array with the elements inside the array rotated `n` spaces.
+
+If `n` is `greater` than `0` it should rotate the array to the right. If `n` is `less` than `0` it should rotate the array to the left. If `n` is `0`, then it should return the array unchanged.
+
+```
+with array [1, 2, 3, 4, 5]
+
+n = 1      =>    [5, 1, 2, 3, 4]
+n = 2      =>    [4, 5, 1, 2, 3]
+n = 3      =>    [3, 4, 5, 1, 2]
+n = 4      =>    [2, 3, 4, 5, 1]
+n = 5      =>    [1, 2, 3, 4, 5]
+n = 0      =>    [1, 2, 3, 4, 5]
+n = -1     =>    [2, 3, 4, 5, 1]
+n = -2     =>    [3, 4, 5, 1, 2]
+n = -3     =>    [4, 5, 1, 2, 3]
+n = -4     =>    [5, 1, 2, 3, 4]
+n = -5     =>    [1, 2, 3, 4, 5]
+```
+
+The rotation shouldn't be limited by the indices available in the array. Meaning that if we exceed the indices of the array it keeps rotating.
+
+```
+with array [1, 2, 3, 4, 5]
+
+n = 7        =>    [4, 5, 1, 2, 3]
+n = 11       =>    [5, 1, 2, 3, 4]
+n = 12478    =>    [3, 4, 5, 1, 2]
+```
+
+**_Examples_**
+
+```
+Input: rotate(new Object[]{1, 2, 3, 4, 5}, 1) => Output: [5, 1, 2, 3, 4]
+
+Input: rotate(new Object[]{1, 2, 3, 4, 5}, 2) => Output: [4, 5, 1, 2, 3]
+
+Input: rotate(new Object[]{1, 2, 3, 4, 5}, 3) => Output: [3, 4, 5, 1, 2]
+
+Input: rotate(new Object[]{1, 2, 3, 4, 5}, 4) => Output: [2, 3, 4, 5, 1]
+
+Input: otate(new Object[]{1, 2, 3, 4, 5}, 5) => Output: [1, 2, 3, 4, 5]
+
+Input: rotate(new Object[]{1, 2, 3, 4, 5}, 6) => Output: [5, 1, 2, 3, 4]
+
+Input: rotate(new Object[]{1, 2, 3, 4, 5}, -1) => Output: [2, 3, 4, 5, 1]
+
+Input: rotate(new Object[]{1, 2, 3, 4, 5}, -2) => Output: [3, 4, 5, 1, 2]
+
+Input: rotate(new Object[]{1, 2, 3, 4, 5}, -3) => Output: [4, 5, 1, 2, 3]
+
+Input: rotate(new Object[]{1, 2, 3, 4, 5}, -4) => Output: [5, 1, 2, 3, 4]
+
+Input: rotate(new Object[]{1, 2, 3, 4, 5}, -5) => Output: [1, 2, 3, 4, 5]
+
+Input: rotate(new Object[]{1, 2, 3, 4, 5}, -6) => Output: [2, 3, 4, 5, 1]
+```
+
+#
+
+<br />
