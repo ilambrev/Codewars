@@ -897,3 +897,58 @@ Input: backwardsPrime(9900, 10000) => Output: "9923 9931 9941 9967"
 #
 
 <br />
+
+# Challenge 023 IP Address To Number
+
+My solution -> *[P023IPAddressToNumber](P023IPAddressToNumber/IpTranslator.java)*
+
+## **_Task condition:_**
+
+An `IPv4` address is a 32-bit number that identifies a device on the internet.
+
+While computers read and write IP addresses as a 32-bit number, we prefer to read them in dotted-decimal notation, which is basically the number split into 4 chunks of 8 bits, converted to decimal, and delmited by a dot.
+
+You must create the method `ipToNum()` that takes an ip address and converts it to a number, as well as the method `numToIp()` that takes a number and converts it to an IP address string. Input will always be valid.
+
+```
+//original IP address
+192.168.1.1
+
+//breaks down into 4 binary octets
+11000000 . 10101000 . 00000001 . 00000001
+
+//which are merged together (unsigned 32-bit binary)
+11000000101010000000000100000001
+
+//and finally converted to base 10
+3232235777
+
+```
+
+Note that the binary octets are unsigned (so we can't have negative numbers).
+
+**_Examples_**
+
+_ipToNum() method_
+
+```
+Input: ipToNum("192.168.1.1") => Output: 3232235777
+
+Input: ipToNum("10.0.0.0") => Output: 167772160
+
+Input: ipToNum("176.16.0.1") => Output: 2953838593
+```
+
+_numToIp() method_
+
+```
+Input: numToIp(3232235777) => Output: "192.168.1.1"
+
+Input: numToIp(167772160) => Output: "10.0.0.0"
+
+Input: numToIp(2953838593) => Output: "176.16.0.1"
+```
+
+#
+
+<br />
