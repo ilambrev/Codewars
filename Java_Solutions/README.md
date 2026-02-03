@@ -1044,3 +1044,78 @@ Input: walk(maze, directions6) => Output: "Lost"
 #
 
 <br />
+
+# Challenge 025 Round And Round
+
+My solution -> *[P025RoundAndRound](P025RoundAndRound/RoundAndRound.java)*
+
+## **_Task condition:_**
+
+Since there are lots of katas requiring you to round numbers to 2 decimal places, you decided to extract the method to ease out the process.
+
+And you can't even get this right!
+
+Quick, fix the bug before everyone in CodeWars notices that you can't even round a number correctly!
+
+```
+public class RoundAndRound {
+    public static double roundTo2DecimalPlaces(double number) {
+        return Math.round(number * 100.0)/100.0;
+    }
+}
+```
+
+**_Examples_**
+
+```
+Input: roundTo2DecimalPlaces(2D) => Output: 2D
+
+Input: roundTo2DecimalPlaces(7.477D) => Output: 7.48D
+
+Input: roundTo2DecimalPlaces(-4.999D) => Output: -5D
+
+Input: roundTo2DecimalPlaces(18.123D) => Output: 18.12D
+
+Input: roundTo2DecimalPlaces(0D) => Output: 0D
+
+Input: roundTo2DecimalPlaces(1.455D) => Output: 1.46D
+
+Input: roundTo2DecimalPlaces(-1.455D) => Output: -1.46D
+
+Input: roundTo2DecimalPlaces(1.055D) => Output: 1.06D
+
+Input: roundTo2DecimalPlaces(-1.055D) => Output: -1.06D
+
+Input: roundTo2DecimalPlaces(16.765D) => Output: 16.77D
+
+Input: roundTo2DecimalPlaces(-16.765D) => Output: -16.77D
+
+Input: roundTo2DecimalPlaces(1.025D) => Output: 1.03D
+
+Input: roundTo2DecimalPlaces(-1.025D) => Output: -1.03D
+
+Input: roundTo2DecimalPlaces(16.355D) => Output: 16.36D
+
+Input: roundTo2DecimalPlaces(-16.345D) => Output: -16.35D
+
+Input: roundTo2DecimalPlaces(-1.1949999999999999D) => Output: -1.19D
+
+Input: roundTo2DecimalPlaces(-1.1950000000000001D) => Output: -1.20D
+
+Input: roundTo2DecimalPlaces(1.1949999999999999D) => Output: 1.19D
+
+Input: roundTo2DecimalPlaces(1.1950000000000001D) => Output: 1.20D
+
+Input: roundTo2DecimalPlaces(-1.1849999999999999D) => Output: -1.18D
+
+Input: roundTo2DecimalPlaces(-1.1850000000000001D) => Output: -1.19D
+
+Input: roundTo2DecimalPlaces(1.1849999999999999D) => Output: 1.18D
+
+Input: roundTo2DecimalPlaces(1.1850000000000001D) => Output: 1.19D
+
+```
+
+#
+
+<br />
