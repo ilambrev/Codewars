@@ -1120,7 +1120,7 @@ Input: roundTo2DecimalPlaces(1.1850000000000001D) => Output: 1.19D
 
 <br />
 
-# Challenge 026 
+# Challenge 026 Simple Frequency Sort
 
 My solution -> *[P026SimpleFrequencySort](P026SimpleFrequencySort/Solution.java)*
 
@@ -1147,6 +1147,37 @@ Input: Arrays.toString(sortByFrequency(new int[]{5, 9, 6, 9, 6, 5, 9, 9, 4, 4}))
 Input: Arrays.toString(sortByFrequency(new int[]{4, 4, 2, 5, 1, 1, 3, 3, 2, 8})); => Output: [1, 1, 2, 2, 3, 3, 4, 4, 5, 8]
 
 Input: Arrays.toString(sortByFrequency(new int[]{4, 9, 5, 0, 7, 3, 8, 4, 9, 0})); => Output: [0, 0, 4, 4, 9, 9, 3, 5, 7, 8]
+```
+
+#
+
+<br />
+
+# Challenge 027 Removing Each Second Person From A Circle
+
+My solution -> *[P027RemovingEachSecondPersonFromACircle](P027RemovingEachSecondPersonFromACircle/CircleOfPeople.java)*
+
+## **_Task condition:_**
+
+You will be given list of names of people who are standing in circle. While counting off by twos in circle, each second leaves, until only one person is left standing. Return the list of people in order of their leaving.
+
+Example:
+
+1. [Bob, Lorna, Desiree, Melissa, Josh]
+2. [Bob, Desiree, Melissa, Josh] - Lorna leaves
+3. [Bob, Desiree, Josh] - Melissa leaves
+4. [Desiree, Josh] - Bob leaves
+5. [Desiree] - Josh leaves
+
+The resulting list that should be returned is [Lorna, Melissa, Bob, Josh]
+
+**_Examples_**
+
+```
+List<String> list = new ArrayList<>(Arrays.asList("Bob", "Lorna", "Desiree", "Melissa", "Josh"));
+
+Input: crossingOut(list) => Output: [Lorna, Melissa, Bob, Josh]
+
 ```
 
 #
