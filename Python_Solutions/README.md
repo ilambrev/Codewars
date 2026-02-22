@@ -1905,8 +1905,6 @@ Recently, an old farmer found some papers and notes that are believed to have be
 
 For example, when `N=2`, the answer is `5`: the `2x2` square itself, plus the four `1x1` squares in its corners.
 
-
-
 Complete the function that solves Feynman's question in general. The input to your function will always be a positive integer.
 
 ### **_Examples_**
@@ -1923,6 +1921,34 @@ Input: count_squares(5) => Output: 55
 Input: count_squares(8) => Output: 204
 
 Input: count_squares(15) => Output: 1240
+```
+
+#
+
+<br />
+
+# Challenge 057 Part 1: Evil Programming Government Restrictions
+
+My solution -> *[057_part_1_evil_programming_government_restrictions](057_part_1_evil_programming_government_restrictions.py)*
+
+## **_Task condition:_**
+
+The evil programming government has banned the use of numbers. Your task, if you choose to accept it is to return numbers, without using numbers.
+
+Problems:
+
+- You can't use number literals in your source code.
+- You can't use the length property directly in your code.
+
+Goal:
+
+- You have to return `"I can write numbers like, 1, 2, 3.'"`.
+
+### **_Examples_**
+
+```
+Input: print(anarchy()) => Output: "I can write numbers like, 1, 2, 3."
+
 ```
 
 #
