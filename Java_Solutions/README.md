@@ -1183,3 +1183,56 @@ Input: crossingOut(list) => Output: [Lorna, Melissa, Bob, Josh]
 #
 
 <br />
+
+# Challenge 028 Sums Of Parts
+
+My solution -> *[P028SumsOfParts](P028SumsOfParts/SumParts.java)*
+
+## **_Task condition:_**
+
+Let us consider this example (array written in general format):
+
+`ls = [0, 1, 3, 6, 10]`
+
+Its following parts:
+
+```
+ls = [0, 1, 3, 6, 10]
+ls = [1, 3, 6, 10]
+ls = [3, 6, 10]
+ls = [6, 10]
+ls = [10]
+ls = []
+```
+
+The corresponding sums are (put together in an array): `[20, 20, 19, 16, 10, 0]`
+
+The method `sumParts()` will take as parameter an array `ls` and return an array of the sums of its parts as defined above.
+
+**_Examples_**
+
+```
+int[] ls1 = new int[0];
+
+Input: sumParts(ls1) => Output: [0]
+
+int[] ls2 = {0, 1, 3, 6, 10};
+
+Input: sumParts(ls2) => Output: [20, 20, 19, 16, 10, 0]
+
+int[] ls3 = {1, 2, 3, 4, 5, 6};
+
+Input: sumParts(ls3) => Output: [21, 20, 18, 15, 11, 6, 0]
+
+int[] ls4 = {744125, 935, 407, 454, 430, 90, 144, 6710213, 889, 810, 2579358};
+
+Input: sumParts(ls4) => Output: [10037855, 9293730, 9292795, 9292388, 9291934, 9291504, 9291414, 9291270, 2581057, 2580168, 2579358, 0]
+```
+
+**_Notes_**
+
+- Take a look at performance: some arrays have thousands of elements.
+
+#
+
+<br />
