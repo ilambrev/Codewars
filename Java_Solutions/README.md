@@ -1236,3 +1236,37 @@ Input: sumParts(ls4) => Output: [10037855, 9293730, 9292795, 9292388, 9291934, 9
 #
 
 <br />
+
+# Challenge 029 Multiplication Table
+
+My solution -> *[P029MultiplicationTable](P029MultiplicationTable/Multiplication.java)*
+
+## **_Task condition:_**
+
+Your task, is to create `N×N` multiplication table, of size provided in parameter.
+
+For example, when given size is `3`:
+
+```
+1 2 3
+2 4 6
+3 6 9
+```
+
+For the given example, the return value should be:
+
+```
+[[1, 2, 3], [2, 4, 6], [3, 6, 9]]
+```
+
+**_Examples_**
+
+```
+Input: multiplicationTable(3) => Output: [[1, 2, 3], [2, 4, 6], [3, 6, 9]]
+
+Input: multiplicationTable(1) => Output: [[1]]
+```
+
+#
+
+<br />
