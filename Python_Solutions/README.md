@@ -1948,8 +1948,54 @@ Goal:
 
 ```
 Input: print(anarchy()) => Output: "I can write numbers like, 1, 2, 3."
+```
+
+#
+
+<br />
+
+# Challenge 058 Find The Word Pair!
+
+My solution -> *[058_find_the_word_pair.py](058_find_the_word_pair.py)*
+
+## **_Task condition:_**
+
+Given an array of `words` and a `target` compound word, your objective is to find the two words which combine into the target word, returning both words in the order they appear in the array, and their respective indices in the order they combine to form the target word. Words in the array you are given may repeat, but there will only be one unique pair that makes the target compound word. If there is no match found, return `None`.
+
+### **_Examples_**
 
 ```
+arr1 = ['super','bow','bowl','tar','get','book','let']
+arr2 = ['bow','crystal','organic','ally','rain','line']
+arr3 = ['top','main','tree','ally','fin','line']
+arr4 = ['bel', 'bed', 'low', 'grab', 'be', 'knight']
+
+Input: compound_match(arr1, 'superbowl') => Output: ['super','bowl', [0,2]]
+
+Input: compound_match(arr2, 'crystalline') => Output: ['crystal','line', [1,5]]
+
+Input: compound_match(arr2, 'rainbow') => Output: ['bow','rain', [4,0]]
+
+Input: compound_match(arr2, 'organically') => Output: ['organic','ally', [2,3]]
+
+Input: compound_match(arr3, 'mainline') => Output: ['main','line', [1,5]]
+
+Input: compound_match(arr3, 'treetop') => Output: ['top','tree', [2,0]]
+
+Input: compound_match(arr3, 'finally') => Output: ['ally','fin', [4,3]]
+
+Input: compound_match(arr3, 'treefinally') => Output: None
+
+Input: compound_match(arr4, 'below') => Output: ['low','be', [4,2]]
+
+Input: compound_match(arr4, 'bellow') => Output: ['bel','low',[0,2]]
+
+Input: compound_match(arr4, 'beknight') => Output: ['be','knight',[4,5]]
+```
+
+**_NOTES:_**
+
+- Some arrays will be very long and may include duplicates, so keep an eye on efficiency.
 
 #
 
