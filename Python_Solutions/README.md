@@ -2000,3 +2000,101 @@ Input: compound_match(arr4, 'beknight') => Output: ['be','knight',[4,5]]
 #
 
 <br />
+
+# Challenge 059 If you can read this...
+
+My solution -> *[059_if_you_can_read_this](059_if_you_can_read_this.py)*
+
+## **_Task condition:_**
+
+You'll have to translate a string to Pilot's alphabet (NATO phonetic alphabet).
+
+```
+NATO = {
+    "A": "Alfa",
+    "B": "Bravo",
+    "C": "Charlie",
+    "D": "Delta",
+    "E": "Echo",
+    "F": "Foxtrot",
+    "G": "Golf",
+    "H": "Hotel",
+    "I": "India",
+    "J": "Juliett",
+    "K": "Kilo",
+    "L": "Lima",
+    "M": "Mike",
+    "N": "November",
+    "O": "Oscar",
+    "P": "Papa",
+    "Q": "Quebec",
+    "R": "Romeo",
+    "S": "Sierra",
+    "T": "Tango",
+    "U": "Uniform",
+    "V": "Victor",
+    "W": "Whiskey",
+    "X": "Xray",
+    "Y": "Yankee",
+    "Z": "Zulu",
+    "0": "Zero",
+    "1": "One",
+    "2": "Two",
+    "3": "Three",
+    "4": "Four",
+    "5": "Five",
+    "6": "Six",
+    "7": "Seven",
+    "8": "Eight",
+    "9": "Nine"
+}
+```
+
+```
+"IF YOU CAN READ THIS IM NEVER GONNA GIVE YOU UP NEVER GONNA LET YOU DOWN NEVER GONNA RUN AROUND AND DESERT YOU"
+
+India Foxtrot Yankee Oscar Uniform Charlie Alpha
+November Romeo Echo Alpha Delta Tango Hotel
+India Sierra India Mike November Echo Victor Echo
+Romeo Golf Oscar November November Alpha
+Golf India Victor Echo Yankee Oscar Uniform
+Uniform Papa November Echo Victor Echo Romeo
+Golf Oscar November November Alpha Lima Echo
+Tango Yankee Oscar Uniform Delta Oscar
+Whiskey November November Echo Victor Echo
+Romeo Golf Oscar November November Alpha
+Romeo Uniform November Alpha Romeo Oscar Uniform
+November Delta Alpha November Delta Delta Echo
+Sierra Echo Romeo Tango Yankee Oscar Uniform
+```
+
+### Input:
+
+`If, you can read?`
+
+### Output:
+
+`India Foxtrot , Yankee Oscar Uniform Charlie Alfa November Romeo Echo Alfa Delta ?`
+
+### **_Examples_**
+
+```
+Input: print(to_nato('If you can read')) => Output: "India Foxtrot Yankee Oscar Uniform Charlie Alfa November Romeo Echo Alfa Delta"
+
+Input: print(to_nato('Did not see that coming')) => Output: "Delta India Delta November Oscar Tango Sierra Echo Echo Tango Hotel Alfa Tango Charlie Oscar Mike India November Golf"
+
+Input: print(to_nato('.d?d!')) => Output: ". Delta ? Delta !"
+```
+
+**_NOTES:_**
+
+- There is a preloaded dictionary that you can use, named `NATO`. It uses uppercase keys, e.g. `NATO['A']` is `"Alfa"`.
+- The set of used punctuation is `,.!?`.
+- Punctuation should be kept in your return string, but spaces should not.
+- `Xray` should not have a dash within.
+- Every word and punctuation mark should be seperated by a space `' '`.
+- There should be no trailing whitespace.
+
+#
+
+<br />
