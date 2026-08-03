@@ -1,0 +1,50 @@
+from preloaded import NATO # NATO['A'] == 'Alfa', etc
+
+# NATO = {
+#     "A": "Alfa",
+#     "B": "Bravo",
+#     "C": "Charlie",
+#     "D": "Delta",
+#     "E": "Echo",
+#     "F": "Foxtrot",
+#     "G": "Golf",
+#     "H": "Hotel",
+#     "I": "India",
+#     "J": "Juliett",
+#     "K": "Kilo",
+#     "L": "Lima",
+#     "M": "Mike",
+#     "N": "November",
+#     "O": "Oscar",
+#     "P": "Papa",
+#     "Q": "Quebec",
+#     "R": "Romeo",
+#     "S": "Sierra",
+#     "T": "Tango",
+#     "U": "Uniform",
+#     "V": "Victor",
+#     "W": "Whiskey",
+#     "X": "Xray",
+#     "Y": "Yankee",
+#     "Z": "Zulu",
+#     "0": "Zero",
+#     "1": "One",
+#     "2": "Two",
+#     "3": "Three",
+#     "4": "Four",
+#     "5": "Five",
+#     "6": "Six",
+#     "7": "Seven",
+#     "8": "Eight",
+#     "9": "Nine"
+# }
+
+
+def to_nato(words: str) -> str:
+    nato_translation = [NATO[symbol.upper()] if symbol.upper() in NATO else symbol for symbol in words.replace(" ", "")]
+    return " ".join(nato_translation)
+
+
+# print(to_nato('If you can read'))
+# print(to_nato('Did not see that coming'))
+# print(to_nato('.d?d!'))
