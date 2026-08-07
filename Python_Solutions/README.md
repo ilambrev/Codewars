@@ -2150,3 +2150,45 @@ Input: decomp(3990) => Output: "2^3982 * 3^1991 * 5^995 * 7^663 * 11^396 * 13^33
 #
 
 <br />
+
+# Challenge 061 John and Ann sign up for Codewars
+
+My solution -> *[061_john_and_ann_sign_up_for_codewars](061_john_and_ann_sign_up_for_codewars.py)*
+
+## **_Task condition:_**
+
+John and his wife Ann have decided to go to Codewars. On the first day Ann will do `one` kata and John - he wants to know how it is working - `0` kata.
+
+Let us call `a(n)` - and `j(n)` - the number of katas done by Ann - and John - at day `n`. We have `a(0) = 1` and in the same manner `j(0) = 0`.
+
+They have chosen the following rules:
+
+- On day n the number of katas done by Ann should be `n` minus the number of katas done by John at day `t`, `t` being equal to the number of katas done by Ann herself at day `n - 1`
+- On day `n` the number of katas done by John should be `n` minus the number of katas done by Ann at day `t`, `t` being equal to the number of katas done by John himself at day `n - 1`
+
+Whoops! I think they need to lay out a little clearer exactly what there're getting themselves into!
+
+Could you write:
+
+- functions `ann(n)` and `john(n)` that return the list of the number of katas Ann/John does on the first `n` days;
+- functions `sum_ann(n)` and `sum_john(n)` that return the total number of katas done by Ann/John on the first `n` days
+
+### **_Examples_**
+
+```
+Input: john(11) => Output: [0, 0, 1, 2, 2, 3, 4, 4, 5, 6, 6]
+
+Input: ann(6) => Output: [1, 1, 2, 2, 3, 3]
+
+Input: sum_john(75) => Output: 1720
+
+Input: sum_ann(115) => Output: 4070
+```
+
+**_NOTES:_**
+
+- Keep an eye on performance.
+
+#
+
+<br />
