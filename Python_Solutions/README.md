@@ -2192,3 +2192,41 @@ Input: sum_ann(115) => Output: 4070
 #
 
 <br />
+
+# Challenge 062 Drunk friend
+
+My solution -> *[062_drunk_friend](062_drunk_friend.py)*
+
+## **_Task condition:_**
+
+You're hanging out with your friends in a bar, when suddenly one of them is so drunk, that he can't speak, and when he wants to say something, he writes it down on a paper. However, none of the words he writes make sense to you. He wants to help you, so he points at a `beer` and writes `"yvvi"`. You start to understand what he's trying to say, and you write a script, that decodes his words.
+
+Keep in mind that numbers, as well as other characters, can be part of the input, and you should keep them like they are. You should also test if the input is a string. If it is not, return `"Input is not a string"`.
+
+### **_Examples_**
+
+```
+Input: decode("yvvi") => Output: "beer"
+
+Input: decode("Blf zoivzwb szw 10 yvvih") => Output: "You already had 10 beers"
+
+Input: decode("Ovg'h hdrn rm gsv ulfmgzrm!") => Output: "Let's swim in the fountain!"
+
+Input: decode({"brand": "Starobrno" }) => Output: "Input is not a string"
+
+Input: decode("Tl slnv, blf'iv wifmp") => Output: "Go home, you're drunk"
+
+Input: decode("Hfiv r xzm wzmxv lm xlk'h xzi, slow nb yvvi") => Output: "Sure i can dance on cop's car, hold my beer"
+
+Input: decode(True) => Output: "Input is not a string"
+
+Input: decode("Hvv? R'n mlg gszg wifmp, r xzm hgroo gzpv nb xolgsvh luu") => Output: "See? I'm not that drunk, i can still take my clothes off"
+
+Input: decode(123) => Output: "Input is not a string"
+
+Input: decode(["Beer"]) => Output: "Input is not a string"
+```
+
+#
+
+<br />
