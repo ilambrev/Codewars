@@ -2220,12 +2220,106 @@ Input: decode("Hfiv r xzm wzmxv lm xlk'h xzi, slow nb yvvi") => Output: "Sure i 
 
 Input: decode(True) => Output: "Input is not a string"
 
-Input: decode("Hvv? R'n mlg gszg wifmp, r xzm hgroo gzpv nb xolgsvh luu") => Output: "See? I'm not that drunk, i can still take my clothes off"
+Input: decode("Hvv? R'n mlg gszg wifmp, rAn orderly trail of ants is marching across the park picnic area.
+
+It looks something like this:
+
+..ant..ant.ant...ant.ant..ant.ant....ant..ant.ant.ant...ant..
+
+But suddenly there is a rumour that a dropped chicken sandwich has been spotted on the ground ahead. The ants surge forward! Oh No, it's an ant stampede!!
+
+Some of the slower ants are trampled, and their poor little ant bodies are broken up into scattered bits.
+
+The resulting carnage looks like this:
+
+...ant...ant..nat.ant.t..ant...ant..ant..ant.anant..t
+
+Can you find how many ants have died? xzm hgroo gzpv nb xolgsvh luu") => Output: "See? I'm not that drunk, i can still take my clothes off"
 
 Input: decode(123) => Output: "Input is not a string"
 
 Input: decode(["Beer"]) => Output: "Input is not a string"
 ```
+
+#
+
+<br />
+
+# Challenge 063 Dead Ants
+
+My solution -> *[063_dead_ants](063_dead_ants.py)*
+
+## **_Task condition:_**
+
+An orderly trail of ants is marching across the park picnic area.
+
+It looks something like this:
+
+```
+..ant..ant.ant...ant.ant..ant.ant....ant..ant.ant.ant...ant..
+```
+
+But suddenly there is a rumour that a dropped chicken sandwich has been spotted on the ground ahead. The ants surge forward! Oh No, it's an ant stampede!!
+
+Some of the slower ants are trampled, and their poor little ant bodies are broken up into scattered bits.
+
+The resulting carnage looks like this:
+
+```
+...ant...ant..nat.ant.t..ant...ant..ant..ant.anant..t
+```
+
+Can you find how many ants have died?
+
+### **_Examples_**
+
+```
+Input: dead_ant_count("ant ant ant ant") => Output: 0
+
+Input: dead_ant_count("") => Output: 0
+
+Input: dead_ant_count(" ") => Output: 0
+
+Input: dead_ant_count("ant anantt aantnt") => Output: 2
+
+Input: dead_ant_count("ant ant .... a nt") => Output: 1
+
+Input: dead_ant_count("ant ant ant ant") => Output: 0
+
+Input: dead_ant_count("") => Output: 0
+
+Input: dead_ant_count(" ") => Output: 0
+
+Input: dead_ant_count("ant anantt aantnt") => Output: 2
+
+Input: dead_ant_count("ant ant .... a nt") => Output: 1
+
+Input: dead_ant_count("antatn ant ant") => Output: 1
+
+Input: dead_ant_count("ant a ant anatttt") => Output: 4
+
+Input: dead_ant_count("antantantan") => Output: 1
+
+Input: dead_ant_count("aaaaannnntttt") => Output: 5
+
+Input: dead_ant_count("aaaannnnntttt") => Output: 5
+
+Input: dead_ant_count("aaaannnnttttt") => Output: 5
+
+Input: dead_ant_count("a n t") => Output: 1
+
+Input: dead_ant_count("... .. ...") => Output: 0
+
+Input: dead_ant_count("$$$ant..a") => Output: 1
+
+Input: dead_ant_count(".n..tt.n.nt..t.ntant..aaaaa..tn.na.aaat..n..tn.ntan.t") => Output: 10
+
+Input: dead_ant_count("ant ant .... a nt") => Output: 1
+```
+
+**_NOTES:_**
+
+- When in doubt, assume that the scattered bits are from the same ant. e.g. 2 heads and 1 body = 2 dead ants, not 3.
 
 #
 
