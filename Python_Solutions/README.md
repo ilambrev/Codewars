@@ -2370,3 +2370,53 @@ Input: decode(encode("ABCDEFGHIJKLMNOPQRSTUVWXYZ")) => Output: "ABCDEFGHIJKLMNOP
 #
 
 <br />
+
+# Challenge 065 Coding 3min: Trypophobia
+
+My solution -> *[065_coding_3min_trypophobia](065_coding_3min_trypophobia.py)*
+
+## **_Task condition:_**
+
+Unfortunately, you have trypophobia, You always want to clear up some of the things that have occurred many times.
+
+Give you a number array(2D array) `arr`, remove the most common number in each subarray from that array.
+
+If more than one numbers have same repeat times, remove all of them.
+
+```
+For a = [[3,3,3,3,3,3,3,3,3]], the output should be [[]]
+
+Because 3 is the most common number.
+
+For a = [[3,4,5],[4,4,4]], the output should be [[3,5],[]]
+
+Because 4 is the most common number. Remove all 4 from each subarray.
+
+For a = [[3,4,5],[3,4,5]], the output should be [[],[]]
+
+Because 3,4,5 is the most common numbers, they all repeated 2 times. Remove all of them from each subarray.
+```
+
+### **_Examples_**
+
+```
+Input: sc([[3,3,3,3,3,3,3,3,3]]) => Output: [[]]
+
+Input: sc([[3,3,3,3,3,3,3,3,3,4,5]]) => Output: [[4,5]]
+
+Input: sc([[3,4,5]]) => Output: [[]]
+
+Input: sc([[3,4,5],[3,4,5]]) => Output: [[],[]]
+
+Input: sc([[3,4,5],[4,4,4]]) => Output: [[3,5],[]]
+
+Input: sc([[3,4,4,5],[3,4,4,5],[3,4,4,5],[3,4,4,5]]) => Output: [[3,5],[3,5],[3,5],[3,5]]
+
+Input: sc([[]]) => Output: [[]]
+
+Input: sc([]) => Output: []
+```
+
+#
+
+<br />
