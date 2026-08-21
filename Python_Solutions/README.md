@@ -2420,3 +2420,49 @@ Input: sc([]) => Output: []
 #
 
 <br />
+
+# Challenge 066 Simple Fun #358: Vertical Histogram Of Letters
+
+My solution -> *[066_simple_fun_358_vertical_histogram_of_letters](066_simple_fun_358_vertical_histogram_of_letters.py)*
+
+## **_Task condition:_**
+
+You are given a string s. Your task is to count the number of each letter (A-Z), and make a vertical histogram as result. Look at the following examples to understand the rules.
+
+For s = `"XXY YY ZZZ123ZZZ AAA BB C"`, the output should be:
+
+```
+          *
+          *
+          *
+*       * *
+* *   * * *
+* * * * * *
+A B C X Y Z
+```
+
+## **_Rules:_**
+
+- You just need to count the uppercase letters. Any other character will be ignored.
+- Using `*` to represent the number of characters.
+- The order of output is form `A to Z`. Characters that do not appear in the string are ignored.
+- To beautify the histogram, there is a space between every pair of columns.
+- There are no extra spaces at the end of each row. Also, use `"\n"` to separate rows.
+
+### **_Examples_**
+
+```
+Input: vertical_histogram_of("XXY YY ZZZ123ZZZ AAA BB C") => Output: "          *\n          *\n          *\n*       * *\n* *   * * *\n* * * * * *\nA B C X Y Z"
+
+Input: vertical_histogram_of("AAABBC") => Output: "*\n* *\n* * *\nA B C"
+
+Input: vertical_histogram_of("A") => Output: "*\nA"
+
+Input: vertical_histogram_of("") => Output: ""
+
+Input: vertical_histogram_of("abc123") => Output: ""
+```
+
+#
+
+<br />
