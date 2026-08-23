@@ -2496,3 +2496,47 @@ Input: to_weird_case("THIs iS a TEST") => Output: "ThIs Is A TeSt"
 #
 
 <br />
+
+# Challenge 068 Base64 Numeric Translator
+
+My solution -> *[068_base64_numeric_translator](068_base64_numeric_translator.py)*
+
+## **_Task condition:_**
+
+Our standard numbering system is `base-10`, that uses digits `0` through `9`. Binary is `base-2`, using only `1s` and `0s`. And hexadecimal is `base-16`, using digits `0` to `9` and `A` to `F`. A hexadecimal `F` has a `base-10` value of `15`.
+
+`Base-64` has `64` individual characters ("digits") which translate to the `base-10` values of `0` to `63`. These are (in ascending order):
+
+```
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+```
+
+(so `A` is equal to `0` and `/` is equal to `63`)
+
+Complete the method that will take a `base-64` number (as a string) and output its `base-10` value as an integer.
+
+```
+"/"   -->  63
+"BA"  -->  64
+"BB"  -->  65
+"BC"  -->  66
+"WIN" -->  90637
+```
+
+### **_Examples_**
+
+```
+Input: base64_to_base10("A") => Output: 0
+
+Input: base64_to_base10("/") => Output: 63
+
+Input: base64_to_base10("BA") => Output: 64
+
+Input: base64_to_base10("//") => Output: 4095
+
+Input: base64_to_base10("WIN") => Output: 90637
+```
+
+#
+
+<br />
