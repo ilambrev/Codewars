@@ -2540,3 +2540,79 @@ Input: base64_to_base10("WIN") => Output: 90637
 #
 
 <br />
+
+# Challenge 069 Best travel
+
+My solution -> *[069_best_travel](069_best_travel.py)*
+
+## **_Task condition:_**
+
+John and Mary want to travel between a few towns `A, B, C ...`. Mary has on a sheet of paper a list of distances between these towns. `ls = [50, 55, 57, 58, 60]`. John is tired of driving and he says to Mary that he doesn't want to drive more than `t = 174 miles` and he will visit only `3 towns`.
+
+Which distances, hence which towns, they will choose so that the sum of the distances is the biggest possible to please Mary and John?
+
+With list `ls` and `3` towns to visit they can make a choice between: `[50,55,57],[50,55,58],[50,55,60],[50,57,58],[50,57,60],[50,58,60],[55,57,58],[55,57,60],[55,58,60],[57,58,60]`.
+
+The sums of distances are then: `162, 163, 165, 165, 167, 168, 170, 172, 173, 175`.
+
+The biggest possible sum taking a limit of `174` into account is then `173` and the distances of the `3` corresponding towns is `[55, 58, 60]`.
+
+The function `choose_best_sum(t, k, ls)` will take as parameters `t` (maximum sum of distances, integer >= 0), `k` (number of towns to visit, k >= 1) and `ls` (list of distances, all distances are positive or zero integers and this list has at least one element). The function returns the "best" sum ie the biggest possible sum of `k` distances less than or equal to the given limit `t`, if that sum exists, or otherwise `None`.
+
+`ts = [50, 55, 56, 57, 58] choose_best_sum(163, 3, ts) -> 163`
+
+`xs = [50] choose_best_sum(163, 3, xs) -> None`
+
+`ys = [91, 74, 73, 85, 73, 81, 87] choose_best_sum(230, 3, ys) -> 228`
+
+### **_Examples_**
+
+```
+ts = [50, 55, 56, 57, 58]
+Input: choose_best_sum(163, 3, ts) => Output: 163
+
+ts = [50]
+Input: choose_best_sum(163, 3, ts) => Output: None
+        
+ts = [91, 74, 73, 85, 73, 81, 87]
+Input: choose_best_sum(230, 3, ts) => Output: 228
+Input: choose_best_sum(331, 2, ts) => Output: 178
+Input: choose_best_sum(331, 4, ts) => Output: 331
+Input: choose_best_sum(331, 5, ts) => Output: None
+Input: choose_best_sum(331, 1, ts) => Output: 91
+Input: choose_best_sum(700, 6, ts) => Output: 491
+
+xs = [100, 76, 56, 44, 89, 73, 68, 56, 64, 123, 2333, 144, 50, 132, 123, 34, 89]
+Input: choose_best_sum(230, 4, xs) => Output: 230
+Input: choose_best_sum(430, 5, xs) => Output: 430
+Input: choose_best_sum(430, 8, xs) => Output: None
+Input: choose_best_sum(880, 8, xs) => Output: 876
+Input: choose_best_sum(2430, 15, xs) => Output: 1287
+Input: choose_best_sum(100, 2, xs) => Output: 100
+Input: choose_best_sum(276, 3, xs) => Output: 276
+Input: choose_best_sum(3760, 17, xs) => Output: 3654
+Input: choose_best_sum(3760, 40, xs) => Output: None
+Input: choose_best_sum(50, 1, xs) => Output: 50
+Input: choose_best_sum(1000, 18, xs) => Output: None
+
+xs = [100, 64, 123, 2333, 144, 50, 132, 123, 34, 89]
+Input: choose_best_sum(230, 4, xs) => Output: None
+Input: choose_best_sum(230, 2, xs) => Output: 223
+Input: choose_best_sum(2333, 1, xs) => Output: 2333
+Input: choose_best_sum(2333, 8, xs) => Output: 825
+
+xs = [1000, 640, 1230, 2333, 1440, 500, 1320, 1230, 340, 890, 732, 1346]
+Input: choose_best_sum(2300, 4, xs) => Output: 2212
+Input: choose_best_sum(2300, 5, xs) => Output: None
+Input: choose_best_sum(2332, 3, xs) => Output: 2326
+Input: choose_best_sum(23331, 8, xs) => Output: 10789
+Input: choose_best_sum(331, 2, xs) => Output: None
+```
+
+**_NOTES:_**
+
+- Try not to modify the input list of distances `ls`
+
+#
+
+<br />
