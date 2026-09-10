@@ -2616,3 +2616,45 @@ Input: choose_best_sum(331, 2, xs) => Output: None
 #
 
 <br />
+
+# Challenge 070 Ball Upwards
+
+My solution -> *[070_ball_upwards](070_ball_upwards.py)*
+
+## **_Task condition:_**
+
+You throw a ball vertically upwards with an initial speed **_`v0 (in km per hour)`_**.
+
+The height `h` of the ball at each time `t` is given by **_`h = v0 * t - 0.5 * g * t * t`_** where `g` is the Earth's gravity (**_`g ≈ 9.81 m/s^2`_**).
+
+A device is recording at every tenth of second the height of the ball.
+
+For example, with `v0 = 15 km/h`, the device gets something of the following form:
+`(0, 0.0), (1, 0.367...), (2, 0.637...), (3, 0.808...), (4, 0.881..) ...` where the first number is the time in tenths of a second and the second number the height in meter.
+
+Write a function with a parameter `v0 (in km per hour)` that returns the `time in tenth of second` of the `maximum height` recorded by the device.
+
+Given initial speed `v0 = 15` --> should return `4`
+
+Given initial speed `v0 = 25` --> should return `7`
+
+### **_Examples_**
+
+```
+Input: max_ball(37) => Output: 10
+
+Input: max_ball(45) => Output: 13
+
+Input: max_ball(99) => Output: 28
+
+Input: max_ball(85) => Output: 24
+```
+
+**_NOTES:_**
+
+- Remember to convert the velocity from `km/h` to `m/s` or from `m/s` to `km/h` when necessary.
+- The maximum height recorded by the device is not necessarily the maximum height reached by the ball.
+
+#
+
+<br />
