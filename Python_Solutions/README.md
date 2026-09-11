@@ -2743,3 +2743,113 @@ Input: solve("hannah") => Output: "OK"
 #
 
 <br />
+
+# Challenge 073 Simple Simple Simple String Expansion
+
+My solution -> *[073_simple_simple_simple_string_expansion](073_simple_simple_simple_string_expansion.py)*
+
+## **_Task condition:_**
+
+Given a string that includes alphanumeric characters `("3a4B2d")` return the expansion of that string: The numeric values represent the occurrence of each letter following that numeric value. There should be no numeric characters in the final string.
+
+Your code should be able to work for both lower and capital case letters.
+
+```
+"3D2a5d2f"  -->  "DDDaadddddff"    # basic example: 3 * "D" + 2 * "a" + 5 * "d" + 2 * "f"
+"3abc"      -->  "aaabbbccc"       # not "aaabc", nor "abcabcabc"; 3 * "a" + 3 * "b" + 3 * "c"
+"3d332f2a"  -->  "dddffaa"         # multiple consecutive digits: 3 * "d" + 2 * "f" + 2 * "a"
+"abcde"     -->  "abcde"           # no digits
+"1111"      -->  ""                # no characters to repeat
+""          -->  ""                # empty string
+```
+
+### **_Examples_**
+
+```
+Input: string_expansion("3D2a5d2f") => Output: "DDDaadddddff"
+
+Input: string_expansion("4D1a8d4j3k") => Output: "DDDDaddddddddjjjjkkk"
+
+Input: string_expansion("4D2a8d4j2f") => Output: "DDDDaaddddddddjjjjff"
+
+Input: string_expansion("3n6s7f3n") => Output: "nnnssssssfffffffnnn"
+
+Input: string_expansion("0d4n8d2b") => Output: "nnnnddddddddbb"
+
+Input: string_expansion("0c3b1n7m") => Output: "bbbnmmmmmmm"
+
+Input: string_expansion("7m3j4ik2a") => Output: "mmmmmmmjjjiiiikkkkaa"
+
+Input: string_expansion("3A5m3B3Y") => Output: "AAAmmmmmBBBYYY"
+
+Input: string_expansion("5M0L8P1") => Output: "MMMMMPPPPPPPP"
+
+Input: string_expansion("2B") => Output: "BB"
+
+Input: string_expansion("7M1n3K") => Output: "MMMMMMMnKKK"
+
+Input: string_expansion("A4g1b4d") => Output: "Aggggbdddd"
+
+
+Input: string_expansion("111111") => Output: ""
+
+Input: string_expansion("4d324n2") => Output: "ddddnnnn"
+
+Input: string_expansion("5919nf3u") => Output: "nnnnnnnnnfffffffffuuu"
+
+Input: string_expansion("2n1k523n4i") => Output: "nnknnniiii"
+
+Input: string_expansion("6o23M32d") => Output: "ooooooMMMdd"
+
+Input: string_expansion("1B44n3r") => Output: "Bnnnnrrr"
+
+Input: string_expansion("M21d1r32") => Output: "Mdr"
+
+Input: string_expansion("23M31r2r2") => Output: "MMMrrr"
+
+Input: string_expansion("8494mM25K2A") => Output: "mmmmMMMMKKKKKAA"
+
+Input: string_expansion("4A46D6B3C") => Output: "AAAADDDDDDBBBBBBCCC"
+
+Input: string_expansion("23D42B3A") => Output: "DDDBBAAA"
+
+Input: string_expansion("143D36C1A") => Output: "DDDCCCCCCA"
+
+
+Input: string_expansion("asdf") => Output: "asdf"
+
+Input: string_expansion("23jbjl1eb") => Output: "jjjbbbjjjllleb"
+
+Input: string_expansion("43ibadsr3") => Output: "iiibbbaaadddsssrrr"
+
+Input: string_expansion("123p9cdbjs") => Output: "pppcccccccccdddddddddbbbbbbbbbjjjjjjjjjsssssssss"
+
+Input: string_expansion("2309ew7eh") => Output: "eeeeeeeeewwwwwwwwweeeeeeehhhhhhh"
+
+Input: string_expansion("312987rfebd") => Output: "rrrrrrrfffffffeeeeeeebbbbbbbddddddd"
+
+Input: string_expansion("126cgec") => Output: "ccccccggggggeeeeeecccccc"
+
+Input: string_expansion("1chwq3rfb") => Output: "chwqrrrfffbbb"
+
+Input: string_expansion("389fg21c") => Output: "fffffffffgggggggggc"
+
+Input: string_expansion("239vbsac") => Output: "vvvvvvvvvbbbbbbbbbsssssssssaaaaaaaaaccccccccc"
+
+Input: string_expansion("davhb327vuc") => Output: "davhbvvvvvvvuuuuuuuccccccc"
+
+Input: string_expansion("cvyb239bved2dv") => Output: "cvybbbbbbbbbbvvvvvvvvveeeeeeeeedddddddddddvv"
+
+
+Input: string_expansion("") => Output: ""
+```
+
+**_NOTES:_**
+
+- The first occurrence of a numeric value should be the number of times each character behind it is repeated, until the next numeric value appears
+- If there are multiple consecutive numeric characters, only the last one should be used (ignore the previous ones)
+- Empty strings should return an empty string.
+
+#
+
+<br />
