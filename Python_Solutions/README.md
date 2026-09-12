@@ -2853,3 +2853,50 @@ Input: string_expansion("") => Output: ""
 #
 
 <br />
+
+# Challenge 074 Prefill an Array
+
+My solution -> *[074_prefill_an_array](074_prefill_an_array.py)*
+
+## **_Task condition:_**
+
+Create the function `prefill` that returns an array of `n` elements that all have the same value `v`. See if you can do this without using a loop.
+
+You have to validate input:
+
+- `v` can be anything (primitive or otherwise)
+- if `v` is ommited, fill the array with `None`
+- if `n` is `0`, return an empty array
+- if `n` is anything other than an `integer` or `integer-formatted string` (e.g. `"123"`) that is `>=0`, throw a `TypeError`
+
+When throwing a `TypeError`, the message should be `n is invalid`, where you replace `n` for the actual value passed to the function.
+
+```
+prefill(3,1) --> [1,1,1]
+
+prefill(2,"abc") --> ['abc','abc']
+
+prefill("1", 1) --> [1]
+
+prefill(3, prefill(2,'2d')) --> [['2d','2d'],['2d','2d'],['2d','2d']]
+
+prefill("xyz", 1) --> throws TypeError with message "xyz is invalid"
+```
+
+### **_Examples_**
+
+```
+Input: prefill(3, 1) => Output: [1,1,1]
+
+Input: prefill(2, 'abc') => Output: ['abc','abc']
+
+Input: prefill('1', 1) => Output: [1]
+
+Input: prefill(3, prefill(2, '2d')) => Output: [['2d','2d'],['2d','2d'],['2d','2d']]
+
+Input: prefill('xyz', 1) => Output: TypeError
+```
+
+#
+
+<br />
