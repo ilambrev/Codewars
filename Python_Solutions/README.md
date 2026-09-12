@@ -2900,3 +2900,58 @@ Input: prefill('xyz', 1) => Output: TypeError
 #
 
 <br />
+
+# Challenge 075 Well efficiency calculator
+
+My solution -> *[075_well_efficiency_calculator](075_well_efficiency_calculator.py)*
+
+## **_Task condition:_**
+
+You have a `20 x 20` preloaded array of oil saturation in some region. Your task is to answer whether it is efficient to place the well at the given point. A well is efficient if its efficiency is bigger or equal to given threshold.
+
+Input parameters in that function are:
+
+- `x` and `y` integer coordinates of the well (indexes of 2D array, using `x` for rows, `y` for columns)
+- efficiency threshold (float)
+
+The preloaded `FIELD` contains values from `0.00` to `0.99` inclusive, such as:
+
+```
+0.98, 0.65, 0.23, 0.39, 0.99...
+```
+
+```
+x = 10
+y = 10
+threshold = 3.5
+expected result => True
+
+x = 7
+y = 3
+threshold = 4.5
+expected result => False
+```
+
+To calculate the current efficiency of a well, you should sum up all saturations of cells adjacent to the specified cell plus the saturation of the specified cell itself.
+
+The efficiency of the marked point with `0.43` is `5.3` (sum of all cells in square).
+
+If you need to calculate the efficiency at the edge of the field, you should just take in account only cells in the field.
+
+### **_Examples_**
+
+```
+Input: is_efficient(10, 10, 2.5) => Output: True
+
+Input: is_efficient(12, 3, 1.5) => Output: True
+
+Input: is_efficient(12, 3, 7.5) => Output: False
+
+Input: is_efficient(17, 11, 3) => Output: True
+
+Input: is_efficient(8, 9, 6) => Output: False
+```
+
+#
+
+<br />
