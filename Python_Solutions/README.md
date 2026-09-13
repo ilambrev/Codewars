@@ -3020,8 +3020,6 @@ Output:
 
 ### **_Examples_**
 
-
-
 ```
 def write_log(content):
     with open("server.log", "w") as f:
@@ -3070,6 +3068,48 @@ write_log(
 )
 
 Input: map_errors() => Output: {"gamma": 3, "beta": 2, "alpha": 1, "delta": 1}
+```
+
+#
+
+<br />
+
+# Challenge 077 Mexican Wave
+
+My solution -> *[077_mexican_wave](077_mexican_wave.py)*
+
+## **_Task condition:_**
+
+> _The wave (known as the Mexican wave in the English-speaking world outside North America) is an example of metachronal rhythm achieved in a packed stadium when successive groups of spectators briefly stand, yell, and raise their arms. Immediately upon stretching to full height, the spectator returns to the usual seated position. The result is a wave of standing spectators that travels through the crowd, even though individual spectators never move away from their seats. In many large arenas the crowd is seated in a contiguous circuit all the way around the sport field, and so the wave is able to travel continuously around the arena; in discontiguous seating arrangements, the wave can instead reflect back and forth through the crowd. When the gap in seating is narrow, the wave can sometimes pass through it. Usually only one wave crest will be present at any given time in an arena, although simultaneous, counter-rotating waves have been produced._
+
+Your task is to create a function that turns a string into a Mexican Wave. You will be passed a string and you must return an array of strings where an uppercase letter is a person standing up.
+
+#### Rules
+
+1.  The input string will always consist of lowercase letters and spaces, but may be empty, in which case you must return an empty array.
+2.  If the character in the string is whitespace then pass over it as if it was an empty seat
+
+```
+"hello" => ["Hello", "hEllo", "heLlo", "helLo", "hellO"]
+" s p a c e s " => [ " S p a c e s ", " s P a c e s ", " s p A c e s ", " s p a C e s ", " s p a c E s ", " s p a c e S "]
+```
+
+### **_Examples_**
+
+```
+Input: wave("hello") => Output: ["Hello", "hEllo", "heLlo", "helLo", "hellO"]
+
+Input: wave("codewars") => Output: ["Codewars", "cOdewars", "coDewars", "codEwars", "codeWars", "codewArs", "codewaRs", "codewarS"]
+
+Input: wave("") => Output: []
+
+Input: wave("two words") => Output: ["Two words", "tWo words", "twO words", "two Words", "two wOrds", "two woRds", "two worDs", "two wordS"]
+
+Input: wave(" gap ") => Output: [" Gap ", " gAp ", " gaP "]
+
+Input: wave("a       b    ") => Output: ["A       b    ", "a       B    "]
+
+Input: wave("this is a few words") => Output: ["This is a few words", "tHis is a few words", "thIs is a few words", "thiS is a few words", "this Is a few words", "this iS a few words", "this is A few words", "this is a Few words", "this is a fEw words", "this is a feW words", "this is a few Words", "this is a few wOrds", "this is a few woRds", "this is a few worDs", "this is a few wordS"]
 ```
 
 #
