@@ -6573,3 +6573,23 @@ Input: removeChar("xyz") => Output: "y"
 #
 
 <br />
+
+# Challenge 195 Convert Boolean Values To Strings "Yes" Or "No"
+
+My solution -> *[195ConvertBooleanValuesToStringsYesOrNo](195ConvertBooleanValuesToStringsYesOrNo.js)*
+
+## **_Task condition:_**
+
+Complete the method that takes a boolean value and return a `"Yes"` string for `true`, or a `"No"` string for `false`.
+
+### **_Examples_**
+
+```
+Input: boolToWord(true) => Output: "Yes"
+
+Input: boolToWord(false) => Output: "No"
+```
+
+#
+
+<br />
