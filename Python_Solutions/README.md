@@ -3159,3 +3159,53 @@ Input: order_weight("") => Output: ""
 #
 
 <br />
+
+# Challenge 079 Give me a Diamond
+
+My solution -> *[079_give_me_a_diamond](079_give_me_a_diamond.py)*
+
+## **_Task condition:_**
+
+Jamie is a programmer, and James' girlfriend. She likes diamonds, and wants a diamond string from James. Since James doesn't know how to make this happen, he needs your help.
+
+You need to return a string that looks like a diamond shape when printed on the screen, using asterisk (`*`) characters. Trailing spaces should be removed, and every line must be terminated with a newline character (`\n`).
+
+Return `None` if the input is an even number or negative, as it is not possible to print a diamond of even or negative size.
+
+_A size 3 diamond:_
+```
+ *
+***
+ *
+```
+...which would appear as a string of `" *\n***\n *\n"`
+
+_A size 5 diamond:_
+```
+  *
+ ***
+*****
+ ***
+  *
+```
+...that is `"  *\n ***\n*****\n ***\n  *\n"`
+
+### **_Examples_**
+
+```
+Input: diamond(1) => Output: "*\n"
+
+Input: diamond(2) => Output: None
+
+Input: diamond(3) => Output: " *\n***\n *\n"
+
+Input: diamond(5) => Output: "  *\n ***\n*****\n ***\n  *\n"
+
+Input: diamond(0) => Output: None
+
+Input: diamond(-3) => Output: None
+```
+
+#
+
+<br />
