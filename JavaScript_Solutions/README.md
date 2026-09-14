@@ -6493,3 +6493,27 @@ Input: getPrimes(30, 0) => Output: [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]
 #
 
 <br />
+
+# Challenge 193 Basic Variable Assignment
+
+My solution -> *[193BasicVariableAssignment](193BasicVariableAssignment.js)*
+
+## **_Task condition:_**
+
+This code should store `"codewa.rs"` as a variable called `name` but it's not working. Can you figure out why?
+
+```
+var a == "code";
+var b == "wa.rs";
+var name == a + b;
+```
+
+### **_Examples_**
+
+```
+Input: console.log(name) => Output: "codewa.rs"
+```
+
+#
+
+<br />
