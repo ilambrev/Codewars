@@ -6517,3 +6517,59 @@ Input: console.log(name) => Output: "codewa.rs"
 #
 
 <br />
+
+# Challenge 194 Remove First And Last Character
+
+My solution -> *[194RemoveFirstAndLastCharacter](194RemoveFirstAndLastCharacter.js)*
+
+## **_Task condition:_**
+
+Your goal is to write a function that removes the first and last characters of a string. You're given one parameter, the original string.
+
+**Important:** Your function should handle strings of any `length ≥ 2` characters. For strings with exactly `2` characters, return an empty string.
+
+```
+'eloquent' --> 'loquen'
+'country'  --> 'ountr' 
+'person'   --> 'erso'
+'ab'       --> '' (empty string)
+'xyz'      --> 'y'
+```
+
+#### Requirements
+
+- The input string will always have at least `2` characters
+- For strings with exactly `2` characters, return an empty string
+- For strings with `3` or more characters, remove the first and last character
+- The function should handle strings containing letters, numbers, and special characters
+
+#### Test Cases
+
+Your solution will be tested against:
+
+- Basic functionality with common words
+- Edge cases with `2-character` and `3-character` strings
+- Strings containing numbers and special characters
+- Random test cases of varying lengths
+
+### **_Examples_**
+
+```
+Input: removeChar("eloquent") => Output: "loquen"
+
+Input: removeChar("country") => Output: "ountr"
+
+Input: removeChar("person") => Output: "erso"
+
+Input: removeChar("place") => Output: "lac"
+
+Input: removeChar("ooopsss") => Output: "oopss"
+
+Input: removeChar("ab") => Output: ""
+
+Input: removeChar("xyz") => Output: "y"
+```
+
+#
+
+<br />
