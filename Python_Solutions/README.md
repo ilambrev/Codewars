@@ -3315,7 +3315,7 @@ or:
 [8, 9, 1] ==> 8 + 9 + 1 = 18
 ```
 
-Finally, take that sum and divide it by `10`. If the remainder equals zero, the original credit card number is valid.
+- Finally, take that sum and divide it by `10`. If the remainder equals zero, the original credit card number is valid.
 
 ```
 18 (modulus) 10 ==> 8 , which is not equal to 0, so this is not a valid credit card number
@@ -3337,6 +3337,55 @@ Input: validate(1) => Output: False
 Input: validate(2121) => Output: True
 
 Input: validate(1230) => Output: True
+```
+
+#
+
+<br />
+
+# Challenge 082 Snail
+
+My solution -> *[082_snail_sort](082_snail_sort.py)*
+
+## **_Task condition:_**
+
+Given an `n x n` array, return the array elements arranged from outermost elements to the middle element, traveling clockwise.
+
+```
+array = [[1, 2, 3],
+         [4, 5, 6],
+         [7, 8, 9]]
+snail(array) #=> [1, 2, 3, 6, 9, 8, 7, 4, 5]
+```
+
+For better understanding, please follow the numbers of the next array consecutively:
+
+```
+array = [[1, 2, 3],
+         [8, 9, 4],
+         [7, 6, 5]]
+snail(array) #=> [1, 2, 3, 4, 5, 6, 7, 8, 9]
+```
+
+### **_Examples_**
+
+```
+array = [[1, 2, 3],
+         [4, 5, 6],
+         [7, 8, 9]]
+
+Input: snail(array) => Output: [1, 2, 3, 6, 9, 8, 7, 4, 5]
+
+array = [[1, 2, 3],
+         [8, 9, 4],
+         [7, 6, 5]]
+
+Input: snail(array) => Output: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+array = [[]]
+
+Input: snail(array) => Output: []
+
 ```
 
 #
