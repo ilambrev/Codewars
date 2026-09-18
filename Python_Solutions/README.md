@@ -3345,7 +3345,7 @@ Input: validate(1230) => Output: True
 
 # Challenge 082 Snail
 
-My solution -> *[082_snail_sort](082_snail_sort.py)*
+My solution -> *[082_snail](082_snail.py)*
 
 ## **_Task condition:_**
 
