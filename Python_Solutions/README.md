@@ -3419,3 +3419,89 @@ Input: not_primes(999, 2500) => Output: [2222, 2223, 2225, 2227, 2232, 2233, 223
 #
 
 <br />
+
+# Challenge 084 Connect Four
+
+My solution -> *[084_connect_four](084_connect_four.py)*
+
+## **_Task condition:_**
+
+*[Connect Four - Wikipedia Description](https://en.wikipedia.org/wiki/Connect_Four)*
+
+> _Connect Four is a game in which the players choose a color and then take turns dropping colored tokens into a six-row, seven-column vertically suspended grid. The pieces fall straight down, occupying the lowest available space within the column. The objective of the game is to be the first to form a horizontal, vertical, or diagonal line of four of one's own tokens._
+
+The grid is `6` row by `7` columns, those being named from `A` to `G`.
+
+You will receive a list of strings showing the order of the pieces which dropped in columns:
+
+```
+pieces_position_list = ["A_Red",
+                        "B_Yellow",
+                        "A_Red",
+                        "B_Yellow",
+                        "A_Red",
+                        "B_Yellow",
+                        "G_Red",
+                        "B_Yellow"]
+```
+
+The list may contain up to `42` moves and shows the order the players are playing.
+
+The first player who connects four items of the same color is the winner.
+
+You should return `"Yellow"`, `"Red"` or `"Draw"` accordingly.
+
+### **_Examples_**
+
+```
+Input: who_is_winner([
+   "C_Yellow", "E_Red", "G_Yellow", "B_Red", "D_Yellow", "B_Red", "B_Yellow", "G_Red", "C_Yellow", "C_Red",
+   "D_Yellow", "F_Red", "E_Yellow", "A_Red", "A_Yellow", "G_Red", "A_Yellow", "F_Red", "F_Yellow", "D_Red",
+   "B_Yellow", "E_Red", "D_Yellow", "A_Red", "G_Yellow", "D_Red", "D_Yellow", "C_Red"
+])
+
+Output: "Yellow"
+
+Input: who_is_winner([
+   "C_Yellow", "B_Red", "B_Yellow", "E_Red", "D_Yellow", "G_Red", "B_Yellow", "G_Red", "E_Yellow", "A_Red",
+   "G_Yellow", "C_Red", "A_Yellow", "A_Red", "D_Yellow", "B_Red", "G_Yellow", "A_Red", "F_Yellow", "B_Red",
+   "D_Yellow", "A_Red", "F_Yellow", "F_Red", "B_Yellow", "F_Red", "F_Yellow", "G_Red", "A_Yellow", "F_Red",
+   "C_Yellow", "C_Red", "G_Yellow", "C_Red", "D_Yellow", "D_Red", "E_Yellow", "D_Red", "E_Yellow", "C_Red",
+   "E_Yellow", "E_Red"
+])
+
+Output: "Yellow"
+
+Input: who_is_winner([
+   "F_Yellow", "G_Red", "D_Yellow", "C_Red", "A_Yellow", "A_Red", "E_Yellow", "D_Red", "D_Yellow", "F_Red",
+   "B_Yellow", "E_Red", "C_Yellow", "D_Red", "F_Yellow", "D_Red", "D_Yellow", "F_Red", "G_Yellow", "C_Red",
+   "F_Yellow", "E_Red", "A_Yellow", "A_Red", "C_Yellow", "B_Red", "E_Yellow", "C_Red", "E_Yellow", "G_Red",
+   "A_Yellow", "A_Red", "G_Yellow", "C_Red", "B_Yellow", "E_Red", "F_Yellow", "G_Red", "G_Yellow", "B_Red",
+   "B_Yellow", "B_Red"
+])
+
+Output: "Red"
+
+Input: who_is_winner([
+   "A_Yellow", "B_Red", "B_Yellow", "C_Red", "G_Yellow", "C_Red", "C_Yellow", "D_Red", "G_Yellow", "D_Red",
+   "G_Yellow", "D_Red", "F_Yellow", "E_Red", "D_Yellow"
+])
+
+Output: "Red"
+
+Input: who_is_winner([
+   "A_Red", "B_Yellow", "A_Red", "B_Yellow", "A_Red", "B_Yellow", "G_Red", "B_Yellow"
+])
+
+Output: "Yellow"
+
+Input: who_is_winner([
+   "A_Red", "B_Yellow", "A_Red", "E_Yellow", "F_Red", "G_Yellow", "A_Red", "G_Yellow"
+])
+
+Output: "Draw"
+```
+
+#
+
+<br />
