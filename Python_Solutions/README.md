@@ -3605,3 +3605,43 @@ Input: justify(" ".join(text.split()), 30) => Output: text
 #
 
 <br />
+
+# Challenge 086 Encrypt this!
+
+My solution -> *[086_encrypt_this](086_encrypt_this.py)*
+
+## **_Task condition:_**
+
+You want to create secret messages which can be deciphered by the *[Decipher this!](087_decipher_this.py)*. Here are the conditions:
+
+1. Your message is a string containing space separated words.
+2. You need to encrypt each word in the message using the following rules:
+   - The first letter must be converted to its `ASCII code`.
+   - The second letter must be switched with the last letter
+3. Keepin' it simple: There are no special characters in the input.
+
+```
+encrypt_this("Hello") == "72olle"
+encrypt_this("good") == "103doo"
+encrypt_this("hello world") == "104olle 119drlo"
+```
+
+### **_Examples_**
+
+```
+Input: encrypt_this("") => Output: ""
+
+Input: encrypt_this("A wise old owl lived in an oak") => Output: "65 119esi 111dl 111lw 108dvei 105n 97n 111ka"
+
+Input: encrypt_this("The more he saw the less he spoke") => Output: "84eh 109ero 104e 115wa 116eh 108sse 104e 115eokp"
+
+Input: encrypt_this("The less he spoke the more he heard") => Output: "84eh 108sse 104e 115eokp 116eh 109ero 104e 104dare"
+
+Input: encrypt_this("Why can we not all be like that wise old bird") => Output: "87yh 99na 119e 110to 97ll 98e 108eki 116tah 119esi 111dl 98dri"
+
+Input: encrypt_this("Thank you Piotr for all your help") => Output: "84kanh 121uo 80roti 102ro 97ll 121ruo 104ple"
+```
+
+#
+
+<br />
