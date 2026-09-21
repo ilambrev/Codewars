@@ -3645,3 +3645,42 @@ Input: encrypt_this("Thank you Piotr for all your help") => Output: "84kanh 121u
 #
 
 <br />
+
+# Challenge 087 Decipher this!
+
+My solution -> *[087_decipher_this](087_decipher_this.py)*
+
+## **_Task condition:_**
+
+You are given a secret message you need to decipher. Here are the things you need to know to decipher it:
+
+For each word:
+
+- the second and the last letter is switched (e.g. `Hello` becomes `Holle`)
+- the first letter is replaced by its character code (e.g. `H` becomes `72`)
+- there are no special characters used, only letters and spaces
+- words are separated by a single space
+- there are no leading or trailing spaces
+
+```
+'72olle 103doo 100ya' --> 'Hello good day'
+'82yade 115te 103o'   --> 'Ready set go'
+```
+
+### **_Examples_**
+
+```
+Input: decipher_this("65 119esi 111dl 111lw 108dvei 105n 97n 111ka") => Output: "A wise old owl lived in an oak"
+
+Input: decipher_this("84eh 109ero 104e 115wa 116eh 108sse 104e 115eokp") => Output: "The more he saw the less he spoke"
+
+Input: decipher_this("84eh 108sse 104e 115eokp 116eh 109ero 104e 104dare") => Output: "The less he spoke the more he heard"
+
+Input: decipher_this("87yh 99na 119e 110to 97ll 98e 108eki 116tah 119esi 111dl 98dri") => Output: "Why can we not all be like that wise old bird"
+
+Input: decipher_this("84kanh 121uo 80roti 102ro 97ll 121ruo 104ple") => Output: "Thank you Piotr for all your help"
+```
+
+#
+
+<br />
