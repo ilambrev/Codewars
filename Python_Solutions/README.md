@@ -3684,3 +3684,49 @@ Input: decipher_this("84kanh 121uo 80roti 102ro 97ll 121ruo 104ple") => Output: 
 #
 
 <br />
+
+# Challenge 088 How many feelings?
+
+My solution -> *[088_how_many_feelings](088_how_many_feelings.py)*
+
+## **_Task condition:_**
+
+You have two arguments: `string` - a string of random letters(only lowercase) and `array` - an array of strings(feelings). Your task is to return how many specific feelings are in the `array`.
+
+```
+string -> 'yliausoenvjw'
+array -> ['anger', 'awe', 'joy', 'love', 'grief']
+output -> '3 feelings.' // 'awe', 'joy', 'love'
+
+string -> 'griefgriefgrief'
+array -> ['anger', 'awe', 'joy', 'love', 'grief']
+output -> '1 feeling.' // 'grief'
+
+string -> 'abcdkasdfvkadf'
+array -> ['desire', 'joy', 'shame', 'longing', 'fear']
+output -> '0 feelings.'
+```
+
+If the feeling can be formed once - plus one to the answer.
+
+If the feeling can be formed several times from different letters - plus one to the answer.
+
+Eeach letter in `string` participates in the formation of all feelings. `'angerw' -> 2 feelings: 'anger' and 'awe'`. 
+
+### **_Examples_**
+
+```
+Input: count_feelings("longi", ["anger", "awe", "joy", "longing", "grief"]) => Output: "0 feelings."
+
+Input: count_feelings("yliausoenvjw", ["anger", "awe", "joy", "love", "grief"]) => Output: "3 feelings."
+
+Input: count_feelings("angerw", ["anger", "awe", "joy", "love", "grief"]) => Output: "2 feelings."
+
+Input: count_feelings("griefgriefgrief", ["anger", "awe", "joy", "love", "grief"]) => Output: "1 feeling."
+
+Input: count_feelings("abcdkasdfvkadf", ["desire", "joy", "shame", "longing", "fear"]) => Output: "0 feelings."
+```
+
+#
+
+<br />
