@@ -3730,3 +3730,38 @@ Input: count_feelings("abcdkasdfvkadf", ["desire", "joy", "shame", "longing", "f
 #
 
 <br />
+
+# Challenge 089 Is it an isogram?
+
+My solution -> *[089_is_it_an_isogram](089_is_it_an_isogram.py)*
+
+## **_Task condition:_**
+
+An `isogram` (also known as a `"nonpattern word"`) is a logological term for a word or phrase without a repeating letter. It is also used by some to mean a word or phrase in which each letter appears the same number of times, not necessarily just once.
+
+You task is to write a function that takes a string argument and returns `True` if the string has the properties of being an isogram and `False` otherwise.
+
+Properties:
+
+- cannot be empty
+- each letter appears the same number of times (not necessarily just once)
+- letter case is not important (= case insensitive)
+- non-letter characters (e.g. hyphens) should be ignored
+
+### **_Examples_**
+
+```
+Input: is_isogram("eeen") => Output: False
+
+Input: is_isogram("isogram") => Output: True
+
+Input: is_isogram("aba") => Output: False
+
+Input: is_isogram("moOse") => Output: False
+
+Input: is_isogram("isIsogram") => Output: False
+```
+
+#
+
+<br />
