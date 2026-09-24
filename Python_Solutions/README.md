@@ -3765,3 +3765,69 @@ Input: is_isogram("isIsogram") => Output: False
 #
 
 <br />
+
+# Challenge 090 Playing with passphrases
+
+My solution -> *[090_playing_with_passphrases](090_playing_with_passphrases.py)*
+
+## **_Task condition:_**
+
+Everyone knows passphrases. One can choose passphrases from poems, songs, movies names and so on but frequently they can be guessed due to common cultural references. You can get your passphrases stronger by different means. One is the following:
+
+Choose a text in capital letters including or not digits and non alphabetic characters,
+
+1. shift each letter by a given number but the transformed letter must be a letter (`circular shift`),
+2. replace each digit by its complement to `9`,
+3. keep such as non alphabetic and non digit characters,
+4. downcase each letter in odd position, upcase each letter in even position (the first character is in position `0`),
+5. reverse the whole result.
+
+```
+your text: "BORN IN 2015!", shift 1
+
+1 + 2 + 3 -> "CPSO JO 7984!"
+
+4 "CpSo jO 7984!"
+
+5 "!4897 Oj oSpC"
+```
+
+With longer passphrases it's better to have a small and easy program. Would you write it?
+
+### **_Examples_**
+
+```
+Input: play_pass("I LOVE YOU!!!", 1) => Output: "!!!vPz fWpM J"
+
+Input: play_pass("MY GRANMA CAME FROM NY ON THE 23RD OF APRIL 2015", 2) => Output: "4897 NkTrC Hq fT67 GjV Pq aP OqTh gOcE CoPcTi aO"
+
+Input: play_pass("AAABBCCY", 1) => Output: "zDdCcBbB"
+
+Input: play_pass("MY GRANMA CAME FROM NY ON THE 23RD OF APRIL 2015", 2) => Output: "4897 NkTrC Hq fT67 GjV Pq aP OqTh gOcE CoPcTi aO"
+
+Input: play_pass("TO BE HONEST WITH YOU I DON'T USE THIS TEXT TOOL TOO OFTEN BUT HEY... MAYBE YOUR NEEDS ARE DIFFERENT.", 5) => Output: ".ySjWjKkNi jWf xIjJs wZtD JgDfR ...dJm yZg sJyKt tTy qTtY YcJy xNmY JxZ Y'StI N ZtD MyNb yXjStM Jg tY"
+
+Input: play_pass("IN 2012 TWO CAMBRIDGE UNIVERSITY RESEARCHERS ANALYSED PASSPHRASES FROM THE AMAZON PAY SYSTEM...", 20) => Output: "...gYnMsM SuJ HiTuGu yBn gIlZ MyMuLbJmMuJ XyMsFuHu mLyBwLuYmYl sNcMlYpChO YaXcLvGuW IqN 7897 hC"
+
+Input: play_pass("IN 2012 TWO CAMBRIDGE UNIVERSITY RESEARCHERS ANALYSED PASSPHRASES FROM THE AMAZON PAY SYSTEM...", 10) => Output: "...wOdCiC IkZ XyJkWk oRd wYbP CoCkBrZcCkZ NoCiVkXk cBoRmBkOcOb iDsCbOfSxE OqNsBlWkM YgD 7897 xS"
+
+Input: play_pass("1ONE2TWO3THREE4FOUR5FIVE6SIX7SEVEN8EIGHT9NINE", 5) => Output: "JsNs0yMlNj1sJaJx2cNx3jAnK4WzTk5jJwMy6tBy7jSt8"
+
+Input: play_pass("AZ12345678ZA", 1) => Output: "bA12345678aB"
+
+Input: play_pass("!!!VPZ FWPM J", 25) => Output: "I LoVe yOu!!!"
+
+Input: play_pass("BOY! YOU WANTED TO SEE HIM? IT'S YOUR FATHER:-)", 15) => Output: ")-:gTwIpU GjDn h'iX ?bXw tTh dI StIcPl jDn !NdQ"
+
+Input: play_pass("FOR THIS REASON IT IS RECOMMENDED THAT PASSPHRASES NOT BE REUSED ACROSS DIFFERENT OR UNIQUE SITES AND SERVICES.", 15) => Output: ".hTrXkGtH ScP HtIxH TjFxCj gD IcTgTuUxS HhDgRp sThJtG Tq iDc hThPgWeHhPe iPwI StScTbBdRtG Hx iX CdHpTg hXwI GdU"
+
+Input: play_pass("ONCE UPON A TIME YOU DRESSED SO FINE (1968)", 12) => Output: ")1308( qZuR Ae pQeEqDp gAk qYuF M ZaBg qOzA"
+
+Input: play_pass("AH, YOU'VE GONE TO THE FINEST SCHOOL ALL RIGHT, MISS LONELY", 12) => Output: "KxQzAx eEuY ,fTsUd xXm xAaToE FeQzUr qTf aF QzAs qH'GaK ,tM"
+
+Input: play_pass("THE SPECIES, NAMED AFTER THE GREEK GOD OF THE UNDERWORLD, LIVES SOME 3,600 FEET UNDERGROUND.", 8) => Output: ".LvCwZoZmLvC BmMn 993,6 mUwA AmDqT ,lTzWeZmLvC MpB Nw lWo sMmZo mPb zMbNi lMuIv ,AmQkMxA MpB"
+```
+
+#
+
+<br />
