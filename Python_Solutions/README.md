@@ -3831,3 +3831,35 @@ Input: play_pass("THE SPECIES, NAMED AFTER THE GREEK GOD OF THE UNDERWORLD, LIVE
 #
 
 <br />
+
+# Challenge 091 The most common letter
+
+My solution -> *[091_the_most_common_letter](091_the_most_common_letter.py)*
+
+## **_Task condition:_**
+
+Find the most common letter (not a space) in the given `string` (comprised of at least 3 lowercase words) and replace it with the given `letter`.
+
+If such letters are two or more, choose the one that appears earliest in the `string`.
+
+```
+('my mom loves me as never did', 't') => 'ty tot loves te as never did'
+('real talk bro', 'n') => 'neal talk bno'
+('great job go ahead', 'k') => 'grekt job go khekd'
+```
+
+### **_Examples_**
+
+```
+Input: replace_common("my mom loves me as never did", "t") => Output: "ty tot loves te as never did"
+
+Input: replace_common("real talk bro", "n") => Output: "neal talk bno"
+
+Input: replace_common("great job go ahead", "k") => Output: "grekt job go khekd"
+
+Input: replace_common("yyyaaa twwww ttt uuu ccca", "p") => Output: "yyyppp twwww ttt uuu cccp"
+```
+
+#
+
+<br />
