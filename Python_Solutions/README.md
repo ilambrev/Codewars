@@ -3863,3 +3863,38 @@ Input: replace_common("yyyaaa twwww ttt uuu ccca", "p") => Output: "yyyppp twwww
 #
 
 <br />
+
+# Challenge 092 Dashatize it
+
+My solution -> *[092_dashatize_it](092_dashatize_it.py)*
+
+## **_Task condition:_**
+
+Given an integer, return a string with dash `'-'` marks before and after each odd digit, but do not begin or end the string with a dash mark.
+
+```
+274 -> "2-7-4"
+6815 -> "68-1-5"
+```
+
+### **_Examples_**
+
+```
+Input: dashatize(274) => Output: "2-7-4"
+
+Input: dashatize(5311) => Output: "5-3-1-1"
+
+Input: dashatize(86320) => Output: "86-3-20"
+
+Input: dashatize(974302) => Output: "9-7-4-3-02"
+
+Input: dashatize(0) => Output: "0"
+
+Input: dashatize(-1) => Output: "1"
+
+Input: dashatize(-28369) => Output: "28-3-6-9"
+```
+
+#
+
+<br />
