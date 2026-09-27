@@ -3930,3 +3930,46 @@ Input: encrypt("please encrypt me", 2) => Output: "rngcug\"gpet{rv\"og"
 #
 
 <br />
+
+# Challenge 094 Simple Fun #170: Sum Groups
+
+My solution -> *[094_simple_fun_170_sum_groups](094_simple_fun_170_sum_groups.py)*
+
+## **_Task condition:_**
+
+Given an array of integers, sum consecutive even numbers and consecutive odd numbers. Repeat the process while it can be done and return the length of the final array.
+
+For `arr = [2, 1, 2, 2, 6, 5, 0, 2, 0, 5, 5, 7, 7, 4, 3, 3, 9]`
+
+The result should be `6`.
+
+```
+[2, 1, 2, 2, 6, 5, 0, 2, 0, 5, 5, 7, 7, 4, 3, 3, 9]  -->
+        2+2+6       0+2+0     5+5+7+7       3+3+9
+[2, 1,   10,    5,    2,        24,     4,   15   ] -->
+                              2+24+4
+[2, 1,   10,    5,             30,           15   ]
+
+The length of final array is 6
+```
+
+- `[input]` integer array `arr` - a non-empty array, `1 ≤ arr.length ≤ 1000`, `0 ≤ arr[i] ≤ 1000`
+- `[output]` an integer - the length of the final array
+
+### **_Examples_**
+
+```
+Input: sum_groups([2, 1, 2, 2, 6, 5, 0, 2, 0, 5, 5, 7, 7, 4, 3, 3, 9]) => Output: 6
+
+Input: sum_groups([2, 1, 2, 2, 6, 5, 0, 2, 0, 3, 3, 3, 9, 2]) => Output: 5
+
+Input: sum_groups([2]) => Output: 1
+
+Input: sum_groups([1, 2]) => Output: 2
+
+Input: sum_groups([1, 1, 2, 2]) => Output: 1
+```
+
+#
+
+<br />
