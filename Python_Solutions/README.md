@@ -3973,3 +3973,59 @@ Input: sum_groups([1, 1, 2, 2]) => Output: 1
 #
 
 <br />
+
+# Challenge 095 Product of consecutive Fib numbers
+
+My solution -> *[095_product_of_consecutive_fib_numbers](095_product_of_consecutive_fib_numbers.py)*
+
+## **_Task condition:_**
+
+The Fibonacci numbers are the numbers in the following integer sequence (`Fn`): `0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, ...`
+
+such that:
+
+_F(0) = 0_
+
+_F(1) = 1_
+
+_F(n) = F(n − 1) + F(n − 2)_
+
+Given a number, say `prod` (for product), we search two Fibonacci numbers `F(n)` and `F(n + 1)` verifying:
+
+_F(n) ∗ F(n + 1) = prod_
+
+Your function takes an integer (`prod`) and returns tuple:
+
+- if `F(n) * F(n + 1) = prod`:
+
+```
+(F(n), F(n + 1), True)
+```
+
+- if you do not find two consecutive `F(n)` verifying `F(n) * F(n + 1) = prod`:
+
+```
+(F(n), F(n + 1), False)
+```
+
+where `F(n)` is the smallest one such as `F(n) * F(n + 1) > prod`.
+
+```
+714 ---> (21, 34, True)
+--> since F(8) = 21, F(9) = 34 and 714 = 21 * 34
+
+800 --->  (34, 55, False)
+--> since F(8) = 21, F(9) = 34, F(10) = 55 and 21 * 34 < 800 < 34 * 55
+```
+
+### **_Examples_**
+
+```
+Input: product_fib(4895) => Output: [55, 89, True]
+
+Input: product_fib(5895) => Output: [89, 144, False]
+```
+
+#
+
+<br />
