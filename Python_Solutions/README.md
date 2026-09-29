@@ -4029,3 +4029,35 @@ Input: product_fib(5895) => Output: [89, 144, False]
 #
 
 <br />
+
+# Challenge 096 Alex & snooker: scores
+
+My solution -> *[096_alex_and_snooker_scores](096_alex_and_snooker_scores.py)*
+
+## **_Task condition:_**
+
+Alex is a devoted fan of the Snooker Masters and, in particular, recorded the results of all the matches. Help Alex determine the score of the matches.
+
+A string with a score is presented as follows: `"24-79(72); 16-101(53); ..."`
+- `"24"` - points scored by the first player;
+- `"79"` - the number of points scored by the second player.
+- `"(72)"` - the maximum score for one approach.
+
+Also, a player's score may be expressed as `105(53,52)`:
+- `"105"` - points in the frame, `"53"` and `"52"` - two separate numbers (not floats) giving the maximum points in the frame.
+
+Frames are separated by `";"` and the players' scores by `"-"`.
+
+It should count the number of frames won by each player and output the data as a `"[10,7]"`.
+
+### **_Examples_**
+
+```
+score = "24-79(72); 16-101(53); 86(58)-27; 31-90(74); 0-115(115); 67-40; 61-21; 81(55)-23; 51-14; 124(56,68)-4; 67-12; 108(85)-15; 1-117(117); 1-92(92); 130(112)-0; 1-106(53); 59-39"
+
+Input: frame(score) => Output: [10,7]
+```
+
+#
+
+<br />
