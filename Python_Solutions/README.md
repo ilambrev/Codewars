@@ -4061,3 +4061,108 @@ Input: frame(score) => Output: [10,7]
 #
 
 <br />
+
+# Challenge 097 1 Two 3 Four 5!
+
+My solution -> *[097_1_two_3_four_5](097_1_two_3_four_5.py)*
+
+## **_Task condition:_**
+
+You are given a non-negative integer `num` containing at most `15` digits.
+
+Your task is to transform each digit into either its original digit or a repeated, case-alternating repitition of the digit's English word, according to the rules below.
+
+Treat the input as if it is `1-indexed` (The first digit in the input is at position `1`).
+
+The rules depend on whether the total number of digits is even or odd.
+
+### Even-length numbers
+
+When `num` has an even number of digits:
+- Even digits are converted to their English word.
+- Odd digits remain unchanged.
+- The converted English word must contain exactly as many characters as the digit's position, starting as lowercase. See below for a more in-depth explanation.
+
+### Odd-length numbers
+
+When `num` has an odd number of digits, the rules are reversed:
+- Odd digits are converted to their English word.
+- Even digits remain unchanged.
+- The converted English word must contain exactly as many characters as the digit's position, starting as uppercase. See below for a more in-depth explanation.
+
+### Repeating words
+
+A converted digit is represented by its English word, repeated as necessary to produce exactly the same number of characters as its position.
+
+The case changes each time the end of the word is reached.
+
+For example, the word `four` produces:
+
+```
+position 1: f
+position 2: fo
+position 3: fou
+position 4: four
+position 5: fourF
+position 6: fourFO
+position 7: fourFOU
+position 8: fourFOUR
+position 9: fourFOURf
+position 10: fourFOURfo
+position 11: fourFOURfou
+position 12: fourFOURfour
+```
+
+The resulting pieces are concatenated together and returned as a single string.
+
+For an even-length number:
+
+```
+num = 47309534
+
+position: 1 2 3 4    5 6 7 8 
+digit:    4 7 3 0    9 5 3 4
+          f 7 3 zero 9 5 3 fourFOUR
+          
+result: "f73zero953fourFOUR"
+```
+
+For an odd-length number:
+
+```
+num = 34266262106
+
+position: 1 2 3 4 5 6 7 8 9         10 11
+digit:    3 4 2 6 6 2 6 2 1         0  6
+          T 4 2 6 6 2 6 2 ONEoneONE 0  6
+
+result: "T4266262ONEoneONE06"
+```
+
+The exact capitalization and number of characters in each converted word follow the rules above.
+
+The return value is always a string.
+
+### **_Examples_**
+
+```
+Input: conv(0) => Output: "0"
+
+Input: conv(11) => Output: "11"
+
+Input: conv(1101) => Output: "11zer1"
+
+Input: conv(54563) => Output: "F4FIV6THREE"
+
+Input: conv(47309534) => Output: "f73zero953fourFOUR"
+
+Input: conv(34266262106) => Output: "T4266262ONEoneONE06"
+
+Input: conv(15795379351687) => Output: "15795379351sixSIXsixSIXeightEIGHTeig7"
+
+Input: conv(157953793516872) => Output: "OFISEVNINEFIVEfTHREEtSEVENseNINEnineTHREEthreFIVEfiveFIONEoneONEon68SEVENsevenSEVE2"
+```
+
+#
+
+<br />
