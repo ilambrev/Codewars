@@ -4166,3 +4166,40 @@ Input: conv(157953793516872) => Output: "OFISEVNINEFIVEfTHREEtSEVENseNINEnineTHR
 #
 
 <br />
+
+# Challenge 098 Alfred's Laundry Robot
+
+My solution -> *[098_alfreds_laundry_robot](098_alfreds_laundry_robot.py)*
+
+## **_Task condition:_**
+
+Alfred Pennyworth has created a robot to drop off Batman's leotards at the launderette, but he needs some help coding the robot's path-finding function through Gotham City.
+
+Gotham City is laid out as a perfect `1 km × 1 km` grid and is navigated using north, east, south, and west (`n, e, s, w`) commands. There are two launderettes for the robot to choose from, but unfortunately, the robot can sometimes get lost.
+
+Write a function that returns `True` if the robot's final position is the location of either launderette, and `False` otherwise.
+
+Launderette location 1: `e, n, e, e, n`.  
+Launderette location 2: `w, n, w, n, w, w, n`. 
+
+### **_Examples_**
+
+```
+Input: path_finding("eneen") => Output: True
+
+Input: path_finding("wnwnwwn") => Output: True
+
+Input: path_finding("seennen") => Output: True
+
+Input: path_finding("nsnnenwwswwwn") => Output: True
+
+Input: path_finding("nsnnnenwnwswwwn") => Output: False
+
+Input: path_finding("nsnsnsnsnsnsnseww") => Output: False
+
+Input: path_finding("neswneswwsne") => Output: False
+```
+
+#
+
+<br />
