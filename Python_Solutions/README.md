@@ -4203,3 +4203,40 @@ Input: path_finding("neswneswwsne") => Output: False
 #
 
 <br />
+
+# Challenge 099 Pascal's Triangle #2
+
+My solution -> *[099_pascals_triangle_2](099_pascals_triangle_2.py)*
+
+## **_Task condition:_**
+
+Here you will create the classic *[Pascal's triangle](https://en.wikipedia.org/wiki/Pascal%27s_triangle)*.
+
+Your function will be passed the depth of the triangle and your code has to return the corresponding `Pascal's triangle` up to that depth.
+
+The triangle should be returned as a nested array. For example:
+
+```
+pascal(5) -> [[1], [1,1], [1,2,1], [1,3,3,1], [1,4,6,4,1]]
+```
+
+To build the triangle, start with a single `1` at the top, for each number in the next row you just take the two numbers above it and add them together, except for the edges, which are all `1`. e.g.:
+
+```
+      1
+    1   1
+  1   2   1
+1   3   3   1
+```
+
+### **_Examples_**
+
+```
+Input: pascal(1) => Output: [[1]]
+
+Input: pascal(5) => Output: [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]
+```
+
+#
+
+<br />
