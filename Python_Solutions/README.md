@@ -4292,3 +4292,116 @@ Input: wave_sort([1, 2, 34, 4, 5, 5, 5, 65, 6, 65, 5454, 4]) => Output: [5454, 1
 #
 
 <br />
+
+# Challenge 101 Digit Racers
+
+My solution -> *[101_digit_racers](101_digit_racers.py)*
+
+## **_Task condition:_**
+
+- Many of the digits, zero through nine showed up for a race one day.
+
+- The digit with the most occurences in the input string got `1st` place.
+
+- The digit that had the second most occurences got `2nd` place, and so on it went, possibly all the way to `10th` place.
+
+- When there were ties, the digit with the largest index in the input string was listed first, `2nd` largest index listed next, and so on.
+
+- Digits that didnt make it to the race were listed at the bottom in ascending order like this as example `"Absent digits: 3, 7"`.
+
+- If none of the digits were absent from the race, the bottom of the winners list would display `"All digits present"`.
+
+- The end of each line has a break except for the last.
+
+```
+Input: "00009393936611528"
+
+Output: """1st place: 0
+           2nd place: 3, 9
+           3rd place: 1, 6
+           4th place: 8, 2, 5
+           Absent digits: 4, 7"""
+```
+
+Notice in the above example, the tied digits are listed in order of `larger indexes` first.
+
+Input and Output:
+
+- input: a `string` of one or more digits.
+
+- output: a `string` formatted as in the above example.
+
+### **_Examples_**
+
+```
+Input: digit_racers("7171")
+
+Output: "1st place: 1, 7\n"
+        "Absent digits: 0, 2, 3, 4, 5, 6, 8, 9"
+
+-----------------------------------------------
+
+Input: digit_racers("5501234567789")
+
+Output: "1st place: 5\n"
+        "2nd place: 7\n"
+        "3rd place: 9, 8, 6, 4, 3, 2, 1, 0\n"
+        "All digits present"
+
+-----------------------------------------------
+
+Input: digit_racers("226260"))
+
+Output: "1st place: 2\n"
+        "2nd place: 6\n"
+        "3rd place: 0\n"
+        "Absent digits: 1, 3, 4, 5, 7, 8, 9"
+
+-----------------------------------------------
+
+Input: digit_racers("666661117777009")
+
+Output: "1st place: 6\n"
+        "2nd place: 7\n"
+        "3rd place: 1\n"
+        "4th place: 0\n"
+        "5th place: 9\n"
+        "Absent digits: 2, 3, 4, 5, 8"
+
+-----------------------------------------------
+
+Input: digit_racers("01234567899876543210")
+
+Output: "1st place: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9\n"
+        "All digits present"
+
+-----------------------------------------------
+
+Input: digit_racers("555055007030059926922294411")
+
+Output: "1st place: 5, 0\n"
+        "2nd place: 9, 2\n"
+        "3rd place: 1, 4\n"
+        "4th place: 6, 3, 7\n"
+        "Absent digits: 8"
+
+-----------------------------------------------
+
+Input: digit_racers("5355555555022222222999999111211199333337177770004448865")
+
+Output: "1st place: 5\n"
+        "2nd place: 2\n"
+        "3rd place: 9\n"
+        "4th place: 1\n"
+        "5th place: 3\n"
+        "6th place: 7\n"
+        "7th place: 0\n"
+        "8th place: 4\n"
+        "9th place: 8\n"
+        "10th place: 6\n"
+        "All digits present"
+```
+
+#
+
+<br />
