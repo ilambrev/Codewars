@@ -4240,3 +4240,55 @@ Input: pascal(5) => Output: [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]
 #
 
 <br />
+
+# Challenge 100 Wave Sorting
+
+My solution -> *[100_wave_sorting](100_wave_sorting.py)*
+
+## **_Task condition:_**
+
+A list of integers is sorted in `“Wave”` order if alternate items are not less than their immediate neighbors (thus the other alternate items are not greater than their immediate neighbors).
+
+Thus, the array `[4, 1, 7, 5, 6, 2, 3]` is in `Wave` order because `4 >= 1`, then `1 <= 7`, then `7 >= 5`, then `5 <= 6`, then `6 >= 2`, and finally `2 <= 3`.
+
+The wave-sorted lists has to begin with an element not less than the next, so `[1, 4, 5, 3]` is not sorted in `Wave` because `1 < 4`.
+
+Your task is to implement a function that takes a list of integers and sorts it into wave order.
+
+Mutate the input in place; your function shouldn't return anything.
+
+### **_Examples_**
+
+```
+Input: wave_sort([]) => Output: []
+
+Input: wave_sort([1]) => Output: [1]
+
+Input: wave_sort([1, 2]) => Output: [2, 1]
+
+Input: wave_sort([2, 1]) => Output: [2, 1]
+
+Input: wave_sort([1, 1, 1, 1]) => Output: [1, 1, 1, 1]
+
+Input: wave_sort([1, 2, 3]) => Output: [3, 1, 2]
+
+Input: wave_sort([1, 3, 2]) => Output: [3, 1, 2]
+
+Input: wave_sort([2, 1, 3]) => Output: [3, 1, 2]
+
+Input: wave_sort([2, 3, 1]) => Output: [3, 1, 2]
+
+Input: wave_sort([3, 1, 2]) => Output: [3, 1, 2]
+
+Input: wave_sort([3, 2, 1]) => Output: [3, 1, 2]
+
+Input: wave_sort([1, 2, 34, 4, 5, 5, 5, 65, 6, 65, 5454, 4]) => Output: [5454, 1, 65, 2, 65, 4, 34, 4, 6, 5, 5, 5]
+```
+
+**_NOTES:_**
+
+- The resulting array shouldn't necessarily match anyone in the tests, the tests merely check that the array is now wave sorted and contains the same elements as before.
+
+#
+
+<br />
