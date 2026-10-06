@@ -4479,8 +4479,6 @@ The function `catalog(s, "saw")` returns the `line(s)` corresponding to the arti
 
 If the article is not in the catalog return `"Nothing"`.
 
-
-
 ### **_Examples_**
 
 ```
@@ -4547,6 +4545,42 @@ Input: catalog(s, "wood pallet") => Output: "wood pallet > prx: $65 qty: 21"
 - The same article may appear more than once. If that happens return all the lines concerned by the article (in the same order as in the catalog.
 
 - The line separator of results `\r\n`.
+
+#
+
+<br />
+
+# Challenge 104 Time-like string format
+
+My solution -> *[104_time_like_string_format](104_time_like_string_format.py)*
+
+## **_Task condition:_**
+
+Build up a method that takes a positive integer and formats it to a `"time - like"` format.
+
+The method must raise an exception if its hour length is less than `3` digits and greater than `4`.
+
+```
+800   --> '8:00'
+1000  --> '10:00'
+1451  --> '14:51'
+3351  --> '33:51'
+10000 --> raise an exception
+```
+
+### **_Examples_**
+
+```
+Input: solution(800) => Output: "8:00"
+
+Input: solution(1000) => Output: "10:00"
+
+Input: solution(1451) => Output: "14:51"
+
+Input: solution(3351) => Output: "33:51"
+
+Input: solution(10000) => Output: "Function should raise an exception"
+```
 
 #
 
