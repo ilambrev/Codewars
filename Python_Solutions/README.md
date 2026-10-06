@@ -4405,3 +4405,39 @@ Output: "1st place: 5\n"
 #
 
 <br />
+
+# Challenge 102 Slices of a Series of Digits
+
+My solution -> *[102_slices_of_a_series_of_digits](102_slices_of_a_series_of_digits.py)*
+
+## **_Task condition:_**
+
+Write a program that will take a `string of digits` and give you all the possible consecutive slices of length `n` in that string.
+
+Raise an error if `n` is larger than the length of the string.
+
+For example, the string `"01234"` has the following `2-digit` slices:
+
+```
+[0, 1], [1, 2], [2, 3], [3, 4]
+```
+
+The same string has the following `4-digit` slices:
+
+```
+[0, 1, 2, 3], [1, 2, 3, 4]
+```
+
+### **_Examples_**
+
+```
+Input: series_slices("01234", 2) => Output: [[0, 1], [1, 2], [2, 3], [3, 4]]
+
+Input: series_slices("01234", 4) => Output: [[0, 1, 2, 3], [1, 2, 3, 4]]
+
+Input: series_slices("01234", 6) => Output: "error expected"
+```
+
+#
+
+<br />
