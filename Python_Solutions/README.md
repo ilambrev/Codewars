@@ -4757,3 +4757,80 @@ Average expense  53.41"""
 #
 
 <br />
+
+# Challenge 107 Cancellable Item Transactions
+
+My solution -> *[107_cancellable_item_transactions](107_cancellable_item_transactions.py)*
+
+## **_Task condition:_**
+
+#### 1. Transaction Log
+
+You're given a string of item transactions, for example:
+
+- `"2A3B4C1A2A"`
+- `"5X6X1Y2Z1Y8X"`
+
+Each transaction consists of a number followed by a letter, indicating the quantity of an item.
+
+For example, `"4A"` means `4` units of item `A`.
+
+The string should be processed from left to right.
+
+#### 2. Cancellation Rule
+
+Sometimes, a letter appears on its own. This means that the most recent transaction of that item is removed, if one exists.
+
+_If there is no recent transaction for that item, the operation has no effect._
+
+#### 3. Pricelist
+
+You're also given a pricelist (hashmap/dictionary), mapping each item to its unit price
+
+**Your task is to calculate the total price using the `transaction` string and `pricelist`**
+
+**_Constraints:_**
+
+- Multiple consecutive cancellations may occur
+- Negative quantities will be tested
+- Quantities with multiple digits will be tested
+
+### **_Examples_**
+
+```
+Input: calculate({"X":0,"Y":0,"Z":0},"5X6Y20Z1X6Y") => Output: 0
+
+Input: calculate({"R":1,"Q":2,"E":3,"X":4},"4R1Q4X2E1R2X") => Output: 37
+
+Input: calculate({"T":12,"F":6},"2F5T1T") => Output: 84
+
+Input: calculate({"G":1,"M":1,"F":1,"H":1,"J":1},"5J2F7M1H9G6M1H") => Output: 31
+
+Input: calculate({"E":67},"1E") => Output: 67
+
+Input: calculate({"X":3,"Y":3,"Z":3},"2X-1Y7X2Z-1Z9Y5X-3Y") => Output: 60
+
+Input: calculate({"W":12},"9W6W-2W8W5W-4W1W") => Output: 276
+
+Input: calculate({"X":1,"Y":2,"Z":5},"10X22Y12Z2X") => Output: 116
+
+Input: calculate({"K":0,"P":2,"B":6,"M":4},"50K10P42B521M4K125B") => Output: 3106
+
+Input: calculate({"A":3,"B":1,"C":4},"3C2B1AC") => Output: 5
+
+Input: calculate({"D":6,"B":10,"G":2},"5D4GG6B2D1GBD") => Output: 32
+
+Input: calculate({"A":4,"B":3,"C":2,"D":1},"6D1A3B5A2C3AAAA") => Output: 19
+
+Input: calculate({"S":12,"I":56,"G":2,"M":1,"A":8}, "5G1S7M2I9A6SMISGAS") => Output: 0
+
+Input: calculate({"T":1,"V":5},"6TVTT2V") => Output: 10
+
+Input: calculate({"L":2,"M":4,"N":6,"O":8},"12LO3MLL5L1O4N") => Output: 54
+
+Input: calculate({"W":2,"D":4},"DWDWDWWD") => Output: 0
+```
+
+#
+
+<br />
