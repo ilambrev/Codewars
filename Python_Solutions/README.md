@@ -4926,3 +4926,83 @@ Input: nba_cup(r, "Boston Celt") => Output: "Boston Celt:This team didn't play!"
 #
 
 <br />
+
+# Challenge 109 Address Book by State
+
+My solution -> *[109_address_book_by_state](109_address_book_by_state.py)*
+
+## **_Task condition:_**
+
+Given a string with friends to visit in different states:
+
+```
+ad3 = """John Daggett, 341 King Road, Plymouth MA
+Alice Ford, 22 East Broadway, Richmond VA
+Sal Carpenter, 73 6th Street, Boston MA"""
+```
+
+we want to produce a result that sorts the names by state and lists the name of the state followed by the name of each person residing in that state (people's names sorted). When the result is printed we get:
+
+```
+Massachusetts
+.....^John Daggett 341 King Road Plymouth Massachusetts
+.....^Sal Carpenter 73 6th Street Boston Massachusetts
+^Virginia
+.....^Alice Ford 22 East Broadway Richmond Virginia
+```
+
+Spaces not being always well seen, in the above result `^` means a white space.
+
+The resulting string (when not printed) will be:
+
+```
+"Massachusetts\r\n..... John Daggett 341 King Road Plymouth Massachusetts\r\n..... Sal Carpenter 73 6th Street Boston Massachusetts\r\n Virginia\r\n..... Alice Ford 22 East Broadway Richmond Virginia"
+```
+
+the separator is `\r\n`.
+
+#### States
+
+For the lazy ones:
+
+```
+"AZ": "Arizona",
+"CA": "California",
+"ID": "Idaho",
+"IN": "Indiana",
+"MA": "Massachusetts",
+"OK": "Oklahoma",
+"PA": "Pennsylvania",
+"VA": "Virginia"
+```
+
+### **_Examples_**
+
+```
+case0 = """John Daggett, 341 King Road, Plymouth MA
+Alice Ford, 22 East Broadway, Richmond VA
+Sal Carpenter, 73 6th Street, Boston MA"""
+
+case1 = """John Daggett, 341 King Road, Plymouth MA
+Alice Ford, 22 East Broadway, Richmond VA
+Orville Thomas, 11345 Oak Bridge Road, Tulsa OK
+Terry Kalkas, 402 Lans Road, Beaver Falls PA
+Eric Adams, 20 Post Road, Sudbury MA
+Hubert Sims, 328A Brook Road, Roanoke MA
+Amy Wilde, 334 Bayshore Pkwy, Mountain View CA
+Sal Carpenter, 73 6th Street, Boston MA"""
+
+
+Input: by_state(case0) => Output: "Massachusetts\r\n..... John Daggett 341 King Road Plymouth Massachusetts\r\n..... Sal Carpenter 73 6th Street Boston Massachusetts\r\n Virginia\r\n..... Alice Ford 22 East Broadway Richmond Virginia"
+
+Input: by_state(case1) => Output: "California\r\n..... Amy Wilde 334 Bayshore Pkwy Mountain View California\r\n Massachusetts\r\n..... Eric Adams 20 Post Road Sudbury Massachusetts\r\n..... Hubert Sims 328A Brook Road Roanoke Massachusetts\r\n..... John Daggett 341 King Road Plymouth Massachusetts\r\n..... Sal Carpenter 73 6th Street Boston Massachusetts\r\n Oklahoma\r\n..... Orville Thomas 11345 Oak Bridge Road Tulsa Oklahoma\r\n Pennsylvania\r\n..... Terry Kalkas 402 Lans Road Beaver Falls Pennsylvania\r\n Virginia\r\n..... Alice Ford 22 East Broadway Richmond Virginia"
+```
+
+**_NOTES:_**
+
+- There can be a blank last line in the given string of addresses.
+- The tests only contains CA, MA, OK, PA, VA, AZ, ID, IN for states.
+
+#
+
+<br />
