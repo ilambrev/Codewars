@@ -5017,8 +5017,6 @@ Given a string of integers, return the number of odd-numbered substrings that ca
 
 For example, in the case of `"1341"`, they are `1, 1, 3, 13, 41, 341, 1341`, a total of `7` => `numbers solve("1341") = 7`.
 
-
-
 ### **_Examples_**
 
 ```
@@ -5033,6 +5031,51 @@ Input: solve("134721") => Output: 13
 Input: solve("1347231") => Output: 20
 
 Input: solve("13472315") => Output: 28
+```
+
+#
+
+<br />
+
+# Challenge 111 Sort Strings by Most Contiguous Vowels
+
+My solution -> *[111_sort_strings_by_most_contiguous_vowels](111_sort_strings_by_most_contiguous_vowels.py)*
+
+## **_Task condition:_**
+
+The goal is to write a function that will receive an array of strings as its single argument, then the strings are each processed and sorted (in desending order) based on the length of the single longest sub-string of contiguous vowels (`aeiouAEIOU`) that may be contained within the string. The strings may contain letters, numbers, special characters, uppercase, lowercase, whitespace, and there may be (often will be) multiple sub-strings of contiguous vowels. We are only interested in the single longest sub-string of vowels within each string, in the input array.
+
+```
+str1 = "what a beautiful day today"
+str2 = "it's okay, but very breezy"
+```
+
+When the strings are sorted, `str1` will be first as its longest sub-string of contiguous vowels `"eau"` is of length `3`, while `str2` has as its longest sub-string of contiguous vowels `"ee"`, which is of length `2`.
+
+If two or more strings in the array have maximum sub-strings of the same length, then the strings should remain in the order in which they were found in the orginal array.
+
+### **_Examples_**
+
+```
+Input: sort_strings_by_vowels(["aa","eee","oo","iiii"]) => Output: ["iiii","eee","aa","oo"]
+
+Input: sort_strings_by_vowels(["a","e","ii","ooo","u"]) => Output: ["ooo","ii","a","e","u"]
+
+Input: sort_strings_by_vowels(["ioue","ee","uoiea"]) => Output: ["uoiea", "ioue","ee"]
+
+Input: sort_strings_by_vowels(["high","day","boot"]) => Output: ["boot","high","day"]
+
+Input: sort_strings_by_vowels(["none","uuu","Yuuuge!!"]) => Output: ["uuu","Yuuuge!!","none"]
+
+Input: sort_strings_by_vowels(["AIBRH","","YOUNG","GREEEN"]) => Output: ["GREEEN","AIBRH","YOUNG",""]
+
+Input: sort_strings_by_vowels(["jyn","joan","jimmy","joey"]) => Output: ["joan","joey","jimmy","jyn"]
+
+Input: sort_strings_by_vowels(["uijijeoj","lkjlkjww2","iiutrqy"]) => Output: ["iiutrqy","uijijeoj","lkjlkjww2"]
+
+Input: sort_strings_by_vowels(["how about now","a beautiful trio of"]) => Output: ["a beautiful trio of","how about now"]
+
+Input: sort_strings_by_vowels(["every","bataux","is","waaaay","loose"]) => Output: ["waaaay","bataux","loose","every","is"]
 ```
 
 #
