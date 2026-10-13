@@ -5006,3 +5006,35 @@ Input: by_state(case1) => Output: "California\r\n..... Amy Wilde 334 Bayshore Pk
 #
 
 <br />
+
+# Challenge 110 Non-even substrings
+
+My solution -> *[110_non_even_substrings](110_non_even_substrings.py)*
+
+## **_Task condition:_**
+
+Given a string of integers, return the number of odd-numbered substrings that can be formed.
+
+For example, in the case of `"1341"`, they are `1, 1, 3, 13, 41, 341, 1341`, a total of `7` => `numbers solve("1341") = 7`.
+
+
+
+### **_Examples_**
+
+```
+Input: solve("1347") => Output: 7
+
+Input: solve("1357") => Output: 10
+
+Input: solve("13471") => Output: 12
+
+Input: solve("134721") => Output: 13
+
+Input: solve("1347231") => Output: 20
+
+Input: solve("13472315") => Output: 28
+```
+
+#
+
+<br />
