@@ -5121,3 +5121,51 @@ Input: added_char("abcde", "2db2a2ec") => Output: "2"
 #
 
 <br />
+
+# Challenge 113 Arrh, grabscrab!
+
+My solution -> *[113_arrh_grabscrab](113_arrh_grabscrab.py)*
+
+## **_Task condition:_**
+
+Pirates have notorious difficulty with enunciating. They tend to blur all the letters together and scream at people.
+
+At long last, we need a way to unscramble what these pirates are saying.
+
+Write a function that will accept a jumble of letters as well as a dictionary, and output a list of words that the pirate might have meant.
+
+For example:
+
+```
+grabscrab( "ortsp", ["sport", "parrot", "ports", "matey"] )
+```
+
+Should return `["sport", "ports"]`.
+
+Return matches in the same order as in the dictionary. Return an empty array if there are no matches.
+
+### **_Examples_**
+
+```
+Input: grabscrab("trisf", ["first"]) => Output: ["first"]
+
+Input: grabscrab("oob", ["bob", "baobab"]) => Output: []
+
+Input: grabscrab("ainstuomn", ["mountains", "hills", "mesa"]) => Output: ["mountains"]
+
+Input: grabscrab("oolp", ["donkey", "pool", "horse", "loop"]) => Output: ["pool", "loop"]
+
+Input: grabscrab("ortsp", ["sport", "parrot", "ports", "matey"]) => Output: ["sport", "ports"]
+
+Input: grabscrab("ourf", ["one", "two", "three"]) => Output: []
+
+Input: grabscrab("racer", ["crazer", "carer", "racar", "caers", "racer"]) => Output: ["carer", "racer"]
+
+Input: grabscrab("abba", ["aabb", "abcd", "bbaa", "abbb", "aaab"]) => Output: ["aabb", "bbaa"]
+
+Input: grabscrab("otni", ["child", "first", "not", "into", "toni", "thing"]) => Output: ["into", "toni"]
+```
+
+#
+
+<br />
