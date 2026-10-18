@@ -5370,3 +5370,48 @@ Input: shortest_to_char("", "") => Output: []
 #
 
 <br />
+
+# Challenge 118 Missing Alphabet
+
+My solution -> *[118_missing_alphabet](118_missing_alphabet.py)*
+
+## **_Task condition:_**
+
+You have to create a function, named `insert_missing_letters(st)`, that takes in a string `st` and outputs the same string processed in a particular way.
+
+The function should insert only after the first occurrence of each character of the input string, all the alphabet letters that:
+
+- are NOT in the original string
+- come after the letter of the string you are processing
+
+Each added letter should be in `uppercase`, the letters of the original string will always be in `lowercase`.
+
+```
+input: "holly"
+
+missing letters: "a,b,c,d,e,f,g,i,j,k,m,n,p,q,r,s,t,u,v,w,x,z"
+
+output: "hIJKMNPQRSTUVWXZoPQRSTUVWXZlMNPQRSTUVWXZlyZ"
+```
+
+You don't need to validate input, the input string will always contain a certain amount of lowercase letters (min 1 / max 50).
+
+### **_Examples_**
+
+```
+Input: insert_missing_letters("hello") => Output: "hIJKMNPQRSTUVWXYZeFGIJKMNPQRSTUVWXYZlMNPQRSTUVWXYZloPQRSTUVWXYZ"
+
+Input: insert_missing_letters("abcdefghijklmnopqrstuvwxyz") => Output: "abcdefghijklmnopqrstuvwxyz"
+
+Input: insert_missing_letters("hellllllllllllooooo") => Output: "hIJKMNPQRSTUVWXYZeFGIJKMNPQRSTUVWXYZlMNPQRSTUVWXYZllllllllllloPQRSTUVWXYZoooo"
+
+Input: insert_missing_letters("pixxa") => Output: "pQRSTUVWYZiJKLMNOQRSTUVWYZxYZxaBCDEFGHJKLMNOQRSTUVWYZ"
+
+Input: insert_missing_letters("xpixax") => Output: "xYZpQRSTUVWYZiJKLMNOQRSTUVWYZxaBCDEFGHJKLMNOQRSTUVWYZx"
+
+Input: insert_missing_letters("z") => Output: "z"
+```
+
+#
+
+<br />
