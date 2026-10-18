@@ -5316,3 +5316,57 @@ Input: vowel_shift("AEIOUaeiou", 1) => Output: "uAEIOUaeio"
 #
 
 <br />
+
+# Challenge 117 Shortest Distance to a Character
+
+My solution -> *[117_shortest_distance_to_a_character](117_shortest_distance_to_a_character.py)*
+
+## **_Task condition:_**
+
+Given a string `s` and a character `c`, return an array of integers representing the shortest distance from the current character in `s` to `c`.
+
+```
+s = "lovecodewars"
+c = "e"
+result = [3, 2, 1, 0, 1, 2, 1, 0, 1, 2, 3, 4]
+
+s = "aaaabbbb"
+c = "b"
+result = [4, 3, 2, 1, 0, 0, 0, 0]
+
+s = ""
+c = "b"
+result = []
+
+s = "abcde"
+c = ""
+result = []
+```
+
+### **_Examples_**
+
+```
+Input: shortest_to_char("lovecodewars", "e") => Output: [3, 2, 1, 0, 1, 2, 1, 0, 1, 2, 3, 4]
+
+Input: shortest_to_char("aaaaa", "a") => Output: [0, 0, 0, 0, 0]
+
+Input: shortest_to_char("aabbaabb", "a") => Output: [0, 0, 1, 1, 0, 0, 1, 2]
+
+Input: shortest_to_char("aaaabbbb", "b") => Output: [4, 3, 2, 1, 0, 0, 0, 0]
+
+Input: shortest_to_char("aaaaa", "b") => Output: []
+
+Input: shortest_to_char("lovecoding", "") => Output: []
+
+Input: shortest_to_char("", "") => Output: []
+```
+
+**_NOTES:_**
+
+- All letters will be lowercase.
+- If the string is empty, return an empty array.
+- If the character is not present, return an empty array.
+
+#
+
+<br />
