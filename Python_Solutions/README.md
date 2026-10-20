@@ -5457,3 +5457,43 @@ Input: wanted_words(3, 7, ["a", "s" , "m", "y"]) => Output: []
 #
 
 <br />
+
+# Challenge 120 One down
+
+My solution -> *[120_one_down](120_one_down.py)*
+
+## **_Task condition:_**
+
+A very passive-aggressive co-worker of yours was just fired. While he was gathering his things, he quickly inserted a bug into your system which renamed everything to what looks like jibberish. He left two notes on his desk, one reads: `"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"` while the other reads: `"Uif usjdl up uijt lbub jt tjnqmf kvtu sfqmbdf fwfsz mfuufs xjui uif mfuufs uibu dpnft cfgpsf ju"`.
+
+Rather than spending hours trying to find the bug itself, you decide to try and decode it.
+
+In case the input is not a string, your function must return `"Input is not a string"`. Your function must be able to handle capital and lower case letters. You will not need to worry about punctuation.
+
+### **_Examples_**
+
+```
+Input: one_down("Ifmmp") => Output: "Hello"
+
+Input: one_down("Uif usjdl up uijt lbub jt tjnqmf") => Output: "The trick to this kata is simple"
+
+Input: one_down(45) => Output: "Input is not a string"
+
+Input: one_down("XiBu BcPvU dSbAz UfYu") => Output: "WhAt AbOuT cRaZy TeXt"
+
+Input: one_down(["Hello there", "World"]) => Output: "Input is not a string"
+
+Input: one_down("BMM DBQT NBZCF") => Output: "ALL CAPS MAYBE"
+
+Input: one_down("qVAamFt BsF gVo") => Output: "pUZzlEs ArE fUn"
+
+Input: one_down("CodeWars RockZ") => Output: "BncdVzqr QnbjY"
+
+Input: one_down("") => Output: ""
+
+Input: one_down("J ipqf zpv bsf ibwjoh b ojdf ebz") => Output: "I hope you are having a nice day"
+```
+
+#
+
+<br />
