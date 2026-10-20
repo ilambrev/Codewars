@@ -5497,3 +5497,38 @@ Input: one_down("J ipqf zpv bsf ibwjoh b ojdf ebz") => Output: "I hope you are h
 #
 
 <br />
+
+# Challenge 121 Framed Reflection
+
+My solution -> *[121_framed_reflection](121_framed_reflection.py)*
+
+## **_Task condition:_**
+
+You are given a message (`text`) that you choose to read in a mirror (`weirdo`). Return what you would see, complete with the mirror frame. Example:
+
+`"Hello World"`
+
+would give:
+
+```
+*********
+* olleH *
+* dlroW *
+*********
+```
+
+Words in your solution should be left-aligned.
+
+### **_Examples_**
+
+```
+Input: mirror("Hello World") => Output: "*********\n* olleH *\n* dlroW *\n*********"
+
+Input: mirror("Codewars") => Output: "************\n* srawedoC *\n************"
+
+Input: mirror("emosewA !ataK") => Output: "***********\n* Awesome *\n* Kata!   *\n***********"
+```
+
+#
+
+<br />
