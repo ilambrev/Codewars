@@ -5643,3 +5643,63 @@ Output:
 #
 
 <br />
+
+# Challenge 123 Grill it!
+
+My solution -> *[123_grill_it](123_grill_it.py)*
+
+## **_Task condition:_**
+
+A grille cipher was a technique for encrypting a plaintext by writing it onto a sheet of paper through a pierced sheet (of paper or cardboard or similar). The earliest known description is due to the polymath Girolamo Cardano in 1550. His proposal was for a rectangular stencil allowing single letters, syllables, or words to be written, then later read, through its various apertures. The written fragments of the plaintext could be further disguised by filling the gaps between the fragments with anodyne words or letters. This variant is also an example of steganography, as are many of the grille ciphers. [Wikipedia Link](https://en.wikipedia.org/wiki/Grille_(cryptography))
+
+|   |   |   |   |   |   |
+|---|---|---|---|---|---|
+| B | 1 | H | J | T | K |
+| D | P | A | Q | U | 2 |
+| N | 3 | U | N | 9 | G |
+| F | E | O | I | I | 8 |
+| V | E | A | O | 7 | T |
+| O | M | R | 6 | S | L |
+
+|   |   |   |   |   |   |
+|---|---|---|---|---|---|
+|   |   |   |   | T |   |
+|   |   | A |   |   |   |
+| N |   |   |   |   | G |
+|   |   |   | I |   |   |
+|   | E |   |   |   |   |
+|   |   | R |   | S |   |
+
+Write a function that accepts two inputs: `message` and `code` and returns hidden message decrypted from `message` using the `code`.
+The `code` is a nonnegative integer and it decrypts in binary the `message`.
+
+```
+message : abcdef
+code    : 000101
+----------------
+result  : df
+```
+
+### **_Examples_**
+
+```
+Input: grille("abcdef", 5) => Output: "df"
+
+Input: grille("", 5) => Output: ""
+
+Input: grille("abcd", 1) => Output: "d"
+
+Input: grille("0abc", 2) => Output: "b"
+
+Input: grille("ab", 255) => Output: "ab"
+
+Input: grille("ab", 256) => Output: ""
+
+Input: grille("abcde", 32) => Output: ""
+
+Input: grille("tcddoadepwweasresd", 77098) => Output: "codewars"
+```
+
+#
+
+<br />
