@@ -5831,3 +5831,70 @@ Input: deaf_grandma(["BYE8", "1 Ok, Bye!", "BYE"]) => Output: ["NO, NOT SINCE 19
 #
 
 <br />
+
+# Challenge 127 Rectangle letter juggling
+
+My solution -> *[127_rectangle_letter_juggling](127_rectangle_letter_juggling.py)*
+
+## **_Task condition:_**
+
+Given a string, output the encoded version of that string.
+
+#### Input:
+
+```
+'When nobody is around, the trees gossip about the people who have walked under them.'
+```
+
+First, the input is normalized; Any character other than alphabetic characters should be removed from the text and the message is converted into lowercase. No digits will be passed as input. Only ASCII English letters (upper and lower case) and ASCII symbols will be in the string:
+
+```
+!"#$%&'()*+, -./:;<=>?@[\]^_`{|}~
+```
+
+#### The input is normalized into:
+
+```
+'whennobodyisaroundthetreesgossipaboutthepeoplewhohavewalkedunderthem'
+```
+
+The text is then organized into a rectangle of size `(a * b)` such that `b >= a` and `b - a <= 1`. The last row, if incomplete, should be padded with spaces. Since the length of the normalized text is `68`, we use an `8 * 9` rectangle giving:
+
+```
+'whennobod'
+'yisaround'
+'thetreesg'
+'ossipabou'
+'tthepeopl'
+'ewhohavew'
+'alkedunde'
+'rthem    '
+```
+
+The final message is obtained by reading the rectangle down each column from left to right, and separated into `b` chunks of length `a`, separated by spaces. _No characters other than lowercase English alphabets and spaces are to be used in the output_.
+
+#### Output:
+
+```
+'wytotear hihstwlt eseshhkh natieoee nrrpphdm ooeaeau  buebovn  onsoped  ddgulwe ' 
+```
+
+### **_Examples_**
+
+```
+Input: cipher_text("When nobody is around, the trees gossip about the people who have walked under them.") => Output: "wytotear hihstwlt eseshhkh natieoee nrrpphdm ooeaeau  buebovn  onsoped  ddgulwe "
+
+Input: cipher_text("I want a giraffe, but I\"m a turtle eating waffles.") => Output: "iiuril wrttne aailgs nfmew  tfaea  aetaf  gbutf "
+
+Input: cipher_text("Dolores wouldn\"t have eaten the meal if she had known what it actually was.") => Output: "dovhsoty oueehwaw llemenca odaehwts rntaahu  eteldaa  shniktl  watfnil "
+
+Input: cipher_text("She says she has the ability to hear the soundtrack of your life.") => Output: "shaoscl hebhoki ehieuof salanfe asirdy  ytttto  shyhru  setear "
+
+Input: cipher_text("I\"ve always wanted to go to Tajikistan, but my cat would miss me.") => Output: "isoiuom vwgktue eaoiml  antsyd  ltotcm  wetaai  adants  ytjbws "
+
+Input: cipher_text("###") => Output: ""
+```
+
+#
+
+<br />
