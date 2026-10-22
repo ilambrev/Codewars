@@ -5789,3 +5789,45 @@ Input: Converter.to_ascii(Converter.to_hex("Look mom, no hands")) => Output: "Lo
 #
 
 <br />
+
+# Challenge 126 Pine's Deaf Grandma
+
+My solution -> *[126_pines_deaf_grandma](126_pines_deaf_grandma.py)*
+
+## **_Task condition:_**
+
+Pine's grandma is hearing impaired: whatever you say to her, she responds with `"HUH?! SPEAK UP, SONNY!"`, unless you shout it (type in all capitals).
+
+If you shout, she can hear you (or at least she thinks so) and yells back, `"NO, NOT SINCE 1938!"` You can't stop talking to grandma until you shout `"BYE"`.
+
+When you shout `"BYE"`, grandma shouts back `"OK, BYE!"` and end the conversation.
+
+- Your input is an array with a list of strings with all the words/sentences you say in order
+- You can expect there is aways a `"BYE"`, although it is not necessarily the last word in the list
+- Your output is an array with a list of strings and every sentence Pine's grandma replies
+- Words/sentences are always a string
+
+```
+["hi grandma", "WHAT", "bye", "BYE"]  -->
+["HUH?! SPEAK UP, SONNY!", "NO, NOT SINCE 1938!", "HUH?! SPEAK UP, SONNY!", "OK, BYE!"]
+```
+
+### **_Examples_**
+
+```
+Input: deaf_grandma(["hi grandma", "WHAT", "bye", "BYE"]) => Output: ["HUH?! SPEAK UP, SONNY!", "NO, NOT SINCE 1938!", "HUH?! SPEAK UP, SONNY!", "OK, BYE!"]
+
+Input: deaf_grandma(["BYE"]) => Output: ["OK, BYE!"]
+
+Input: deaf_grandma(["HELLO", "OK, BYE", "BYE"]) => Output: ["NO, NOT SINCE 1938!", "NO, NOT SINCE 1938!", "OK, BYE!"]
+
+Input: deaf_grandma(["good morning", "NICE TO SEE YOU", "BYE", "oh, I forgot", "nevermind", "see you"]) => Output: ["HUH?! SPEAK UP, SONNY!", "NO, NOT SINCE 1938!", "OK, BYE!"]
+
+Input: deaf_grandma(["Bye?", "BYE!", "BYE.", "BYE"]) => Output: ["HUH?! SPEAK UP, SONNY!", "NO, NOT SINCE 1938!", "NO, NOT SINCE 1938!", "OK, BYE!"]
+
+Input: deaf_grandma(["BYE8", "1 Ok, Bye!", "BYE"]) => Output: ["NO, NOT SINCE 1938!", "HUH?! SPEAK UP, SONNY!", "OK, BYE!"]
+```
+
+#
+
+<br />
