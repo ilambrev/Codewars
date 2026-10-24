@@ -6002,3 +6002,35 @@ Input: word_count(long_text) => Output: 112
 #
 
 <br />
+
+# Challenge 130 Sum of many ints
+
+My solution -> *[130_sum_of_many_ints](130_sum_of_many_ints.py)*
+
+## **_Task condition:_**
+
+Write this function:
+
+$$f(n, m) = \sum_{i=1}^{n} i \% m$$
+
+`for i from 1 to n, do i % m and return the sum`
+
+```
+f(n = 10, m = 5) // returns 20 (1 + 2 + 3 + 4 + 0 + 1 + 2 + 3 + 4 + 0)
+```
+
+**You'll need to get a little clever with performance, since `n` can be a very large number**
+
+### **_Examples_**
+
+```
+Input: f(10, 5) => Output: 20
+
+Input: f(20, 20) => Output: 190
+
+Input: f(15, 10) => Output: 60
+```
+
+#
+
+<br />
