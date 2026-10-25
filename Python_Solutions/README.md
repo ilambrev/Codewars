@@ -6088,3 +6088,32 @@ Input: broke_count([]) => Output: 0
 #
 
 <br />
+
+# Challenge 132 Common array elements
+
+My solution -> *[132_common_array_elements](132_common_array_elements.py)*
+
+## **_Task condition:_**
+
+Given three arrays of integers, return the sum of elements that are common in all three arrays.
+
+```
+common([1, 2, 3], [5, 3, 2], [7, 3, 2]) = 5 because 2 & 3 are common in all 3 arrays
+common([1, 2, 2, 3], [5, 3, 2, 2], [7, 3, 2, 2]) = 7 because 2, 2 & 3 are common in the 3 arrays
+```
+
+### **_Examples_**
+
+```
+Input: common([1, 2, 3], [5, 3, 2], [7, 3, 2]) => Output: 5
+
+Input: common([1, 2, 2, 3], [5, 3, 2, 2], [7, 3, 2, 2]) => Output: 7
+
+Input: common([1], [1], [1]) => Output: 1
+
+Input: common([1], [1], [2]) => Output: 0
+```
+
+#
+
+<br />
