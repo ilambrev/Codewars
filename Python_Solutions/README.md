@@ -6034,3 +6034,57 @@ Input: f(15, 10) => Output: 60
 #
 
 <br />
+
+# Challenge 131 How Broke Are You?
+
+My solution -> *[131_how_broke_are_you](131_how_broke_are_you.py)*
+
+## **_Task condition:_**
+
+You are tracking your `"broke level"` based on daily expenditures.
+
+A broke event is counted under the following conditions:
+
+1. If a `single day's` expenditure is less than or equal to `3` dollars.
+2. If daily expenditure is less than or equal to `7` dollars for `3` consecutive days.
+3. If daily expenditure is less than or equal to `10` dollars for `7` consecutive days.
+
+**Important:**
+
+- A broke event can either be a `day long`, `3 days` or `7 days` long. Otherwise a new broke event is started.
+- If a smaller threshold event occurs inside a larger qualifying streak, it does NOT count separately.
+- Overlapping streaks count as a single broke event. eg, `[7, 3, 7]` would only be `one` broke event.
+
+```
+[5, 6, 7, 20, 3] returns 2, ie [5, 6, 7] and [3]
+```
+
+**Given a list of daily expenditures, return the total number of broke events.**
+
+### **_Examples_**
+
+```
+Input: broke_count([2]) => Output: 1
+
+Input: broke_count([5]) => Output: 0
+
+Input: broke_count([5, 6, 7]) => Output: 1
+
+Input: broke_count([5, 6, 8]) => Output: 0
+
+Input: broke_count([9, 8, 10, 9, 7, 6, 5]) => Output: 1
+
+Input: broke_count([9, 8, 10, 12, 7, 6, 5]) => Output: 1
+
+Input: broke_count([2, 5, 6, 9, 8, 7, 6]) => Output: 1
+
+Input: broke_count([2, 20, 2]) => Output: 2
+
+Input: broke_count([5, 6, 7, 20, 5, 6, 7]) => Output: 2
+
+Input: broke_count([]) => Output: 0
+```
+
+#
+
+<br />
