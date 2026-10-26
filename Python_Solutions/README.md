@@ -6167,3 +6167,30 @@ Input: linked_sort([-71, -6, 35, 0], [0, "Hello", 32, True]) => Output: [-6, -71
 #
 
 <br />
+
+# Challenge 134 Tick Toward
+
+My solution -> *[134_tick_toward](134_tick_toward.py)*
+
+## **_Task condition:_**
+
+Define a function that generates medial values between two coordinates and returns them in an array from start to target. For example, if the starting point is `(1, 1)` and the target point is `(3, 2)` then the shortest route from start to target would be `[(1, 1), (2, 2), (3, 2)]`. The route should go only through integral coordinates.
+
+### **_Examples_**
+
+```
+Input: tick_toward((5, 5), (5, 7)) => Output: [(5,5), (5,6), (5,7)]
+
+Input: tick_toward((3, 2), (4, 5)) => Output: [(3,2), (4,3), (4,4), (4,5)]
+
+Input: tick_toward((5, 1), (5, -2)) => Output: [(5,1), (5,0), (5,-1), (5,-2)]
+```
+
+**_NOTES:_**
+
+- You should move diagonally until the path from your current position to the target can be represented as a fully horizontal/vertical line.
+- Tuples will be used for representing coordinates.
+
+#
+
+<br />
