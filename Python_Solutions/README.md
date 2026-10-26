@@ -6117,3 +6117,53 @@ Input: common([1], [1], [2]) => Output: 0
 #
 
 <br />
+
+# Challenge 133 2 Arrays 1 Sort
+
+My solution -> *[133_2_arrays_1_sort](133_2_arrays_1_sort.py)*
+
+## **_Task condition:_**
+
+Imagine two lists where elements are linked by their positions in the list. For example:
+
+```
+HowMany = [1, 6, 5, 0]
+Type = ["house", "car", "pen", "jeans"]
+```
+
+Means I have `1 house`, `6 cars`, `5 pens` and `0 jeans`.
+
+Now if we sort one list we lose the connectivity. The goal is to create a sorting function that keeps the position link `linkedSort(arrayToSort, linkedArray, compareFunction)`. So for every element that moves in `arrayToSort`(`HowMany` in the example), the corresponding element in `linkedArray`(`Type` in the example) needs to move similarly.
+
+```
+Input:
+HowMany = [1, 6, 5, 0 ]
+Type = ["house", "car", "pen", "jeans"]
+
+Sort
+res = linkedSort(HowMany, Type, key=lambda x: x)
+
+Output:
+HowMany == res == [0, 1, 5, 6]
+Type == ["jeans", "house", "pen", "car"]
+```
+
+`linkedSort(...)` return the `"arrayToSort"` sorted only.
+
+If no compare function is provided you should handle like an alphabetical sorting would do, e.g:
+
+```
+yoursortingfunction([-71, -6, 35, 0]) == [-6, -71, 0, 35] != [-71, -6, 0, 35]
+```
+
+### **_Examples_**
+
+```
+Input: linked_sort([1, 6, 5, 0], ['house', 'car', 'pen', 'jeans']) => Output: [0, 1, 5, 6]
+
+Input: linked_sort([-71, -6, 35, 0], [0, "Hello", 32, True]) => Output: [-6, -71, 0, 35]
+```
+
+#
+
+<br />
