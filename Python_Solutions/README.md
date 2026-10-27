@@ -6246,3 +6246,97 @@ Input: get_colors(col_arr) => Output: "Blue+Red,Blue+Red,Red+Blue"
 #
 
 <br />
+
+# Challenge 136 Separate The Wheat From The Chaff
+
+My solution -> *[136_separate_the_wheat_from_the_chaff](136_separate_the_wheat_from_the_chaff.py)*
+
+## **_Task condition:_**
+
+With Cereal crops like wheat or rice, before we can eat the grain kernel, we need to remove that inedible hull, or to separate the wheat from the chaff.
+
+Given a sequence of n integers , separate the negative numbers (chaff) from positive ones (wheat).
+
+```
+wheatFromChaff([7, -8, 1, -2]) ==> return [-2, -8, 1, 7] 
+```
+
+*Explanation:*
+
+- Since `7` is a positive number, it should not be located at the beginnig so it needs to be swapped with the last negative number `-2`.
+
+```
+wheatFromChaff([-31, -5, 11, -42, -22, -46, -4, -28]) ==> return [-31, -5, - 28, -42, -22, -46, -4, 11]
+```
+
+*Explanation:*
+
+- Since, `[-31, -5]` are negative numbers found at the head (begining) of the sequence, so we keep them in place.
+- Since `11` is a positive number, it's replaced by the last negative which is `-28`, and so on till sepration is complete.
+
+```
+wheatFromChaff([-25, -48, -29, -25, 1, 49, -32, -19, -46, 1]) ==> return [-25, -48, -29, -25, -46, -19, -32, 49, 1, 1]
+```
+
+*Explanation:*
+
+- Since `[-25, -48, -29, -25]` are negative numbers found at the head (begining) of the input, so we keep them in place.
+- Since `1` is a positive number, it's replaced by the last negative which is `-46`, and so on till sepration is complete.
+- Remeber, duplications are included when separating, that's why the number `1` appeared twice at the end of the output.
+
+**Tune Your Code! There are 250 Assertions, 100.000 Elements For Each. Only O(N) Complexity Solutions Will Pass.**
+
+### **_Examples_**
+
+```
+Input: wheat_from_chaff([2, -4, 6, -6]) => Output: [-6,-4,6,2]
+
+Input: wheat_from_chaff([7, -3, -10]) => Output: [-10,-3,7]
+
+Input: wheat_from_chaff([7, -8, 1, -2]) => Output: [-2,-8,1,7]
+
+Input: wheat_from_chaff([8, 10, -6, -7, 9]) => Output: [-7,-6,10,8,9]
+
+Input: wheat_from_chaff([-3, 4, -10, 2, -6]) => Output: [-3,-6,-10,2,4]
+
+Input: wheat_from_chaff([2, -6, -4, 1, -8, -2]) => Output: [-2,-6,-4,-8,1,2]
+
+Input: wheat_from_chaff([16, 25, -48, -47, -37, 41, -2]) => Output: [-2,-37,-48,-47,25,41,16]
+
+Input: wheat_from_chaff([-30, -11, 36, 38, 34, -5, -50]) => Output: [-30,-11,-50,-5,34,38,36]
+
+Input: wheat_from_chaff([-31, -5, 11, -42, -22, -46, -4, -28]) => Output: [-31,-5,-28,-42,-22,-46,-4,11]
+
+Input: wheat_from_chaff([46, 39, -45, -2, -5, -6, -17, -32, 17]) => Output: [-32,-17,-45,-2,-5,-6,39,46,17]
+
+Input: wheat_from_chaff([-9, -8, -6, -46, 1, -19, 44]) => Output: [-9,-8,-6,-46,-19,1,44]
+
+Input: wheat_from_chaff([-37, -10, -42, 19, -31, -40, -45, 33]) => Output: [-37,-10,-42,-45,-31,-40,19,33]
+
+Input: wheat_from_chaff([-25, -48, -29, -25, 1, 49, -32, -19, -46, 1]) => Output: [-25,-48,-29,-25,-46,-19,-32,49,1,1]
+
+Input: wheat_from_chaff([-7, -35, -46, -22, 46, 43, -44, -14, 34, -5, -26]) => Output: [-7,-35,-46,-22,-26,-5,-44,-14,34,43,46]
+
+Input: wheat_from_chaff([-46, -50, -28, -45, -27, -40, 10, 35, 34, 47, -46, -24]) => Output: [-46,-50,-28,-45,-27,-40,-24,-46,34,47,35,10]
+
+Input: wheat_from_chaff([-33, -14, 16, 31, 4, 41, -10, -3, -21, -12, -45, 41, -19]) => Output: [-33,-14,-19,-45,-12,-21,-10,-3,41,4,31,41,16]
+
+Input: wheat_from_chaff([-17, 7, -12, 10, 4, -8, -19, -24, 40, 31, -29, 21, -45, 1]) => Output: [-17,-45,-12,-29,-24,-8,-19,4,40,31,10,21,7,1]
+
+Input: wheat_from_chaff([-16, 44, -7, -31, 9, -43, -44, -18, 50, 39, -46, -24, 3, -34, -27]) => Output: [-16,-27,-7,-31,-34,-43,-44,-18,-24,-46,39,50,3,9,44]
+```
+
+**_NOTES:_**
+
+- Sequence size is at least `3`.
+- Return a new sequence, such that negative numbers (chaff) come first, then positive ones (wheat).
+- You're not allowed to modify the input list.
+- Have no fear, it is guaranteed that there will be no zeroes.
+- Repetition of numbers in the input sequence could occur, so duplications are included when separating.
+- If a misplaced positive number is found in the front part of the sequence, replace it with the last misplaced negative number (the one found near the end of the input). The second misplaced positive number should be swapped with the second last misplaced negative number. Negative numbers found at the head (begining) of the sequence, should be kept in place.
+
+
+
+#
+
+<br />
