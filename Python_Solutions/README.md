@@ -6455,3 +6455,33 @@ Input: alphabet_war("wwwwww") => Output: "Left side wins!"
 #
 
 <br />
+
+# Challenge 139 I need more speed!
+
+My solution -> *[139_i_need_more_speed](139_i_need_more_speed.py)*
+
+## **_Task condition:_**
+
+Write a function that will take in any array and reverse it.
+
+Sounds simple doesn't it?
+
+### **_Examples_**
+
+```
+Input: reverse([1, 2, 3, 4, 5]) => Output: [5, 4, 3, 2, 1]
+
+Input: reverse(['?', 'you', 'are', 'how', 'world', 'hello']) => Output: ['hello', 'world', 'how', 'are', 'you', '?']
+
+Input: reverse([{'b': 2}, {'a': 1}]) => Output: [{'a': 1}, {'b': 2}]
+```
+
+**_NOTES:_**
+
+- Array should be reversed in place! (no need to return it)
+- Usual builtins have been deactivated. Don't count on them.
+- You'll have to do it fast enough, so think about performances
+
+#
+
+<br />
