@@ -6667,7 +6667,7 @@ Input validation is part of the Kata, VINs with lenghts different than `17` char
 
 **Online VIN Checker**
 
-Click *[here](https://vpic.nhtsa.dot.gov/decoder/CheckDigit/Index/5YJ3E1EA7HF000337)* to open an online VIN Checker if you want to better understand how it works.
+Click *[here](https://vpic.nhtsa.dot.gov/decoder/)* to open an online VIN Checker if you want to better understand how it works.
 
 ### **_Examples_**
 
