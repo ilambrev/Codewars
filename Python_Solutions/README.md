@@ -6686,3 +6686,75 @@ Input: check_vin("7JTRH08L5EJ234829") => Output: False
 #
 
 <br />
+
+# Challenge 143 PhoneWords
+
+My solution -> *[143_phone_words](143_phone_words.py)*
+
+## **_Task condition:_**
+
+Given a string of numbers, you must perform a function in which you will translate this string into text, based on the below image:
+
+```
+ -------- -------- --------
+| 1 ➿   | 2 abc  | 3 def  |
+ -------- -------- --------
+| 4 ghi  | 5 jkl  | 6 mno  |
+ -------- -------- --------
+| 7 pqrs | 8 tuv  | 9 wxyz |
+ -------- -------- --------
+| * +    | 0 ⎵    | ⇑ #    |
+ -------- -------- --------
+```
+
+For example if you get `"22"` return `"b"`, if you get `"222"` you will return `"c"`. If you get `"2222"` return `"ca"`.
+
+Further details:
+
+- `0` is a space in the string.
+- `1` is used to separate letters with the same number.
+- Always transform the number to the letter with the maximum value, as long as it does not have a 1 in the middle. So, `"777777"` -->  `"sq"` and `"7717777"` --> `"qs"`.
+- You cannot return digits.
+- Given a empty string, return empty string.
+- Return a lowercase string.
+
+```
+"443355555566604466690277733099966688"  -->  "hello how are you"
+"55282"                 -->  "kata"
+"22266631339277717777"  -->  "codewars"
+"66885551555"           -->  "null"
+"833998"                -->  "text"
+"000"                   -->  "   "
+```
+
+### **_Examples_**
+
+```
+Input: phone_words("443355555566604466690277733099966688") => Output: "hello how are you"
+
+Input: phone_words("55282") => Output: "kata"
+
+Input: phone_words("44460208337777833777") => Output: "im a tester"
+
+Input: phone_words("22266631339277717777") => Output: "codewars"
+
+Input: phone_words("66885551555") => Output: "null"
+
+Input: phone_words("833998") => Output: "text"
+
+Input: phone_words("000") => Output: "   "
+
+Input: phone_words("7999844666166") => Output: "python"
+
+Input: phone_words("55886444833") => Output: "kumite"
+
+Input: phone_words("271755533") => Output: "apple"
+
+Input: phone_words("") => Output: ""
+
+Input: phone_words("111") => Output: ""
+```
+
+#
+
+<br />
