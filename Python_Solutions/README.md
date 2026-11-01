@@ -6758,3 +6758,37 @@ Input: phone_words("111") => Output: ""
 #
 
 <br />
+
+# Challenge 144 Alpha to Numeric and Numeric to Alpha
+
+My solution -> *[144_alpha_to_numeric_and_numeric_to_alpha](144_alpha_to_numeric_and_numeric_to_alpha.py)*
+
+## **_Task condition:_**
+
+You will create a function that converts a string with letters and numbers to the inverse of that string (with regards to Alpha and Numeric characters). So, e.g. the letter `a` will become `1` and number `1` will become `a`; `z` will become `26` and `26` will become `z`.
+
+Example: `"a25bz"` would become `"1y226"`
+
+Numbers representing letters (`n <= 26`) will always be separated by letters, for all test cases:
+- `"a26b"` may be tested, but not `"a262b"`
+- `"cjw9k"` may be tested, but not `"cjw99k"`
+
+A list named alphabet is preloaded for you: `['a', 'b', 'c', ...]`
+
+A dictionary of letters and their number equivalent is also preloaded for you called alphabetnums = `{'a': '1', 'b': '2', 'c': '3', ...}`
+
+### **_Examples_**
+
+```
+Input: AlphaNum_NumAlpha("25abcd26") => Output: "y1234z"
+
+Input: AlphaNum_NumAlpha("18zyz14") => Output: "r262526n"
+
+Input: AlphaNum_NumAlpha("a1b2c3d4") => Output: "1a2b3c4d"
+
+Input: AlphaNum_NumAlpha("5a8p17") => Output: "e1h16q"
+```
+
+#
+
+<br />
