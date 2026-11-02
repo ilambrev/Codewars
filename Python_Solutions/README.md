@@ -6792,3 +6792,35 @@ Input: AlphaNum_NumAlpha("5a8p17") => Output: "e1h16q"
 #
 
 <br />
+
+# Challenge 145 Reverse Vowels In A String
+
+My solution -> *[145_reverse_vowels_in_a_string](145_reverse_vowels_in_a_string.py)*
+
+## **_Task condition:_**
+
+Your goal is to write a function which will reverse the vowels in a string. Any characters which are not vowels should remain in their original position.
+
+Here are some examples:
+
+```
+"Hello!" => "Holle!"
+"Tomatoes" => "Temotaos"
+"Reverse Vowels In A String" => "RivArsI Vewols en e Streng"
+```
+
+For simplicity, you can treat the letter `y` as a consonant, not a vowel.
+
+### **_Examples_**
+
+```
+Input: reverse_vowels("Hello!") => Output: "Holle!"
+
+Input: reverse_vowels("Tomatoes") => Output: "Temotaos"
+
+Input: reverse_vowels("Reverse Vowels In A String") => Output: "RivArsI Vewols en e Streng"
+```
+
+#
+
+<br />
