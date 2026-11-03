@@ -6870,3 +6870,129 @@ Input: get_pins("369") => Output: ["339", "366", "399", "658", "636", "258", "26
 #
 
 <br />
+
+# Challenge 147 Format the playlist
+
+My solution -> *[147_format_the_playlist](147_format_the_playlist.py)*
+
+## **_Task condition:_**
+
+Your task is to write a function, called `format_playlist()`, that takes a list of songs as input.
+
+Each song is a tuple, of the form `(song_name, duration, artist)`. Your task is to create a string representation of these songs.
+
+Your playlist should be sorted first by the artist, then by the name of the song.
+
+Note:
+- All input will be valid.
+- The length of the song will be at least 1 minute long, but never 10 minutes or longer. It will be of the form m:ss.
+- There will never be empty fields (each song will have a name, duration and artist).
+
+For example, if your function was passed the following `songs`.
+
+```
+songs = [
+    ('In Da Club', '3:13', '50 Cent'),
+    ('Candy Shop', '3:45', '50 Cent'),
+    ('One', '4:36', 'U2'),
+    ('Wicked', '2:53', 'Future'),
+    ('Cellular', '2:58', 'King Krule'),
+    ('The Birthday Party', '4:45', 'The 1975'),
+    ('In The Night Of Wilderness', '5:26', 'Blackmill'),
+    ('Pull Up', '3:35', 'Playboi Carti'),
+    ('Cudi Montage', '3:16', 'KIDS SEE GHOSTS'),
+    ('What Up Gangsta', '2:58', '50 Cent')
+]
+```
+
+Then your function would return the following:
+
+```
++----------------------------+------+-----------------+
+| Name                       | Time | Artist          |
++----------------------------+------+-----------------+
+| Candy Shop                 | 3:45 | 50 Cent         |
+| In Da Club                 | 3:13 | 50 Cent         |
+| What Up Gangsta            | 2:58 | 50 Cent         |
+| In The Night Of Wilderness | 5:26 | Blackmill       |
+| Wicked                     | 2:53 | Future          |
+| Cudi Montage               | 3:16 | KIDS SEE GHOSTS |
+| Cellular                   | 2:58 | King Krule      |
+| Pull Up                    | 3:35 | Playboi Carti   |
+| The Birthday Party         | 4:45 | The 1975        |
+| One                        | 4:36 | U2              |
++----------------------------+------+-----------------+
+```
+
+### **_Examples_**
+
+```
+Input: format_playlist([])
+
+Output: 
+"+------+------+--------+\n" \
+"| Name | Time | Artist |\n" \
+"+------+------+--------+"
+
+
+Input: format_playlist([('MILK', '4:55', 'BROCKHAMPTON')])
+
+Output:
+"+------+------+--------------+\n" \
+"| Name | Time | Artist       |\n" \
+"+------+------+--------------+\n" \
+"| MILK | 4:55 | BROCKHAMPTON |\n" \
+"+------+------+--------------+"
+
+
+Input: format_playlist([
+    ('Stoned Again', '3:25', 'King Krule'),
+    ('Serenade', '3:00', 'Travis Scott'),
+    ('I Always Wanna Die (Sometimes)', '5:15', 'The 1975'),
+    ('Stick Talk', '2:54', 'Future'),
+    ('Nightcrawler', '5:22', 'Travis Scott')])
+
+Output:
+"+--------------------------------+------+--------------+\n" \
+"| Name                           | Time | Artist       |\n" \
+"+--------------------------------+------+--------------+\n" \
+"| Stick Talk                     | 2:54 | Future       |\n" \
+"| Stoned Again                   | 3:25 | King Krule   |\n" \
+"| I Always Wanna Die (Sometimes) | 5:15 | The 1975     |\n" \
+"| Nightcrawler                   | 5:22 | Travis Scott |\n" \
+"| Serenade                       | 3:00 | Travis Scott |\n" \
+"+--------------------------------+------+--------------+"
+
+
+Input: format_playlist([
+    ('In Da Club', '3:13', '50 Cent'),
+    ('Candy Shop', '3:45', '50 Cent'),
+    ('One', '4:36', 'U2'),
+    ('Wicked', '2:53', 'Future'),
+    ('Cellular', '2:58', 'King Krule'),
+    ('The Birthday Party', '4:45', 'The 1975'),
+    ('In The Night Of Wilderness', '5:26', 'Blackmill'),
+    ('Pull Up', '3:35', 'Playboi Carti'),
+    ('Cudi Montage', '3:16', 'KIDS SEE GHOSTS'),
+    ('What Up Gangsta', '2:58', '50 Cent')])
+
+Output:
+"+----------------------------+------+-----------------+\n" \
+"| Name                       | Time | Artist          |\n" \
+"+----------------------------+------+-----------------+\n" \
+"| Candy Shop                 | 3:45 | 50 Cent         |\n" \
+"| In Da Club                 | 3:13 | 50 Cent         |\n" \
+"| What Up Gangsta            | 2:58 | 50 Cent         |\n" \
+"| In The Night Of Wilderness | 5:26 | Blackmill       |\n" \
+"| Wicked                     | 2:53 | Future          |\n" \
+"| Cudi Montage               | 3:16 | KIDS SEE GHOSTS |\n" \
+"| Cellular                   | 2:58 | King Krule      |\n" \
+"| Pull Up                    | 3:35 | Playboi Carti   |\n" \
+"| The Birthday Party         | 4:45 | The 1975        |\n" \
+"| One                        | 4:36 | U2              |\n" \
+"+----------------------------+------+-----------------+"
+```
+
+#
+
+<br />
