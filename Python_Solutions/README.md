@@ -7078,3 +7078,27 @@ Input: bears(0, "8j888aam") => Output: ["", True]
 #
 
 <br />
+
+# Challenge 150 Monkey Talk
+
+My solution -> *[150_monkey_talk](150_monkey_talk.py)*
+
+## **_Task condition:_**
+
+Lets talk like a monkey. Find out how! Look at the test cases an engineer code to pass them.
+
+### **_Examples_**
+
+```
+Input: monkey_talk("Hello") => Output: "Ook."
+
+Input: monkey_talk("Everyone") => Output: "Eek."
+
+Input: monkey_talk("Hello Everyone") => Output: "Ook eek."
+
+Input: monkey_talk("Everyone Hello") => Output: "Eek ook."
+```
+
+#
+
+<br />
