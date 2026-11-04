@@ -7038,3 +7038,43 @@ Input: count_adjacent_pairs("pineapple apple") => Output: 0
 #
 
 <br />
+
+# Challenge 149 Pairs of Bears
+
+My solution -> *[149_pairs_of_bears](149_pairs_of_bears.py)*
+
+## **_Task condition:_**
+
+In order to prove it's success and gain funding, the wilderness zoo needs to prove to environmentalists that it has x number of mating pairs of bears.
+
+You must check within a string (`s`) to find all of the mating pairs, returning a list of the string containing valid mating pairs and a boolean indicating whether the total number of bears is greater than or equal to `x`.
+
+#### Rules for a 'valid' mating pair:
+
+- Bears are either `'B'` (male) or `'8'` (female),
+- Bears must be together in male/female pairs `'B8'` or `'8B'`,
+- Mating pairs must involve two distinct bears each (`'B8B'` may look fun, but does not count as two pairs).
+
+Return an array containing a string of the valid mating pairs available (empty string if there are no pairs), and a boolean indicating whether the total number of bears is greater than or equal to `x`. , e.g:
+
+```
+(6, "EvHB8KN8ik8BiyxfeyKBmiCMj") ---> ["B88B", False]; in this example, the number of bears(=4) is lesser than the given value of x(=6)
+```
+
+### **_Examples_**
+
+```
+Input: bears(7, "8j8mBliB8gimjB8B8jlB") => Output: ["B8B8B8", False]
+
+Input: bears(3, "88Bifk8hB8BB8BBBB888chl8BhBfd") => Output: ["8BB8B8B88B", True]
+
+Input: bears(8, "8") => Output: ["", False]
+
+Input: bears(1, "j8BmB88B88gkBBlf8hg8888lbe88") => Output: ["8BB88B", True]
+
+Input: bears(0, "8j888aam") => Output: ["", True]
+```
+
+#
+
+<br />
