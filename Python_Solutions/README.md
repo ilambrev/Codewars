@@ -7102,3 +7102,31 @@ Input: monkey_talk("Everyone Hello") => Output: "Eek ook."
 #
 
 <br />
+
+# Challenge 151 Prime Happy
+
+My solution -> *[151_prime_happy](151_prime_happy.py)*
+
+## **_Task condition:_**
+
+A number `n` is called `prime happy` if there is at least one prime less than `n` and the `sum of all primes less than n` is evenly divisible by `n`. Write `is_prime_happy(n)` which returns `True` if `n` is `prime happy` else `False`.
+
+### **_Examples_**
+
+```
+Input: is_prime_happy(5) => Output: True
+
+Input: is_prime_happy(8) => Output: False
+
+Input: is_prime_happy(25) => Output: True
+
+Input: is_prime_happy(32) => Output: True
+
+Input: is_prime_happy(2) => Output: False
+
+Input: is_prime_happy(0) => Output: False
+```
+
+#
+
+<br />
