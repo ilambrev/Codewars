@@ -7165,7 +7165,7 @@ Input: roof_fix(" cg dg   em  lfh cdam", "_______/____\_____/_/") => Output: Fal
 
 <br />
 
-# Challenge 153 
+# Challenge 153 [ Code Golf ] Remove duplicated nodes
 
 My solution -> *[153_code_golf_remove_duplicated_nodes](153_code_golf_remove_duplicated_nodes.py)*
 
@@ -7205,6 +7205,44 @@ Output: [
     {'data': {'id': 'D'}},
     {'data': {'id': 'E'}}]
 ```
+
+#
+
+<br />
+
+# Challenge 154 Diamonds and Toads
+
+My solution -> *[154_diamonds_and_toads](154_diamonds_and_toads.py)*
+
+## **_Task condition:_**
+
+Base on the fairy tale *[Diamonds and Toads](https://en.wikipedia.org/wiki/Diamonds_and_Toads)* from Charles Perrault. You will have to complete a function that take 2 arguments:
+- A string, that correspond to what the daugther says (`sentence`).
+- A string, that tell you wich `fairy` the girl have met, this one can be `good` or `evil`.
+
+The function should return the following count as a hash:
+- If the girl have met the `good` fairy:
+   - count `1 ruby` everytime you see a `r` and `2` everytime you see a `R`
+   - count `1 crystal` everytime you see a `c` and `2` everytime you see a `C`
+- If the girl have met the `evil` fairy:
+   - count `1 python` everytime you see a `p` and `2` everytime you see a `P`
+   - count `1 squirrel` everytime you see a `s` and `2` everytime you see a `S`
+
+### **_Examples_**
+
+```
+Input: diamonds_and_toads("Ruby and Crystal", "good") => Output: {"ruby": 3, "crystal": 2}
+
+Input: diamonds_and_toads("This string contain some Ruby and some Crystal in it", "good") => Output: {"ruby": 4, "crystal": 3}
+
+Input: diamonds_and_toads("Python and Squirrel", "evil") => Output: {"python": 2, "squirrel": 2}
+
+Input: diamonds_and_toads("This string contain some Python and some Squirrel in it", "evil") => Output: {"python": 2, "squirrel": 6}
+```
+**_NOTES:_**
+
+- Normal `Diamonds` and `Toads` are replaced by some programming languages.
+- `Squirrel` like `Python` is a programming language.
 
 #
 
