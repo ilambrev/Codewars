@@ -7164,3 +7164,48 @@ Input: roof_fix(" cg dg   em  lfh cdam", "_______/____\_____/_/") => Output: Fal
 #
 
 <br />
+
+# Challenge 153 
+
+My solution -> *[153_code_golf_remove_duplicated_nodes](153_code_golf_remove_duplicated_nodes.py)*
+
+## **_Task condition:_**
+
+You get a list of nodes. Return the sorted list of nodes without any duplicates.
+
+See example test cases for expected inputs and outputs.
+
+#### Restriction
+
+`Your code length should not be longer than 85 characters.`
+
+### **_Examples_**
+
+```
+Nodes = [
+    {'data': {'id': 'A'}},
+    {'data': {'id': 'A'}},
+    {'data': {'id': 'A'}},
+    {'data': {'id': 'A'}},
+    {'data': {'id': 'B'}},
+    {'data': {'id': 'B'}},
+    {'data': {'id': 'D'}},
+    {'data': {'id': 'D'}},
+    {'data': {'id': 'B'}},
+    {'data': {'id': 'B'}},
+    {'data': {'id': 'B'}},
+    {'data': {'id': 'B'}},
+    {'data': {'id': 'E'}},
+    {'data': {'id': 'E'}}]
+
+Input: remove_duplicate(Nodes)
+Output: [
+    {'data': {'id': 'A'}},
+    {'data': {'id': 'B'}},
+    {'data': {'id': 'D'}},
+    {'data': {'id': 'E'}}]
+```
+
+#
+
+<br />
