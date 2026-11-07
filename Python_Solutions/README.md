@@ -7222,11 +7222,11 @@ Base on the fairy tale *[Diamonds and Toads](https://en.wikipedia.org/wiki/Diamo
 
 The function should return the following count as a hash:
 - If the girl have met the `good` fairy:
-   - count `1 ruby` everytime you see a `r` and `2` everytime you see a `R`
-   - count `1 crystal` everytime you see a `c` and `2` everytime you see a `C`
+   - count `1 ruby` every time you see a `r` and `2` every time you see a `R`
+   - count `1 crystal` every time you see a `c` and `2` every time you see a `C`
 - If the girl have met the `evil` fairy:
-   - count `1 python` everytime you see a `p` and `2` everytime you see a `P`
-   - count `1 squirrel` everytime you see a `s` and `2` everytime you see a `S`
+   - count `1 python` every time you see a `p` and `2` every time you see a `P`
+   - count `1 squirrel` every time you see a `s` and `2` every time you see a `S`
 
 ### **_Examples_**
 
@@ -7239,10 +7239,51 @@ Input: diamonds_and_toads("Python and Squirrel", "evil") => Output: {"python": 2
 
 Input: diamonds_and_toads("This string contain some Python and some Squirrel in it", "evil") => Output: {"python": 2, "squirrel": 6}
 ```
+
 **_NOTES:_**
 
 - Normal `Diamonds` and `Toads` are replaced by some programming languages.
 - `Squirrel` like `Python` is a programming language.
+
+#
+
+<br />
+
+# Challenge 155 telephone words
+
+My solution -> *[155_telephone_words](155_telephone_words.py)*
+
+## **_Task condition:_**
+
+Businesses use keypad letters in creative ways to spell out a phone number and make it more memorable.
+
+```
+ -------- -------- --------
+| 1 ➿   | 2 abc  | 3 def  |
+ -------- -------- --------
+| 4 ghi  | 5 jkl  | 6 mno  |
+ -------- -------- --------
+| 7 pqrs | 8 tuv  | 9 wxyz |
+ -------- -------- --------
+| * +    | 0 ⎵    | ⇑ #    |
+ -------- -------- --------
+```
+
+Create a mapping for your dialer as given in the above example. Constraints:
+1. Letters are all uppercase.
+2. Digits `0`, `1` are mapped to `0`, `1` respectively.
+
+Write a function that takes four digits of a phone number, and returns a list of all of the words that can be written with that number. (`You should return all permutations, not only English words.`)
+
+### **_Examples_**
+
+```
+Input: telephone_words("0002") => Output: ["000A", "000B", "000C"]
+
+Input: telephone_words("1123") => Output: ["11AD", "11AE", "11AF", "11BD", "11BE", "11BF", "11CD", "11CE", "11CF"]
+
+Input: telephone_words("1234") => Output: ["1ADG", "1ADH", "1ADI", "1AEG", "1AEH", "1AEI", "1AFG", "1AFH", "1AFI", "1BDG", "1BDH", "1BDI", "1BEG", "1BEH", "1BEI", "1BFG", "1BFH", "1BFI", "1CDG", "1CDH", "1CDI", "1CEG", "1CEH", "1CEI", "1CFG", "1CFH", "1CFI"]
+```
 
 #
 
