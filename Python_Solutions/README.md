@@ -7365,3 +7365,31 @@ Input: vowel_back("exampletesthere") => Output: "agvvyuatabtqaaa"
 #
 
 <br />
+
+# Challenge 158 Arabian String
+
+My solution -> *[158_arabian_string](158_arabian_string.py)*
+
+## **_Task condition:_**
+
+You must create a method that can convert a string from any format into PascalCase. This must support symbols too.
+
+_Don't presume the separators too much or you could be surprised._
+
+```
+"example name" --> "ExampleName"
+"your-NaMe-here" --> "YourNameHere"
+"testing ABC" --> "TestingAbc"
+```
+
+### **_Examples_**
+
+```
+Input: camelize("java script") => Output: "JavaScript"
+
+Input: camelize("cODE warS") => Output: "CodeWars"
+```
+
+#
+
+<br />
