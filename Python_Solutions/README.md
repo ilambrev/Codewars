@@ -7476,3 +7476,54 @@ Input: decrypt("z$aaa#ccc%eee1234567890") => Output: "30303000000000000000000001
 #
 
 <br />
+
+# Challenge 161 Alphabet Slices
+
+My solution -> *[161_alphabet_slices](161_alphabet_slices.py)*
+
+## **_Task condition:_**
+
+Given a string of lowercase letters, find substrings that consist of consecutive letters of the lowercase English alphabet and return a similar string, but with these substrings in reversed alphabetical order.
+
+```
+("xabc") => "xcba"
+
+"xa" is not found in the alphabet, but "abc" is found, so it is reversed.
+
+("pqrsxdef") => "srqpxfed"
+
+("jklxyz") => "lkjzyx"
+
+("vwxcdefg") => "xwvgfedc"
+
+("vvmnozzstubb") => "vvonmzzutsbb"
+```
+
+### **_Examples_**
+
+```
+Input: solution("xabc") => Output: "xcba"
+
+Input: solution("abcxdef") => Output: "cbaxfed"
+
+Input: solution("abcxyz") => Output: "cbazyx"
+
+Input: solution("zahimzmstaz") => Output: "zaihmzmtsaz"
+
+Input: solution("jjjjjjjjklmnopqrstuv") => Output: "jjjjjjjvutsrqponmlkj"
+
+Input: solution("zyx") => Output: "zyx"
+
+Input: solution("ppqqrr") => Output: "pqprqr"
+
+Input: solution("gjaababbboo") => Output: "gjabababboo"
+```
+
+**_NOTES:_**
+
+- If there are no alphabet substrings in the input string, return the input string as is.
+- All inputs will consist of one or more lowercase letters. This task uses only lowercase strings.
+
+#
+
+<br />
