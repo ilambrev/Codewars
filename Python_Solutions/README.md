@@ -7622,3 +7622,62 @@ Input: checkered_board(7) => Output: "■ □ ■ □ ■ □ ■\n□ ■ □ �
 #
 
 <br />
+
+# Challenge 164 Parse bank account number
+
+My solution -> *[164_parse_bank_account_number](164_parse_bank_account_number.py)*
+
+## **_Task condition:_**
+
+Returns the bank account number parsed from specified string.
+
+You work for a bank, which has recently purchased an ingenious machine to assist in reading letters and faxes sent in by branch offices. The machine scans the paper documents, and produces a string with a bank account that looks like this:
+
+```
+ _     _  _     _  _  _  _  _
+| |  | _| _||_||_ |_   ||_||_|
+|_|  ||_  _|  | _||_|  ||_| _|
+```
+
+Each string contains an account number written using pipes and underscores. Each account number should have at least one digit, all of which should be in the range `0-9`.
+
+Your task is to write a function that can take bank account string and parse it into actual account numbers.
+
+```
+ param: bank_account (string)
+ return: number
+```
+
+```
+   '    _  _     _  _  _  _  _ \n'+
+   '  | _| _||_||_ |_   ||_||_|\n'+     => 123456789
+   '  ||_  _|  | _||_|  ||_| _|\n'
+
+   ' _  _  _  _  _  _  _  _  _ \n'+
+   '| | _| _|| ||_ |_   ||_||_|\n'+     => 23056789
+   '|_||_  _||_| _||_|  ||_| _|\n',
+
+   ' _  _  _  _  _  _  _  _  _ \n'+
+   '|_| _| _||_||_ |_ |_||_||_|\n'+     => 823856989
+   '|_||_  _||_| _||_| _||_| _|\n',
+```
+
+### **_Examples_**
+
+```
+bank_account = "    _  _     _  _  _  _  _ \n  | _| _||_||_ |_   ||_||_|\n  ||_  _|  | _||_|  ||_| _|\n"
+
+Input: parse_bank_account(bank_account) => Output: 123456789
+
+bank_account = " _  _  _  _  _  _  _  _  _ \n| | _| _|| ||_ |_   ||_||_|\n|_||_  _||_| _||_|  ||_| _|\n"
+
+Input: parse_bank_account(bank_account) => Output: 23056789
+
+bank_account = " _  _  _  _  _  _  _  _  _ \n|_| _| _||_||_ |_ |_||_||_|\n|_||_  _||_| _||_| _||_| _|\n"
+
+Input: parse_bank_account(bank_account) => Output: 823856989
+```
+
+#
+
+<br />
