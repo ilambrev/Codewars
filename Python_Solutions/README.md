@@ -7681,3 +7681,44 @@ Input: parse_bank_account(bank_account) => Output: 823856989
 #
 
 <br />
+
+# Challenge 165 Change it up
+
+My solution -> *[165_change_it_up](165_change_it_up.py)*
+
+## **_Task condition:_**
+
+Create a function that takes a string as a parameter and does the following, in this order:
+
+1. Replaces every letter with the letter following it in the alphabet (see note below)
+2. Makes any vowels capital
+3. Makes any consonants lower case
+
+**Note:**
+
+- the alphabet should wrap around, so `Z` becomes `A`.
+- `y` isn't considered as a vowel.
+
+So, for example the string `"Cat30"` would return `"dbU30"` (`Cat30` --> `Dbu30` --> `dbU30`)
+
+So, for example the string "Cat30" would return "dbU30" (Cat30 --> Dbu30 --> dbU30)
+
+### **_Examples_**
+
+```
+Input: changer("Cat30") => Output: "dbU30"
+
+Input: changer("Alice") => Output: "bmjdf"
+
+Input: changer("sponge1") => Output: "tqpOhf1"
+
+Input: changer("Hello World") => Output: "Ifmmp xpsmE"
+
+Input: changer("dogs") => Output: "Epht"
+
+Input: changer("z") => Output: "A"
+```
+
+#
+
+<br />
