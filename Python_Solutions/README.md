@@ -7839,3 +7839,39 @@ Input: string_evaluation("abb", ['a>b', 'b==a', 'b<=a', 'b>a', 'b!=b', 'a==1', '
 #
 
 <br />
+
+# Challenge 168 Kebabize
+
+My solution -> *[168_kebabize](168_kebabize.py)*
+
+## **_Task condition:_**
+
+Modify the `kebabize()` function so that it converts a camel case string into a kebab case.
+
+```
+"camelsHaveThreeHumps"  -->  "camels-have-three-humps"
+"camelsHave3Humps"  -->  "camels-have-humps"
+"CAMEL"  -->  "c-a-m-e-l"
+```
+
+### **_Examples_**
+
+```
+Input: kebabize("myCamelCasedString") => Output: "my-camel-cased-string"
+
+Input: kebabize("myCamelHas3Humps") => Output: "my-camel-has-humps"
+
+Input: kebabize("SOS") => Output: "s-o-s"
+
+Input: kebabize("42") => Output: ""
+
+Input: kebabize("CodeWars") => Output: "code-wars"
+```
+
+**_NOTES:_**
+
+- The returned string should only contain lowercase letters.
+
+#
+
+<br />
