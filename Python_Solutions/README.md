@@ -7789,3 +7789,53 @@ Input: joker_card([20, 30, 40, 1, 2, 3], ["000123", "000125", "520123"]) => Outp
 #
 
 <br />
+
+# Challenge 167 String Evaluation
+
+My solution -> *[167_string_evaluation](167_string_evaluation.py)*
+
+## **_Task condition:_**
+
+Evaluate the given string with the given conditons.
+
+The conditions will be passed in an array and will be formatted like this:
+
+```
+{symbol or digit}{comparison operator}{symbol or digit}
+```
+
+Return the results in an array.
+
+The characters in the conditions will always be in the string. Characters in the string are chosen from ascii letters + `@#$%^&*()_{}[]`.
+
+```
+input string: "aab#HcCcc##l#"
+conditions: ["a<b", "#==4", "c>=C", "H!=a"]
+```
+
+The conditions in this example array can be interpreted as:
+
+- `"a<b"`: The number of times `"a"` occurs in the string should be less than the number of times `"b"` occurs in the string
+- `"#==4"`: `"#"` should occur exactly `4` times in the string
+- `"c>=C"`: `"c"` should occur greater than or equal to the number of times `"C"` occurs
+- `"H!=a"`: The number of times `"H"` occurs should not equal the number of times `"a"` occurs
+
+In this example condition `1` is `False` and `2`, `3`, `4` are `True`. So the return value will be an array as such:
+
+```
+[False, True, True, True]
+```
+
+### **_Examples_**
+
+```
+Input: string_evaluation("aab#HcCcc##l#", ['a<b', '#==4', 'c>=C', 'H!=a']) => Output: [False, True, True, True]
+
+Input: string_evaluation("abc#$%KDAyyaa@@@", ['#>@', 'A==2', 'a>A', '$!=2']) => Output: [False, False, True, True]
+
+Input: string_evaluation("abb", ['a>b', 'b==a', 'b<=a', 'b>a', 'b!=b', 'a==1', 'b==1']) => Output: [False, False, False, True, False, True, False]
+```
+
+#
+
+<br />
