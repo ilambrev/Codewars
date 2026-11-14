@@ -7875,3 +7875,41 @@ Input: kebabize("CodeWars") => Output: "code-wars"
 #
 
 <br />
+
+# Challenge 169 Longest alphabetical substring
+
+My solution -> *[169_longest_alphabetical_substring](169_longest_alphabetical_substring.py)*
+
+## **_Task condition:_**
+
+Find the longest substring in alphabetical order.
+
+**Example**: the longest alphabetical substring in `"asdfaaaabbbbcttavvfffffdf"` is `"aaaabbbbctt"`.
+
+There are tests with strings up to `10 000` characters long so your code will need to be efficient.
+
+The input will only consist of lowercase characters and will be at least one letter long.
+
+If there are multiple solutions, return the one that appears first.
+
+### **_Examples_**
+
+```
+Input: longest("asd") => Output: "as"
+
+Input: longest("nab") => Output: "ab"
+
+Input: longest("abcdeapbcdef") => Output: "abcde"
+
+Input: longest("asdfaaaabbbbcttavvfffffdf") => Output: "aaaabbbbctt"
+
+Input: longest("asdfbyfgiklag") => Output: "fgikl"
+
+Input: longest("z") => Output: "z"
+
+Input: longest("zyba") => Output: "z"
+```
+
+#
+
+<br />
