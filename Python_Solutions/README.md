@@ -7913,3 +7913,48 @@ Input: longest("zyba") => Output: "z"
 #
 
 <br />
+
+# Challenge 170 Denumerate string
+
+My solution -> *[170_denumerate_string](170_denumerate_string.py)*
+
+## **_Task condition:_**
+
+You have to rebuild a string from an enumerated list. For this task, you have to check if input is correct beforehand.
+
+- Input must be a list of tuples.
+- Each tuple has two elements.
+- Second element is an alphanumeric character.
+- First element is the index of this character into the reconstructed string.
+- Indexes start at 0 and have to match with output indexing: no gap is allowed.
+- Finally tuples aren't necessarily ordered by index.
+
+If any condition is invalid, the function should return `False`.
+
+Input example:
+
+```
+[(4,'y'),(1,'o'),(3,'t'),(0,'m'),(2,'n')]
+```
+
+Returns
+
+```
+"monty"
+```
+
+### **_Examples_**
+
+```
+Input: denumerate([(4, 'y'), (1, 'o'), (3, 't'), (0, 'm'), (2, 'n')]) => Output: "monty"
+
+Input: denumerate([(1, '3'), (2, 'l'), (4, 'o'), (3, 'l'), (0, 'h')]) => Output: "h3llo"
+
+Input: denumerate([(0, '%')]) => Output: False
+
+Input: denumerate([(1, 'a'), (2, 'b')]) => Output: False
+```
+
+#
+
+<br />
