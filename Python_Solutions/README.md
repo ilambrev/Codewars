@@ -8002,3 +8002,50 @@ Input: ascend_descend(11, 5, 9) => Output: "56789876567"
 #
 
 <br />
+
+# Challenge 172 String character frequency
+
+My solution -> *[172_string_character_frequency](172_string_character_frequency.py)*
+
+## **_Task condition:_**
+
+In this task, we are going to determine if the count of each of the characters in a string can be equal if we remove a single character from that string.
+
+```
+solve("abba") = False -- if we remove any character, the count of each character will not be equal.
+solve("abbba") = True -- if we remove one b, the count of each character becomes 2.
+solve("aaaa") = True -- if we remove one character, the remaining characters have same count.
+solve("wwwf") = True -- if we remove f, the remaining letters have same count.
+```
+
+More examples in the test cases. Empty string is not tested.
+
+### **_Examples_**
+
+```
+Input: solve("aaaa") => Output: True
+
+Input: solve("abba") => Output: False
+
+Input: solve("abbba") => Output: True
+
+Input: solve("aabbcc") => Output: False
+
+Input: solve("aaaabb") => Output: False
+
+Input: solve("aabbccddd") => Output: True
+
+Input: solve("aabcde") => Output: True
+
+Input: solve("abcde") => Output: True
+
+Input: solve("aaabcde") => Output: False
+
+Input: solve("abbccc") => Output: False
+
+Input: solve("aabbccdddeee") => Output: False
+```
+
+#
+
+<br />
