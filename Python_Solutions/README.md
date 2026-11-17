@@ -8187,3 +8187,45 @@ Input: proofread("") => Output: ""
 #
 
 <br />
+
+# Challenge 176 So Many Permutations!
+
+My solution -> *[176_so_many_permutations](176_so_many_permutations.py)*
+
+## **_Task condition:_**
+
+Your task is to create all permutations of a non-empty input string and remove duplicates, if present.
+
+Create as many "shufflings" as you can!
+
+```
+With input "a":
+Your function should return: ["a"]
+
+With input "ab":
+Your function should return ["ab", "ba"]
+
+With input "abc":
+Your function should return ["abc", "acb", "bac", "bca", "cab", "cba"]
+
+With input "aabb":
+Your function should return ["aabb", "abab", "abba", "baab", "baba", "bbaa"]
+```
+
+### **_Examples_**
+
+```
+Input: sorted(permutations("a")) => Output: ["a"]
+
+Input: sorted(permutations("ab")) => Output: ["ab", "ba"]
+
+Input: sorted(permutations("aabb")) => Output: ["aabb", "abab", "abba", "baab", "baba", "bbaa"]
+```
+
+**_NOTES:_**
+
+- The order of the permutations doesn't matter.
+
+#
+
+<br />
