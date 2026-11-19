@@ -8483,3 +8483,43 @@ Input: pyramid(3) => Output: [[1], [1, 1], [1, 1, 1]]
 #
 
 <br />
+
+# Challenge 183 Highest Rank Number in an Array
+
+My solution -> *[183_highest_rank_number_in_an_array](183_highest_rank_number_in_an_array.py)*
+
+## **_Task condition:_**
+
+Complete the method which returns the number which is most frequent in the given input array. If there is a tie for most frequent number, return the largest number among them.
+
+```
+[12, 10, 8, 12, 7, 6, 4, 10, 12]              -->  12
+[12, 10, 8, 12, 7, 6, 4, 10, 12, 10]          -->  12
+[12, 10, 8, 8, 3, 3, 3, 3, 2, 4, 10, 12, 10]  -->   3
+```
+
+### **_Examples_**
+
+```
+Input: highest_rank([12, 10, 8, 12, 7, 6, 4, 10, 12]) => Output: 12
+
+Input: highest_rank([12, 10, 8, 12, 7, 6, 4, 10, 10]) => Output: 10
+
+Input: highest_rank([12, 10, 8, 12, 7, 6, 4, 10, 12, 10]) => Output: 12
+
+Input: highest_rank([12, 10, 8, 8, 3, 3, 3, 3, 2, 4, 10, 12, 10]) => Output: 3
+
+Input: highest_rank([1, 2, 3]) => Output: 3
+
+Input: highest_rank([1, 1, 2, 3]) => Output: 1
+
+Input: highest_rank([1, 1, 2, 2, 3]) => Output: 2
+```
+
+**_NOTES:_**
+
+- No empty arrays will be given.
+
+#
+
+<br />
