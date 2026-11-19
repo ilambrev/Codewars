@@ -8459,3 +8459,27 @@ Input: race(820, 81, 550) => Output: None
 #
 
 <br />
+
+# Challenge 182 Pyramid Array
+
+My solution -> *[182_pyramid_array](182_pyramid_array.py)*
+
+## **_Task condition:_**
+
+Write a function that given an integer `n >= 0`, returns an array of `n` ascending length subarrays, all filled with `1`s.
+
+### **_Examples_**
+
+```
+Input: pyramid(0) => Output: []
+
+Input: pyramid(1) => Output: [[1]]
+
+Input: pyramid(2) => Output: [[1], [1, 1]]
+
+Input: pyramid(3) => Output: [[1], [1, 1], [1, 1, 1]]
+```
+
+#
+
+<br />
