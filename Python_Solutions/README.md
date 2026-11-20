@@ -8593,3 +8593,39 @@ Input: nb_months(7500, 32000, 300, 1.55) => Output: [25, 122]
 #
 
 <br />
+
+# Challenge 185 Length of missing array
+
+My solution -> *[185_length_of_missing_array](185_length_of_missing_array.py)*
+
+## **_Task condition:_**
+
+You get an array of arrays. If you sort the arrays by their length, you will see, that their length-values are consecutive. But one array is missing!
+
+You have to write a function, that return the length of the missing array.
+
+```
+[[1, 2], [4, 5, 1, 1], [1], [5, 6, 7, 8, 9]] --> 3
+```
+
+If the array of arrays is `None` or empty, the method should return `0`.
+
+When an array in the array is `None` or empty, the method should return `0` too!
+
+There will always be a missing element and its length will be always between the given arrays.
+
+### **_Examples_**
+
+```
+Input: get_length_of_missing_array([[1, 2], [4, 5, 1, 1], [1], [5, 6, 7, 8, 9]]) => Output: 3
+
+Input: get_length_of_missing_array([[5, 2, 9], [4, 5, 1, 1], [1], [5, 6, 7, 8, 9]]) => Output: 2
+
+Input: get_length_of_missing_array([[None], [None, None, None]]) => Output: 2
+
+Input: get_length_of_missing_array([["a", "a", "a"], ["a", "a"], ["a", "a", "a", "a"], ["a"], ["a", "a", "a", "a", "a", "a"]]) => Output: 5
+```
+
+#
+
+<br />
