@@ -8884,3 +8884,33 @@ Input: get_participants(7) => Output: 5
 #
 
 <br />
+
+# Challenge 191 Reverse every other word in the string
+
+My solution -> *[191_reverse_every_other_word_in_the_string](191_reverse_every_other_word_in_the_string.py)*
+
+## **_Task condition:_**
+
+Reverse every other word in a given string, then return the string. Throw away any leading or trailing whitespace, while ensuring there is exactly one space between each word. Punctuation marks should be treated as if they are a part of the word in this task.
+
+### **_Examples_**
+
+```
+Input: reverse_alternate("Did it work?") => Output: "Did ti work?"
+
+Input: reverse_alternate("I really hope it works this time...") => Output: "I yllaer hope ti works siht time..."
+
+Input: reverse_alternate("Reverse this string, please!") => Output: "Reverse siht string, !esaelp"
+
+Input: reverse_alternate("Have a beer") => Output: "Have a beer"
+
+Input: reverse_alternate("   ") => Output: ""
+
+Input: reverse_alternate("This is not a test ") => Output: "This si not a test"
+
+Input: reverse_alternate("This       is a  test ") => Output: "This si a tset"
+```
+
+#
+
+<br />
