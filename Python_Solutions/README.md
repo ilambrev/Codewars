@@ -8914,3 +8914,53 @@ Input: reverse_alternate("This       is a  test ") => Output: "This si a tset"
 #
 
 <br />
+
+# Challenge 192 Sum consecutives
+
+My solution -> *[192_sum_consecutives](192_sum_consecutives.py)*
+
+## **_Task condition:_**
+
+You are given a list which contains only integers (positive and negative). Your job is to sum only the numbers that are the same and consecutive. The result should be one list.
+
+Extra credit if you solve it in one line. You can assume there is never an empty list and there will always be an integer.
+
+Same meaning: `1 == 1`
+
+`1 != -1`
+
+```
+[1,4,4,4,0,4,3,3,1] # should return [1,12,0,4,6,1]
+
+"""So as you can see sum of consecutives 1 is 1 
+sum of 3 consecutives 4 is 12 
+sum of 0... and sum of 2 
+consecutives 3 is 6 ..."""
+
+[1,1,7,7,3] # should return [2,14,3]
+[-5,-5,7,7,12,0] # should return [-10,14,12,0]
+```
+
+### **_Examples_**
+
+```
+Input: sum_consecutives([1, 4, 4, 4, 0, 4, 3, 3, 1]) => Output: [1, 12, 0, 4, 6, 1]
+
+Input: sum_consecutives([1, 1, 7, 7, 3]) => Output: [2, 14, 3]
+
+Input: sum_consecutives([-5, -5, 7, 7, 12, 0]) => Output: [-10, 14, 12, 0]
+
+Input: sum_consecutives([3, 3, 3, 3, 1]) => Output: [12, 1]
+
+Input: sum_consecutives([2, 2, -4, 4, 5, 5, 6, 6, 6, 6, 6, 1]) => Output: [4, -4, 4, 10, 30, 1]
+
+Input: sum_consecutives([1, 1, 1, 1, 1, 3]) => Output: [5, 3]
+
+Input: sum_consecutives([1, -1, -2, 2, 3, -3, 4, -4]) => Output: [1, -1, -2, 2, 3, -3, 4, -4]
+
+Input: sum_consecutives([0, 1, 1, 2, 2]) => Output: [0, 2, 4]
+```
+
+#
+
+<br />
