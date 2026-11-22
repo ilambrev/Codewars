@@ -8852,3 +8852,35 @@ Input: presses("HOW R U") => Output: 13
 #
 
 <br />
+
+# Challenge 190 Handshake problem
+
+My solution -> *[190_handshake_problem](190_handshake_problem.py)*
+
+## **_Task condition:_**
+
+Johnny is a farmer and he annually holds a beet farmers convention "Drop the beet".
+
+Every year he takes photos of farmers handshaking. Johnny knows that no two farmers handshake more than once. He also knows that some of the possible handshake combinations may not happen.
+
+However, Johnny would like to know the minimal amount of people that participated this year just by counting all the handshakes.
+
+Help Johnny by writing a function, that takes the `amount of handshakes` and returns the `minimal amount of people` needed to perform these handshakes (a pair of farmers handshake only once).
+
+### **_Examples_**
+
+```
+Input: get_participants(0) => Output: 0
+
+Input: get_participants(1) => Output: 2
+
+Input: get_participants(3) => Output: 3
+
+Input: get_participants(6) => Output: 4
+
+Input: get_participants(7) => Output: 5
+```
+
+#
+
+<br />
