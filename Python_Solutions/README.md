@@ -9074,3 +9074,51 @@ Output: ["a", "of", "on"]
 #
 
 <br />
+
+# Challenge 195 Rectangle into Squares
+
+My solution -> *[195_rectangle_into_squares](195_rectangle_into_squares.py)*
+
+## **_Task condition:_**
+
+The drawing below gives an idea of how to cut a given "true" rectangle into squares ("true" rectangle meaning that the two dimensions are different).
+
+```
+ _ _ _ _ _ _ _ _ _ _
+|_3_|_3_|_3_|_2_|_2_|
+|_3_|_3_|_3_|_2_|_2_|
+|_3_|_3_|_3_|_1_|_1_|
+ 
+```
+
+Can you translate this drawing into an algorithm?
+
+You will be given two dimensions
+
+1. a positive integer length
+2. a positive integer width
+
+You will return a collection with the size of each of the squares.
+
+```
+sq_in_rect(5, 3) should return [3, 2, 1, 1]
+sq_in_rect(3, 5) should return [3, 2, 1, 1]
+```
+
+When the initial parameters `lng == wdth`, return `None`.
+
+### **_Examples_**
+
+```
+Input: sq_in_rect(5, 5) => Output: None
+
+Input: sq_in_rect(5, 3) => Output: [3, 2, 1, 1]
+
+Input: sq_in_rect(3, 5) => Output: [3, 2, 1, 1]
+
+Input: sq_in_rect(20, 14) => Output: [14, 6, 6, 2, 2, 2]
+```
+
+#
+
+<br />
