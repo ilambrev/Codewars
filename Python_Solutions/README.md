@@ -9122,3 +9122,43 @@ Input: sq_in_rect(20, 14) => Output: [14, 6, 6, 2, 2, 2]
 #
 
 <br />
+
+# Challenge 196 String array duplicates
+
+My solution -> *[196_string_array_duplicates.py](196_string_array_duplicates.py)*
+
+## **_Task condition:_**
+
+In this task, you will be given an array of strings and your task is to remove all consecutive duplicate letters from each string in the array.
+
+```
+dup(["abracadabra", "allottee", "assessee"]) = ["abracadabra", "alote", "asese"]
+
+dup(["kelless", "keenness"]) = ["keles", "kenes"]
+```
+
+Strings will be lowercase only, no spaces. See test cases for more examples.
+
+### **_Examples_**
+
+```
+Input: dup(["ccooddddddewwwaaaaarrrrsssss", "piccaninny", "hubbubbubboo"]) => Output: ['codewars', 'picaniny', 'hubububo']
+
+Input: dup(["abracadabra", "allottee", "assessee"]) => Output: ['abracadabra', 'alote', 'asese']
+
+Input: dup(["kelless", "keenness"]) => Output: ['keles', 'kenes']
+
+Input: dup(["Woolloomooloo", "flooddoorroommoonlighters", "chuchchi"]) => Output: ['Wolomolo', 'flodoromonlighters', 'chuchchi']
+
+Input: dup(["adanac", "soonness", "toolless", "ppellee"]) => Output: ['adanac', 'sones', 'toles', 'pele']
+
+Input: dup(["callalloo", "feelless", "heelless"]) => Output: ['calalo', 'feles', 'heles']
+
+Input: dup(["putteellinen", "keenness"]) => Output: ['putelinen', 'kenes']
+
+Input: dup(["kelless", "voorraaddoosspullen", "achcha"]) => Output: ['keles', 'voradospulen', 'achcha']
+```
+
+#
+
+<br />
