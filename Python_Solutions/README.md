@@ -9210,3 +9210,32 @@ Input: twos_difference([]) => Output: []
 #
 
 <br />
+
+# Challenge 198 Sort Arrays (Ignoring Case)
+
+My solution -> *[198_sort_arrays_ignoring_case](198_sort_arrays_ignoring_case.py)*
+
+## **_Task condition:_**
+
+Sort the given array of strings in alphabetical order, case insensitive. For example:
+
+```
+["Hello", "there", "I'm", "fine"]  -->  ["fine", "Hello", "I'm", "there"]
+["C", "d", "a", "B"])              -->  ["a", "B", "C", "d"]
+```
+
+### **_Examples_**
+
+```
+Input: sortme(["Hello", "there", "I'm", "fine"]) => Output: ["fine", "Hello", "I'm", "there"]
+
+Input: sortme(["C", "d", "a", "B"]) => Output: ["a", "B", "C", "d"]
+
+Input: sortme(["CodeWars"]) => Output: ["CodeWars"]
+
+Input: sortme([]) => Output: []
+```
+
+#
+
+<br />
