@@ -9246,7 +9246,7 @@ My solution -> *[199_hamming_distance](199_hamming_distance.py)*
 
 ## **_Task condition:_**
 
-The *[Hamming Distance](https://en.wikipedia.org/wiki/Hamming_distance) is a measure of similarity between two strings of equal length. Complete the function so that it returns the number of positions where the input strings do not match.
+The *[Hamming Distance](https://en.wikipedia.org/wiki/Hamming_distance)* is a measure of similarity between two strings of equal length. Complete the function so that it returns the number of positions where the input strings do not match.
 
 ```
 a = "I like turtles"
@@ -9276,6 +9276,46 @@ Input: hamming("hamming and cheese", "Hamming and Cheese") => Output: 2
 Input: hamming("espresso", "Expresso") => Output: 2
 
 Input: hamming("old father, old artificer", "of my soul the uncreated ") => Output: 24
+```
+
+#
+
+<br />
+
+# Challenge 200 longest_palindrome
+
+My solution -> *[200_longest_palindrome](200_longest_palindrome.py)*
+
+## **_Task condition:_**
+
+Find the length of the longest substring in the given string `s` that is the same in reverse.
+
+As an example, if the input was `“I like racecars that go fast”`, the substring (`racecar`) length would be `7`.
+
+If the length of the input string is `0`, the return value must be `0`.
+
+```
+"a" -> 1 
+"aab" -> 2  
+"abcde" -> 1
+"zzbaabcd" -> 4
+"" -> 0
+```
+
+### **_Examples_**
+
+```
+Input: longest_palindrome("a") => Output: 1
+
+Input: longest_palindrome("aa") => Output: 2
+
+Input: longest_palindrome("baa") => Output: 2
+
+Input: longest_palindrome("aab") => Output: 2
+
+Input: longest_palindrome("abcdefghba") => Output: 1
+
+Input: longest_palindrome("baablkj12345432133d") => Output: 9
 ```
 
 #
