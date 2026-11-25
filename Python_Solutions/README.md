@@ -9239,3 +9239,45 @@ Input: sortme([]) => Output: []
 #
 
 <br />
+
+# Challenge 199 Hamming Distance
+
+My solution -> *[199_hamming_distance](199_hamming_distance.py)*
+
+## **_Task condition:_**
+
+The *[Hamming Distance](https://en.wikipedia.org/wiki/Hamming_distance) is a measure of similarity between two strings of equal length. Complete the function so that it returns the number of positions where the input strings do not match.
+
+```
+a = "I like turtles"
+b = "I like turkeys"
+Result: 3
+
+a = "Hello World"
+b = "Hello World"
+Result: 0
+
+a = "espresso"
+b = "Expresso"
+Result: 2
+```
+
+You can assume that the two inputs are ASCII strings of equal length.
+
+### **_Examples_**
+
+```
+Input: hamming("hello world", "hello tokyo") => Output: 4
+
+Input: hamming("a man a plan a canal", "a man a plan sobanal") => Output: 3
+
+Input: hamming("hamming and cheese", "Hamming and Cheese") => Output: 2
+
+Input: hamming("espresso", "Expresso") => Output: 2
+
+Input: hamming("old father, old artificer", "of my soul the uncreated ") => Output: 24
+```
+
+#
+
+<br />
