@@ -18,4 +18,4 @@ def string_transformer(s):
 # print(string_transformer("To be OR not to be That is the Question"))
 # print(string_transformer(""))
 # print(string_transformer("You Know When  THAT  Hotline Bling"))
-# print(string_transformer(" A b C d E f G "), )
+# print(string_transformer(" A b C d E f G "))
