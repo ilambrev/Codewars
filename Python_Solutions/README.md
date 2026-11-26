@@ -9340,7 +9340,6 @@ Your job is to sort these objects across the `4` recycling bins according to the
 - The order of the type's in each bin should be the same as the order of their respective objects was in the input list.
 - The output should be a tuple of `4` lists.
 
-
 ### **_Examples_**
 
 ```
@@ -9359,9 +9358,45 @@ Output: (
     ["rotten apples", "out of date yogurt"],
     ["out of date yogurt"]
 )
+```
 
+#
 
+<br />
 
+# Challenge 202 String transformer
+
+My solution -> *[202_string_transformer](202_string_transformer.py)*
+
+## **_Task condition:_**
+
+Given a string, return a new string that has transformed based on the input:
+
+- Change case of every character, ie. lower case to upper case, upper case to lower case.
+- Reverse the order of words from the input.
+
+**Note**: You will have to handle multiple spaces, and leading/trailing spaces.
+
+```
+"Example Input" ==> "iNPUT eXAMPLE"
+```
+
+You may assume the input only contain English alphabet and spaces.
+
+### **_Examples_**
+
+```
+Input: string_transformer("Example string") => Output: "STRING eXAMPLE"
+
+Input: string_transformer("Example Input") => Output: "iNPUT eXAMPLE"
+
+Input: string_transformer("To be OR not to be That is the Question") => Output: "qUESTION THE IS tHAT BE TO NOT or BE tO"
+
+Input: string_transformer("") => Output: ""
+
+Input: string_transformer("You Know When  THAT  Hotline Bling") => Output: "bLING hOTLINE  that  wHEN kNOW yOU"
+
+Input: string_transformer(" A b C d E f G ") => Output: " g F e D c B a "
 ```
 
 #
