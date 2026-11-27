@@ -9402,3 +9402,44 @@ Input: string_transformer(" A b C d E f G ") => Output: " g F e D c B a "
 #
 
 <br />
+
+# Challenge 203 Format words into a sentence
+
+My solution -> *[203_format_words_into_a_sentence](203_format_words_into_a_sentence.py)*
+
+## **_Task condition:_**
+
+Complete the method so that it formats the words into a single comma separated value. The last word should be separated by the word "and" instead of a comma. The method takes in an array of strings and returns a single formatted string.
+
+- Empty string values should be ignored.
+- Empty arrays or None values being passed into the method should result in an empty string being returned.
+
+```
+["ninja", "samurai", "ronin"] --> "ninja, samurai and ronin"
+["ninja", "", "ronin"] --> "ninja and ronin"
+[] --> ""
+```
+
+### **_Examples_**
+
+```
+Input: format_words(["one", "two", "three", "four"]) => Output: "one, two, three and four"
+
+Input: format_words(["one"]) => Output: "one"
+
+Input: format_words(["one", "", "three"]) => Output: "one and three"
+
+Input: format_words(["", "", "three"]) => Output: "three"
+
+Input: format_words(["one", "two", ""]) => Output: "one and two"
+
+Input: format_words([]) => Output: ""
+
+Input: format_words(None) => Output: ""
+
+Input: format_words([""]) => Output: ""
+```
+
+#
+
+<br />
