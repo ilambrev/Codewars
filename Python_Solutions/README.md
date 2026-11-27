@@ -9484,3 +9484,57 @@ Input: loose_change(3.9) => Output: {"Nickels": 0, "Pennies": 3, "Dimes": 0, "Qu
 #
 
 <br />
+
+# Challenge 205 Throwing Darts
+
+My solution -> *[205_throwing_darts](205_throwing_darts.py)*
+
+## **_Task condition:_**
+
+You've just recently been hired to calculate scores for a `Dart Board` game!
+
+Scoring specifications:
+
+- `0` points - radius above `10`
+- `5` points - radius between `5` and `10` inclusive
+- `10` points - radius less than `5`
+
+**If all radii are less than 5, award `100` BONUS POINTS!**
+
+Write a function that accepts an array of radii (can be integers and/or floats), and returns a total score using the above specification.
+
+An empty array should return `0`.
+
+```
+score_throws( [1, 5, 11] )    =>  15
+score_throws( [15, 20, 30] )  =>  0
+score_throws( [1, 2, 3, 4] )  =>  140
+```
+
+### **_Examples_**
+
+```
+Input: score_throws([1, 5, 11]) => Output: 15
+
+Input: score_throws([15, 20, 30, 31, 32, 44, 100]) => Output: 0
+
+Input: score_throws([1, 2, 3, 4]) => Output: 140
+
+Input: score_throws([]) => Output: 0
+
+Input: score_throws([1, 2, 3, 4, 5, 6, 7, 8, 9]) => Output: 65
+
+Input: score_throws([0, 5, 10, 10.5, 4.5]) => Output: 30
+
+Input: score_throws([1]) => Output: 110
+
+Input: score_throws([21, 10, 10]) => Output: 10
+
+Input: score_throws([5, 5, 5, 5]) => Output: 20
+
+Input: score_throws([4.9, 5.1]) => Output: 15
+```
+
+#
+
+<br />
