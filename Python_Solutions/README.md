@@ -9639,3 +9639,38 @@ Input: variance("Beijing", data) => Output: 4808.37138888889
 #
 
 <br />
+
+# Challenge 208 Where is my parent!?(cry)
+
+My solution -> *[208_where_is_my_parent_cry](208_where_is_my_parent_cry.py)*
+
+## **_Task condition:_**
+
+Mothers arranged a dance party for the children in school. At that party, there are only mothers and their children. All are having great fun on the dance floor when suddenly all the lights went out. It's a dark night and no one can see each other. But you were flying nearby and you can see in the dark and have ability to teleport people anywhere you want.
+
+**Legend:**
+
+- Uppercase letters stands for mothers, lowercase stand for their children, i.e. `"A"` mother's children are `"aaaa"`.
+- Function input: String contains only letters, uppercase letters are unique.
+
+**Task:**
+
+Place all people in alphabetical order where Mothers are followed by their children, i.e. `"aAbaBb" => "AaaBbb"`. 
+
+### **_Examples_**
+
+```
+Input: find_children("abBA") => Output: "AaBb"
+
+Input: find_children("AaaaaZazzz") => Output: "AaaaaaZzzz"
+
+Input: find_children("CbcBcbaA") => Output: "AaBbbCcc"
+
+Input: find_children("xXfuUuuF") => Output: "FfUuuuXx"
+
+Input: find_children("") => Output: ""
+```
+
+#
+
+<br />
